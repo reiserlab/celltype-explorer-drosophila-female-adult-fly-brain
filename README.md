@@ -2,7 +2,7 @@
 
 **Dataset:** flywire-fafb:v783b
 **Server:** neuprint-cns.janelia.org
-**Generated:** 2025-09-30 23:50:59 UTC
+**Generated:** 2025-10-02 00:12:36 UTC
 **Total Neuron Types:** 8577
 
 ---
@@ -195,7 +195,7 @@ Neurotransmitter assignments are computational predictions based on:
 When using data from this catalog, please cite:
 1. The original neuPrint database and dataset
 2. The specific dataset version (flywire-fafb:v783b)
-3. The generation date of this catalog (2025-09-30)
+3. The generation date of this catalog (2025-10-02)
 
 For the most current citation information, visit the neuPrint database at neuprint-cns.janelia.org.
 
@@ -216,4 +216,4 @@ For questions about the data or analysis methods, consult the neuPrint database 
 
 ---
 
-*This catalog was automatically generated from neuPrint data on 2025-09-30 at 23:50:59 UTC. For the most up-to-date information, please consult the original neuPrint database.*
+*This catalog was automatically generated from neuPrint data on 2025-10-02 at 00:12:36 UTC. For the most up-to-date information, please consult the original neuPrint database.*
