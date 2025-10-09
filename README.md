@@ -2,8 +2,10 @@
 
 **Dataset:** flywire-fafb:v783b
 **Server:** neuprint-cns.janelia.org
-**Generated:** 2025-10-02 00:12:36 UTC
-**Total Neuron Types:** 8577
+**Dataset UUID:** v783b
+**Dataset Last Updated:** unknown
+**Generated:** 2025-10-09 16:44:23 UTC
+**Total Neuron Types:** 8806
 
 ---
 
@@ -174,6 +176,8 @@ Neurotransmitter assignments are computational predictions based on:
 
 **Source Database**: neuPrint (neuprint-cns.janelia.org)
 **Dataset Version**: flywire-fafb:v783b
+**Dataset UUID**: v783b
+**Dataset Last Updated**: unknown
 **Data Type**: Electron microscopy connectome data
 **Species**: *Drosophila melanogaster*
 **Resolution**: Synaptic-level connectivity
@@ -194,8 +198,9 @@ Neurotransmitter assignments are computational predictions based on:
 
 When using data from this catalog, please cite:
 1. The original neuPrint database and dataset
-2. The specific dataset version (flywire-fafb:v783b)
-3. The generation date of this catalog (2025-10-02)
+2. The specific dataset version (flywire-fafb:v783b) with UUID v783b
+3. The dataset last updated on unknown
+4. The generation date of this catalog (2025-10-09)
 
 For the most current citation information, visit the neuPrint database at neuprint-cns.janelia.org.
 
@@ -216,4 +221,4 @@ For questions about the data or analysis methods, consult the neuPrint database 
 
 ---
 
-*This catalog was automatically generated from neuPrint data on 2025-10-02 at 00:12:36 UTC. For the most up-to-date information, please consult the original neuPrint database.*
+*This catalog was automatically generated from neuPrint data on 2025-10-09 at 16:44:23 UTC using dataset flywire-fafb:v783b (UUID: v783b, last updated: unknown). For the most up-to-date information, please consult the original neuPrint database.*

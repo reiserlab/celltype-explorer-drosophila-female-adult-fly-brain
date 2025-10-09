@@ -5,41 +5,22 @@
  * This file is generated at build time with embedded neuron types data.
  * Do not edit manually - it will be overwritten during the build process.
  *
- * Generated on: 2025-10-02 00:12:36
- * Total neuron types: 8577
+ * Generated on: 2025-10-09 16:44:23
+ * Total neuron types: 8806
  */
 
 // Neuron types data embedded at build time
 const NEURON_TYPES_DATA = [
-  "4A0",
-  "4A1",
-  "4A10",
-  "4A2",
-  "4A21",
-  "4A3",
-  "4A9",
-  "4D0",
-  "4D1",
-  "4D2",
-  "4D3",
-  "4D4",
-  "4I0",
-  "4I1",
-  "4I2",
-  "4I3",
-  "4I4",
-  "4I5",
-  "4I6",
-  "4I7",
-  "4I8",
-  "4I9",
-  "4L0",
-  "4L1",
+  "(PLP191,PLP192)a",
+  "(PLP191,PLP192)b",
+  "(PS023,PS024)a",
+  "(PS023,PS024)b",
+  "5-HT-IR  Tan",
   "5-HTPLP01",
   "5-HTPMPD01",
   "5-HTPMPV01",
   "5-HTPMPV03",
-  "AC_neuron",
+  "AC neuron",
   "AL-AST1",
   "AL-MBDL1",
   "ALBN1",
@@ -55,6 +36,10 @@ const NEURON_TYPES_DATA = [
   "ALON2",
   "ALON3",
   "AMMC-A1",
+  "AMMC028",
+  "AN01A021",
+  "AN19A018",
+  "ANXXX005",
   "AN_AMMC_SAD_1",
   "AN_AMMC_SAD_2",
   "AN_AVLP_1",
@@ -396,6 +381,7 @@ const NEURON_TYPES_DATA = [
   "AN_GNG_PRW_2",
   "AN_GNG_PRW_3",
   "AN_GNG_PRW_4",
+  "AN_GNG_SAD33",
   "AN_GNG_SAD_1",
   "AN_GNG_SAD_10",
   "AN_GNG_SAD_11",
@@ -518,7 +504,6 @@ const NEURON_TYPES_DATA = [
   "AN_multi_120",
   "AN_multi_121",
   "AN_multi_122",
-  "AN_multi_123",
   "AN_multi_124",
   "AN_multi_125",
   "AN_multi_127",
@@ -629,7 +614,7 @@ const NEURON_TYPES_DATA = [
   "AOTU014",
   "AOTU015a",
   "AOTU015b",
-  "AOTU018",
+  "AOTU018,AOTU031",
   "AOTU019",
   "AOTU020",
   "AOTU021",
@@ -641,7 +626,7 @@ const NEURON_TYPES_DATA = [
   "AOTU027",
   "AOTU028",
   "AOTU030",
-  "AOTU032",
+  "AOTU032,AOTU034",
   "AOTU033",
   "AOTU035",
   "AOTU036",
@@ -653,11 +638,14 @@ const NEURON_TYPES_DATA = [
   "AOTU046",
   "AOTU047",
   "AOTU048",
+  "AOTU049",
+  "AOTU050",
   "AOTU050a",
   "AOTU050b",
   "AOTU051",
   "AOTU052",
   "AOTU053",
+  "AOTU054",
   "AOTU059",
   "AOTU060",
   "AOTU061",
@@ -688,11 +676,11 @@ const NEURON_TYPES_DATA = [
   "ATL014",
   "ATL015",
   "ATL016",
-  "ATL017",
+  "ATL017,ATL018",
   "ATL021",
   "ATL022",
   "ATL023",
-  "ATL024",
+  "ATL024,IB042",
   "ATL025",
   "ATL026",
   "ATL027",
@@ -703,21 +691,20 @@ const NEURON_TYPES_DATA = [
   "ATL032",
   "ATL033",
   "ATL034",
-  "ATL035",
+  "ATL035,ATL036",
   "ATL037",
-  "ATL038",
+  "ATL038,ATL039",
   "ATL040",
   "ATL042",
   "ATL043",
   "ATL044",
-  "AVLP/PVLP_pr01",
   "AVLP001",
   "AVLP006a",
   "AVLP006b",
   "AVLP008",
   "AVLP009",
   "AVLP010",
-  "AVLP011",
+  "AVLP011,AVLP012",
   "AVLP013",
   "AVLP014",
   "AVLP015",
@@ -734,6 +721,7 @@ const NEURON_TYPES_DATA = [
   "AVLP024c",
   "AVLP025",
   "AVLP026",
+  "AVLP027",
   "AVLP028",
   "AVLP029",
   "AVLP030",
@@ -742,13 +730,14 @@ const NEURON_TYPES_DATA = [
   "AVLP033",
   "AVLP034",
   "AVLP035",
-  "AVLP037",
+  "AVLP037,AVLP038",
+  "AVLP038",
   "AVLP039",
   "AVLP040",
   "AVLP041",
   "AVLP042",
   "AVLP043",
-  "AVLP044a",
+  "AVLP044_a",
   "AVLP044b",
   "AVLP045",
   "AVLP046",
@@ -776,6 +765,7 @@ const NEURON_TYPES_DATA = [
   "AVLP087",
   "AVLP088",
   "AVLP089",
+  "AVLP090",
   "AVLP091",
   "AVLP093",
   "AVLP094",
@@ -816,6 +806,7 @@ const NEURON_TYPES_DATA = [
   "AVLP164",
   "AVLP165",
   "AVLP169",
+  "AVLP176_c",
   "AVLP178",
   "AVLP180",
   "AVLP182",
@@ -824,9 +815,12 @@ const NEURON_TYPES_DATA = [
   "AVLP187",
   "AVLP189_a",
   "AVLP189_b",
-  "AVLP190",
+  "AVLP190,AVLP191",
   "AVLP193",
   "AVLP194",
+  "AVLP194_a",
+  "AVLP194_b",
+  "AVLP194_c",
   "AVLP195",
   "AVLP200",
   "AVLP201",
@@ -851,17 +845,20 @@ const NEURON_TYPES_DATA = [
   "AVLP220",
   "AVLP222",
   "AVLP224_a",
+  "AVLP227",
   "AVLP229",
   "AVLP230",
   "AVLP232",
   "AVLP234a",
   "AVLP234b",
+  "AVLP235",
   "AVLP243",
   "AVLP244",
   "AVLP251",
   "AVLP252",
-  "AVLP253",
+  "AVLP253,AVLP254",
   "AVLP255",
+  "AVLP256",
   "AVLP257",
   "AVLP258",
   "AVLP259",
@@ -872,6 +869,8 @@ const NEURON_TYPES_DATA = [
   "AVLP266",
   "AVLP267",
   "AVLP268",
+  "AVLP269_a",
+  "AVLP279",
   "AVLP280",
   "AVLP281",
   "AVLP282",
@@ -894,13 +893,13 @@ const NEURON_TYPES_DATA = [
   "AVLP299_c",
   "AVLP300_a",
   "AVLP300_b",
+  "AVLP302",
   "AVLP303",
   "AVLP304",
   "AVLP305",
   "AVLP306",
   "AVLP308",
-  "AVLP309a",
-  "AVLP309b",
+  "AVLP309",
   "AVLP310a",
   "AVLP310b",
   "AVLP312a",
@@ -916,11 +915,13 @@ const NEURON_TYPES_DATA = [
   "AVLP339",
   "AVLP340",
   "AVLP342",
+  "AVLP343",
   "AVLP344",
   "AVLP345",
-  "AVLP346a",
-  "AVLP346b",
+  "AVLP345_a",
+  "AVLP346",
   "AVLP347",
+  "AVLP348",
   "AVLP363",
   "AVLP369",
   "AVLP370a",
@@ -930,9 +931,9 @@ const NEURON_TYPES_DATA = [
   "AVLP380a",
   "AVLP380b",
   "AVLP381",
-  "AVLP386",
+  "AVLP386,AVLP388",
   "AVLP390",
-  "AVLP393",
+  "AVLP393,AVLP395",
   "AVLP394",
   "AVLP396",
   "AVLP397",
@@ -940,11 +941,12 @@ const NEURON_TYPES_DATA = [
   "AVLP399",
   "AVLP402",
   "AVLP409",
-  "AVLP417",
+  "AVLP411",
+  "AVLP417,AVLP438",
   "AVLP418",
   "AVLP419a",
   "AVLP419b",
-  "AVLP420_a",
+  "AVLP420_a,AVLP427",
   "AVLP420_b",
   "AVLP421",
   "AVLP423",
@@ -980,6 +982,7 @@ const NEURON_TYPES_DATA = [
   "AVLP458",
   "AVLP459",
   "AVLP460",
+  "AVLP461",
   "AVLP462a",
   "AVLP462b",
   "AVLP464",
@@ -1028,7 +1031,7 @@ const NEURON_TYPES_DATA = [
   "AVLP521",
   "AVLP522",
   "AVLP523",
-  "AVLP530",
+  "AVLP530,AVLP561",
   "AVLP531",
   "AVLP532",
   "AVLP533",
@@ -1043,7 +1046,8 @@ const NEURON_TYPES_DATA = [
   "AVLP543",
   "AVLP544",
   "AVLP546",
-  "AVLP547",
+  "AVLP547a",
+  "AVLP547b",
   "AVLP548_b",
   "AVLP548_d",
   "AVLP548_e",
@@ -1074,6 +1078,7 @@ const NEURON_TYPES_DATA = [
   "AVLP577",
   "AVLP578",
   "AVLP579",
+  "AVLP580",
   "AVLP584",
   "AVLP586",
   "AVLP590",
@@ -1083,6 +1088,7 @@ const NEURON_TYPES_DATA = [
   "AVLP594",
   "AVLP595",
   "AVLP596",
+  "Am",
   "Am1",
   "AstA1",
   "BM_Ant",
@@ -1104,96 +1110,6 @@ const NEURON_TYPES_DATA = [
   "C2",
   "C3",
   "CAPA",
-  "CB.FB1E0",
-  "CB.FB1E1",
-  "CB.FB1H0",
-  "CB.FB1I0",
-  "CB.FB1I1",
-  "CB.FB2E0",
-  "CB.FB2E1",
-  "CB.FB2E10",
-  "CB.FB2E2",
-  "CB.FB2E3",
-  "CB.FB2E4",
-  "CB.FB2E5",
-  "CB.FB2E6",
-  "CB.FB2E7",
-  "CB.FB2E8",
-  "CB.FB2E9",
-  "CB.FB2G0",
-  "CB.FB2H0",
-  "CB.FB2I0",
-  "CB.FB2I1",
-  "CB.FB2I2",
-  "CB.FB2I3",
-  "CB.FB2K0",
-  "CB.FB2K1",
-  "CB.FB5B0",
-  "CB.FB5B1",
-  "CB.FB5C0",
-  "CB.FB5D0",
-  "CB.FB5D1",
-  "CB.FB5D10",
-  "CB.FB5D2",
-  "CB.FB5D3",
-  "CB.FB5D4",
-  "CB.FB5D5",
-  "CB.FB5D6",
-  "CB.FB5D7",
-  "CB.FB5D8",
-  "CB.FB5D9",
-  "CB.FB5E0",
-  "CB.FB5E1",
-  "CB.FB5F0",
-  "CB.FB5F1",
-  "CB.FB5G0",
-  "CB.FB5I0",
-  "CB.FB5I1",
-  "CB.FB5I2",
-  "CB.FB5I3",
-  "CB.FB5I4",
-  "CB.FB6B0",
-  "CB.FB6B1",
-  "CB.FB6C0",
-  "CB.FB6C1",
-  "CB.FB6C2",
-  "CB.FB6C3",
-  "CB.FB6C4",
-  "CB.FB6D0",
-  "CB.FB6D1",
-  "CB.FB6D2",
-  "CB.FB6E0",
-  "CB.FB6E1",
-  "CB.FB6E2",
-  "CB.FB6E3",
-  "CB.FB6E4",
-  "CB.FB6E5",
-  "CB.FB6F0",
-  "CB.FB6I0",
-  "CB.FB6I1",
-  "CB.FB7B0",
-  "CB.FB7C0",
-  "CB.FB7D0",
-  "CB.FB7D1",
-  "CB.FB7E0",
-  "CB.FB7E1",
-  "CB.FB7E2",
-  "CB.FB8B0",
-  "CB.FB8B1",
-  "CB.FB8C0",
-  "CB.FB8C1",
-  "CB.FB8C2",
-  "CB.FB8C3",
-  "CB.FB8D0",
-  "CB.FB8D1",
-  "CB.FB8D2",
-  "CB.FB8E0",
-  "CB.FB8E1",
-  "CB.FB9C0",
-  "CB.FB9D0",
-  "CB.FBTF0",
-  "CB.FBTI0",
-  "CB.FBTI1",
   "CB0004",
   "CB0005",
   "CB0007",
@@ -1308,7 +1224,6 @@ const NEURON_TYPES_DATA = [
   "CB0142",
   "CB0143",
   "CB0144",
-  "CB0147",
   "CB0148",
   "CB0149",
   "CB0150",
@@ -1507,7 +1422,6 @@ const NEURON_TYPES_DATA = [
   "CB0402",
   "CB0404",
   "CB0405",
-  "CB0406",
   "CB0407",
   "CB0408",
   "CB0409",
@@ -1563,7 +1477,6 @@ const NEURON_TYPES_DATA = [
   "CB0467",
   "CB0468",
   "CB0469",
-  "CB0472",
   "CB0473",
   "CB0475",
   "CB0477",
@@ -1642,7 +1555,6 @@ const NEURON_TYPES_DATA = [
   "CB0563",
   "CB0564",
   "CB0565",
-  "CB0566",
   "CB0567",
   "CB0568",
   "CB0571",
@@ -1651,7 +1563,6 @@ const NEURON_TYPES_DATA = [
   "CB0574",
   "CB0575",
   "CB0576",
-  "CB0578",
   "CB0579",
   "CB0580",
   "CB0581",
@@ -1663,7 +1574,6 @@ const NEURON_TYPES_DATA = [
   "CB0587",
   "CB0588",
   "CB0591",
-  "CB0592",
   "CB0593",
   "CB0595",
   "CB0596",
@@ -1774,7 +1684,6 @@ const NEURON_TYPES_DATA = [
   "CB0722",
   "CB0723",
   "CB0724",
-  "CB0726",
   "CB0727",
   "CB0728",
   "CB0731",
@@ -1848,7 +1757,6 @@ const NEURON_TYPES_DATA = [
   "CB0813",
   "CB0814",
   "CB0815",
-  "CB0816",
   "CB0817",
   "CB0819",
   "CB0821",
@@ -1923,7 +1831,6 @@ const NEURON_TYPES_DATA = [
   "CB0902",
   "CB0903",
   "CB0904",
-  "CB0905",
   "CB0906",
   "CB0907",
   "CB0908",
@@ -1983,7 +1890,6 @@ const NEURON_TYPES_DATA = [
   "CB0971",
   "CB0972",
   "CB0973",
-  "CB0974",
   "CB0975",
   "CB0976",
   "CB0977",
@@ -2045,7 +1951,6 @@ const NEURON_TYPES_DATA = [
   "CB1038",
   "CB1039",
   "CB1040",
-  "CB1041",
   "CB1042",
   "CB1043",
   "CB1044",
@@ -2077,7 +1982,6 @@ const NEURON_TYPES_DATA = [
   "CB1072",
   "CB1073",
   "CB1074",
-  "CB1075",
   "CB1076",
   "CB1077",
   "CB1078",
@@ -2119,7 +2023,6 @@ const NEURON_TYPES_DATA = [
   "CB1115",
   "CB1116",
   "CB1117",
-  "CB1118",
   "CB1119",
   "CB1120",
   "CB1121",
@@ -2133,13 +2036,11 @@ const NEURON_TYPES_DATA = [
   "CB1130",
   "CB1131",
   "CB1132",
-  "CB1133",
   "CB1134",
-  "CB1136",
   "CB1138",
   "CB1139",
   "CB1140",
-  "CB1141",
+  "CB1141,CB1285",
   "CB1142",
   "CB1143",
   "CB1144",
@@ -2219,12 +2120,10 @@ const NEURON_TYPES_DATA = [
   "CB1231",
   "CB1232",
   "CB1233",
-  "CB1234",
   "CB1235",
   "CB1236",
   "CB1237",
   "CB1238",
-  "CB1239",
   "CB1240",
   "CB1241",
   "CB1242",
@@ -2245,7 +2144,6 @@ const NEURON_TYPES_DATA = [
   "CB1258",
   "CB1259",
   "CB1260",
-  "CB1261",
   "CB1262",
   "CB1263",
   "CB1264",
@@ -2268,7 +2166,6 @@ const NEURON_TYPES_DATA = [
   "CB1282",
   "CB1283",
   "CB1284",
-  "CB1285",
   "CB1286",
   "CB1287",
   "CB1288",
@@ -2305,14 +2202,14 @@ const NEURON_TYPES_DATA = [
   "CB1321",
   "CB1322",
   "CB1323",
-  "CB1324",
   "CB1325",
   "CB1326",
   "CB1327",
   "CB1328",
   "CB1329",
   "CB1330",
-  "CB1331",
+  "CB1331a",
+  "CB1331b",
   "CB1332",
   "CB1333",
   "CB1334",
@@ -2363,7 +2260,10 @@ const NEURON_TYPES_DATA = [
   "CB1391",
   "CB1392",
   "CB1393",
-  "CB1394",
+  "CB1394_a",
+  "CB1394_b",
+  "CB1394_c",
+  "CB1394_d",
   "CB1395",
   "CB1396",
   "CB1397",
@@ -2380,7 +2280,6 @@ const NEURON_TYPES_DATA = [
   "CB1412",
   "CB1413",
   "CB1414",
-  "CB1415",
   "CB1416",
   "CB1417",
   "CB1418",
@@ -2401,7 +2300,6 @@ const NEURON_TYPES_DATA = [
   "CB1433",
   "CB1434",
   "CB1435",
-  "CB1436",
   "CB1437",
   "CB1438",
   "CB1439",
@@ -2418,7 +2316,6 @@ const NEURON_TYPES_DATA = [
   "CB1450",
   "CB1451",
   "CB1452",
-  "CB1453",
   "CB1454",
   "CB1455",
   "CB1456",
@@ -2487,7 +2384,6 @@ const NEURON_TYPES_DATA = [
   "CB1523",
   "CB1524",
   "CB1527",
-  "CB1528",
   "CB1529",
   "CB1531",
   "CB1532",
@@ -2556,7 +2452,6 @@ const NEURON_TYPES_DATA = [
   "CB1608",
   "CB1609",
   "CB1610",
-  "CB1611",
   "CB1613",
   "CB1614",
   "CB1616",
@@ -2622,7 +2517,6 @@ const NEURON_TYPES_DATA = [
   "CB1686",
   "CB1687",
   "CB1688",
-  "CB1690",
   "CB1691",
   "CB1692",
   "CB1693",
@@ -2671,21 +2565,18 @@ const NEURON_TYPES_DATA = [
   "CB1745",
   "CB1747",
   "CB1748",
-  "CB1749",
   "CB1750",
   "CB1751",
   "CB1752",
   "CB1753",
   "CB1754",
   "CB1755",
-  "CB1756",
   "CB1757",
   "CB1758",
   "CB1759",
   "CB1760",
   "CB1761",
   "CB1762",
-  "CB1763",
   "CB1764",
   "CB1765",
   "CB1766",
@@ -2706,6 +2597,8 @@ const NEURON_TYPES_DATA = [
   "CB1784",
   "CB1785",
   "CB1786",
+  "CB1786_a",
+  "CB1786_b",
   "CB1787",
   "CB1789",
   "CB1790",
@@ -2715,7 +2608,6 @@ const NEURON_TYPES_DATA = [
   "CB1794",
   "CB1795",
   "CB1797",
-  "CB1798",
   "CB1799",
   "CB1800",
   "CB1803",
@@ -2748,7 +2640,6 @@ const NEURON_TYPES_DATA = [
   "CB1831",
   "CB1833",
   "CB1834",
-  "CB1835",
   "CB1836",
   "CB1837",
   "CB1838",
@@ -2772,7 +2663,6 @@ const NEURON_TYPES_DATA = [
   "CB1859",
   "CB1860",
   "CB1861",
-  "CB1862",
   "CB1864",
   "CB1865",
   "CB1866",
@@ -2918,7 +2808,6 @@ const NEURON_TYPES_DATA = [
   "CB2017",
   "CB2018",
   "CB2019",
-  "CB2020",
   "CB2021",
   "CB2022",
   "CB2023",
@@ -2982,10 +2871,10 @@ const NEURON_TYPES_DATA = [
   "CB2088",
   "CB2089",
   "CB2090",
-  "CB2091",
   "CB2092",
   "CB2093",
-  "CB2094",
+  "CB2094a",
+  "CB2094b",
   "CB2095",
   "CB2096",
   "CB2097",
@@ -3013,7 +2902,6 @@ const NEURON_TYPES_DATA = [
   "CB2122",
   "CB2123",
   "CB2124",
-  "CB2125",
   "CB2126",
   "CB2127",
   "CB2128",
@@ -3054,7 +2942,6 @@ const NEURON_TYPES_DATA = [
   "CB2165",
   "CB2166",
   "CB2167",
-  "CB2168",
   "CB2169",
   "CB2170",
   "CB2171",
@@ -3118,7 +3005,6 @@ const NEURON_TYPES_DATA = [
   "CB2236",
   "CB2237",
   "CB2238",
-  "CB2239",
   "CB2240",
   "CB2241",
   "CB2242",
@@ -3145,7 +3031,9 @@ const NEURON_TYPES_DATA = [
   "CB2264",
   "CB2265",
   "CB2266",
-  "CB2267",
+  "CB2267_a",
+  "CB2267_b",
+  "CB2267_c",
   "CB2269",
   "CB2270",
   "CB2271",
@@ -3180,7 +3068,6 @@ const NEURON_TYPES_DATA = [
   "CB2303",
   "CB2304",
   "CB2305",
-  "CB2307",
   "CB2308",
   "CB2309",
   "CB2310",
@@ -3195,8 +3082,6 @@ const NEURON_TYPES_DATA = [
   "CB2321",
   "CB2322",
   "CB2323",
-  "CB2326",
-  "CB2327",
   "CB2328",
   "CB2329",
   "CB2330",
@@ -3241,13 +3126,11 @@ const NEURON_TYPES_DATA = [
   "CB2372",
   "CB2373",
   "CB2374",
-  "CB2375",
   "CB2376",
   "CB2377",
   "CB2378",
   "CB2379",
   "CB2380",
-  "CB2381",
   "CB2382",
   "CB2383",
   "CB2384",
@@ -3260,8 +3143,8 @@ const NEURON_TYPES_DATA = [
   "CB2391",
   "CB2392",
   "CB2393",
-  "CB2394",
-  "CB2395",
+  "CB2395a",
+  "CB2395b",
   "CB2396",
   "CB2397",
   "CB2398",
@@ -3270,11 +3153,9 @@ const NEURON_TYPES_DATA = [
   "CB2402",
   "CB2403",
   "CB2404",
-  "CB2405",
   "CB2406",
   "CB2407",
   "CB2408",
-  "CB2409",
   "CB2411",
   "CB2412",
   "CB2413",
@@ -3282,7 +3163,6 @@ const NEURON_TYPES_DATA = [
   "CB2415",
   "CB2416",
   "CB2417",
-  "CB2418",
   "CB2419",
   "CB2420",
   "CB2421",
@@ -3315,7 +3195,6 @@ const NEURON_TYPES_DATA = [
   "CB2451",
   "CB2452",
   "CB2453",
-  "CB2454",
   "CB2455",
   "CB2456",
   "CB2457",
@@ -3365,7 +3244,6 @@ const NEURON_TYPES_DATA = [
   "CB2507",
   "CB2509",
   "CB2510",
-  "CB2511",
   "CB2512",
   "CB2513",
   "CB2514",
@@ -3390,11 +3268,9 @@ const NEURON_TYPES_DATA = [
   "CB2533",
   "CB2534",
   "CB2535",
-  "CB2536",
   "CB2537",
   "CB2538",
   "CB2539",
-  "CB2540",
   "CB2541",
   "CB2542",
   "CB2543",
@@ -3422,7 +3298,6 @@ const NEURON_TYPES_DATA = [
   "CB2567",
   "CB2568",
   "CB2569",
-  "CB2570",
   "CB2571",
   "CB2572",
   "CB2573",
@@ -3440,7 +3315,6 @@ const NEURON_TYPES_DATA = [
   "CB2587",
   "CB2588",
   "CB2589",
-  "CB2590",
   "CB2591",
   "CB2592",
   "CB2593",
@@ -3450,7 +3324,6 @@ const NEURON_TYPES_DATA = [
   "CB2598",
   "CB2599",
   "CB2600",
-  "CB2601",
   "CB2602",
   "CB2604",
   "CB2605",
@@ -3497,7 +3370,6 @@ const NEURON_TYPES_DATA = [
   "CB2651",
   "CB2652",
   "CB2653",
-  "CB2654",
   "CB2655",
   "CB2656",
   "CB2657",
@@ -3567,16 +3439,13 @@ const NEURON_TYPES_DATA = [
   "CB2726",
   "CB2728",
   "CB2729",
-  "CB2730",
   "CB2731",
   "CB2733",
-  "CB2734",
   "CB2735",
   "CB2736",
   "CB2737",
   "CB2738",
   "CB2739",
-  "CB2740",
   "CB2741",
   "CB2743",
   "CB2744",
@@ -3602,7 +3471,6 @@ const NEURON_TYPES_DATA = [
   "CB2765",
   "CB2766",
   "CB2767",
-  "CB2768",
   "CB2769",
   "CB2770",
   "CB2771",
@@ -3649,17 +3517,13 @@ const NEURON_TYPES_DATA = [
   "CB2819",
   "CB2820",
   "CB2821",
-  "CB2822",
   "CB2823",
   "CB2824",
   "CB2825",
   "CB2826",
-  "CB2827",
   "CB2828",
   "CB2829",
-  "CB2830",
   "CB2831",
-  "CB2833",
   "CB2834",
   "CB2835",
   "CB2836",
@@ -3689,7 +3553,8 @@ const NEURON_TYPES_DATA = [
   "CB2865",
   "CB2866",
   "CB2867",
-  "CB2868",
+  "CB2868_a",
+  "CB2868_b",
   "CB2869",
   "CB2870",
   "CB2872",
@@ -3717,7 +3582,6 @@ const NEURON_TYPES_DATA = [
   "CB2897",
   "CB2898",
   "CB2899",
-  "CB2900",
   "CB2901",
   "CB2902",
   "CB2903",
@@ -3777,6 +3641,7 @@ const NEURON_TYPES_DATA = [
   "CB2960",
   "CB2961",
   "CB2962",
+  "CB2962a",
   "CB2963",
   "CB2965",
   "CB2966",
@@ -3799,11 +3664,9 @@ const NEURON_TYPES_DATA = [
   "CB2983",
   "CB2984",
   "CB2985",
-  "CB2986",
   "CB2987",
   "CB2988",
   "CB2989",
-  "CB2990",
   "CB2991",
   "CB2992",
   "CB2993",
@@ -3834,10 +3697,8 @@ const NEURON_TYPES_DATA = [
   "CB3019",
   "CB3020",
   "CB3021",
-  "CB3022",
   "CB3023",
   "CB3024",
-  "CB3025",
   "CB3026",
   "CB3029",
   "CB3030",
@@ -3867,7 +3728,6 @@ const NEURON_TYPES_DATA = [
   "CB3056",
   "CB3057",
   "CB3058",
-  "CB3059",
   "CB3060",
   "CB3061",
   "CB3063",
@@ -3876,7 +3736,6 @@ const NEURON_TYPES_DATA = [
   "CB3066",
   "CB3067",
   "CB3069",
-  "CB3070",
   "CB3071",
   "CB3072",
   "CB3073",
@@ -3894,7 +3753,6 @@ const NEURON_TYPES_DATA = [
   "CB3087",
   "CB3088",
   "CB3089",
-  "CB3091",
   "CB3092",
   "CB3093",
   "CB3094",
@@ -3931,10 +3789,10 @@ const NEURON_TYPES_DATA = [
   "CB3131",
   "CB3132",
   "CB3133",
-  "CB3134",
+  "CB3134a",
+  "CB3134b",
   "CB3135",
   "CB3136",
-  "CB3137",
   "CB3138",
   "CB3140",
   "CB3141",
@@ -3955,7 +3813,6 @@ const NEURON_TYPES_DATA = [
   "CB3157",
   "CB3158",
   "CB3160",
-  "CB3161",
   "CB3162",
   "CB3163",
   "CB3164",
@@ -3979,7 +3836,6 @@ const NEURON_TYPES_DATA = [
   "CB3185",
   "CB3186",
   "CB3187",
-  "CB3188",
   "CB3189",
   "CB3190",
   "CB3191",
@@ -3992,6 +3848,7 @@ const NEURON_TYPES_DATA = [
   "CB3198",
   "CB3199",
   "CB3200",
+  "CB3200b",
   "CB3201",
   "CB3202",
   "CB3203",
@@ -4019,7 +3876,6 @@ const NEURON_TYPES_DATA = [
   "CB3229",
   "CB3230",
   "CB3231",
-  "CB3232",
   "CB3233",
   "CB3234",
   "CB3235",
@@ -4044,7 +3900,6 @@ const NEURON_TYPES_DATA = [
   "CB3257",
   "CB3260",
   "CB3261",
-  "CB3262",
   "CB3263",
   "CB3264",
   "CB3267",
@@ -4061,7 +3916,6 @@ const NEURON_TYPES_DATA = [
   "CB3279",
   "CB3280",
   "CB3281",
-  "CB3282",
   "CB3283",
   "CB3284",
   "CB3285",
@@ -4079,7 +3933,6 @@ const NEURON_TYPES_DATA = [
   "CB3298",
   "CB3299",
   "CB3300",
-  "CB3301",
   "CB3302",
   "CB3304",
   "CB3305",
@@ -4165,7 +4018,6 @@ const NEURON_TYPES_DATA = [
   "CB3394",
   "CB3395",
   "CB3396",
-  "CB3397",
   "CB3398",
   "CB3399",
   "CB3400",
@@ -4268,7 +4120,8 @@ const NEURON_TYPES_DATA = [
   "CB3509",
   "CB3510",
   "CB3512",
-  "CB3513",
+  "CB3513a",
+  "CB3513b",
   "CB3514",
   "CB3515",
   "CB3516",
@@ -4310,7 +4163,6 @@ const NEURON_TYPES_DATA = [
   "CB3555",
   "CB3556",
   "CB3557",
-  "CB3558",
   "CB3559",
   "CB3560",
   "CB3561",
@@ -4344,12 +4196,10 @@ const NEURON_TYPES_DATA = [
   "CB3593",
   "CB3594",
   "CB3595",
-  "CB3597",
   "CB3598",
   "CB3599",
   "CB3600",
   "CB3601",
-  "CB3602",
   "CB3603",
   "CB3604",
   "CB3605",
@@ -4451,9 +4301,7 @@ const NEURON_TYPES_DATA = [
   "CB3715",
   "CB3716",
   "CB3717",
-  "CB3719",
   "CB3720",
-  "CB3721",
   "CB3723",
   "CB3724",
   "CB3726",
@@ -4465,7 +4313,6 @@ const NEURON_TYPES_DATA = [
   "CB3733",
   "CB3734",
   "CB3735",
-  "CB3736",
   "CB3737",
   "CB3738",
   "CB3739",
@@ -4533,29 +4380,142 @@ const NEURON_TYPES_DATA = [
   "CB3812",
   "CB3813",
   "CB3814",
-  "CB3815",
-  "CB3816",
-  "CB3818",
-  "CB3820",
-  "CB3825",
-  "CB3826",
-  "CB3832",
-  "CB3833",
-  "CB3846",
-  "CB3849",
-  "CB3851",
   "CB3858",
   "CB3859",
   "CB3860",
   "CB3861",
   "CB3862",
   "CB3863",
-  "CB3864",
   "CB3865",
   "CB3866",
   "CB3867",
   "CB3868",
   "CB3869",
+  "CB3870",
+  "CB3871",
+  "CB3872",
+  "CB3873",
+  "CB3874",
+  "CB3875",
+  "CB3876",
+  "CB3877",
+  "CB3878",
+  "CB3879",
+  "CB3880",
+  "CB3881",
+  "CB3882",
+  "CB3883",
+  "CB3884",
+  "CB3885",
+  "CB3886",
+  "CB3887",
+  "CB3888",
+  "CB3889",
+  "CB3890",
+  "CB3892a",
+  "CB3892b",
+  "CB3895",
+  "CB3896",
+  "CB3897",
+  "CB3898",
+  "CB3899",
+  "CB3900",
+  "CB3901",
+  "CB3902",
+  "CB3903",
+  "CB3904",
+  "CB3905",
+  "CB3906",
+  "CB3907",
+  "CB3908",
+  "CB3909",
+  "CB3910",
+  "CB3911",
+  "CB3912",
+  "CB3913",
+  "CB3914",
+  "CB3915",
+  "CB3916",
+  "CB3917",
+  "CB3918",
+  "CB3919",
+  "CB3920",
+  "CB3921",
+  "CB3922",
+  "CB3923",
+  "CB3924",
+  "CB3925",
+  "CB3930",
+  "CB3931",
+  "CB3932",
+  "CB3936",
+  "CB3937",
+  "CB3941",
+  "CB3951",
+  "CB3952",
+  "CB3953",
+  "CB3956",
+  "CB3958",
+  "CB3959",
+  "CB3966",
+  "CB3968",
+  "CB3977",
+  "CB3978",
+  "CB3983",
+  "CB3992",
+  "CB4014",
+  "CB4045",
+  "CB4053",
+  "CB4055",
+  "CB4058",
+  "CB4068",
+  "CB4073",
+  "CB4075",
+  "CB4094",
+  "CB4103",
+  "CB4105",
+  "CB4113",
+  "CB4130",
+  "CB4141",
+  "CB4146",
+  "CB4147",
+  "CB4148",
+  "CB4149",
+  "CB4159",
+  "CB4161",
+  "CB4171",
+  "CB4186",
+  "CB4187",
+  "CB4188",
+  "CB4191",
+  "CB4192",
+  "CB4193",
+  "CB4198",
+  "CB4202",
+  "CB4203",
+  "CB4204",
+  "CB4210",
+  "CB4211",
+  "CB4212",
+  "CB4213",
+  "CB4218",
+  "CB4219",
+  "CB4220",
+  "CB4229",
+  "CB4230",
+  "CB4233",
+  "CB4235",
+  "CB4236",
+  "CB4237",
+  "CB4238",
+  "CB4240",
+  "CB4241",
+  "CB4242",
+  "CB4243",
+  "CB4244",
+  "CB4245",
+  "CB4246",
+  "CEM",
   "CL001",
   "CL002",
   "CL003",
@@ -4591,12 +4551,11 @@ const NEURON_TYPES_DATA = [
   "CL036",
   "CL037",
   "CL038",
-  "CL040",
   "CL042",
   "CL048",
   "CL053",
   "CL055",
-  "CL057",
+  "CL057,CL106",
   "CL058",
   "CL059",
   "CL060",
@@ -4621,12 +4580,16 @@ const NEURON_TYPES_DATA = [
   "CL077",
   "CL078a",
   "CL078b",
+  "CL080",
   "CL081",
   "CL083",
-  "CL086_a",
+  "CL085_a",
+  "CL085_b",
+  "CL086_a,CL086_d",
   "CL086_b",
   "CL086_c",
   "CL086_e",
+  "CL087",
   "CL089_a",
   "CL089_b",
   "CL089_c",
@@ -4662,8 +4625,9 @@ const NEURON_TYPES_DATA = [
   "CL118",
   "CL120a",
   "CL120b",
-  "CL121",
-  "CL123",
+  "CL121_a",
+  "CL122_a",
+  "CL123,CRE061",
   "CL126",
   "CL127",
   "CL128a",
@@ -4700,11 +4664,12 @@ const NEURON_TYPES_DATA = [
   "CL161b",
   "CL162",
   "CL165",
-  "CL166",
+  "CL166,CL168",
   "CL169",
   "CL170",
   "CL171",
   "CL172",
+  "CL173",
   "CL175",
   "CL176",
   "CL177",
@@ -4727,14 +4692,15 @@ const NEURON_TYPES_DATA = [
   "CL208",
   "CL209",
   "CL210",
+  "CL210_a",
   "CL211",
   "CL212",
   "CL213",
   "CL214",
   "CL215",
   "CL216",
-  "CL228",
-  "CL231",
+  "CL228,SMP491",
+  "CL231,CL238",
   "CL234",
   "CL235",
   "CL236",
@@ -4753,14 +4719,14 @@ const NEURON_TYPES_DATA = [
   "CL256",
   "CL257",
   "CL258",
-  "CL259",
+  "CL259, CL260",
   "CL261a",
   "CL261b",
   "CL263",
   "CL264",
   "CL265",
-  "CL266a",
-  "CL266b",
+  "CL266_a",
+  "CL266_b",
   "CL267",
   "CL268",
   "CL269",
@@ -4770,8 +4736,6 @@ const NEURON_TYPES_DATA = [
   "CL272_a",
   "CL272_b",
   "CL273",
-  "CL278",
-  "CL279",
   "CL282",
   "CL283a",
   "CL283b",
@@ -4786,7 +4750,7 @@ const NEURON_TYPES_DATA = [
   "CL292b",
   "CL293",
   "CL294",
-  "CL301",
+  "CL301,CL302",
   "CL303",
   "CL308",
   "CL309",
@@ -4806,7 +4770,7 @@ const NEURON_TYPES_DATA = [
   "CL323b",
   "CL326",
   "CL327",
-  "CL328",
+  "CL328,IB070,IB071",
   "CL333",
   "CL335",
   "CL336",
@@ -4815,6 +4779,7 @@ const NEURON_TYPES_DATA = [
   "CL344",
   "CL348",
   "CL352",
+  "CL353",
   "CL356",
   "CL359",
   "CL360",
@@ -4826,7 +4791,7 @@ const NEURON_TYPES_DATA = [
   "CRE005",
   "CRE006",
   "CRE007",
-  "CRE008",
+  "CRE008,CRE010",
   "CRE009",
   "CRE011",
   "CRE012",
@@ -4843,18 +4808,19 @@ const NEURON_TYPES_DATA = [
   "CRE024",
   "CRE025",
   "CRE027",
+  "CRE035",
   "CRE040",
   "CRE041",
   "CRE042",
   "CRE043",
   "CRE044",
-  "CRE045",
+  "CRE045,CRE046",
   "CRE048",
   "CRE049",
   "CRE050",
   "CRE056",
   "CRE059",
-  "CRE060",
+  "CRE060,CRE067",
   "CRE065",
   "CRE066",
   "CRE068",
@@ -4889,7 +4855,8 @@ const NEURON_TYPES_DATA = [
   "CRE107",
   "CRE108",
   "CREa1A_T01",
-  "CRZ01",
+  "CRZ",
+  "CRZ01,CRZ02",
   "CSD",
   "CT1",
   "DA1_lPN",
@@ -4905,6 +4872,8 @@ const NEURON_TYPES_DATA = [
   "DC4_vPN",
   "DCH",
   "DGI",
+  "DH31",
+  "DH44",
   "DL1_adPN",
   "DL2d_adPN",
   "DL2d_vPN",
@@ -4915,17 +4884,16 @@ const NEURON_TYPES_DATA = [
   "DM1_lPN",
   "DM2_lPN",
   "DM3_adPN",
+  "DM3_vPN",
   "DM4_adPN",
   "DM4_vPN",
   "DM5_lPN",
   "DM6_adPN",
+  "DMS",
   "DN1-l",
   "DN1a",
   "DN1pA",
   "DN1pB",
-  "DNES1",
-  "DNES2",
-  "DNES3",
   "DNa01",
   "DNa02",
   "DNa03",
@@ -4937,9 +4905,7 @@ const NEURON_TYPES_DATA = [
   "DNa09",
   "DNa10",
   "DNa11",
-  "DNa12",
-  "DNa13_a",
-  "DNa13_b",
+  "DNa13",
   "DNa14",
   "DNa15",
   "DNa16",
@@ -4960,8 +4926,7 @@ const NEURON_TYPES_DATA = [
   "DNb05",
   "DNb06",
   "DNb07",
-  "DNb08_a",
-  "DNb08_b",
+  "DNb08",
   "DNb09",
   "DNbe001",
   "DNbe002",
@@ -4972,7 +4937,6 @@ const NEURON_TYPES_DATA = [
   "DNbe007",
   "DNc01",
   "DNc02",
-  "DNd01",
   "DNd02",
   "DNd03",
   "DNd04",
@@ -4980,12 +4944,10 @@ const NEURON_TYPES_DATA = [
   "DNde001",
   "DNde002",
   "DNde003",
-  "DNde004",
   "DNde005",
   "DNde006",
   "DNde007",
-  "DNg01_a",
-  "DNg01_b",
+  "DNg01",
   "DNg02_a",
   "DNg02_b",
   "DNg02_c",
@@ -4993,13 +4955,12 @@ const NEURON_TYPES_DATA = [
   "DNg02_e",
   "DNg02_f",
   "DNg02_g",
+  "DNg02_h",
   "DNg03",
   "DNg04",
   "DNg05_a",
   "DNg05_b",
-  "DNg06_a",
-  "DNg06_b",
-  "DNg06_c",
+  "DNg06",
   "DNg07",
   "DNg08_a",
   "DNg08_b",
@@ -5007,8 +4968,7 @@ const NEURON_TYPES_DATA = [
   "DNg10",
   "DNg100",
   "DNg101",
-  "DNg102_a",
-  "DNg102_b",
+  "DNg102",
   "DNg103",
   "DNg104",
   "DNg105",
@@ -5017,9 +4977,7 @@ const NEURON_TYPES_DATA = [
   "DNg108",
   "DNg109",
   "DNg11",
-  "DNg110_a",
-  "DNg110_b",
-  "DNg110_c",
+  "DNg110",
   "DNg111",
   "DNg12_a",
   "DNg12_b",
@@ -5066,8 +5024,7 @@ const NEURON_TYPES_DATA = [
   "DNg49",
   "DNg50",
   "DNg51",
-  "DNg52_a",
-  "DNg52_b",
+  "DNg52",
   "DNg53",
   "DNg54",
   "DNg55",
@@ -5274,6 +5231,7 @@ const NEURON_TYPES_DATA = [
   "DNge172",
   "DNge173",
   "DNge174",
+  "DNge175",
   "DNp01",
   "DNp02",
   "DNp03",
@@ -5326,7 +5284,6 @@ const NEURON_TYPES_DATA = [
   "DNp47",
   "DNp48",
   "DNp49",
-  "DNp50",
   "DNp51",
   "DNp52",
   "DNp53",
@@ -5399,7 +5356,6 @@ const NEURON_TYPES_DATA = [
   "DNpe048",
   "DNpe049",
   "DNpe050",
-  "DNpe051",
   "DNpe052",
   "DNpe053",
   "DNpe054",
@@ -5407,6 +5363,7 @@ const NEURON_TYPES_DATA = [
   "DNpe056",
   "DNx01",
   "DNx02",
+  "DNxl114",
   "DP1l_adPN",
   "DP1l_vPN",
   "DP1m_adPN",
@@ -5428,28 +5385,31 @@ const NEURON_TYPES_DATA = [
   "Dm19",
   "Dm2",
   "Dm20",
-  "Dm21",
-  "Dm3",
   "Dm3p",
   "Dm3q",
   "Dm3v",
   "Dm4",
   "Dm6",
   "Dm8",
-  "Dm8a",
-  "Dm8b",
   "Dm9",
   "DmDRA1",
   "DmDRA2",
   "EL",
+  "ENS1",
+  "ENS2",
+  "ENS3",
+  "ENS4",
+  "ENS5",
   "EPG",
   "EPGt",
   "ER1",
   "ER2",
-  "ER3a",
+  "ER3a_a,ER3a_d",
+  "ER3a_b,ER3a_c",
   "ER3d",
   "ER3m",
-  "ER3p",
+  "ER3p_a",
+  "ER3p_b",
   "ER3w",
   "ER4d",
   "ER4m",
@@ -5464,23 +5424,160 @@ const NEURON_TYPES_DATA = [
   "ExR6",
   "ExR7",
   "ExR8",
+  "FB1A",
+  "FB1B",
+  "FB1C",
+  "FB1D",
+  "FB1E",
+  "FB1F",
+  "FB1G",
+  "FB1H",
+  "FB1I,FB1J",
+  "FB2A",
+  "FB2B",
+  "FB2B_b",
+  "FB2C",
+  "FB2D",
+  "FB2E",
+  "FB2F_b",
+  "FB2F_c",
+  "FB2F_d",
+  "FB2G",
+  "FB2G_a",
+  "FB2H_a,FB2I_b",
+  "FB2H_b",
+  "FB2I_a",
+  "FB2J_a,FB2J_c",
+  "FB2J_b",
+  "FB2K",
+  "FB2L",
+  "FB2M",
+  "FB3A",
+  "FB3B,FB3C,FB3E",
+  "FB3D",
   "FB4A",
+  "FB4B",
+  "FB4C",
+  "FB4D",
+  "FB4E",
+  "FB4F",
+  "FB4F_a,FB4F_b,FB4F_c",
+  "FB4G",
+  "FB4H",
+  "FB4I",
+  "FB4J",
+  "FB4K",
+  "FB4L",
+  "FB4M",
+  "FB4N",
+  "FB4O",
+  "FB4P,FB4Q",
+  "FB4P_a",
+  "FB4Q_b",
+  "FB4R",
+  "FB4X",
+  "FB4Y",
+  "FB4Z",
+  "FB4_unclear",
+  "FB5A",
+  "FB5AA",
+  "FB5AB",
+  "FB5B",
+  "FB5C",
+  "FB5D,FB5E",
+  "FB5F",
+  "FB5G",
+  "FB5H",
+  "FB5I",
   "FB5J",
-  "FC1A",
-  "FC1C",
+  "FB5K",
+  "FB5L",
+  "FB5M",
+  "FB5N",
+  "FB5O",
+  "FB5P,FB5T",
+  "FB5Q",
+  "FB5R,FB5U",
+  "FB5S",
+  "FB5V",
+  "FB5W",
+  "FB5X",
+  "FB5Y",
+  "FB5Z",
+  "FB6,FB6J",
+  "FB6A",
+  "FB6A_c",
+  "FB6B",
+  "FB6C",
+  "FB6D",
+  "FB6E",
+  "FB6F",
+  "FB6G",
+  "FB6H",
+  "FB6I",
+  "FB6K",
+  "FB6L",
+  "FB6M",
+  "FB6N",
+  "FB6O",
+  "FB6P",
+  "FB6Q",
+  "FB6R",
+  "FB6S",
+  "FB6T",
+  "FB6U",
+  "FB6V",
+  "FB6W",
+  "FB6X",
+  "FB6Y",
+  "FB6Z",
+  "FB7A",
+  "FB7B",
+  "FB7C",
+  "FB7D",
+  "FB7E",
+  "FB7F",
+  "FB7G,FB7I",
+  "FB7H",
+  "FB7J",
+  "FB7K",
+  "FB7L",
+  "FB7M",
+  "FB8A,FB8H",
+  "FB8B",
+  "FB8C",
+  "FB8D",
+  "FB8E",
+  "FB8F_a",
+  "FB8F_b",
+  "FB8G",
+  "FB8I",
+  "FB9A",
+  "FB9B",
+  "FB9C",
+  "FC1A,FC1B,FC1F",
+  "FC1C,FC1E",
   "FC1D",
   "FC2A",
   "FC2B",
   "FC2C",
   "FC3",
+  "FLA100f",
+  "FLA101f_a",
+  "FLA101f_b",
+  "FLA101f_c",
+  "FLA101f_d",
   "FR1",
   "FR2",
   "FS1A",
+  "FS1B",
   "FS2",
   "FS3",
   "FS4A",
-  "GF",
+  "FS4B",
+  "FS4C",
   "GLNO",
+  "GNG800f",
   "H01",
   "H03",
   "H1",
@@ -5513,7 +5610,7 @@ const NEURON_TYPES_DATA = [
   "IB026",
   "IB031",
   "IB032",
-  "IB033",
+  "IB033,IB039",
   "IB038",
   "IB044",
   "IB045",
@@ -5522,6 +5619,8 @@ const NEURON_TYPES_DATA = [
   "IB049",
   "IB050",
   "IB051",
+  "IB054",
+  "IB057,IB087",
   "IB058",
   "IB059a",
   "IB059b",
@@ -5546,6 +5645,7 @@ const NEURON_TYPES_DATA = [
   "IB116",
   "IB117",
   "IB118",
+  "IPC",
   "ISN",
   "ITP",
   "IbSpsP",
@@ -5573,6 +5673,7 @@ const NEURON_TYPES_DATA = [
   "JO-FVA",
   "JO-FVL",
   "JO-mz",
+  "KCa'b'-ap1",
   "KCab",
   "KCab-p",
   "KCapbp-ap1",
@@ -5584,14 +5685,13 @@ const NEURON_TYPES_DATA = [
   "KCg-s2",
   "KCg-s3",
   "L1",
-  "L1-3",
   "L2",
   "L3",
   "L4",
   "L5",
   "LAL001",
   "LAL002",
-  "LAL003",
+  "LAL003,LAL044",
   "LAL004",
   "LAL006",
   "LAL007",
@@ -5612,9 +5712,10 @@ const NEURON_TYPES_DATA = [
   "LAL022",
   "LAL023",
   "LAL024",
+  "LAL025",
   "LAL026",
   "LAL027",
-  "LAL028",
+  "LAL028, LAL029",
   "LAL030a",
   "LAL030b",
   "LAL030c",
@@ -5632,6 +5733,7 @@ const NEURON_TYPES_DATA = [
   "LAL045",
   "LAL046",
   "LAL047",
+  "LAL048",
   "LAL049",
   "LAL051",
   "LAL052",
@@ -5640,10 +5742,9 @@ const NEURON_TYPES_DATA = [
   "LAL055",
   "LAL056",
   "LAL059",
-  "LAL064",
   "LAL072",
   "LAL073",
-  "LAL074",
+  "LAL074,LAL084",
   "LAL075",
   "LAL076",
   "LAL081",
@@ -5654,19 +5755,19 @@ const NEURON_TYPES_DATA = [
   "LAL088",
   "LAL089",
   "LAL090",
+  "LAL091",
   "LAL093",
   "LAL094",
-  "LAL096",
+  "LAL096,LAL097",
   "LAL098",
   "LAL099",
   "LAL100",
   "LAL101",
   "LAL102",
-  "LAL103",
-  "LAL104",
-  "LAL108",
+  "LAL103,LAL109",
+  "LAL104,LAL105",
   "LAL110",
-  "LAL111",
+  "LAL111,PS060",
   "LAL112",
   "LAL113",
   "LAL114",
@@ -5681,6 +5782,7 @@ const NEURON_TYPES_DATA = [
   "LAL122",
   "LAL123",
   "LAL124",
+  "LAL125,LAL108",
   "LAL126",
   "LAL127",
   "LAL128",
@@ -5721,9 +5823,9 @@ const NEURON_TYPES_DATA = [
   "LAL157",
   "LAL158",
   "LAL159",
-  "LAL160",
+  "LAL160,LAL161",
   "LAL162",
-  "LAL163",
+  "LAL163,LAL164",
   "LAL165",
   "LAL167a",
   "LAL167b",
@@ -5731,10 +5833,10 @@ const NEURON_TYPES_DATA = [
   "LAL168b",
   "LAL169",
   "LAL170",
-  "LAL171",
-  "LAL173",
+  "LAL171,LAL172",
+  "LAL173,LAL174",
   "LAL175",
-  "LAL176",
+  "LAL176,LAL177",
   "LAL179a",
   "LAL179b",
   "LAL180",
@@ -5748,6 +5850,7 @@ const NEURON_TYPES_DATA = [
   "LAL188",
   "LAL190",
   "LAL191",
+  "LAL192",
   "LAL193",
   "LAL194",
   "LAL195",
@@ -5757,10 +5860,15 @@ const NEURON_TYPES_DATA = [
   "LAL199",
   "LAL200",
   "LAL203",
-  "LB1a",
+  "LB1a,LB1d",
   "LB1b",
-  "LB2",
+  "LB1c",
+  "LB1e",
+  "LB2a-b",
+  "LB2c",
+  "LB2d",
   "LB3",
+  "LB4a",
   "LC10a",
   "LC10b",
   "LC10c",
@@ -5787,15 +5895,16 @@ const NEURON_TYPES_DATA = [
   "LC26",
   "LC27",
   "LC28a",
+  "LC28b",
   "LC29",
   "LC31a",
   "LC31b",
   "LC31c",
-  "LC33a",
+  "LC33",
   "LC34",
   "LC35",
   "LC36",
-  "LC37a",
+  "LC37",
   "LC39",
   "LC4",
   "LC40",
@@ -5808,7 +5917,6 @@ const NEURON_TYPES_DATA = [
   "LC9",
   "LCNOp",
   "LCNOpm",
-  "LCe01",
   "LCe01a",
   "LCe01b",
   "LCe02",
@@ -5821,12 +5929,12 @@ const NEURON_TYPES_DATA = [
   "LCe09",
   "LHAD1a1",
   "LHAD1a2",
-  "LHAD1a3",
+  "LHAD1a3,LHAD1f5",
   "LHAD1a4a",
   "LHAD1a4b",
   "LHAD1a4c",
   "LHAD1b1_b",
-  "LHAD1b2_a",
+  "LHAD1b2_a,LHAD1b2_c",
   "LHAD1b3",
   "LHAD1b4",
   "LHAD1b5",
@@ -5866,6 +5974,7 @@ const NEURON_TYPES_DATA = [
   "LHAD4a1",
   "LHAV1a1",
   "LHAV1a3",
+  "LHAV1a4",
   "LHAV1b1",
   "LHAV1b3",
   "LHAV1d1",
@@ -5888,7 +5997,8 @@ const NEURON_TYPES_DATA = [
   "LHAV2f2_b",
   "LHAV2g1a",
   "LHAV2g1b",
-  "LHAV2g2",
+  "LHAV2g2_a",
+  "LHAV2g2_b",
   "LHAV2g3",
   "LHAV2g5",
   "LHAV2k10",
@@ -5933,7 +6043,7 @@ const NEURON_TYPES_DATA = [
   "LHAV4c1",
   "LHAV4c2",
   "LHAV4d1",
-  "LHAV4e1",
+  "LHAV4e1_a",
   "LHAV4e4",
   "LHAV4g17",
   "LHAV4g1a",
@@ -5945,6 +6055,12 @@ const NEURON_TYPES_DATA = [
   "LHAV4l1",
   "LHAV5a1",
   "LHAV5a10_b",
+  "LHAV5a2_a1",
+  "LHAV5a2_a2",
+  "LHAV5a2_a3",
+  "LHAV5a2_a4",
+  "LHAV5a2_b",
+  "LHAV5a2_d",
   "LHAV5d1",
   "LHAV5e1",
   "LHAV6a1",
@@ -5966,6 +6082,7 @@ const NEURON_TYPES_DATA = [
   "LHAV7a5",
   "LHAV7a6",
   "LHAV7a7",
+  "LHAV7b1",
   "LHAV8a1",
   "LHAV9a1_a",
   "LHAV9a1_b",
@@ -5975,7 +6092,10 @@ const NEURON_TYPES_DATA = [
   "LHCENT11",
   "LHCENT12a",
   "LHCENT12b",
-  "LHCENT13",
+  "LHCENT13_a",
+  "LHCENT13_b",
+  "LHCENT13_c",
+  "LHCENT13_d",
   "LHCENT14",
   "LHCENT2",
   "LHCENT3",
@@ -5986,12 +6106,12 @@ const NEURON_TYPES_DATA = [
   "LHCENT9",
   "LHMB1",
   "LHPD1b1",
+  "LHPD2a4_a,SIP049",
   "LHPD2c1",
   "LHPD2c7",
   "LHPD2d1",
   "LHPD2d2",
   "LHPD3a2",
-  "LHPD3a4",
   "LHPD3a5",
   "LHPD3c1",
   "LHPD4a1",
@@ -6013,12 +6133,14 @@ const NEURON_TYPES_DATA = [
   "LHPV1c2",
   "LHPV1d1",
   "LHPV2a1_a",
-  "LHPV2a1_b",
   "LHPV2a1_c",
-  "LHPV2a2",
+  "LHPV2a1_d",
+  "LHPV2a4",
+  "LHPV2a5",
   "LHPV2b5",
   "LHPV2c2a",
   "LHPV2c2b",
+  "LHPV2c4",
   "LHPV2d1",
   "LHPV2e1_a",
   "LHPV2f2",
@@ -6030,13 +6152,15 @@ const NEURON_TYPES_DATA = [
   "LHPV2i2b",
   "LHPV3a1",
   "LHPV3a2",
+  "LHPV3a3_c",
   "LHPV3b1_b",
   "LHPV3c1",
   "LHPV4a1",
+  "LHPV4a1,LHPV4a2",
   "LHPV4a10",
   "LHPV4a11",
   "LHPV4a2",
-  "LHPV4a5",
+  "LHPV4a5, LHPV4k1",
   "LHPV4a7a",
   "LHPV4a7b",
   "LHPV4a8",
@@ -6045,13 +6169,16 @@ const NEURON_TYPES_DATA = [
   "LHPV4b2",
   "LHPV4b3",
   "LHPV4b9",
-  "LHPV4c3",
+  "LHPV4c3, LHPV4c4",
   "LHPV4c4",
   "LHPV4d3",
   "LHPV4e1",
+  "LHPV4g1",
   "LHPV4h1",
   "LHPV4h3",
+  "LHPV4i3",
   "LHPV4j3",
+  "LHPV4j4",
   "LHPV4l1",
   "LHPV4m1",
   "LHPV5a1",
@@ -6060,7 +6187,6 @@ const NEURON_TYPES_DATA = [
   "LHPV5b2",
   "LHPV5b3",
   "LHPV5b4",
-  "LHPV5b5",
   "LHPV5b6",
   "LHPV5c1",
   "LHPV5c2",
@@ -6069,7 +6195,7 @@ const NEURON_TYPES_DATA = [
   "LHPV5e1",
   "LHPV5e2",
   "LHPV5e3",
-  "LHPV5g1_a",
+  "LHPV5g1_a,SMP270",
   "LHPV5g1_b",
   "LHPV5g2",
   "LHPV5i1",
@@ -6084,7 +6210,9 @@ const NEURON_TYPES_DATA = [
   "LHPV6g1",
   "LHPV6h1",
   "LHPV6h2",
+  "LHPV6h3,SLP276",
   "LHPV6j1",
+  "LHPV6k1",
   "LHPV6k2",
   "LHPV6l1",
   "LHPV6l2",
@@ -6117,14 +6245,16 @@ const NEURON_TYPES_DATA = [
   "LMt2",
   "LMt3",
   "LMt4",
+  "LN-DN1",
+  "LN-DN2",
   "LN60a",
   "LN60b",
   "LNO1",
   "LNO2",
   "LNOa",
+  "LNd_a",
   "LNd_b",
   "LNd_c",
-  "LNda",
   "LPC1",
   "LPC2",
   "LPLC1",
@@ -6188,7 +6318,8 @@ const NEURON_TYPES_DATA = [
   "LT47",
   "LT51",
   "LT52",
-  "LT53",
+  "LT53,PLP098",
+  "LT54",
   "LT55",
   "LT56",
   "LT57",
@@ -6216,7 +6347,7 @@ const NEURON_TYPES_DATA = [
   "LT79",
   "LT80",
   "LT81",
-  "LT82a",
+  "LT82",
   "LT83",
   "LT84",
   "LT85",
@@ -6260,7 +6391,6 @@ const NEURON_TYPES_DATA = [
   "LTe37",
   "LTe38a",
   "LTe38b",
-  "LTe38c",
   "LTe40",
   "LTe41",
   "LTe42a",
@@ -6280,14 +6410,14 @@ const NEURON_TYPES_DATA = [
   "LTe49f",
   "LTe50",
   "LTe51",
-  "LTe52",
   "LTe53",
   "LTe54",
   "LTe55",
   "LTe56",
   "LTe57",
   "LTe58",
-  "LTe59",
+  "LTe59a",
+  "LTe59b",
   "LTe60",
   "LTe61",
   "LTe62",
@@ -6307,7 +6437,6 @@ const NEURON_TYPES_DATA = [
   "LTe76",
   "Lai",
   "Lat",
-  "LatB",
   "Lawf1",
   "Lawf2",
   "Li01",
@@ -6370,7 +6499,7 @@ const NEURON_TYPES_DATA = [
   "MBON22",
   "MBON23",
   "MBON24",
-  "MBON25",
+  "MBON25,MBON34",
   "MBON26",
   "MBON27",
   "MBON28",
@@ -6381,6 +6510,7 @@ const NEURON_TYPES_DATA = [
   "MBON33",
   "MBON35",
   "MC65",
+  "MDN",
   "MLt1",
   "MLt2",
   "MLt3",
@@ -6389,6 +6519,9 @@ const NEURON_TYPES_DATA = [
   "MLt6",
   "MLt7",
   "MLt8",
+  "MN10",
+  "MNx01",
+  "MNx03",
   "MTe01a",
   "MTe01b",
   "MTe02",
@@ -6445,16 +6578,14 @@ const NEURON_TYPES_DATA = [
   "MTe53",
   "MTe54",
   "MZ_lv2PN",
-  "MZ_lvPN",
+  "M_VPNml66",
   "M_adPNm3",
-  "M_adPNm4a",
-  "M_adPNm4b",
-  "M_adPNm4c",
-  "M_adPNm4d",
+  "M_adPNm4",
+  "M_adPNm5",
   "M_adPNm6",
   "M_adPNm7",
   "M_adPNm8",
-  "M_ilPN8t91",
+  "M_ilPNm90,M_ilPN8t91",
   "M_imPNl92",
   "M_l2PN10t19a",
   "M_l2PN10t19b",
@@ -6471,8 +6602,6 @@ const NEURON_TYPES_DATA = [
   "M_lPNm11B",
   "M_lPNm11C",
   "M_lPNm11D",
-  "M_lPNm12a",
-  "M_lPNm12b",
   "M_lv2PN9t49a",
   "M_lv2PN9t49b",
   "M_lvPNm24",
@@ -6500,21 +6629,26 @@ const NEURON_TYPES_DATA = [
   "M_spPN5t10",
   "M_vPNml50",
   "M_vPNml51",
+  "M_vPNml52",
   "M_vPNml53",
   "M_vPNml54",
   "M_vPNml55",
   "M_vPNml57",
   "M_vPNml60",
-  "M_vPNml62",
   "M_vPNml63",
   "M_vPNml64",
   "M_vPNml65",
   "M_vPNml67",
-  "M_vPNml68",
   "M_vPNml69",
   "M_vPNml72",
+  "M_vPNml75",
+  "M_vPNml77",
+  "M_vPNml79",
   "M_vPNml80",
+  "M_vPNml83",
   "M_vPNml84",
+  "M_vPNml86",
+  "M_vPNml87",
   "MeLp1",
   "MeLp2",
   "MeMe_e01",
@@ -6527,13 +6661,15 @@ const NEURON_TYPES_DATA = [
   "MeMe_e08",
   "MeMe_e09",
   "MeMe_e10",
+  "MeMe_e11",
+  "MeMe_e12",
+  "MeMe_e13",
   "MeTu1",
   "MeTu2a",
   "MeTu2b",
   "MeTu3a",
   "MeTu3b",
   "MeTu3c",
-  "MeTu4_unknown",
   "MeTu4a",
   "MeTu4b",
   "MeTu4c",
@@ -6570,11 +6706,7 @@ const NEURON_TYPES_DATA = [
   "OA-VUMa4",
   "OA-VUMa5",
   "OA-VUMa6",
-  "OA-VUMa7",
   "OA-VUMa8",
-  "OA-VUMx1",
-  "OA-VUMx2",
-  "OA-VUMx3",
   "OCC01a",
   "OCC01b",
   "OCC02a",
@@ -6588,6 +6720,7 @@ const NEURON_TYPES_DATA = [
   "OCG02a",
   "OCG02b",
   "OCG02c",
+  "OLVC7",
   "ORN_D",
   "ORN_DA1",
   "ORN_DA2",
@@ -6641,7 +6774,6 @@ const NEURON_TYPES_DATA = [
   "ORN_VM6v",
   "ORN_VM7d",
   "ORN_VM7v",
-  "P1-9",
   "P6-8P9",
   "PAL01",
   "PAL02",
@@ -6661,7 +6793,7 @@ const NEURON_TYPES_DATA = [
   "PAM13",
   "PAM14",
   "PAM15",
-  "PDt",
+  "PDt1",
   "PEG",
   "PEN_a(PEN1)",
   "PEN_b(PEN2)",
@@ -6672,10 +6804,12 @@ const NEURON_TYPES_DATA = [
   "PFNa",
   "PFNd",
   "PFNm",
+  "PFNp",
   "PFNv",
   "PFR",
-  "PI",
+  "PFR_a",
   "PLP001",
+  "PLP003",
   "PLP004",
   "PLP005",
   "PLP006",
@@ -6697,7 +6831,7 @@ const NEURON_TYPES_DATA = [
   "PLP024",
   "PLP025a",
   "PLP025b",
-  "PLP026",
+  "PLP026,PLP027",
   "PLP028",
   "PLP029",
   "PLP032",
@@ -6708,7 +6842,7 @@ const NEURON_TYPES_DATA = [
   "PLP037b",
   "PLP038",
   "PLP039",
-  "PLP041",
+  "PLP041,PLP043",
   "PLP042a",
   "PLP042b",
   "PLP042c",
@@ -6726,6 +6860,8 @@ const NEURON_TYPES_DATA = [
   "PLP057a",
   "PLP057b",
   "PLP058",
+  "PLP059a",
+  "PLP059b",
   "PLP060",
   "PLP064_a",
   "PLP064_b",
@@ -6741,7 +6877,7 @@ const NEURON_TYPES_DATA = [
   "PLP078",
   "PLP079",
   "PLP081",
-  "PLP084",
+  "PLP084,PLP085",
   "PLP086a",
   "PLP086b",
   "PLP087a",
@@ -6755,21 +6891,21 @@ const NEURON_TYPES_DATA = [
   "PLP097",
   "PLP099",
   "PLP100",
-  "PLP101",
+  "PLP101,PLP102",
   "PLP103a",
   "PLP103b",
   "PLP103c",
   "PLP104",
   "PLP106",
   "PLP108",
-  "PLP109",
+  "PLP109,PLP112",
   "PLP113",
   "PLP114",
   "PLP115_a",
   "PLP115_b",
   "PLP116",
   "PLP119",
-  "PLP120",
+  "PLP120,PLP145",
   "PLP121",
   "PLP122",
   "PLP123",
@@ -6779,7 +6915,7 @@ const NEURON_TYPES_DATA = [
   "PLP130",
   "PLP131",
   "PLP132",
-  "PLP139",
+  "PLP139,PLP140",
   "PLP141",
   "PLP142",
   "PLP143",
@@ -6812,15 +6948,13 @@ const NEURON_TYPES_DATA = [
   "PLP180",
   "PLP181",
   "PLP182",
-  "PLP185",
+  "PLP185,PLP186",
   "PLP187",
-  "PLP188",
+  "PLP188,PLP189",
   "PLP190",
-  "PLP191a",
-  "PLP191b",
   "PLP196",
   "PLP197",
-  "PLP198",
+  "PLP198,SLP361",
   "PLP199",
   "PLP208",
   "PLP209",
@@ -6843,7 +6977,6 @@ const NEURON_TYPES_DATA = [
   "PLP237",
   "PLP239",
   "PLP241",
-  "PLP242",
   "PLP243",
   "PLP245",
   "PLP246",
@@ -6869,13 +7002,16 @@ const NEURON_TYPES_DATA = [
   "PPM1201",
   "PPM1202",
   "PPM1203",
-  "PPM1204",
+  "PPM1204,PS139",
   "PPM1205",
   "PS001",
   "PS002",
+  "PS003,PS006",
   "PS004a",
   "PS004b",
   "PS005",
+  "PS005_a",
+  "PS005_f",
   "PS007",
   "PS008",
   "PS010",
@@ -6887,8 +7023,6 @@ const NEURON_TYPES_DATA = [
   "PS020",
   "PS021",
   "PS022",
-  "PS023a",
-  "PS023b",
   "PS025",
   "PS026",
   "PS027",
@@ -6900,6 +7034,7 @@ const NEURON_TYPES_DATA = [
   "PS038a",
   "PS038b",
   "PS041",
+  "PS043,PS044",
   "PS046",
   "PS047a",
   "PS047b",
@@ -6924,11 +7059,11 @@ const NEURON_TYPES_DATA = [
   "PS076",
   "PS078",
   "PS080",
-  "PS081",
-  "PS082a",
-  "PS082b",
+  "PS081,PS085",
+  "PS082",
   "PS083a",
   "PS083b",
+  "PS084",
   "PS086",
   "PS087",
   "PS088",
@@ -6964,12 +7099,12 @@ const NEURON_TYPES_DATA = [
   "PS137",
   "PS138",
   "PS140",
-  "PS141",
-  "PS142a",
-  "PS142b",
-  "PS143",
+  "PS141,PS147",
+  "PS143,PS149",
   "PS146",
   "PS150",
+  "PS150a",
+  "PS150b",
   "PS153",
   "PS156",
   "PS157",
@@ -6977,7 +7112,7 @@ const NEURON_TYPES_DATA = [
   "PS159",
   "PS160",
   "PS161",
-  "PS164",
+  "PS164,PS165",
   "PS170",
   "PS171",
   "PS172",
@@ -6991,7 +7126,7 @@ const NEURON_TYPES_DATA = [
   "PS181",
   "PS182",
   "PS183",
-  "PS184",
+  "PS184,PS272",
   "PS185a",
   "PS185b",
   "PS186",
@@ -7008,7 +7143,7 @@ const NEURON_TYPES_DATA = [
   "PS194",
   "PS196a",
   "PS196b",
-  "PS198",
+  "PS197,PS198",
   "PS199",
   "PS200",
   "PS202",
@@ -7025,14 +7160,16 @@ const NEURON_TYPES_DATA = [
   "PS220",
   "PS221",
   "PS224",
+  "PS230,PLP242",
   "PS231",
   "PS232",
   "PS233",
   "PS234",
+  "PS235,PS261",
   "PS237",
   "PS238",
   "PS239",
-  "PS240",
+  "PS240,PS264",
   "PS241a",
   "PS241b",
   "PS242",
@@ -7043,15 +7180,17 @@ const NEURON_TYPES_DATA = [
   "PS252",
   "PS253",
   "PS260",
-  "PS261",
   "PS262",
   "PS263",
   "PS265",
   "PS267",
+  "PS268",
+  "PS269",
   "PS274",
   "PS276",
   "PS279",
   "PS280",
+  "PS289",
   "PS291",
   "PS292",
   "PS300",
@@ -7060,7 +7199,7 @@ const NEURON_TYPES_DATA = [
   "PVLP001",
   "PVLP002",
   "PVLP003",
-  "PVLP004",
+  "PVLP004,PVLP005",
   "PVLP006",
   "PVLP007",
   "PVLP008",
@@ -7080,6 +7219,7 @@ const NEURON_TYPES_DATA = [
   "PVLP022",
   "PVLP024",
   "PVLP025",
+  "PVLP026",
   "PVLP027",
   "PVLP028",
   "PVLP030",
@@ -7102,6 +7242,8 @@ const NEURON_TYPES_DATA = [
   "PVLP082a",
   "PVLP082b",
   "PVLP084",
+  "PVLP086",
+  "PVLP086,PVLP087",
   "PVLP088",
   "PVLP089",
   "PVLP090",
@@ -7153,6 +7295,24 @@ const NEURON_TYPES_DATA = [
   "PVLP149",
   "PVLP150",
   "PVLP151",
+  "PhG10",
+  "PhG11",
+  "PhG12",
+  "PhG13",
+  "PhG14",
+  "PhG15",
+  "PhG16",
+  "PhG1a",
+  "PhG1b",
+  "PhG1c",
+  "PhG2",
+  "PhG3",
+  "PhG4",
+  "PhG5",
+  "PhG6",
+  "PhG7",
+  "PhG8",
+  "PhG9",
   "Pm01",
   "Pm02",
   "Pm03",
@@ -7162,7 +7322,6 @@ const NEURON_TYPES_DATA = [
   "Pm07",
   "Pm08",
   "Pm09",
-  "Pm1",
   "Pm10",
   "Pm11",
   "Pm12",
@@ -7174,16 +7333,17 @@ const NEURON_TYPES_DATA = [
   "SA1",
   "SA2",
   "SA3",
-  "SAD005",
+  "SAD003",
+  "SAD005,SAD006",
   "SAD007",
   "SAD008",
   "SAD009",
   "SAD010",
-  "SAD011",
+  "SAD011,SAD019",
   "SAD012",
   "SAD013",
   "SAD014",
-  "SAD015",
+  "SAD015,SAD018",
   "SAD016",
   "SAD017",
   "SAD021_a",
@@ -7196,20 +7356,26 @@ const NEURON_TYPES_DATA = [
   "SAD040",
   "SAD043",
   "SAD044",
-  "SAD045",
+  "SAD045,SAD046",
   "SAD047",
   "SAD049",
+  "SAD052",
+  "SAD053",
+  "SAD064",
   "SAD070",
   "SAD072",
   "SAD074",
   "SAD075",
   "SAD076",
+  "SAD077",
   "SAD080",
   "SAD082",
   "SAD084",
   "SAD085",
   "SAD093",
   "SAD094",
+  "SAD301f",
+  "SAF",
   "SA_DLV",
   "SA_DMT_ADMN_1",
   "SA_DMT_ADMN_10",
@@ -7256,7 +7422,7 @@ const NEURON_TYPES_DATA = [
   "SIP006",
   "SIP013a",
   "SIP013b",
-  "SIP014",
+  "SIP014,SIP016",
   "SIP015",
   "SIP017",
   "SIP018",
@@ -7266,21 +7432,24 @@ const NEURON_TYPES_DATA = [
   "SIP024",
   "SIP025",
   "SIP027",
+  "SIP028",
   "SIP028a",
   "SIP028b",
   "SIP029",
   "SIP031",
-  "SIP032",
+  "SIP032,SIP059",
   "SIP033",
   "SIP034",
   "SIP041",
   "SIP046",
   "SIP047a",
   "SIP047b",
+  "SIP048",
   "SIP052",
   "SIP053a",
   "SIP053b",
-  "SIP055",
+  "SIP055,SLP245",
+  "SIP057",
   "SIP061",
   "SIP064",
   "SIP065",
@@ -7289,13 +7458,15 @@ const NEURON_TYPES_DATA = [
   "SIP069",
   "SIP073",
   "SIP076",
-  "SIP078",
+  "SIP078,SIP080",
   "SIP081",
   "SIP086",
   "SIP087",
   "SIP088",
   "SIP089",
   "SIP090",
+  "SIP200f",
+  "SIP201f",
   "SLP001",
   "SLP003",
   "SLP004",
@@ -7306,6 +7477,7 @@ const NEURON_TYPES_DATA = [
   "SLP008",
   "SLP011",
   "SLP012",
+  "SLP012b",
   "SLP016",
   "SLP017",
   "SLP019",
@@ -7325,6 +7497,9 @@ const NEURON_TYPES_DATA = [
   "SLP032",
   "SLP033",
   "SLP034",
+  "SLP035",
+  "SLP036",
+  "SLP041",
   "SLP044_d",
   "SLP047",
   "SLP048",
@@ -7350,20 +7525,21 @@ const NEURON_TYPES_DATA = [
   "SLP077",
   "SLP079",
   "SLP080",
+  "SLP082",
   "SLP083",
-  "SLP098",
+  "SLP088,SLP095",
+  "SLP098,SLP133",
   "SLP101",
   "SLP102",
   "SLP103",
-  "SLP104",
+  "SLP104,SLP205",
   "SLP106",
-  "SLP109",
-  "SLP114",
+  "SLP109,SLP143",
+  "SLP114,SLP115",
   "SLP118",
   "SLP119",
   "SLP120",
   "SLP122",
-  "SLP125",
   "SLP126",
   "SLP128",
   "SLP129_c",
@@ -7373,7 +7549,7 @@ const NEURON_TYPES_DATA = [
   "SLP134",
   "SLP136",
   "SLP137",
-  "SLP141",
+  "SLP141,SLP142",
   "SLP149",
   "SLP150",
   "SLP151",
@@ -7382,12 +7558,10 @@ const NEURON_TYPES_DATA = [
   "SLP155",
   "SLP157",
   "SLP158",
-  "SLP159",
   "SLP160",
   "SLP162a",
   "SLP162b",
   "SLP162c",
-  "SLP169",
   "SLP170",
   "SLP184",
   "SLP188",
@@ -7434,6 +7608,7 @@ const NEURON_TYPES_DATA = [
   "SLP256",
   "SLP257",
   "SLP258",
+  "SLP261,SLP262",
   "SLP265a",
   "SLP265b",
   "SLP269",
@@ -7445,8 +7620,7 @@ const NEURON_TYPES_DATA = [
   "SLP279",
   "SLP281",
   "SLP285",
-  "SLP286a",
-  "SLP286b",
+  "SLP286",
   "SLP287",
   "SLP288a",
   "SLP288b",
@@ -7470,13 +7644,14 @@ const NEURON_TYPES_DATA = [
   "SLP312",
   "SLP313",
   "SLP314",
+  "SLP317,SLP318",
   "SLP319",
   "SLP321",
-  "SLP327a",
-  "SLP327b",
+  "SLP327",
   "SLP340",
   "SLP344",
   "SLP345",
+  "SLP345b",
   "SLP355",
   "SLP356a",
   "SLP356b",
@@ -7487,7 +7662,7 @@ const NEURON_TYPES_DATA = [
   "SLP365",
   "SLP366",
   "SLP368",
-  "SLP369",
+  "SLP369,SLP370",
   "SLP373",
   "SLP374",
   "SLP375",
@@ -7516,15 +7691,15 @@ const NEURON_TYPES_DATA = [
   "SLP398b",
   "SLP400a",
   "SLP400b",
-  "SLP402a",
-  "SLP402b",
-  "SLP402c",
+  "SLP402_a",
+  "SLP402_b",
   "SLP403",
   "SLP404",
   "SLP405",
   "SLP406",
   "SLP411",
-  "SLP412",
+  "SLP412_a",
+  "SLP412_b",
   "SLP421",
   "SLP433",
   "SLP435",
@@ -7556,7 +7731,7 @@ const NEURON_TYPES_DATA = [
   "SLPpm3_P04",
   "SLPpm3_S01",
   "SMP001",
-  "SMP003",
+  "SMP003,SMP005",
   "SMP006",
   "SMP008",
   "SMP010",
@@ -7565,10 +7740,11 @@ const NEURON_TYPES_DATA = [
   "SMP012",
   "SMP014",
   "SMP015",
-  "SMP016",
+  "SMP016_a",
+  "SMP016_b",
+  "SMP017",
   "SMP018",
-  "SMP019a",
-  "SMP019b",
+  "SMP019",
   "SMP020",
   "SMP021",
   "SMP022a",
@@ -7598,7 +7774,7 @@ const NEURON_TYPES_DATA = [
   "SMP046",
   "SMP047",
   "SMP048",
-  "SMP049",
+  "SMP049,SMP076",
   "SMP050",
   "SMP051",
   "SMP053",
@@ -7608,14 +7784,15 @@ const NEURON_TYPES_DATA = [
   "SMP057",
   "SMP058",
   "SMP059",
-  "SMP060",
-  "SMP061",
-  "SMP063",
+  "SMP060,SMP374",
+  "SMP061,SMP062",
+  "SMP063,SMP064",
   "SMP065",
   "SMP066",
   "SMP067",
   "SMP068",
   "SMP069",
+  "SMP074,CL040",
   "SMP075a",
   "SMP075b",
   "SMP077",
@@ -7631,14 +7808,15 @@ const NEURON_TYPES_DATA = [
   "SMP091",
   "SMP092",
   "SMP093",
-  "SMP094",
   "SMP095",
   "SMP096",
+  "SMP098_a",
   "SMP102",
   "SMP103",
-  "SMP104",
-  "SMP106a",
-  "SMP106b",
+  "SMP105_a",
+  "SMP105_b",
+  "SMP106",
+  "SMP107",
   "SMP108",
   "SMP109",
   "SMP111",
@@ -7655,9 +7833,10 @@ const NEURON_TYPES_DATA = [
   "SMP123b",
   "SMP124",
   "SMP128",
-  "SMP143",
-  "SMP144",
-  "SMP145",
+  "SMP138",
+  "SMP142,SMP145",
+  "SMP143,SMP149",
+  "SMP144,SMP150",
   "SMP146",
   "SMP147",
   "SMP151",
@@ -7678,6 +7857,7 @@ const NEURON_TYPES_DATA = [
   "SMP164",
   "SMP165",
   "SMP166",
+  "SMP167",
   "SMP168",
   "SMP169",
   "SMP170",
@@ -7713,13 +7893,16 @@ const NEURON_TYPES_DATA = [
   "SMP202",
   "SMP203",
   "SMP204",
+  "SMP206",
   "SMP207",
   "SMP208",
   "SMP210",
   "SMP213",
+  "SMP213,SMP214",
   "SMP215a",
   "SMP215b",
   "SMP215c",
+  "SMP217",
   "SMP229",
   "SMP234",
   "SMP235",
@@ -7764,8 +7947,7 @@ const NEURON_TYPES_DATA = [
   "SMP285",
   "SMP286",
   "SMP291",
-  "SMP292",
-  "SMP293",
+  "SMP292,SMP293,SMP584",
   "SMP298",
   "SMP307",
   "SMP311",
@@ -7781,6 +7963,7 @@ const NEURON_TYPES_DATA = [
   "SMP319",
   "SMP320a",
   "SMP320b",
+  "SMP321_b",
   "SMP323",
   "SMP326a",
   "SMP326b",
@@ -7798,6 +7981,7 @@ const NEURON_TYPES_DATA = [
   "SMP334",
   "SMP335",
   "SMP337",
+  "SMP338,SMP534",
   "SMP339",
   "SMP340",
   "SMP341",
@@ -7810,6 +7994,7 @@ const NEURON_TYPES_DATA = [
   "SMP348b",
   "SMP353",
   "SMP355",
+  "SMP356",
   "SMP357",
   "SMP359",
   "SMP360",
@@ -7857,7 +8042,7 @@ const NEURON_TYPES_DATA = [
   "SMP411a",
   "SMP411b",
   "SMP413",
-  "SMP416",
+  "SMP416,SMP417",
   "SMP418",
   "SMP419",
   "SMP420",
@@ -7866,6 +8051,7 @@ const NEURON_TYPES_DATA = [
   "SMP423",
   "SMP424",
   "SMP425",
+  "SMP426",
   "SMP427",
   "SMP428",
   "SMP429",
@@ -7877,9 +8063,11 @@ const NEURON_TYPES_DATA = [
   "SMP446b",
   "SMP447",
   "SMP448",
+  "SMP450",
   "SMP451a",
   "SMP451b",
   "SMP452",
+  "SMP453",
   "SMP455",
   "SMP456",
   "SMP457",
@@ -7892,10 +8080,11 @@ const NEURON_TYPES_DATA = [
   "SMP469c",
   "SMP470",
   "SMP471",
-  "SMP472",
+  "SMP472,SMP473",
   "SMP476",
   "SMP477",
   "SMP482",
+  "SMP490",
   "SMP492",
   "SMP493",
   "SMP494",
@@ -7903,7 +8092,7 @@ const NEURON_TYPES_DATA = [
   "SMP495b",
   "SMP495c",
   "SMP496",
-  "SMP501",
+  "SMP501,SMP502",
   "SMP503",
   "SMP504",
   "SMP505",
@@ -7921,11 +8110,13 @@ const NEURON_TYPES_DATA = [
   "SMP516a",
   "SMP516b",
   "SMP517",
+  "SMP518",
+  "SMP519",
   "SMP520a",
   "SMP520b",
   "SMP521",
   "SMP522",
-  "SMP523",
+  "SMP523,SMP524",
   "SMP525",
   "SMP526",
   "SMP527",
@@ -7936,24 +8127,23 @@ const NEURON_TYPES_DATA = [
   "SMP532a",
   "SMP532b",
   "SMP533",
-  "SMP534",
   "SMP535",
   "SMP537",
-  "SMP538",
+  "SMP538,SMP599",
   "SMP539",
   "SMP540",
   "SMP541",
   "SMP542",
   "SMP543",
-  "SMP544",
+  "SMP544,LAL134",
   "SMP545",
-  "SMP546",
+  "SMP546,SMP547",
   "SMP549",
   "SMP550",
   "SMP552",
   "SMP553",
   "SMP554",
-  "SMP555",
+  "SMP555,SMP556",
   "SMP558",
   "SMP561",
   "SMP562",
@@ -7971,12 +8161,15 @@ const NEURON_TYPES_DATA = [
   "SMP573",
   "SMP577",
   "SMP578",
-  "SMP579",
+  "SMP579,SMP583",
   "SMP580",
   "SMP582",
   "SMP586",
   "SMP588",
   "SMP589",
+  "SMP590",
+  "SMP591",
+  "SMP592",
   "SMP593",
   "SMP594",
   "SMP595",
@@ -7984,8 +8177,10 @@ const NEURON_TYPES_DATA = [
   "SMP597",
   "SMP598",
   "SMP600",
+  "SMP602,SMP094",
   "SMP603",
   "SMP604",
+  "SMP746",
   "SMPp&v1A_H01",
   "SMPp&v1A_P03",
   "SMPp&v1A_S02",
@@ -7993,6 +8188,7 @@ const NEURON_TYPES_DATA = [
   "SMPp&v1B_H01",
   "SMPp&v1B_M01",
   "SMPp&v1B_M02",
+  "SPS100f",
   "SPm101_78-78",
   "Sm01",
   "Sm02",
@@ -8037,6 +8233,7 @@ const NEURON_TYPES_DATA = [
   "Sm41",
   "Sm42",
   "Sm43",
+  "SpsP",
   "T1",
   "T2",
   "T2a",
@@ -8049,7 +8246,8 @@ const NEURON_TYPES_DATA = [
   "T5b",
   "T5c",
   "T5d",
-  "TPMN",
+  "TPMN1",
+  "TPMN2",
   "TRN_VP1m",
   "TRN_VP2",
   "TRN_VP3a",
@@ -8075,7 +8273,7 @@ const NEURON_TYPES_DATA = [
   "Tm36",
   "Tm37",
   "Tm4",
-  "Tm5Y",
+  "Tm40",
   "Tm5a",
   "Tm5b",
   "Tm5c",
@@ -8084,7 +8282,6 @@ const NEURON_TYPES_DATA = [
   "Tm5f",
   "Tm6",
   "Tm7",
-  "Tm8",
   "Tm8a",
   "Tm8b",
   "Tm9",
@@ -8099,17 +8296,20 @@ const NEURON_TYPES_DATA = [
   "TmY31",
   "TmY4",
   "TmY5a",
+  "TmY9",
   "TmY9q",
   "TmY9q__perp",
   "TuBu01a",
   "TuBu01b",
   "TuBu02",
   "TuBu03",
+  "TuBu04",
+  "TuBu05",
   "TuBu06a",
   "TuBu06b",
   "TuBu07",
   "TuBu08",
-  "TuBu09",
+  "TuBu09,TuBu10",
   "TuTuAa",
   "TuTuAb",
   "TuTuB_a",
@@ -8148,9 +8348,11 @@ const NEURON_TYPES_DATA = [
   "VES019",
   "VES020",
   "VES021",
-  "VES022",
+  "VES022a",
+  "VES022b",
   "VES023",
-  "VES024",
+  "VES024a",
+  "VES024b",
   "VES025",
   "VES027",
   "VES030",
@@ -8164,7 +8366,7 @@ const NEURON_TYPES_DATA = [
   "VES048",
   "VES049",
   "VES050",
-  "VES051",
+  "VES051,VES052",
   "VES053",
   "VES054",
   "VES056",
@@ -8172,7 +8374,6 @@ const NEURON_TYPES_DATA = [
   "VES058",
   "VES059",
   "VES060",
-  "VES061",
   "VES063a",
   "VES063b",
   "VES064",
@@ -8214,6 +8415,7 @@ const NEURON_TYPES_DATA = [
   "VP1d_il2PN",
   "VP1l+VP3_ilPN",
   "VP1l+_lvPN",
+  "VP1m+VP2_lvPN1",
   "VP1m+VP5_ilPN",
   "VP1m+_lvPN",
   "VP1m_l2PN",
@@ -8229,7 +8431,7 @@ const NEURON_TYPES_DATA = [
   "VP4_vPN",
   "VP5+VP3_l2PN",
   "VP5+Z_adPN",
-  "VP5+_l2PN",
+  "VP5+_l2PN,VP5+VP2_l2PN",
   "VS1",
   "VS2",
   "VS3",
@@ -8261,6 +8463,7 @@ const NEURON_TYPES_DATA = [
   "WED016",
   "WED017",
   "WED018",
+  "WED020_b",
   "WED023",
   "WED024",
   "WED025",
@@ -8270,7 +8473,7 @@ const NEURON_TYPES_DATA = [
   "WED031",
   "WED032",
   "WED033",
-  "WED034",
+  "WED034,WED035",
   "WED037",
   "WED038a",
   "WED038b",
@@ -8292,12 +8495,12 @@ const NEURON_TYPES_DATA = [
   "WED072",
   "WED075",
   "WED076",
-  "WED080",
+  "WED080,WED083,WED084,WED087",
   "WED081",
   "WED082",
   "WED085",
   "WED089",
-  "WED092a",
+  "WED091",
   "WED092b",
   "WED092c",
   "WED092d",
@@ -8315,6 +8518,7 @@ const NEURON_TYPES_DATA = [
   "WED100",
   "WED101",
   "WED102",
+  "WED103",
   "WED104",
   "WED107",
   "WED108",
@@ -8327,7 +8531,7 @@ const NEURON_TYPES_DATA = [
   "WED124",
   "WED125",
   "WED127",
-  "WED128",
+  "WED128,WED129",
   "WED130",
   "WED144",
   "WED145",
@@ -8338,7 +8542,6 @@ const NEURON_TYPES_DATA = [
   "WED153",
   "WED155a",
   "WED155b",
-  "WED160",
   "WED161",
   "WED162",
   "WED163a",
@@ -8347,10 +8550,12 @@ const NEURON_TYPES_DATA = [
   "WED164a",
   "WED164b",
   "WED165",
+  "WED166_d",
   "WED168",
   "WED174",
   "WED181",
   "WED182",
+  "WED26b",
   "WEDPN10A",
   "WEDPN10B",
   "WEDPN11",
@@ -8362,24 +8567,20 @@ const NEURON_TYPES_DATA = [
   "WEDPN2B",
   "WEDPN3",
   "WEDPN4",
+  "WEDPN5",
   "WEDPN6A",
-  "WEDPN6B",
+  "WEDPN6B, WEDPN6C",
   "WEDPN7B",
   "WEDPN7C",
   "WEDPN8B",
   "WEDPN8D",
   "WEDPN9",
-  "WV-WV-1",
-  "WV-WV-2",
-  "WV-WV-3",
   "Y1",
   "Y11",
   "Y12",
   "Y3",
   "Y4",
   "Z_vPNml1",
-  "aDT6",
-  "aIPgb",
   "aMe1",
   "aMe10",
   "aMe12",
@@ -8400,24 +8601,29 @@ const NEURON_TYPES_DATA = [
   "aMe4",
   "aMe5",
   "aMe6a",
+  "aMe6b",
+  "aMe6c",
   "aMe8",
   "aMe9",
-  "aSG7",
-  "aSP-f1A",
+  "aPhM1",
+  "aPhM2a",
+  "aPhM2b",
+  "aPhM3",
+  "aPhM4",
+  "aPhM5",
+  "aPhM6",
+  "aSP-f1A,aSP-f1B,aSP-f2",
   "aSP-f3",
   "aSP-f4",
   "aSP-g1",
   "aSP-g2",
   "aSP-g3A",
   "aSP-g3B",
-  "aSP14",
-  "aSP6",
-  "aSP8",
+  "aSP22",
   "cL01",
   "cL02a",
   "cL02b",
   "cL02c",
-  "cL02d",
   "cL03",
   "cL04",
   "cL05",
@@ -8478,6 +8684,8 @@ const NEURON_TYPES_DATA = [
   "cML02",
   "cMLLP01",
   "cMLLP02",
+  "claw_tpGRN",
+  "dorsal_tpGRN",
   "hDeltaA",
   "hDeltaB",
   "hDeltaC",
@@ -8523,8 +8731,15 @@ const NEURON_TYPES_DATA = [
   "lLN2X12",
   "lLN8",
   "lLN9",
+  "lLN9,lLN17a",
+  "lNSC_unknown",
   "labial_nerve_sensory_descending",
-  "mAL",
+  "mAL4",
+  "mAL4B",
+  "mAL4I",
+  "mAL5A",
+  "mAL5B",
+  "mAL6",
   "mALB1",
   "mALB2",
   "mALB3",
@@ -8538,7 +8753,11 @@ const NEURON_TYPES_DATA = [
   "mALD2",
   "mALD3",
   "mALD4",
-  "ocellar_retinula_cell",
+  "mAL_f1",
+  "mAL_f2",
+  "mAL_f3",
+  "mAL_f4",
+  "mNSC_unknown",
   "oviDNa_a",
   "oviDNa_b",
   "oviDNb",
@@ -8548,12 +8767,10 @@ const NEURON_TYPES_DATA = [
   "pC1c",
   "pC1d",
   "pC1e",
-  "pC2la",
-  "pMP6",
-  "pSP9",
+  "pDm8",
+  "s-LNv_a",
   "s-LNv_b",
-  "s-LNva",
-  "s-LNvb",
+  "uncertain",
   "v2LN30",
   "v2LN31",
   "v2LN32",
@@ -8579,282 +8796,85 @@ const NEURON_TYPES_DATA = [
   "v2LN5",
   "v2LNX01",
   "vCal1",
-  "vDelta",
-  "vDeltaA",
+  "vDeltaA_a",
+  "vDeltaA_b",
+  "vDeltaB",
+  "vDeltaC",
+  "vDeltaD",
+  "vDeltaE",
   "vDeltaF",
+  "vDeltaG,vDeltaH",
+  "vDeltaI_a",
+  "vDeltaI_b",
+  "vDeltaJ",
+  "vDeltaK",
+  "vDeltaL",
+  "vDeltaM",
   "vLN24",
   "vLN25",
   "vLN26",
   "vLN27",
-  "vLN28",
-  "vpoEN"
+  "vLN28,vLN29",
+  "vpoEN",
+  "yDm8"
 ];
 
 // Detailed neuron data with URLs for navigation
 const NEURON_DATA = [
   {
-    "name": "4A0",
+    "name": "(PLP191,PLP192)a",
     "urls": {
-      "combined": "types/4A0.html",
-      "left": "types/4A0_L.html",
-      "right": "types/4A0_R.html"
+      "combined": "types/(PLP191,PLP192)a.html",
+      "left": "types/(PLP191,PLP192)a_L.html",
+      "right": "types/(PLP191,PLP192)a_R.html"
     },
-    "synonyms": "CB.FB3, FB4N",
+    "synonyms": null,
     "flywire_types": null,
-    "primary_url": "types/4A0.html"
+    "primary_url": "types/(PLP191,PLP192)a.html"
   },
   {
-    "name": "4A1",
+    "name": "(PLP191,PLP192)b",
     "urls": {
-      "combined": "types/4A1.html",
-      "left": "types/4A1_L.html",
-      "right": "types/4A1_R.html"
+      "combined": "types/(PLP191,PLP192)b.html",
+      "left": "types/(PLP191,PLP192)b_L.html",
+      "right": "types/(PLP191,PLP192)b_R.html"
     },
-    "synonyms": "CB.FB3, FB4X",
+    "synonyms": null,
     "flywire_types": null,
-    "primary_url": "types/4A1.html"
+    "primary_url": "types/(PLP191,PLP192)b.html"
   },
   {
-    "name": "4A10",
+    "name": "(PS023,PS024)a",
     "urls": {
-      "combined": "types/4A10.html",
-      "left": "types/4A10_L.html",
-      "right": "types/4A10_R.html"
+      "combined": "types/(PS023,PS024)a.html",
+      "left": "types/(PS023,PS024)a_L.html",
+      "right": "types/(PS023,PS024)a_R.html"
     },
-    "synonyms": "CB.FB3, FB4M",
+    "synonyms": null,
     "flywire_types": null,
-    "primary_url": "types/4A10.html"
+    "primary_url": "types/(PS023,PS024)a.html"
   },
   {
-    "name": "4A2",
+    "name": "(PS023,PS024)b",
     "urls": {
-      "combined": "types/4A2.html",
-      "left": "types/4A2_L.html",
-      "right": "types/4A2_R.html"
+      "combined": "types/(PS023,PS024)b.html",
+      "left": "types/(PS023,PS024)b_L.html",
+      "right": "types/(PS023,PS024)b_R.html"
     },
-    "synonyms": "CB.FB3, FB4Z",
+    "synonyms": null,
     "flywire_types": null,
-    "primary_url": "types/4A2.html"
+    "primary_url": "types/(PS023,PS024)b.html"
   },
   {
-    "name": "4A21",
+    "name": "5-HT-IR  Tan",
     "urls": {
-      "combined": "types/4A21.html",
-      "left": "types/4A21_L.html",
-      "right": "types/4A21_R.html"
+      "combined": "types/5-HT-IR__Tan.html",
+      "left": "types/5-HT-IR__Tan_L.html",
+      "right": "types/5-HT-IR__Tan_R.html"
     },
-    "synonyms": "CB.FB3, FB4L",
+    "synonyms": null,
     "flywire_types": null,
-    "primary_url": "types/4A21.html"
-  },
-  {
-    "name": "4A3",
-    "urls": {
-      "combined": "types/4A3.html",
-      "left": "types/4A3_L.html",
-      "right": "types/4A3_R.html"
-    },
-    "synonyms": "CB.FB3, FB4K",
-    "flywire_types": null,
-    "primary_url": "types/4A3.html"
-  },
-  {
-    "name": "4A9",
-    "urls": {
-      "combined": "types/4A9.html",
-      "left": "types/4A9_L.html",
-      "right": "types/4A9_R.html"
-    },
-    "synonyms": "CB.FB3, FB4Y",
-    "flywire_types": null,
-    "primary_url": "types/4A9.html"
-  },
-  {
-    "name": "4D0",
-    "urls": {
-      "combined": "types/4D0.html",
-      "left": "types/4D0_L.html",
-      "right": "types/4D0_R.html"
-    },
-    "synonyms": "CB.FB3, FB4O",
-    "flywire_types": null,
-    "primary_url": "types/4D0.html"
-  },
-  {
-    "name": "4D1",
-    "urls": {
-      "combined": "types/4D1.html",
-      "left": "types/4D1_L.html",
-      "right": "types/4D1_R.html"
-    },
-    "synonyms": "CB.FB3, FB4P, FB4Q, FB4R",
-    "flywire_types": null,
-    "primary_url": "types/4D1.html"
-  },
-  {
-    "name": "4D2",
-    "urls": {
-      "combined": "types/4D2.html",
-      "left": "types/4D2_L.html",
-      "right": "types/4D2_R.html"
-    },
-    "synonyms": "CB.FB3, FB4P_a",
-    "flywire_types": null,
-    "primary_url": "types/4D2.html"
-  },
-  {
-    "name": "4D3",
-    "urls": {
-      "combined": "types/4D3.html",
-      "left": "types/4D3_L.html",
-      "right": "types/4D3_R.html"
-    },
-    "synonyms": "CB.FB3, FB4O",
-    "flywire_types": null,
-    "primary_url": "types/4D3.html"
-  },
-  {
-    "name": "4D4",
-    "urls": {
-      "combined": "types/4D4.html",
-      "left": "types/4D4_L.html",
-      "right": "types/4D4_R.html"
-    },
-    "synonyms": "CB.FB3, FB4Q_b",
-    "flywire_types": null,
-    "primary_url": "types/4D4.html"
-  },
-  {
-    "name": "4I0",
-    "urls": {
-      "combined": "types/4I0.html",
-      "left": "types/4I0_L.html",
-      "right": "types/4I0_R.html"
-    },
-    "synonyms": "CB.FB3, FB3A",
-    "flywire_types": null,
-    "primary_url": "types/4I0.html"
-  },
-  {
-    "name": "4I1",
-    "urls": {
-      "combined": "types/4I1.html",
-      "left": "types/4I1_L.html",
-      "right": "types/4I1_R.html"
-    },
-    "synonyms": "CB.FB3, FB5J, FB5K, FB5L, FB5M, FB5N, FB5W",
-    "flywire_types": null,
-    "primary_url": "types/4I1.html"
-  },
-  {
-    "name": "4I2",
-    "urls": {
-      "combined": "types/4I2.html",
-      "left": "types/4I2_L.html",
-      "right": "types/4I2_R.html"
-    },
-    "synonyms": "CB.FB3, FB5J, FB5K, FB5L, FB5M, FB5N, FB5W",
-    "flywire_types": null,
-    "primary_url": "types/4I2.html"
-  },
-  {
-    "name": "4I3",
-    "urls": {
-      "combined": "types/4I3.html",
-      "left": "types/4I3_L.html",
-      "right": "types/4I3_R.html"
-    },
-    "synonyms": "CB.FB3, FB4A, FB4D, FB4E, FB4F, FB4G, FB4H, FB4I, FB4J",
-    "flywire_types": null,
-    "primary_url": "types/4I3.html"
-  },
-  {
-    "name": "4I4",
-    "urls": {
-      "combined": "types/4I4.html",
-      "left": "types/4I4_L.html",
-      "right": "types/4I4_R.html"
-    },
-    "synonyms": "CB.FB3, FB4A, FB4D, FB4E, FB4F, FB4G, FB4H, FB4I, FB4J",
-    "flywire_types": null,
-    "primary_url": "types/4I4.html"
-  },
-  {
-    "name": "4I5",
-    "urls": {
-      "combined": "types/4I5.html",
-      "left": "types/4I5_L.html",
-      "right": "types/4I5_R.html"
-    },
-    "synonyms": "CB.FB3, FB4C",
-    "flywire_types": null,
-    "primary_url": "types/4I5.html"
-  },
-  {
-    "name": "4I6",
-    "urls": {
-      "combined": "types/4I6.html",
-      "left": "types/4I6_L.html",
-      "right": "types/4I6_R.html"
-    },
-    "synonyms": "CB.FB3, FB4A, FB4D, FB4E, FB4F, FB4G, FB4H, FB4I, FB4J",
-    "flywire_types": null,
-    "primary_url": "types/4I6.html"
-  },
-  {
-    "name": "4I7",
-    "urls": {
-      "combined": "types/4I7.html",
-      "left": "types/4I7_L.html",
-      "right": "types/4I7_R.html"
-    },
-    "synonyms": "CB.FB3, FB4A, FB4D, FB4E, FB4F, FB4G, FB4H, FB4I, FB4J",
-    "flywire_types": null,
-    "primary_url": "types/4I7.html"
-  },
-  {
-    "name": "4I8",
-    "urls": {
-      "combined": "types/4I8.html",
-      "left": "types/4I8_L.html",
-      "right": "types/4I8_R.html"
-    },
-    "synonyms": "CB.FB3, FB4B",
-    "flywire_types": null,
-    "primary_url": "types/4I8.html"
-  },
-  {
-    "name": "4I9",
-    "urls": {
-      "combined": "types/4I9.html",
-      "left": "types/4I9_L.html",
-      "right": "types/4I9_R.html"
-    },
-    "synonyms": "CB.FB3, FB4A, FB4D, FB4E, FB4F, FB4G, FB4H, FB4I, FB4J",
-    "flywire_types": null,
-    "primary_url": "types/4I9.html"
-  },
-  {
-    "name": "4L0",
-    "urls": {
-      "combined": "types/4L0.html",
-      "left": "types/4L0_L.html",
-      "right": "types/4L0_R.html"
-    },
-    "synonyms": "CB.FB3",
-    "flywire_types": null,
-    "primary_url": "types/4L0.html"
-  },
-  {
-    "name": "4L1",
-    "urls": {
-      "combined": "types/4L1.html",
-      "left": "types/4L1_L.html",
-      "right": "types/4L1_R.html"
-    },
-    "synonyms": "CB.FB3",
-    "flywire_types": null,
-    "primary_url": "types/4L1.html"
+    "primary_url": "types/5-HT-IR__Tan.html"
   },
   {
     "name": "5-HTPLP01",
@@ -8901,13 +8921,13 @@ const NEURON_DATA = [
     "primary_url": "types/5-HTPMPV03.html"
   },
   {
-    "name": "AC_neuron",
+    "name": "AC neuron",
     "urls": {
       "combined": "types/AC_neuron.html",
       "left": "types/AC_neuron_L.html",
       "right": "types/AC_neuron_R.html"
     },
-    "synonyms": "aDT4",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/AC_neuron.html"
   },
@@ -8918,7 +8938,7 @@ const NEURON_DATA = [
       "left": "types/AL-AST1_L.html",
       "right": "types/AL-AST1_R.html"
     },
-    "synonyms": null,
+    "synonyms": "fru-F-300101",
     "flywire_types": null,
     "primary_url": "types/AL-AST1.html"
   },
@@ -8951,7 +8971,7 @@ const NEURON_DATA = [
       "left": "types/ALIN1_L.html",
       "right": "types/ALIN1_R.html"
     },
-    "synonyms": null,
+    "synonyms": "fru-F-000130",
     "flywire_types": null,
     "primary_url": "types/ALIN1.html"
   },
@@ -8984,7 +9004,7 @@ const NEURON_DATA = [
       "left": "types/ALIN4_L.html",
       "right": "types/ALIN4_R.html"
     },
-    "synonyms": "lLN7",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/ALIN4.html"
   },
@@ -9072,9 +9092,53 @@ const NEURON_DATA = [
       "left": "types/AMMC-A1_L.html",
       "right": "types/AMMC-A1_R.html"
     },
-    "synonyms": "A1",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/AMMC-A1.html"
+  },
+  {
+    "name": "AMMC028",
+    "urls": {
+      "combined": "types/AMMC028.html",
+      "left": "types/AMMC028_L.html",
+      "right": "types/AMMC028_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/AMMC028.html"
+  },
+  {
+    "name": "AN01A021",
+    "urls": {
+      "combined": "types/AN01A021.html",
+      "left": "types/AN01A021_L.html",
+      "right": "types/AN01A021_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/AN01A021.html"
+  },
+  {
+    "name": "AN19A018",
+    "urls": {
+      "combined": "types/AN19A018.html",
+      "left": "types/AN19A018_L.html",
+      "right": "types/AN19A018_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/AN19A018.html"
+  },
+  {
+    "name": "ANXXX005",
+    "urls": {
+      "combined": "types/ANXXX005.html",
+      "left": "types/ANXXX005_L.html",
+      "right": "types/ANXXX005_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/ANXXX005.html"
   },
   {
     "name": "AN_AMMC_SAD_1",
@@ -10007,7 +10071,7 @@ const NEURON_DATA = [
       "left": "types/AN_AVLP_PVLP_5_L.html",
       "right": "types/AN_AVLP_PVLP_5_R.html"
     },
-    "synonyms": "hb-1197455013",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/AN_AVLP_PVLP_5.html"
   },
@@ -12806,6 +12870,17 @@ const NEURON_DATA = [
     "primary_url": "types/AN_GNG_PRW_4.html"
   },
   {
+    "name": "AN_GNG_SAD33",
+    "urls": {
+      "combined": "types/AN_GNG_SAD33.html",
+      "left": "types/AN_GNG_SAD33_L.html",
+      "right": "types/AN_GNG_SAD33_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/AN_GNG_SAD33.html"
+  },
+  {
     "name": "AN_GNG_SAD_1",
     "urls": {
       "combined": "types/AN_GNG_SAD_1.html",
@@ -12977,7 +13052,7 @@ const NEURON_DATA = [
       "left": "types/AN_GNG_SAD_23_L.html",
       "right": "types/AN_GNG_SAD_23_R.html"
     },
-    "synonyms": null,
+    "synonyms": "Lillvis 2024: dMS9",
     "flywire_types": null,
     "primary_url": "types/AN_GNG_SAD_23.html"
   },
@@ -13087,7 +13162,7 @@ const NEURON_DATA = [
       "left": "types/AN_GNG_SAD_32_L.html",
       "right": "types/AN_GNG_SAD_32_R.html"
     },
-    "synonyms": null,
+    "synonyms": "Lillvis 2024: vPR13",
     "flywire_types": null,
     "primary_url": "types/AN_GNG_SAD_32.html"
   },
@@ -13283,7 +13358,7 @@ const NEURON_DATA = [
       "left": "types/AN_GNG_VES_5_L.html",
       "right": "types/AN_GNG_VES_5_R.html"
     },
-    "synonyms": null,
+    "synonyms": "Cachero 2010: vPr-g",
     "flywire_types": null,
     "primary_url": "types/AN_GNG_VES_5.html"
   },
@@ -13578,7 +13653,7 @@ const NEURON_DATA = [
       "left": "types/AN_SLP_LH_1_L.html",
       "right": "types/AN_SLP_LH_1_R.html"
     },
-    "synonyms": "hb-422328492",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/AN_SLP_LH_1.html"
   },
@@ -13598,7 +13673,7 @@ const NEURON_DATA = [
       "left": "types/AN_SMP_2_L.html",
       "right": "types/AN_SMP_2_R.html"
     },
-    "synonyms": "SAG",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/AN_SMP_2.html"
   },
@@ -13928,18 +14003,20 @@ const NEURON_DATA = [
       "left": "types/AN_multi_105_L.html",
       "right": "types/AN_multi_105_R.html"
     },
-    "synonyms": "hb-706176085",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/AN_multi_105.html"
   },
   {
     "name": "AN_multi_106",
     "urls": {
+      "combined": "types/AN_multi_106.html",
+      "left": "types/AN_multi_106_L.html",
       "right": "types/AN_multi_106_R.html"
     },
     "synonyms": null,
     "flywire_types": null,
-    "primary_url": "types/AN_multi_106_R.html"
+    "primary_url": "types/AN_multi_106.html"
   },
   {
     "name": "AN_multi_107",
@@ -14140,17 +14217,6 @@ const NEURON_DATA = [
     "primary_url": "types/AN_multi_122.html"
   },
   {
-    "name": "AN_multi_123",
-    "urls": {
-      "combined": "types/AN_multi_123.html",
-      "left": "types/AN_multi_123_L.html",
-      "right": "types/AN_multi_123_R.html"
-    },
-    "synonyms": null,
-    "flywire_types": null,
-    "primary_url": "types/AN_multi_123.html"
-  },
-  {
     "name": "AN_multi_124",
     "urls": {
       "combined": "types/AN_multi_124.html",
@@ -14243,7 +14309,7 @@ const NEURON_DATA = [
       "left": "types/AN_multi_17_L.html",
       "right": "types/AN_multi_17_R.html"
     },
-    "synonyms": "IB113",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/AN_multi_17.html"
   },
@@ -14375,7 +14441,7 @@ const NEURON_DATA = [
       "left": "types/AN_multi_28_L.html",
       "right": "types/AN_multi_28_R.html"
     },
-    "synonyms": "PS299",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/AN_multi_28.html"
   },
@@ -15024,7 +15090,7 @@ const NEURON_DATA = [
       "left": "types/AN_multi_82_L.html",
       "right": "types/AN_multi_82_R.html"
     },
-    "synonyms": "hb-611262552, hb-704367157",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/AN_multi_82.html"
   },
@@ -15233,7 +15299,7 @@ const NEURON_DATA = [
       "left": "types/AOTU007_L.html",
       "right": "types/AOTU007_R.html"
     },
-    "synonyms": "aSP11",
+    "synonyms": "Cachero 2010: aSP-i; Yu 2010: aSP11",
     "flywire_types": null,
     "primary_url": "types/AOTU007.html"
   },
@@ -15244,7 +15310,7 @@ const NEURON_DATA = [
       "left": "types/AOTU008a_L.html",
       "right": "types/AOTU008a_R.html"
     },
-    "synonyms": "AOTU008, aSP11",
+    "synonyms": "Cachero 2010: aSP-i; Yu 2010: aSP11; Kimura 2008: AL5a",
     "flywire_types": null,
     "primary_url": "types/AOTU008a.html"
   },
@@ -15255,7 +15321,7 @@ const NEURON_DATA = [
       "left": "types/AOTU008b_L.html",
       "right": "types/AOTU008b_R.html"
     },
-    "synonyms": "AOTU008",
+    "synonyms": "Cachero 2010: aSP-i; Yu 2010: aSP11; Kimura 2008: AL5a",
     "flywire_types": null,
     "primary_url": "types/AOTU008b.html"
   },
@@ -15266,7 +15332,7 @@ const NEURON_DATA = [
       "left": "types/AOTU008c_L.html",
       "right": "types/AOTU008c_R.html"
     },
-    "synonyms": "AOTU008, aSP11",
+    "synonyms": "Cachero 2010: aSP-i; Yu 2010: aSP11; Kimura 2008: AL5a",
     "flywire_types": null,
     "primary_url": "types/AOTU008c.html"
   },
@@ -15277,7 +15343,7 @@ const NEURON_DATA = [
       "left": "types/AOTU008d_L.html",
       "right": "types/AOTU008d_R.html"
     },
-    "synonyms": "AOTU008, aSP11",
+    "synonyms": "Cachero 2010: aSP-i; Yu 2010: aSP11; Kimura 2008: AL5a",
     "flywire_types": null,
     "primary_url": "types/AOTU008d.html"
   },
@@ -15310,7 +15376,7 @@ const NEURON_DATA = [
       "left": "types/AOTU012_L.html",
       "right": "types/AOTU012_R.html"
     },
-    "synonyms": "aSP24",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/AOTU012.html"
   },
@@ -15332,7 +15398,7 @@ const NEURON_DATA = [
       "left": "types/AOTU014_L.html",
       "right": "types/AOTU014_R.html"
     },
-    "synonyms": null,
+    "synonyms": "fru-F-100053, fru-F-500213, fru-F-100027",
     "flywire_types": null,
     "primary_url": "types/AOTU014.html"
   },
@@ -15343,7 +15409,7 @@ const NEURON_DATA = [
       "left": "types/AOTU015a_L.html",
       "right": "types/AOTU015a_R.html"
     },
-    "synonyms": "AOTU015, aSP16",
+    "synonyms": "Cachero 2010: aSP-d; Yu 2010: aSP13",
     "flywire_types": null,
     "primary_url": "types/AOTU015a.html"
   },
@@ -15354,20 +15420,20 @@ const NEURON_DATA = [
       "left": "types/AOTU015b_L.html",
       "right": "types/AOTU015b_R.html"
     },
-    "synonyms": "AOTU015",
+    "synonyms": "Cachero 2010: aSP-d; Yu 2010: aSP13",
     "flywire_types": null,
     "primary_url": "types/AOTU015b.html"
   },
   {
-    "name": "AOTU018",
+    "name": "AOTU018,AOTU031",
     "urls": {
-      "combined": "types/AOTU018.html",
-      "left": "types/AOTU018_L.html",
-      "right": "types/AOTU018_R.html"
+      "combined": "types/AOTU018,AOTU031.html",
+      "left": "types/AOTU018,AOTU031_L.html",
+      "right": "types/AOTU018,AOTU031_R.html"
     },
-    "synonyms": "AOTU031",
+    "synonyms": "Cachero 2010: aSP-j; Yu 2010: aSP12",
     "flywire_types": null,
-    "primary_url": "types/AOTU018.html"
+    "primary_url": "types/AOTU018,AOTU031.html"
   },
   {
     "name": "AOTU019",
@@ -15453,7 +15519,7 @@ const NEURON_DATA = [
       "left": "types/AOTU026_L.html",
       "right": "types/AOTU026_R.html"
     },
-    "synonyms": "aSP16",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/AOTU026.html"
   },
@@ -15464,7 +15530,7 @@ const NEURON_DATA = [
       "left": "types/AOTU027_L.html",
       "right": "types/AOTU027_R.html"
     },
-    "synonyms": "aSP16",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/AOTU027.html"
   },
@@ -15491,15 +15557,15 @@ const NEURON_DATA = [
     "primary_url": "types/AOTU030.html"
   },
   {
-    "name": "AOTU032",
+    "name": "AOTU032,AOTU034",
     "urls": {
-      "combined": "types/AOTU032.html",
-      "left": "types/AOTU032_L.html",
-      "right": "types/AOTU032_R.html"
+      "combined": "types/AOTU032,AOTU034.html",
+      "left": "types/AOTU032,AOTU034_L.html",
+      "right": "types/AOTU032,AOTU034_R.html"
     },
-    "synonyms": "AOTU034",
+    "synonyms": null,
     "flywire_types": null,
-    "primary_url": "types/AOTU032.html"
+    "primary_url": "types/AOTU032,AOTU034.html"
   },
   {
     "name": "AOTU033",
@@ -15552,7 +15618,7 @@ const NEURON_DATA = [
       "left": "types/AOTU038_L.html",
       "right": "types/AOTU038_R.html"
     },
-    "synonyms": null,
+    "synonyms": "Cachero 2010: aSPi; Yu 2010: aSP11",
     "flywire_types": null,
     "primary_url": "types/AOTU038.html"
   },
@@ -15563,7 +15629,7 @@ const NEURON_DATA = [
       "left": "types/AOTU039_L.html",
       "right": "types/AOTU039_R.html"
     },
-    "synonyms": null,
+    "synonyms": "Cachero 2010: aSPi; Yu 2010: aSP11",
     "flywire_types": null,
     "primary_url": "types/AOTU039.html"
   },
@@ -15585,7 +15651,7 @@ const NEURON_DATA = [
       "left": "types/AOTU042_L.html",
       "right": "types/AOTU042_R.html"
     },
-    "synonyms": "aDT10",
+    "synonyms": "Cachero 2010: aDT-c",
     "flywire_types": null,
     "primary_url": "types/AOTU042.html"
   },
@@ -15618,9 +15684,29 @@ const NEURON_DATA = [
       "left": "types/AOTU048_L.html",
       "right": "types/AOTU048_R.html"
     },
-    "synonyms": "AOTU049",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/AOTU048.html"
+  },
+  {
+    "name": "AOTU049",
+    "urls": {
+      "combined": "types/AOTU049.html",
+      "left": "types/AOTU049_L.html",
+      "right": "types/AOTU049_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/AOTU049.html"
+  },
+  {
+    "name": "AOTU050",
+    "urls": {
+      "right": "types/AOTU050_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/AOTU050_R.html"
   },
   {
     "name": "AOTU050a",
@@ -15629,7 +15715,7 @@ const NEURON_DATA = [
       "left": "types/AOTU050a_L.html",
       "right": "types/AOTU050a_R.html"
     },
-    "synonyms": "AOTU050",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/AOTU050a.html"
   },
@@ -15640,7 +15726,7 @@ const NEURON_DATA = [
       "left": "types/AOTU050b_L.html",
       "right": "types/AOTU050b_R.html"
     },
-    "synonyms": "AOTU050",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/AOTU050b.html"
   },
@@ -15678,6 +15764,17 @@ const NEURON_DATA = [
     "primary_url": "types/AOTU053.html"
   },
   {
+    "name": "AOTU054",
+    "urls": {
+      "combined": "types/AOTU054.html",
+      "left": "types/AOTU054_L.html",
+      "right": "types/AOTU054_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/AOTU054.html"
+  },
+  {
     "name": "AOTU059",
     "urls": {
       "combined": "types/AOTU059.html",
@@ -15695,7 +15792,7 @@ const NEURON_DATA = [
       "left": "types/AOTU060_L.html",
       "right": "types/AOTU060_R.html"
     },
-    "synonyms": "pIP14",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/AOTU060.html"
   },
@@ -15706,7 +15803,7 @@ const NEURON_DATA = [
       "left": "types/AOTU061_L.html",
       "right": "types/AOTU061_R.html"
     },
-    "synonyms": null,
+    "synonyms": "Cachero 2010: pIP-e;Yu 2010: pIP5",
     "flywire_types": null,
     "primary_url": "types/AOTU061.html"
   },
@@ -15717,7 +15814,7 @@ const NEURON_DATA = [
       "left": "types/AOTU062_L.html",
       "right": "types/AOTU062_R.html"
     },
-    "synonyms": null,
+    "synonyms": "Cachero 2010: pIP-e;Yu 2010: pIP5",
     "flywire_types": null,
     "primary_url": "types/AOTU062.html"
   },
@@ -15728,7 +15825,7 @@ const NEURON_DATA = [
       "left": "types/AOTU063a_L.html",
       "right": "types/AOTU063a_R.html"
     },
-    "synonyms": "AOTU063",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/AOTU063a.html"
   },
@@ -15739,7 +15836,7 @@ const NEURON_DATA = [
       "left": "types/AOTU063b_L.html",
       "right": "types/AOTU063b_R.html"
     },
-    "synonyms": "AOTU063",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/AOTU063b.html"
   },
@@ -15772,7 +15869,7 @@ const NEURON_DATA = [
       "left": "types/AOTUv1A_T01_L.html",
       "right": "types/AOTUv1A_T01_R.html"
     },
-    "synonyms": "SMP148",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/AOTUv1A_T01.html"
   },
@@ -15783,7 +15880,7 @@ const NEURON_DATA = [
       "left": "types/AOTUv3B_M01_L.html",
       "right": "types/AOTUv3B_M01_R.html"
     },
-    "synonyms": "SMP013",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/AOTUv3B_M01.html"
   },
@@ -15794,7 +15891,7 @@ const NEURON_DATA = [
       "left": "types/AOTUv3B_P01_L.html",
       "right": "types/AOTUv3B_P01_R.html"
     },
-    "synonyms": "AOTU006",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/AOTUv3B_P01.html"
   },
@@ -15805,7 +15902,7 @@ const NEURON_DATA = [
       "left": "types/AOTUv3B_P02_L.html",
       "right": "types/AOTUv3B_P02_R.html"
     },
-    "synonyms": "AOTU005",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/AOTUv3B_P02.html"
   },
@@ -15816,7 +15913,7 @@ const NEURON_DATA = [
       "left": "types/AOTUv3B_P06_L.html",
       "right": "types/AOTUv3B_P06_R.html"
     },
-    "synonyms": "SIP004",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/AOTUv3B_P06.html"
   },
@@ -15827,7 +15924,7 @@ const NEURON_DATA = [
       "left": "types/AOTUv4B_P02_L.html",
       "right": "types/AOTUv4B_P02_R.html"
     },
-    "synonyms": "AOTU029",
+    "synonyms": "Cachero 2010: aSP-j;Yu 2010: aSP12",
     "flywire_types": null,
     "primary_url": "types/AOTUv4B_P02.html"
   },
@@ -15838,7 +15935,7 @@ const NEURON_DATA = [
       "left": "types/APDN3_L.html",
       "right": "types/APDN3_R.html"
     },
-    "synonyms": "SLP249",
+    "synonyms": "Cachero 2010: pSP-b;Yu 2010: pSP2/3",
     "flywire_types": null,
     "primary_url": "types/APDN3.html"
   },
@@ -16008,15 +16105,15 @@ const NEURON_DATA = [
     "primary_url": "types/ATL016.html"
   },
   {
-    "name": "ATL017",
+    "name": "ATL017,ATL018",
     "urls": {
-      "combined": "types/ATL017.html",
-      "left": "types/ATL017_L.html",
-      "right": "types/ATL017_R.html"
+      "combined": "types/ATL017,ATL018.html",
+      "left": "types/ATL017,ATL018_L.html",
+      "right": "types/ATL017,ATL018_R.html"
     },
-    "synonyms": "ATL018",
+    "synonyms": null,
     "flywire_types": null,
-    "primary_url": "types/ATL017.html"
+    "primary_url": "types/ATL017,ATL018.html"
   },
   {
     "name": "ATL021",
@@ -16052,15 +16149,15 @@ const NEURON_DATA = [
     "primary_url": "types/ATL023.html"
   },
   {
-    "name": "ATL024",
+    "name": "ATL024,IB042",
     "urls": {
-      "combined": "types/ATL024.html",
-      "left": "types/ATL024_L.html",
-      "right": "types/ATL024_R.html"
+      "combined": "types/ATL024,IB042.html",
+      "left": "types/ATL024,IB042_L.html",
+      "right": "types/ATL024,IB042_R.html"
     },
-    "synonyms": "IB042",
+    "synonyms": null,
     "flywire_types": null,
-    "primary_url": "types/ATL024.html"
+    "primary_url": "types/ATL024,IB042.html"
   },
   {
     "name": "ATL025",
@@ -16135,7 +16232,7 @@ const NEURON_DATA = [
       "left": "types/ATL031_L.html",
       "right": "types/ATL031_R.html"
     },
-    "synonyms": "pMP14",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/ATL031.html"
   },
@@ -16146,7 +16243,7 @@ const NEURON_DATA = [
       "left": "types/ATL032_L.html",
       "right": "types/ATL032_R.html"
     },
-    "synonyms": "pMP14",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/ATL032.html"
   },
@@ -16173,15 +16270,15 @@ const NEURON_DATA = [
     "primary_url": "types/ATL034.html"
   },
   {
-    "name": "ATL035",
+    "name": "ATL035,ATL036",
     "urls": {
-      "combined": "types/ATL035.html",
-      "left": "types/ATL035_L.html",
-      "right": "types/ATL035_R.html"
+      "combined": "types/ATL035,ATL036.html",
+      "left": "types/ATL035,ATL036_L.html",
+      "right": "types/ATL035,ATL036_R.html"
     },
-    "synonyms": "ATL036",
+    "synonyms": null,
     "flywire_types": null,
-    "primary_url": "types/ATL035.html"
+    "primary_url": "types/ATL035,ATL036.html"
   },
   {
     "name": "ATL037",
@@ -16195,15 +16292,15 @@ const NEURON_DATA = [
     "primary_url": "types/ATL037.html"
   },
   {
-    "name": "ATL038",
+    "name": "ATL038,ATL039",
     "urls": {
-      "combined": "types/ATL038.html",
-      "left": "types/ATL038_L.html",
-      "right": "types/ATL038_R.html"
+      "combined": "types/ATL038,ATL039.html",
+      "left": "types/ATL038,ATL039_L.html",
+      "right": "types/ATL038,ATL039_R.html"
     },
-    "synonyms": "ATL039",
+    "synonyms": null,
     "flywire_types": null,
-    "primary_url": "types/ATL038.html"
+    "primary_url": "types/ATL038,ATL039.html"
   },
   {
     "name": "ATL040",
@@ -16250,15 +16347,6 @@ const NEURON_DATA = [
     "primary_url": "types/ATL044.html"
   },
   {
-    "name": "AVLP/PVLP_pr01",
-    "urls": {
-      "right": "types/AVLP_PVLP_pr01_R.html"
-    },
-    "synonyms": null,
-    "flywire_types": null,
-    "primary_url": "types/AVLP_PVLP_pr01_R.html"
-  },
-  {
     "name": "AVLP001",
     "urls": {
       "combined": "types/AVLP001.html",
@@ -16276,7 +16364,7 @@ const NEURON_DATA = [
       "left": "types/AVLP006a_L.html",
       "right": "types/AVLP006a_R.html"
     },
-    "synonyms": "AVLP006, AVLP_pr01",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/AVLP006a.html"
   },
@@ -16287,7 +16375,7 @@ const NEURON_DATA = [
       "left": "types/AVLP006b_L.html",
       "right": "types/AVLP006b_R.html"
     },
-    "synonyms": "AVLP006, AVLP_pr01",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/AVLP006b.html"
   },
@@ -16298,7 +16386,7 @@ const NEURON_DATA = [
       "left": "types/AVLP008_L.html",
       "right": "types/AVLP008_R.html"
     },
-    "synonyms": "vpoIN, aSP8",
+    "synonyms": "Cachero 2010: aSP-k;Yu 2010: aSP8",
     "flywire_types": null,
     "primary_url": "types/AVLP008.html"
   },
@@ -16309,7 +16397,7 @@ const NEURON_DATA = [
       "left": "types/AVLP009_L.html",
       "right": "types/AVLP009_R.html"
     },
-    "synonyms": "AVLP_pr02, aSP8",
+    "synonyms": "Cachero 2010: aSP-k;Yu 2010: aSP8",
     "flywire_types": null,
     "primary_url": "types/AVLP009.html"
   },
@@ -16320,20 +16408,20 @@ const NEURON_DATA = [
       "left": "types/AVLP010_L.html",
       "right": "types/AVLP010_R.html"
     },
-    "synonyms": "aSP6",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/AVLP010.html"
   },
   {
-    "name": "AVLP011",
+    "name": "AVLP011,AVLP012",
     "urls": {
-      "combined": "types/AVLP011.html",
-      "left": "types/AVLP011_L.html",
-      "right": "types/AVLP011_R.html"
+      "combined": "types/AVLP011,AVLP012.html",
+      "left": "types/AVLP011,AVLP012_L.html",
+      "right": "types/AVLP011,AVLP012_R.html"
     },
-    "synonyms": "AVLP012",
+    "synonyms": null,
     "flywire_types": null,
-    "primary_url": "types/AVLP011.html"
+    "primary_url": "types/AVLP011,AVLP012.html"
   },
   {
     "name": "AVLP013",
@@ -16463,7 +16551,7 @@ const NEURON_DATA = [
       "left": "types/AVLP024a_L.html",
       "right": "types/AVLP024a_R.html"
     },
-    "synonyms": "AVLP024",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/AVLP024a.html"
   },
@@ -16474,7 +16562,7 @@ const NEURON_DATA = [
       "left": "types/AVLP024b_L.html",
       "right": "types/AVLP024b_R.html"
     },
-    "synonyms": "AVLP024",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/AVLP024b.html"
   },
@@ -16485,7 +16573,7 @@ const NEURON_DATA = [
       "left": "types/AVLP024c_L.html",
       "right": "types/AVLP024c_R.html"
     },
-    "synonyms": "AVLP024",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/AVLP024c.html"
   },
@@ -16510,6 +16598,17 @@ const NEURON_DATA = [
     "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/AVLP026.html"
+  },
+  {
+    "name": "AVLP027",
+    "urls": {
+      "combined": "types/AVLP027.html",
+      "left": "types/AVLP027_L.html",
+      "right": "types/AVLP027_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/AVLP027.html"
   },
   {
     "name": "AVLP028",
@@ -16600,15 +16699,26 @@ const NEURON_DATA = [
     "primary_url": "types/AVLP035.html"
   },
   {
-    "name": "AVLP037",
+    "name": "AVLP037,AVLP038",
     "urls": {
-      "combined": "types/AVLP037.html",
-      "left": "types/AVLP037_L.html",
-      "right": "types/AVLP037_R.html"
+      "combined": "types/AVLP037,AVLP038.html",
+      "left": "types/AVLP037,AVLP038_L.html",
+      "right": "types/AVLP037,AVLP038_R.html"
     },
-    "synonyms": "AVLP038",
+    "synonyms": null,
     "flywire_types": null,
-    "primary_url": "types/AVLP037.html"
+    "primary_url": "types/AVLP037,AVLP038.html"
+  },
+  {
+    "name": "AVLP038",
+    "urls": {
+      "combined": "types/AVLP038.html",
+      "left": "types/AVLP038_L.html",
+      "right": "types/AVLP038_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/AVLP038.html"
   },
   {
     "name": "AVLP039",
@@ -16666,15 +16776,15 @@ const NEURON_DATA = [
     "primary_url": "types/AVLP043.html"
   },
   {
-    "name": "AVLP044a",
+    "name": "AVLP044_a",
     "urls": {
-      "combined": "types/AVLP044a.html",
-      "left": "types/AVLP044a_L.html",
-      "right": "types/AVLP044a_R.html"
+      "combined": "types/AVLP044_a.html",
+      "left": "types/AVLP044_a_L.html",
+      "right": "types/AVLP044_a_R.html"
     },
-    "synonyms": "AVLP044",
+    "synonyms": null,
     "flywire_types": null,
-    "primary_url": "types/AVLP044a.html"
+    "primary_url": "types/AVLP044_a.html"
   },
   {
     "name": "AVLP044b",
@@ -16683,7 +16793,7 @@ const NEURON_DATA = [
       "left": "types/AVLP044b_L.html",
       "right": "types/AVLP044b_R.html"
     },
-    "synonyms": "AVLP044",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/AVLP044b.html"
   },
@@ -16815,7 +16925,7 @@ const NEURON_DATA = [
       "left": "types/AVLP075_L.html",
       "right": "types/AVLP075_R.html"
     },
-    "synonyms": "aSP21",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/AVLP075.html"
   },
@@ -16974,13 +17084,22 @@ const NEURON_DATA = [
     "primary_url": "types/AVLP089.html"
   },
   {
+    "name": "AVLP090",
+    "urls": {
+      "left": "types/AVLP090_L.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/AVLP090_L.html"
+  },
+  {
     "name": "AVLP091",
     "urls": {
       "combined": "types/AVLP091.html",
       "left": "types/AVLP091_L.html",
       "right": "types/AVLP091_R.html"
     },
-    "synonyms": "AVLP_pr35",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/AVLP091.html"
   },
@@ -17013,7 +17132,7 @@ const NEURON_DATA = [
       "left": "types/AVLP096_L.html",
       "right": "types/AVLP096_R.html"
     },
-    "synonyms": "AVLP256",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/AVLP096.html"
   },
@@ -17200,7 +17319,7 @@ const NEURON_DATA = [
       "left": "types/AVLP140_L.html",
       "right": "types/AVLP140_R.html"
     },
-    "synonyms": null,
+    "synonyms": "Cachero 2010: aIP-g;Yu 2010: pIP6",
     "flywire_types": null,
     "primary_url": "types/AVLP140.html"
   },
@@ -17211,7 +17330,7 @@ const NEURON_DATA = [
       "left": "types/AVLP143a_L.html",
       "right": "types/AVLP143a_R.html"
     },
-    "synonyms": "AVLP143",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/AVLP143a.html"
   },
@@ -17222,7 +17341,7 @@ const NEURON_DATA = [
       "left": "types/AVLP143b_L.html",
       "right": "types/AVLP143b_R.html"
     },
-    "synonyms": "AVLP143",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/AVLP143b.html"
   },
@@ -17414,6 +17533,17 @@ const NEURON_DATA = [
     "primary_url": "types/AVLP169.html"
   },
   {
+    "name": "AVLP176_c",
+    "urls": {
+      "combined": "types/AVLP176_c.html",
+      "left": "types/AVLP176_c_L.html",
+      "right": "types/AVLP176_c_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/AVLP176_c.html"
+  },
+  {
     "name": "AVLP178",
     "urls": {
       "combined": "types/AVLP178.html",
@@ -17502,15 +17632,15 @@ const NEURON_DATA = [
     "primary_url": "types/AVLP189_b.html"
   },
   {
-    "name": "AVLP190",
+    "name": "AVLP190,AVLP191",
     "urls": {
-      "combined": "types/AVLP190.html",
-      "left": "types/AVLP190_L.html",
-      "right": "types/AVLP190_R.html"
+      "combined": "types/AVLP190,AVLP191.html",
+      "left": "types/AVLP190,AVLP191_L.html",
+      "right": "types/AVLP190,AVLP191_R.html"
     },
-    "synonyms": "AVLP191",
+    "synonyms": null,
     "flywire_types": null,
-    "primary_url": "types/AVLP190.html"
+    "primary_url": "types/AVLP190,AVLP191.html"
   },
   {
     "name": "AVLP193",
@@ -17533,6 +17663,39 @@ const NEURON_DATA = [
     "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/AVLP194.html"
+  },
+  {
+    "name": "AVLP194_a",
+    "urls": {
+      "combined": "types/AVLP194_a.html",
+      "left": "types/AVLP194_a_L.html",
+      "right": "types/AVLP194_a_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/AVLP194_a.html"
+  },
+  {
+    "name": "AVLP194_b",
+    "urls": {
+      "combined": "types/AVLP194_b.html",
+      "left": "types/AVLP194_b_L.html",
+      "right": "types/AVLP194_b_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/AVLP194_b.html"
+  },
+  {
+    "name": "AVLP194_c",
+    "urls": {
+      "combined": "types/AVLP194_c.html",
+      "left": "types/AVLP194_c_L.html",
+      "right": "types/AVLP194_c_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/AVLP194_c.html"
   },
   {
     "name": "AVLP195",
@@ -17596,7 +17759,7 @@ const NEURON_DATA = [
       "left": "types/AVLP205a_L.html",
       "right": "types/AVLP205a_R.html"
     },
-    "synonyms": "AVLP205",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/AVLP205a.html"
   },
@@ -17607,7 +17770,7 @@ const NEURON_DATA = [
       "left": "types/AVLP205b_L.html",
       "right": "types/AVLP205b_R.html"
     },
-    "synonyms": "AVLP205",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/AVLP205b.html"
   },
@@ -17717,7 +17880,7 @@ const NEURON_DATA = [
       "left": "types/AVLP218a_L.html",
       "right": "types/AVLP218a_R.html"
     },
-    "synonyms": "AVLP218",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/AVLP218a.html"
   },
@@ -17728,7 +17891,7 @@ const NEURON_DATA = [
       "left": "types/AVLP218b_L.html",
       "right": "types/AVLP218b_R.html"
     },
-    "synonyms": "AVLP218",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/AVLP218b.html"
   },
@@ -17739,7 +17902,7 @@ const NEURON_DATA = [
       "left": "types/AVLP219a_L.html",
       "right": "types/AVLP219a_R.html"
     },
-    "synonyms": "AVLP219",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/AVLP219a.html"
   },
@@ -17750,7 +17913,7 @@ const NEURON_DATA = [
       "left": "types/AVLP219b_L.html",
       "right": "types/AVLP219b_R.html"
     },
-    "synonyms": "AVLP219",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/AVLP219b.html"
   },
@@ -17761,7 +17924,7 @@ const NEURON_DATA = [
       "left": "types/AVLP219c_L.html",
       "right": "types/AVLP219c_R.html"
     },
-    "synonyms": "AVLP219",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/AVLP219c.html"
   },
@@ -17783,7 +17946,7 @@ const NEURON_DATA = [
       "left": "types/AVLP222_L.html",
       "right": "types/AVLP222_R.html"
     },
-    "synonyms": null,
+    "synonyms": "Cachero 2010: aIP-c;Yu 2010: aIP1/aIP4/aSP10",
     "flywire_types": null,
     "primary_url": "types/AVLP222.html"
   },
@@ -17797,6 +17960,17 @@ const NEURON_DATA = [
     "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/AVLP224_a.html"
+  },
+  {
+    "name": "AVLP227",
+    "urls": {
+      "combined": "types/AVLP227.html",
+      "left": "types/AVLP227_L.html",
+      "right": "types/AVLP227_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/AVLP227.html"
   },
   {
     "name": "AVLP229",
@@ -17838,7 +18012,7 @@ const NEURON_DATA = [
       "left": "types/AVLP234a_L.html",
       "right": "types/AVLP234a_R.html"
     },
-    "synonyms": "AVLP234, AVLP_pr22",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/AVLP234a.html"
   },
@@ -17849,9 +18023,20 @@ const NEURON_DATA = [
       "left": "types/AVLP234b_L.html",
       "right": "types/AVLP234b_R.html"
     },
-    "synonyms": "AVLP234",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/AVLP234b.html"
+  },
+  {
+    "name": "AVLP235",
+    "urls": {
+      "combined": "types/AVLP235.html",
+      "left": "types/AVLP235_L.html",
+      "right": "types/AVLP235_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/AVLP235.html"
   },
   {
     "name": "AVLP243",
@@ -17871,7 +18056,7 @@ const NEURON_DATA = [
       "left": "types/AVLP244_L.html",
       "right": "types/AVLP244_R.html"
     },
-    "synonyms": null,
+    "synonyms": "Cachero 2010: aIP-c; Yu 2010: aIP1/aIP4/aSP10",
     "flywire_types": null,
     "primary_url": "types/AVLP244.html"
   },
@@ -17898,15 +18083,15 @@ const NEURON_DATA = [
     "primary_url": "types/AVLP252.html"
   },
   {
-    "name": "AVLP253",
+    "name": "AVLP253,AVLP254",
     "urls": {
-      "combined": "types/AVLP253.html",
-      "left": "types/AVLP253_L.html",
-      "right": "types/AVLP253_R.html"
+      "combined": "types/AVLP253,AVLP254.html",
+      "left": "types/AVLP253,AVLP254_L.html",
+      "right": "types/AVLP253,AVLP254_R.html"
     },
-    "synonyms": "AVLP254",
+    "synonyms": null,
     "flywire_types": null,
-    "primary_url": "types/AVLP253.html"
+    "primary_url": "types/AVLP253,AVLP254.html"
   },
   {
     "name": "AVLP255",
@@ -17918,6 +18103,17 @@ const NEURON_DATA = [
     "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/AVLP255.html"
+  },
+  {
+    "name": "AVLP256",
+    "urls": {
+      "combined": "types/AVLP256.html",
+      "left": "types/AVLP256_L.html",
+      "right": "types/AVLP256_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/AVLP256.html"
   },
   {
     "name": "AVLP257",
@@ -17981,7 +18177,7 @@ const NEURON_DATA = [
       "left": "types/AVLP265a_L.html",
       "right": "types/AVLP265a_R.html"
     },
-    "synonyms": "AVLP265",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/AVLP265a.html"
   },
@@ -17992,7 +18188,7 @@ const NEURON_DATA = [
       "left": "types/AVLP265b_L.html",
       "right": "types/AVLP265b_R.html"
     },
-    "synonyms": "AVLP265",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/AVLP265b.html"
   },
@@ -18028,6 +18224,26 @@ const NEURON_DATA = [
     "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/AVLP268.html"
+  },
+  {
+    "name": "AVLP269_a",
+    "urls": {
+      "combined": "types/AVLP269_a.html",
+      "left": "types/AVLP269_a_L.html",
+      "right": "types/AVLP269_a_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/AVLP269_a.html"
+  },
+  {
+    "name": "AVLP279",
+    "urls": {
+      "right": "types/AVLP279_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/AVLP279_R.html"
   },
   {
     "name": "AVLP280",
@@ -18135,7 +18351,7 @@ const NEURON_DATA = [
       "left": "types/AVLP290a_L.html",
       "right": "types/AVLP290a_R.html"
     },
-    "synonyms": "AVLP290",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/AVLP290a.html"
   },
@@ -18146,7 +18362,7 @@ const NEURON_DATA = [
       "left": "types/AVLP290b_L.html",
       "right": "types/AVLP290b_R.html"
     },
-    "synonyms": "AVLP290",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/AVLP290b.html"
   },
@@ -18168,7 +18384,7 @@ const NEURON_DATA = [
       "left": "types/AVLP293_L.html",
       "right": "types/AVLP293_R.html"
     },
-    "synonyms": null,
+    "synonyms": "Cachero 2010: aIP-b",
     "flywire_types": null,
     "primary_url": "types/AVLP293.html"
   },
@@ -18190,7 +18406,7 @@ const NEURON_DATA = [
       "left": "types/AVLP295_L.html",
       "right": "types/AVLP295_R.html"
     },
-    "synonyms": null,
+    "synonyms": "Cachero 2010: aIP-b",
     "flywire_types": null,
     "primary_url": "types/AVLP295.html"
   },
@@ -18212,7 +18428,7 @@ const NEURON_DATA = [
       "left": "types/AVLP298_L.html",
       "right": "types/AVLP298_R.html"
     },
-    "synonyms": null,
+    "synonyms": "Cachero 2010: aIP-b",
     "flywire_types": null,
     "primary_url": "types/AVLP298.html"
   },
@@ -18223,7 +18439,7 @@ const NEURON_DATA = [
       "left": "types/AVLP299_a_L.html",
       "right": "types/AVLP299_a_R.html"
     },
-    "synonyms": null,
+    "synonyms": "Cachero 2010: aIP-b",
     "flywire_types": null,
     "primary_url": "types/AVLP299_a.html"
   },
@@ -18234,7 +18450,7 @@ const NEURON_DATA = [
       "left": "types/AVLP299_b_L.html",
       "right": "types/AVLP299_b_R.html"
     },
-    "synonyms": null,
+    "synonyms": "Cachero 2010: aIP-b",
     "flywire_types": null,
     "primary_url": "types/AVLP299_b.html"
   },
@@ -18245,7 +18461,7 @@ const NEURON_DATA = [
       "left": "types/AVLP299_c_L.html",
       "right": "types/AVLP299_c_R.html"
     },
-    "synonyms": null,
+    "synonyms": "Cachero 2010: aIP-b",
     "flywire_types": null,
     "primary_url": "types/AVLP299_c.html"
   },
@@ -18256,7 +18472,7 @@ const NEURON_DATA = [
       "left": "types/AVLP300_a_L.html",
       "right": "types/AVLP300_a_R.html"
     },
-    "synonyms": null,
+    "synonyms": "Cachero 2010: aIP-b",
     "flywire_types": null,
     "primary_url": "types/AVLP300_a.html"
   },
@@ -18270,6 +18486,17 @@ const NEURON_DATA = [
     "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/AVLP300_b.html"
+  },
+  {
+    "name": "AVLP302",
+    "urls": {
+      "combined": "types/AVLP302.html",
+      "left": "types/AVLP302_L.html",
+      "right": "types/AVLP302_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/AVLP302.html"
   },
   {
     "name": "AVLP303",
@@ -18327,26 +18554,15 @@ const NEURON_DATA = [
     "primary_url": "types/AVLP308.html"
   },
   {
-    "name": "AVLP309a",
+    "name": "AVLP309",
     "urls": {
-      "combined": "types/AVLP309a.html",
-      "left": "types/AVLP309a_L.html",
-      "right": "types/AVLP309a_R.html"
+      "combined": "types/AVLP309.html",
+      "left": "types/AVLP309_L.html",
+      "right": "types/AVLP309_R.html"
     },
-    "synonyms": "AVLP309",
+    "synonyms": null,
     "flywire_types": null,
-    "primary_url": "types/AVLP309a.html"
-  },
-  {
-    "name": "AVLP309b",
-    "urls": {
-      "combined": "types/AVLP309b.html",
-      "left": "types/AVLP309b_L.html",
-      "right": "types/AVLP309b_R.html"
-    },
-    "synonyms": "AVLP309",
-    "flywire_types": null,
-    "primary_url": "types/AVLP309b.html"
+    "primary_url": "types/AVLP309.html"
   },
   {
     "name": "AVLP310a",
@@ -18355,7 +18571,7 @@ const NEURON_DATA = [
       "left": "types/AVLP310a_L.html",
       "right": "types/AVLP310a_R.html"
     },
-    "synonyms": "AVLP310",
+    "synonyms": "Cachero 2010: aIP-b",
     "flywire_types": null,
     "primary_url": "types/AVLP310a.html"
   },
@@ -18366,7 +18582,7 @@ const NEURON_DATA = [
       "left": "types/AVLP310b_L.html",
       "right": "types/AVLP310b_R.html"
     },
-    "synonyms": "AVLP310",
+    "synonyms": "Cachero 2010: aIP-b",
     "flywire_types": null,
     "primary_url": "types/AVLP310b.html"
   },
@@ -18377,7 +18593,7 @@ const NEURON_DATA = [
       "left": "types/AVLP312a_L.html",
       "right": "types/AVLP312a_R.html"
     },
-    "synonyms": "AVLP312",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/AVLP312a.html"
   },
@@ -18388,7 +18604,7 @@ const NEURON_DATA = [
       "left": "types/AVLP312b_L.html",
       "right": "types/AVLP312b_R.html"
     },
-    "synonyms": "AVLP312",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/AVLP312b.html"
   },
@@ -18432,7 +18648,7 @@ const NEURON_DATA = [
       "left": "types/AVLP316_L.html",
       "right": "types/AVLP316_R.html"
     },
-    "synonyms": "aIP8",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/AVLP316.html"
   },
@@ -18454,7 +18670,7 @@ const NEURON_DATA = [
       "left": "types/AVLP322_L.html",
       "right": "types/AVLP322_R.html"
     },
-    "synonyms": null,
+    "synonyms": "Cachero 2010: aIP-g;Yu 2010: pIP6",
     "flywire_types": null,
     "primary_url": "types/AVLP322.html"
   },
@@ -18514,6 +18730,15 @@ const NEURON_DATA = [
     "primary_url": "types/AVLP342.html"
   },
   {
+    "name": "AVLP343",
+    "urls": {
+      "left": "types/AVLP343_L.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/AVLP343_L.html"
+  },
+  {
     "name": "AVLP344",
     "urls": {
       "combined": "types/AVLP344.html",
@@ -18536,26 +18761,26 @@ const NEURON_DATA = [
     "primary_url": "types/AVLP345.html"
   },
   {
-    "name": "AVLP346a",
+    "name": "AVLP345_a",
     "urls": {
-      "combined": "types/AVLP346a.html",
-      "left": "types/AVLP346a_L.html",
-      "right": "types/AVLP346a_R.html"
+      "combined": "types/AVLP345_a.html",
+      "left": "types/AVLP345_a_L.html",
+      "right": "types/AVLP345_a_R.html"
     },
-    "synonyms": "AVLP348a, AVLP346, AVLP348",
+    "synonyms": null,
     "flywire_types": null,
-    "primary_url": "types/AVLP346a.html"
+    "primary_url": "types/AVLP345_a.html"
   },
   {
-    "name": "AVLP346b",
+    "name": "AVLP346",
     "urls": {
-      "combined": "types/AVLP346b.html",
-      "left": "types/AVLP346b_L.html",
-      "right": "types/AVLP346b_R.html"
+      "combined": "types/AVLP346.html",
+      "left": "types/AVLP346_L.html",
+      "right": "types/AVLP346_R.html"
     },
-    "synonyms": "AVLP348b, AVLP346, AVLP348",
+    "synonyms": null,
     "flywire_types": null,
-    "primary_url": "types/AVLP346b.html"
+    "primary_url": "types/AVLP346.html"
   },
   {
     "name": "AVLP347",
@@ -18567,6 +18792,17 @@ const NEURON_DATA = [
     "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/AVLP347.html"
+  },
+  {
+    "name": "AVLP348",
+    "urls": {
+      "combined": "types/AVLP348.html",
+      "left": "types/AVLP348_L.html",
+      "right": "types/AVLP348_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/AVLP348.html"
   },
   {
     "name": "AVLP363",
@@ -18597,7 +18833,7 @@ const NEURON_DATA = [
       "left": "types/AVLP370a_L.html",
       "right": "types/AVLP370a_R.html"
     },
-    "synonyms": "AVLP370",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/AVLP370a.html"
   },
@@ -18608,7 +18844,7 @@ const NEURON_DATA = [
       "left": "types/AVLP370b_L.html",
       "right": "types/AVLP370b_R.html"
     },
-    "synonyms": "AVLP370",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/AVLP370b.html"
   },
@@ -18641,7 +18877,7 @@ const NEURON_DATA = [
       "left": "types/AVLP380a_L.html",
       "right": "types/AVLP380a_R.html"
     },
-    "synonyms": "AVLP380",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/AVLP380a.html"
   },
@@ -18652,7 +18888,7 @@ const NEURON_DATA = [
       "left": "types/AVLP380b_L.html",
       "right": "types/AVLP380b_R.html"
     },
-    "synonyms": "AVLP380",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/AVLP380b.html"
   },
@@ -18668,13 +18904,15 @@ const NEURON_DATA = [
     "primary_url": "types/AVLP381.html"
   },
   {
-    "name": "AVLP386",
+    "name": "AVLP386,AVLP388",
     "urls": {
-      "right": "types/AVLP386_R.html"
+      "combined": "types/AVLP386,AVLP388.html",
+      "left": "types/AVLP386,AVLP388_L.html",
+      "right": "types/AVLP386,AVLP388_R.html"
     },
     "synonyms": null,
     "flywire_types": null,
-    "primary_url": "types/AVLP386_R.html"
+    "primary_url": "types/AVLP386,AVLP388.html"
   },
   {
     "name": "AVLP390",
@@ -18688,15 +18926,15 @@ const NEURON_DATA = [
     "primary_url": "types/AVLP390.html"
   },
   {
-    "name": "AVLP393",
+    "name": "AVLP393,AVLP395",
     "urls": {
-      "combined": "types/AVLP393.html",
-      "left": "types/AVLP393_L.html",
-      "right": "types/AVLP393_R.html"
+      "combined": "types/AVLP393,AVLP395.html",
+      "left": "types/AVLP393,AVLP395_L.html",
+      "right": "types/AVLP393,AVLP395_R.html"
     },
-    "synonyms": "AVLP395",
+    "synonyms": null,
     "flywire_types": null,
-    "primary_url": "types/AVLP393.html"
+    "primary_url": "types/AVLP393,AVLP395.html"
   },
   {
     "name": "AVLP394",
@@ -18776,15 +19014,26 @@ const NEURON_DATA = [
     "primary_url": "types/AVLP409.html"
   },
   {
-    "name": "AVLP417",
+    "name": "AVLP411",
     "urls": {
-      "combined": "types/AVLP417.html",
-      "left": "types/AVLP417_L.html",
-      "right": "types/AVLP417_R.html"
+      "combined": "types/AVLP411.html",
+      "left": "types/AVLP411_L.html",
+      "right": "types/AVLP411_R.html"
     },
-    "synonyms": "AVLP438",
+    "synonyms": null,
     "flywire_types": null,
-    "primary_url": "types/AVLP417.html"
+    "primary_url": "types/AVLP411.html"
+  },
+  {
+    "name": "AVLP417,AVLP438",
+    "urls": {
+      "combined": "types/AVLP417,AVLP438.html",
+      "left": "types/AVLP417,AVLP438_L.html",
+      "right": "types/AVLP417,AVLP438_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/AVLP417,AVLP438.html"
   },
   {
     "name": "AVLP418",
@@ -18804,7 +19053,7 @@ const NEURON_DATA = [
       "left": "types/AVLP419a_L.html",
       "right": "types/AVLP419a_R.html"
     },
-    "synonyms": "AVLP419",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/AVLP419a.html"
   },
@@ -18815,20 +19064,20 @@ const NEURON_DATA = [
       "left": "types/AVLP419b_L.html",
       "right": "types/AVLP419b_R.html"
     },
-    "synonyms": "AVLP419",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/AVLP419b.html"
   },
   {
-    "name": "AVLP420_a",
+    "name": "AVLP420_a,AVLP427",
     "urls": {
-      "combined": "types/AVLP420_a.html",
-      "left": "types/AVLP420_a_L.html",
-      "right": "types/AVLP420_a_R.html"
+      "combined": "types/AVLP420_a,AVLP427.html",
+      "left": "types/AVLP420_a,AVLP427_L.html",
+      "right": "types/AVLP420_a,AVLP427_R.html"
     },
-    "synonyms": "AVLP427",
+    "synonyms": null,
     "flywire_types": null,
-    "primary_url": "types/AVLP420_a.html"
+    "primary_url": "types/AVLP420_a,AVLP427.html"
   },
   {
     "name": "AVLP420_b",
@@ -18958,7 +19207,7 @@ const NEURON_DATA = [
       "left": "types/AVLP435a_L.html",
       "right": "types/AVLP435a_R.html"
     },
-    "synonyms": "AVLP435",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/AVLP435a.html"
   },
@@ -18969,7 +19218,7 @@ const NEURON_DATA = [
       "left": "types/AVLP435b_L.html",
       "right": "types/AVLP435b_R.html"
     },
-    "synonyms": "AVLP435",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/AVLP435b.html"
   },
@@ -19112,7 +19361,7 @@ const NEURON_DATA = [
       "left": "types/AVLP451a_L.html",
       "right": "types/AVLP451a_R.html"
     },
-    "synonyms": "AVLP451, AVLP/PVLP_pr01",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/AVLP451a.html"
   },
@@ -19123,7 +19372,7 @@ const NEURON_DATA = [
       "left": "types/AVLP451b_L.html",
       "right": "types/AVLP451b_R.html"
     },
-    "synonyms": "AVLP451",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/AVLP451b.html"
   },
@@ -19134,7 +19383,7 @@ const NEURON_DATA = [
       "left": "types/AVLP451c_L.html",
       "right": "types/AVLP451c_R.html"
     },
-    "synonyms": "AVLP451, AVLP/PVLP_pr01",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/AVLP451c.html"
   },
@@ -19178,7 +19427,7 @@ const NEURON_DATA = [
       "left": "types/AVLP457_L.html",
       "right": "types/AVLP457_R.html"
     },
-    "synonyms": "AVLP/PVLP_pr01",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/AVLP457.html"
   },
@@ -19198,7 +19447,7 @@ const NEURON_DATA = [
       "left": "types/AVLP459_L.html",
       "right": "types/AVLP459_R.html"
     },
-    "synonyms": "AVLP/PVLP_pr01",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/AVLP459.html"
   },
@@ -19214,13 +19463,24 @@ const NEURON_DATA = [
     "primary_url": "types/AVLP460.html"
   },
   {
+    "name": "AVLP461",
+    "urls": {
+      "combined": "types/AVLP461.html",
+      "left": "types/AVLP461_L.html",
+      "right": "types/AVLP461_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/AVLP461.html"
+  },
+  {
     "name": "AVLP462a",
     "urls": {
       "combined": "types/AVLP462a.html",
       "left": "types/AVLP462a_L.html",
       "right": "types/AVLP462a_R.html"
     },
-    "synonyms": "AVLP462",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/AVLP462a.html"
   },
@@ -19231,7 +19491,7 @@ const NEURON_DATA = [
       "left": "types/AVLP462b_L.html",
       "right": "types/AVLP462b_R.html"
     },
-    "synonyms": "AVLP462",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/AVLP462b.html"
   },
@@ -19253,7 +19513,7 @@ const NEURON_DATA = [
       "left": "types/AVLP465a_L.html",
       "right": "types/AVLP465a_R.html"
     },
-    "synonyms": "AVLP465",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/AVLP465a.html"
   },
@@ -19264,7 +19524,7 @@ const NEURON_DATA = [
       "left": "types/AVLP465b_L.html",
       "right": "types/AVLP465b_R.html"
     },
-    "synonyms": "AVLP465",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/AVLP465b.html"
   },
@@ -19275,7 +19535,7 @@ const NEURON_DATA = [
       "left": "types/AVLP465c_L.html",
       "right": "types/AVLP465c_R.html"
     },
-    "synonyms": "AVLP465",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/AVLP465c.html"
   },
@@ -19286,7 +19546,7 @@ const NEURON_DATA = [
       "left": "types/AVLP469a_L.html",
       "right": "types/AVLP469a_R.html"
     },
-    "synonyms": "AVLP469",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/AVLP469a.html"
   },
@@ -19297,7 +19557,7 @@ const NEURON_DATA = [
       "left": "types/AVLP469b_L.html",
       "right": "types/AVLP469b_R.html"
     },
-    "synonyms": "AVLP469",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/AVLP469b.html"
   },
@@ -19308,7 +19568,7 @@ const NEURON_DATA = [
       "left": "types/AVLP470a_L.html",
       "right": "types/AVLP470a_R.html"
     },
-    "synonyms": "AVLP470",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/AVLP470a.html"
   },
@@ -19319,7 +19579,7 @@ const NEURON_DATA = [
       "left": "types/AVLP470b_L.html",
       "right": "types/AVLP470b_R.html"
     },
-    "synonyms": "AVLP470",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/AVLP470b.html"
   },
@@ -19363,7 +19623,7 @@ const NEURON_DATA = [
       "left": "types/AVLP475a_L.html",
       "right": "types/AVLP475a_R.html"
     },
-    "synonyms": "AVLP475",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/AVLP475a.html"
   },
@@ -19374,7 +19634,7 @@ const NEURON_DATA = [
       "left": "types/AVLP475b_L.html",
       "right": "types/AVLP475b_R.html"
     },
-    "synonyms": "AVLP475",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/AVLP475b.html"
   },
@@ -19506,7 +19766,7 @@ const NEURON_DATA = [
       "left": "types/AVLP494_L.html",
       "right": "types/AVLP494_R.html"
     },
-    "synonyms": "aIPgb",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/AVLP494.html"
   },
@@ -19517,7 +19777,7 @@ const NEURON_DATA = [
       "left": "types/AVLP496a_L.html",
       "right": "types/AVLP496a_R.html"
     },
-    "synonyms": "AVLP496",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/AVLP496a.html"
   },
@@ -19528,7 +19788,7 @@ const NEURON_DATA = [
       "left": "types/AVLP496b_L.html",
       "right": "types/AVLP496b_R.html"
     },
-    "synonyms": "AVLP496",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/AVLP496b.html"
   },
@@ -19682,7 +19942,7 @@ const NEURON_DATA = [
       "left": "types/AVLP519a_L.html",
       "right": "types/AVLP519a_R.html"
     },
-    "synonyms": "AVLP519",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/AVLP519a.html"
   },
@@ -19693,7 +19953,7 @@ const NEURON_DATA = [
       "left": "types/AVLP519b_L.html",
       "right": "types/AVLP519b_R.html"
     },
-    "synonyms": "AVLP519",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/AVLP519b.html"
   },
@@ -19742,15 +20002,15 @@ const NEURON_DATA = [
     "primary_url": "types/AVLP523.html"
   },
   {
-    "name": "AVLP530",
+    "name": "AVLP530,AVLP561",
     "urls": {
-      "combined": "types/AVLP530.html",
-      "left": "types/AVLP530_L.html",
-      "right": "types/AVLP530_R.html"
+      "combined": "types/AVLP530,AVLP561.html",
+      "left": "types/AVLP530,AVLP561_L.html",
+      "right": "types/AVLP530,AVLP561_R.html"
     },
-    "synonyms": "AVLP561",
+    "synonyms": null,
     "flywire_types": null,
-    "primary_url": "types/AVLP530.html"
+    "primary_url": "types/AVLP530,AVLP561.html"
   },
   {
     "name": "AVLP531",
@@ -19803,7 +20063,7 @@ const NEURON_DATA = [
       "left": "types/AVLP535_L.html",
       "right": "types/AVLP535_R.html"
     },
-    "synonyms": "AVLP_pr04",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/AVLP535.html"
   },
@@ -19825,7 +20085,7 @@ const NEURON_DATA = [
       "left": "types/AVLP537_L.html",
       "right": "types/AVLP537_R.html"
     },
-    "synonyms": "AVLP_pr04",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/AVLP537.html"
   },
@@ -19836,7 +20096,7 @@ const NEURON_DATA = [
       "left": "types/AVLP538_L.html",
       "right": "types/AVLP538_R.html"
     },
-    "synonyms": "AVLP_pr04",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/AVLP538.html"
   },
@@ -19847,7 +20107,7 @@ const NEURON_DATA = [
       "left": "types/AVLP541a_L.html",
       "right": "types/AVLP541a_R.html"
     },
-    "synonyms": "AVLP541",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/AVLP541a.html"
   },
@@ -19858,7 +20118,7 @@ const NEURON_DATA = [
       "left": "types/AVLP541b_L.html",
       "right": "types/AVLP541b_R.html"
     },
-    "synonyms": "AVLP541",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/AVLP541b.html"
   },
@@ -19907,15 +20167,26 @@ const NEURON_DATA = [
     "primary_url": "types/AVLP546.html"
   },
   {
-    "name": "AVLP547",
+    "name": "AVLP547a",
     "urls": {
-      "combined": "types/AVLP547.html",
-      "left": "types/AVLP547_L.html",
-      "right": "types/AVLP547_R.html"
+      "combined": "types/AVLP547a.html",
+      "left": "types/AVLP547a_L.html",
+      "right": "types/AVLP547a_R.html"
     },
     "synonyms": null,
     "flywire_types": null,
-    "primary_url": "types/AVLP547.html"
+    "primary_url": "types/AVLP547a.html"
+  },
+  {
+    "name": "AVLP547b",
+    "urls": {
+      "combined": "types/AVLP547b.html",
+      "left": "types/AVLP547b_L.html",
+      "right": "types/AVLP547b_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/AVLP547b.html"
   },
   {
     "name": "AVLP548_b",
@@ -19968,7 +20239,7 @@ const NEURON_DATA = [
       "left": "types/AVLP550a_L.html",
       "right": "types/AVLP550a_R.html"
     },
-    "synonyms": "AVLP550",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/AVLP550a.html"
   },
@@ -19979,7 +20250,7 @@ const NEURON_DATA = [
       "left": "types/AVLP550b_L.html",
       "right": "types/AVLP550b_R.html"
     },
-    "synonyms": "AVLP550",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/AVLP550b.html"
   },
@@ -20023,7 +20294,7 @@ const NEURON_DATA = [
       "left": "types/AVLP559a_L.html",
       "right": "types/AVLP559a_R.html"
     },
-    "synonyms": "AVLP559",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/AVLP559a.html"
   },
@@ -20034,7 +20305,7 @@ const NEURON_DATA = [
       "left": "types/AVLP559b_L.html",
       "right": "types/AVLP559b_R.html"
     },
-    "synonyms": "AVLP559",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/AVLP559b.html"
   },
@@ -20045,7 +20316,7 @@ const NEURON_DATA = [
       "left": "types/AVLP559c_L.html",
       "right": "types/AVLP559c_R.html"
     },
-    "synonyms": "AVLP559",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/AVLP559c.html"
   },
@@ -20056,7 +20327,7 @@ const NEURON_DATA = [
       "left": "types/AVLP560_L.html",
       "right": "types/AVLP560_R.html"
     },
-    "synonyms": "AVLP_pr05",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/AVLP560.html"
   },
@@ -20111,7 +20382,7 @@ const NEURON_DATA = [
       "left": "types/AVLP567_L.html",
       "right": "types/AVLP567_R.html"
     },
-    "synonyms": "pC2lb",
+    "synonyms": "Nojima 2021: pC2l",
     "flywire_types": null,
     "primary_url": "types/AVLP567.html"
   },
@@ -20122,7 +20393,7 @@ const NEURON_DATA = [
       "left": "types/AVLP568_L.html",
       "right": "types/AVLP568_R.html"
     },
-    "synonyms": "pC2ld",
+    "synonyms": "Nojima 2021: pC2l",
     "flywire_types": null,
     "primary_url": "types/AVLP568.html"
   },
@@ -20133,7 +20404,7 @@ const NEURON_DATA = [
       "left": "types/AVLP569_L.html",
       "right": "types/AVLP569_R.html"
     },
-    "synonyms": "pC2lb",
+    "synonyms": "Nojima 2021: pC2l",
     "flywire_types": null,
     "primary_url": "types/AVLP569.html"
   },
@@ -20144,7 +20415,7 @@ const NEURON_DATA = [
       "left": "types/AVLP570_L.html",
       "right": "types/AVLP570_R.html"
     },
-    "synonyms": "pC2lc",
+    "synonyms": "Nojima 2021: pC2l",
     "flywire_types": null,
     "primary_url": "types/AVLP570.html"
   },
@@ -20248,6 +20519,15 @@ const NEURON_DATA = [
     "primary_url": "types/AVLP579.html"
   },
   {
+    "name": "AVLP580",
+    "urls": {
+      "right": "types/AVLP580_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/AVLP580_R.html"
+  },
+  {
     "name": "AVLP584",
     "urls": {
       "combined": "types/AVLP584.html",
@@ -20345,6 +20625,15 @@ const NEURON_DATA = [
     "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/AVLP596.html"
+  },
+  {
+    "name": "Am",
+    "urls": {
+      "right": "types/Am_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/Am_R.html"
   },
   {
     "name": "Am1",
@@ -20540,7 +20829,7 @@ const NEURON_DATA = [
       "left": "types/BiT_L.html",
       "right": "types/BiT_R.html"
     },
-    "synonyms": null,
+    "synonyms": "Cachero 2010: aDT-h;Yu 2010: aDT6",
     "flywire_types": null,
     "primary_url": "types/BiT.html"
   },
@@ -20578,996 +20867,6 @@ const NEURON_DATA = [
     "primary_url": "types/CAPA.html"
   },
   {
-    "name": "CB.FB1E0",
-    "urls": {
-      "combined": "types/CB.FB1E0.html",
-      "left": "types/CB.FB1E0_L.html",
-      "right": "types/CB.FB1E0_R.html"
-    },
-    "synonyms": null,
-    "flywire_types": null,
-    "primary_url": "types/CB.FB1E0.html"
-  },
-  {
-    "name": "CB.FB1E1",
-    "urls": {
-      "combined": "types/CB.FB1E1.html",
-      "left": "types/CB.FB1E1_L.html",
-      "right": "types/CB.FB1E1_R.html"
-    },
-    "synonyms": null,
-    "flywire_types": null,
-    "primary_url": "types/CB.FB1E1.html"
-  },
-  {
-    "name": "CB.FB1H0",
-    "urls": {
-      "combined": "types/CB.FB1H0.html",
-      "left": "types/CB.FB1H0_L.html",
-      "right": "types/CB.FB1H0_R.html"
-    },
-    "synonyms": "FB1C",
-    "flywire_types": null,
-    "primary_url": "types/CB.FB1H0.html"
-  },
-  {
-    "name": "CB.FB1I0",
-    "urls": {
-      "combined": "types/CB.FB1I0.html",
-      "left": "types/CB.FB1I0_L.html",
-      "right": "types/CB.FB1I0_R.html"
-    },
-    "synonyms": null,
-    "flywire_types": null,
-    "primary_url": "types/CB.FB1I0.html"
-  },
-  {
-    "name": "CB.FB1I1",
-    "urls": {
-      "combined": "types/CB.FB1I1.html",
-      "left": "types/CB.FB1I1_L.html",
-      "right": "types/CB.FB1I1_R.html"
-    },
-    "synonyms": null,
-    "flywire_types": null,
-    "primary_url": "types/CB.FB1I1.html"
-  },
-  {
-    "name": "CB.FB2E0",
-    "urls": {
-      "combined": "types/CB.FB2E0.html",
-      "left": "types/CB.FB2E0_L.html",
-      "right": "types/CB.FB2E0_R.html"
-    },
-    "synonyms": null,
-    "flywire_types": null,
-    "primary_url": "types/CB.FB2E0.html"
-  },
-  {
-    "name": "CB.FB2E1",
-    "urls": {
-      "combined": "types/CB.FB2E1.html",
-      "left": "types/CB.FB2E1_L.html",
-      "right": "types/CB.FB2E1_R.html"
-    },
-    "synonyms": null,
-    "flywire_types": null,
-    "primary_url": "types/CB.FB2E1.html"
-  },
-  {
-    "name": "CB.FB2E10",
-    "urls": {
-      "combined": "types/CB.FB2E10.html",
-      "left": "types/CB.FB2E10_L.html",
-      "right": "types/CB.FB2E10_R.html"
-    },
-    "synonyms": null,
-    "flywire_types": null,
-    "primary_url": "types/CB.FB2E10.html"
-  },
-  {
-    "name": "CB.FB2E2",
-    "urls": {
-      "combined": "types/CB.FB2E2.html",
-      "left": "types/CB.FB2E2_L.html",
-      "right": "types/CB.FB2E2_R.html"
-    },
-    "synonyms": null,
-    "flywire_types": null,
-    "primary_url": "types/CB.FB2E2.html"
-  },
-  {
-    "name": "CB.FB2E3",
-    "urls": {
-      "combined": "types/CB.FB2E3.html",
-      "left": "types/CB.FB2E3_L.html",
-      "right": "types/CB.FB2E3_R.html"
-    },
-    "synonyms": null,
-    "flywire_types": null,
-    "primary_url": "types/CB.FB2E3.html"
-  },
-  {
-    "name": "CB.FB2E4",
-    "urls": {
-      "combined": "types/CB.FB2E4.html",
-      "left": "types/CB.FB2E4_L.html",
-      "right": "types/CB.FB2E4_R.html"
-    },
-    "synonyms": null,
-    "flywire_types": null,
-    "primary_url": "types/CB.FB2E4.html"
-  },
-  {
-    "name": "CB.FB2E5",
-    "urls": {
-      "combined": "types/CB.FB2E5.html",
-      "left": "types/CB.FB2E5_L.html",
-      "right": "types/CB.FB2E5_R.html"
-    },
-    "synonyms": null,
-    "flywire_types": null,
-    "primary_url": "types/CB.FB2E5.html"
-  },
-  {
-    "name": "CB.FB2E6",
-    "urls": {
-      "combined": "types/CB.FB2E6.html",
-      "left": "types/CB.FB2E6_L.html",
-      "right": "types/CB.FB2E6_R.html"
-    },
-    "synonyms": null,
-    "flywire_types": null,
-    "primary_url": "types/CB.FB2E6.html"
-  },
-  {
-    "name": "CB.FB2E7",
-    "urls": {
-      "combined": "types/CB.FB2E7.html",
-      "left": "types/CB.FB2E7_L.html",
-      "right": "types/CB.FB2E7_R.html"
-    },
-    "synonyms": null,
-    "flywire_types": null,
-    "primary_url": "types/CB.FB2E7.html"
-  },
-  {
-    "name": "CB.FB2E8",
-    "urls": {
-      "combined": "types/CB.FB2E8.html",
-      "left": "types/CB.FB2E8_L.html",
-      "right": "types/CB.FB2E8_R.html"
-    },
-    "synonyms": null,
-    "flywire_types": null,
-    "primary_url": "types/CB.FB2E8.html"
-  },
-  {
-    "name": "CB.FB2E9",
-    "urls": {
-      "combined": "types/CB.FB2E9.html",
-      "left": "types/CB.FB2E9_L.html",
-      "right": "types/CB.FB2E9_R.html"
-    },
-    "synonyms": null,
-    "flywire_types": null,
-    "primary_url": "types/CB.FB2E9.html"
-  },
-  {
-    "name": "CB.FB2G0",
-    "urls": {
-      "combined": "types/CB.FB2G0.html",
-      "left": "types/CB.FB2G0_L.html",
-      "right": "types/CB.FB2G0_R.html"
-    },
-    "synonyms": "FB1G",
-    "flywire_types": null,
-    "primary_url": "types/CB.FB2G0.html"
-  },
-  {
-    "name": "CB.FB2H0",
-    "urls": {
-      "combined": "types/CB.FB2H0.html",
-      "left": "types/CB.FB2H0_L.html",
-      "right": "types/CB.FB2H0_R.html"
-    },
-    "synonyms": "FB2A",
-    "flywire_types": null,
-    "primary_url": "types/CB.FB2H0.html"
-  },
-  {
-    "name": "CB.FB2I0",
-    "urls": {
-      "combined": "types/CB.FB2I0.html",
-      "left": "types/CB.FB2I0_L.html",
-      "right": "types/CB.FB2I0_R.html"
-    },
-    "synonyms": null,
-    "flywire_types": null,
-    "primary_url": "types/CB.FB2I0.html"
-  },
-  {
-    "name": "CB.FB2I1",
-    "urls": {
-      "combined": "types/CB.FB2I1.html",
-      "left": "types/CB.FB2I1_L.html",
-      "right": "types/CB.FB2I1_R.html"
-    },
-    "synonyms": null,
-    "flywire_types": null,
-    "primary_url": "types/CB.FB2I1.html"
-  },
-  {
-    "name": "CB.FB2I2",
-    "urls": {
-      "combined": "types/CB.FB2I2.html",
-      "left": "types/CB.FB2I2_L.html",
-      "right": "types/CB.FB2I2_R.html"
-    },
-    "synonyms": null,
-    "flywire_types": null,
-    "primary_url": "types/CB.FB2I2.html"
-  },
-  {
-    "name": "CB.FB2I3",
-    "urls": {
-      "combined": "types/CB.FB2I3.html",
-      "left": "types/CB.FB2I3_L.html",
-      "right": "types/CB.FB2I3_R.html"
-    },
-    "synonyms": null,
-    "flywire_types": null,
-    "primary_url": "types/CB.FB2I3.html"
-  },
-  {
-    "name": "CB.FB2K0",
-    "urls": {
-      "combined": "types/CB.FB2K0.html",
-      "left": "types/CB.FB2K0_L.html",
-      "right": "types/CB.FB2K0_R.html"
-    },
-    "synonyms": "FB2B",
-    "flywire_types": null,
-    "primary_url": "types/CB.FB2K0.html"
-  },
-  {
-    "name": "CB.FB2K1",
-    "urls": {
-      "combined": "types/CB.FB2K1.html",
-      "left": "types/CB.FB2K1_L.html",
-      "right": "types/CB.FB2K1_R.html"
-    },
-    "synonyms": "FB2B",
-    "flywire_types": null,
-    "primary_url": "types/CB.FB2K1.html"
-  },
-  {
-    "name": "CB.FB5B0",
-    "urls": {
-      "combined": "types/CB.FB5B0.html",
-      "left": "types/CB.FB5B0_L.html",
-      "right": "types/CB.FB5B0_R.html"
-    },
-    "synonyms": "FB4Z, FB5R, FB5U",
-    "flywire_types": null,
-    "primary_url": "types/CB.FB5B0.html"
-  },
-  {
-    "name": "CB.FB5B1",
-    "urls": {
-      "combined": "types/CB.FB5B1.html",
-      "left": "types/CB.FB5B1_L.html",
-      "right": "types/CB.FB5B1_R.html"
-    },
-    "synonyms": "FB4Z, FB5R, FB5U",
-    "flywire_types": null,
-    "primary_url": "types/CB.FB5B1.html"
-  },
-  {
-    "name": "CB.FB5C0",
-    "urls": {
-      "combined": "types/CB.FB5C0.html",
-      "left": "types/CB.FB5C0_L.html",
-      "right": "types/CB.FB5C0_R.html"
-    },
-    "synonyms": "FB5B",
-    "flywire_types": null,
-    "primary_url": "types/CB.FB5C0.html"
-  },
-  {
-    "name": "CB.FB5D0",
-    "urls": {
-      "combined": "types/CB.FB5D0.html",
-      "left": "types/CB.FB5D0_L.html",
-      "right": "types/CB.FB5D0_R.html"
-    },
-    "synonyms": "FB6W",
-    "flywire_types": null,
-    "primary_url": "types/CB.FB5D0.html"
-  },
-  {
-    "name": "CB.FB5D1",
-    "urls": {
-      "combined": "types/CB.FB5D1.html",
-      "left": "types/CB.FB5D1_L.html",
-      "right": "types/CB.FB5D1_R.html"
-    },
-    "synonyms": "FB5Z",
-    "flywire_types": null,
-    "primary_url": "types/CB.FB5D1.html"
-  },
-  {
-    "name": "CB.FB5D10",
-    "urls": {
-      "combined": "types/CB.FB5D10.html",
-      "left": "types/CB.FB5D10_L.html",
-      "right": "types/CB.FB5D10_R.html"
-    },
-    "synonyms": "FB5C, FB5F, FB5G, FB5P, FB5Q",
-    "flywire_types": null,
-    "primary_url": "types/CB.FB5D10.html"
-  },
-  {
-    "name": "CB.FB5D2",
-    "urls": {
-      "combined": "types/CB.FB5D2.html",
-      "left": "types/CB.FB5D2_L.html",
-      "right": "types/CB.FB5D2_R.html"
-    },
-    "synonyms": "FB5C, FB5F, FB5G, FB5P, FB5Q",
-    "flywire_types": null,
-    "primary_url": "types/CB.FB5D2.html"
-  },
-  {
-    "name": "CB.FB5D3",
-    "urls": {
-      "combined": "types/CB.FB5D3.html",
-      "left": "types/CB.FB5D3_L.html",
-      "right": "types/CB.FB5D3_R.html"
-    },
-    "synonyms": "FB5C, FB5F, FB5G, FB5P, FB5Q",
-    "flywire_types": null,
-    "primary_url": "types/CB.FB5D3.html"
-  },
-  {
-    "name": "CB.FB5D4",
-    "urls": {
-      "combined": "types/CB.FB5D4.html",
-      "left": "types/CB.FB5D4_L.html",
-      "right": "types/CB.FB5D4_R.html"
-    },
-    "synonyms": "FB5V",
-    "flywire_types": null,
-    "primary_url": "types/CB.FB5D4.html"
-  },
-  {
-    "name": "CB.FB5D5",
-    "urls": {
-      "combined": "types/CB.FB5D5.html",
-      "left": "types/CB.FB5D5_L.html",
-      "right": "types/CB.FB5D5_R.html"
-    },
-    "synonyms": "FB5C, FB5F, FB5G, FB5P, FB5Q",
-    "flywire_types": null,
-    "primary_url": "types/CB.FB5D5.html"
-  },
-  {
-    "name": "CB.FB5D6",
-    "urls": {
-      "combined": "types/CB.FB5D6.html",
-      "left": "types/CB.FB5D6_L.html",
-      "right": "types/CB.FB5D6_R.html"
-    },
-    "synonyms": "FB5X",
-    "flywire_types": null,
-    "primary_url": "types/CB.FB5D6.html"
-  },
-  {
-    "name": "CB.FB5D7",
-    "urls": {
-      "combined": "types/CB.FB5D7.html",
-      "left": "types/CB.FB5D7_L.html",
-      "right": "types/CB.FB5D7_R.html"
-    },
-    "synonyms": "FB5D, FB5E",
-    "flywire_types": null,
-    "primary_url": "types/CB.FB5D7.html"
-  },
-  {
-    "name": "CB.FB5D8",
-    "urls": {
-      "combined": "types/CB.FB5D8.html",
-      "left": "types/CB.FB5D8_L.html",
-      "right": "types/CB.FB5D8_R.html"
-    },
-    "synonyms": "FB5C, FB5F, FB5G, FB5P, FB5Q",
-    "flywire_types": null,
-    "primary_url": "types/CB.FB5D8.html"
-  },
-  {
-    "name": "CB.FB5D9",
-    "urls": {
-      "combined": "types/CB.FB5D9.html",
-      "left": "types/CB.FB5D9_L.html",
-      "right": "types/CB.FB5D9_R.html"
-    },
-    "synonyms": "FB5O",
-    "flywire_types": null,
-    "primary_url": "types/CB.FB5D9.html"
-  },
-  {
-    "name": "CB.FB5E0",
-    "urls": {
-      "combined": "types/CB.FB5E0.html",
-      "left": "types/CB.FB5E0_L.html",
-      "right": "types/CB.FB5E0_R.html"
-    },
-    "synonyms": "FB5I",
-    "flywire_types": null,
-    "primary_url": "types/CB.FB5E0.html"
-  },
-  {
-    "name": "CB.FB5E1",
-    "urls": {
-      "combined": "types/CB.FB5E1.html",
-      "left": "types/CB.FB5E1_L.html",
-      "right": "types/CB.FB5E1_R.html"
-    },
-    "synonyms": "FB5Y",
-    "flywire_types": null,
-    "primary_url": "types/CB.FB5E1.html"
-  },
-  {
-    "name": "CB.FB5F0",
-    "urls": {
-      "combined": "types/CB.FB5F0.html",
-      "left": "types/CB.FB5F0_L.html",
-      "right": "types/CB.FB5F0_R.html"
-    },
-    "synonyms": "FB5H",
-    "flywire_types": null,
-    "primary_url": "types/CB.FB5F0.html"
-  },
-  {
-    "name": "CB.FB5F1",
-    "urls": {
-      "combined": "types/CB.FB5F1.html",
-      "left": "types/CB.FB5F1_L.html",
-      "right": "types/CB.FB5F1_R.html"
-    },
-    "synonyms": "FB5A",
-    "flywire_types": null,
-    "primary_url": "types/CB.FB5F1.html"
-  },
-  {
-    "name": "CB.FB5G0",
-    "urls": {
-      "combined": "types/CB.FB5G0.html",
-      "left": "types/CB.FB5G0_L.html",
-      "right": "types/CB.FB5G0_R.html"
-    },
-    "synonyms": "FB5AB",
-    "flywire_types": null,
-    "primary_url": "types/CB.FB5G0.html"
-  },
-  {
-    "name": "CB.FB5I0",
-    "urls": {
-      "combined": "types/CB.FB5I0.html",
-      "left": "types/CB.FB5I0_L.html",
-      "right": "types/CB.FB5I0_R.html"
-    },
-    "synonyms": null,
-    "flywire_types": null,
-    "primary_url": "types/CB.FB5I0.html"
-  },
-  {
-    "name": "CB.FB5I1",
-    "urls": {
-      "combined": "types/CB.FB5I1.html",
-      "left": "types/CB.FB5I1_L.html",
-      "right": "types/CB.FB5I1_R.html"
-    },
-    "synonyms": null,
-    "flywire_types": null,
-    "primary_url": "types/CB.FB5I1.html"
-  },
-  {
-    "name": "CB.FB5I2",
-    "urls": {
-      "combined": "types/CB.FB5I2.html",
-      "left": "types/CB.FB5I2_L.html",
-      "right": "types/CB.FB5I2_R.html"
-    },
-    "synonyms": null,
-    "flywire_types": null,
-    "primary_url": "types/CB.FB5I2.html"
-  },
-  {
-    "name": "CB.FB5I3",
-    "urls": {
-      "combined": "types/CB.FB5I3.html",
-      "left": "types/CB.FB5I3_L.html",
-      "right": "types/CB.FB5I3_R.html"
-    },
-    "synonyms": "FB5J, FB5K, FB5L, FB5M, FB5N, FB5W",
-    "flywire_types": null,
-    "primary_url": "types/CB.FB5I3.html"
-  },
-  {
-    "name": "CB.FB5I4",
-    "urls": {
-      "combined": "types/CB.FB5I4.html",
-      "left": "types/CB.FB5I4_L.html",
-      "right": "types/CB.FB5I4_R.html"
-    },
-    "synonyms": "FB5J, FB5K, FB5L, FB5M, FB5N, FB5W",
-    "flywire_types": null,
-    "primary_url": "types/CB.FB5I4.html"
-  },
-  {
-    "name": "CB.FB6B0",
-    "urls": {
-      "combined": "types/CB.FB6B0.html",
-      "left": "types/CB.FB6B0_L.html",
-      "right": "types/CB.FB6B0_R.html"
-    },
-    "synonyms": "FB6K",
-    "flywire_types": null,
-    "primary_url": "types/CB.FB6B0.html"
-  },
-  {
-    "name": "CB.FB6B1",
-    "urls": {
-      "combined": "types/CB.FB6B1.html",
-      "left": "types/CB.FB6B1_L.html",
-      "right": "types/CB.FB6B1_R.html"
-    },
-    "synonyms": null,
-    "flywire_types": null,
-    "primary_url": "types/CB.FB6B1.html"
-  },
-  {
-    "name": "CB.FB6C0",
-    "urls": {
-      "combined": "types/CB.FB6C0.html",
-      "left": "types/CB.FB6C0_L.html",
-      "right": "types/CB.FB6C0_R.html"
-    },
-    "synonyms": "FB7F, FB8F",
-    "flywire_types": null,
-    "primary_url": "types/CB.FB6C0.html"
-  },
-  {
-    "name": "CB.FB6C1",
-    "urls": {
-      "combined": "types/CB.FB6C1.html",
-      "left": "types/CB.FB6C1_L.html",
-      "right": "types/CB.FB6C1_R.html"
-    },
-    "synonyms": "FB6T",
-    "flywire_types": null,
-    "primary_url": "types/CB.FB6C1.html"
-  },
-  {
-    "name": "CB.FB6C2",
-    "urls": {
-      "combined": "types/CB.FB6C2.html",
-      "left": "types/CB.FB6C2_L.html",
-      "right": "types/CB.FB6C2_R.html"
-    },
-    "synonyms": "FB6R",
-    "flywire_types": null,
-    "primary_url": "types/CB.FB6C2.html"
-  },
-  {
-    "name": "CB.FB6C3",
-    "urls": {
-      "combined": "types/CB.FB6C3.html",
-      "left": "types/CB.FB6C3_L.html",
-      "right": "types/CB.FB6C3_R.html"
-    },
-    "synonyms": "FB6Q",
-    "flywire_types": null,
-    "primary_url": "types/CB.FB6C3.html"
-  },
-  {
-    "name": "CB.FB6C4",
-    "urls": {
-      "combined": "types/CB.FB6C4.html",
-      "left": "types/CB.FB6C4_L.html",
-      "right": "types/CB.FB6C4_R.html"
-    },
-    "synonyms": "FB6S",
-    "flywire_types": null,
-    "primary_url": "types/CB.FB6C4.html"
-  },
-  {
-    "name": "CB.FB6D0",
-    "urls": {
-      "combined": "types/CB.FB6D0.html",
-      "left": "types/CB.FB6D0_L.html",
-      "right": "types/CB.FB6D0_R.html"
-    },
-    "synonyms": "FB5Z",
-    "flywire_types": null,
-    "primary_url": "types/CB.FB6D0.html"
-  },
-  {
-    "name": "CB.FB6D1",
-    "urls": {
-      "combined": "types/CB.FB6D1.html",
-      "left": "types/CB.FB6D1_L.html",
-      "right": "types/CB.FB6D1_R.html"
-    },
-    "synonyms": "FB6W",
-    "flywire_types": null,
-    "primary_url": "types/CB.FB6D1.html"
-  },
-  {
-    "name": "CB.FB6D2",
-    "urls": {
-      "combined": "types/CB.FB6D2.html",
-      "left": "types/CB.FB6D2_L.html",
-      "right": "types/CB.FB6D2_R.html"
-    },
-    "synonyms": null,
-    "flywire_types": null,
-    "primary_url": "types/CB.FB6D2.html"
-  },
-  {
-    "name": "CB.FB6E0",
-    "urls": {
-      "combined": "types/CB.FB6E0.html",
-      "left": "types/CB.FB6E0_L.html",
-      "right": "types/CB.FB6E0_R.html"
-    },
-    "synonyms": "FB6F",
-    "flywire_types": null,
-    "primary_url": "types/CB.FB6E0.html"
-  },
-  {
-    "name": "CB.FB6E1",
-    "urls": {
-      "combined": "types/CB.FB6E1.html",
-      "left": "types/CB.FB6E1_L.html",
-      "right": "types/CB.FB6E1_R.html"
-    },
-    "synonyms": "FB6Z",
-    "flywire_types": null,
-    "primary_url": "types/CB.FB6E1.html"
-  },
-  {
-    "name": "CB.FB6E2",
-    "urls": {
-      "combined": "types/CB.FB6E2.html",
-      "left": "types/CB.FB6E2_L.html",
-      "right": "types/CB.FB6E2_R.html"
-    },
-    "synonyms": "FB6H",
-    "flywire_types": null,
-    "primary_url": "types/CB.FB6E2.html"
-  },
-  {
-    "name": "CB.FB6E3",
-    "urls": {
-      "combined": "types/CB.FB6E3.html",
-      "left": "types/CB.FB6E3_L.html",
-      "right": "types/CB.FB6E3_R.html"
-    },
-    "synonyms": null,
-    "flywire_types": null,
-    "primary_url": "types/CB.FB6E3.html"
-  },
-  {
-    "name": "CB.FB6E4",
-    "urls": {
-      "combined": "types/CB.FB6E4.html",
-      "left": "types/CB.FB6E4_L.html",
-      "right": "types/CB.FB6E4_R.html"
-    },
-    "synonyms": null,
-    "flywire_types": null,
-    "primary_url": "types/CB.FB6E4.html"
-  },
-  {
-    "name": "CB.FB6E5",
-    "urls": {
-      "combined": "types/CB.FB6E5.html",
-      "left": "types/CB.FB6E5_L.html",
-      "right": "types/CB.FB6E5_R.html"
-    },
-    "synonyms": null,
-    "flywire_types": null,
-    "primary_url": "types/CB.FB6E5.html"
-  },
-  {
-    "name": "CB.FB6F0",
-    "urls": {
-      "combined": "types/CB.FB6F0.html",
-      "left": "types/CB.FB6F0_L.html",
-      "right": "types/CB.FB6F0_R.html"
-    },
-    "synonyms": "FB6M",
-    "flywire_types": null,
-    "primary_url": "types/CB.FB6F0.html"
-  },
-  {
-    "name": "CB.FB6I0",
-    "urls": {
-      "combined": "types/CB.FB6I0.html",
-      "left": "types/CB.FB6I0_L.html",
-      "right": "types/CB.FB6I0_R.html"
-    },
-    "synonyms": null,
-    "flywire_types": null,
-    "primary_url": "types/CB.FB6I0.html"
-  },
-  {
-    "name": "CB.FB6I1",
-    "urls": {
-      "combined": "types/CB.FB6I1.html",
-      "left": "types/CB.FB6I1_L.html",
-      "right": "types/CB.FB6I1_R.html"
-    },
-    "synonyms": "FB6O",
-    "flywire_types": null,
-    "primary_url": "types/CB.FB6I1.html"
-  },
-  {
-    "name": "CB.FB7B0",
-    "urls": {
-      "combined": "types/CB.FB7B0.html",
-      "left": "types/CB.FB7B0_L.html",
-      "right": "types/CB.FB7B0_R.html"
-    },
-    "synonyms": null,
-    "flywire_types": null,
-    "primary_url": "types/CB.FB7B0.html"
-  },
-  {
-    "name": "CB.FB7C0",
-    "urls": {
-      "combined": "types/CB.FB7C0.html",
-      "left": "types/CB.FB7C0_L.html",
-      "right": "types/CB.FB7C0_R.html"
-    },
-    "synonyms": "FB7F, FB8F",
-    "flywire_types": null,
-    "primary_url": "types/CB.FB7C0.html"
-  },
-  {
-    "name": "CB.FB7D0",
-    "urls": {
-      "combined": "types/CB.FB7D0.html",
-      "left": "types/CB.FB7D0_L.html",
-      "right": "types/CB.FB7D0_R.html"
-    },
-    "synonyms": null,
-    "flywire_types": null,
-    "primary_url": "types/CB.FB7D0.html"
-  },
-  {
-    "name": "CB.FB7D1",
-    "urls": {
-      "combined": "types/CB.FB7D1.html",
-      "left": "types/CB.FB7D1_L.html",
-      "right": "types/CB.FB7D1_R.html"
-    },
-    "synonyms": "FB7E",
-    "flywire_types": null,
-    "primary_url": "types/CB.FB7D1.html"
-  },
-  {
-    "name": "CB.FB7E0",
-    "urls": {
-      "combined": "types/CB.FB7E0.html",
-      "left": "types/CB.FB7E0_L.html",
-      "right": "types/CB.FB7E0_R.html"
-    },
-    "synonyms": "FB7L",
-    "flywire_types": null,
-    "primary_url": "types/CB.FB7E0.html"
-  },
-  {
-    "name": "CB.FB7E1",
-    "urls": {
-      "combined": "types/CB.FB7E1.html",
-      "left": "types/CB.FB7E1_L.html",
-      "right": "types/CB.FB7E1_R.html"
-    },
-    "synonyms": "FB7A, FB7K",
-    "flywire_types": null,
-    "primary_url": "types/CB.FB7E1.html"
-  },
-  {
-    "name": "CB.FB7E2",
-    "urls": {
-      "combined": "types/CB.FB7E2.html",
-      "left": "types/CB.FB7E2_L.html",
-      "right": "types/CB.FB7E2_R.html"
-    },
-    "synonyms": "FB7A, FB7K",
-    "flywire_types": null,
-    "primary_url": "types/CB.FB7E2.html"
-  },
-  {
-    "name": "CB.FB8B0",
-    "urls": {
-      "combined": "types/CB.FB8B0.html",
-      "left": "types/CB.FB8B0_L.html",
-      "right": "types/CB.FB8B0_R.html"
-    },
-    "synonyms": "FB8B",
-    "flywire_types": null,
-    "primary_url": "types/CB.FB8B0.html"
-  },
-  {
-    "name": "CB.FB8B1",
-    "urls": {
-      "combined": "types/CB.FB8B1.html",
-      "left": "types/CB.FB8B1_L.html",
-      "right": "types/CB.FB8B1_R.html"
-    },
-    "synonyms": "FB8C",
-    "flywire_types": null,
-    "primary_url": "types/CB.FB8B1.html"
-  },
-  {
-    "name": "CB.FB8C0",
-    "urls": {
-      "combined": "types/CB.FB8C0.html",
-      "left": "types/CB.FB8C0_L.html",
-      "right": "types/CB.FB8C0_R.html"
-    },
-    "synonyms": "FB7F, FB8F",
-    "flywire_types": null,
-    "primary_url": "types/CB.FB8C0.html"
-  },
-  {
-    "name": "CB.FB8C1",
-    "urls": {
-      "combined": "types/CB.FB8C1.html",
-      "left": "types/CB.FB8C1_L.html",
-      "right": "types/CB.FB8C1_R.html"
-    },
-    "synonyms": "FB7F, FB8F",
-    "flywire_types": null,
-    "primary_url": "types/CB.FB8C1.html"
-  },
-  {
-    "name": "CB.FB8C2",
-    "urls": {
-      "combined": "types/CB.FB8C2.html",
-      "left": "types/CB.FB8C2_L.html",
-      "right": "types/CB.FB8C2_R.html"
-    },
-    "synonyms": "FB7F, FB8F",
-    "flywire_types": null,
-    "primary_url": "types/CB.FB8C2.html"
-  },
-  {
-    "name": "CB.FB8C3",
-    "urls": {
-      "combined": "types/CB.FB8C3.html",
-      "left": "types/CB.FB8C3_L.html",
-      "right": "types/CB.FB8C3_R.html"
-    },
-    "synonyms": "FB8D",
-    "flywire_types": null,
-    "primary_url": "types/CB.FB8C3.html"
-  },
-  {
-    "name": "CB.FB8D0",
-    "urls": {
-      "combined": "types/CB.FB8D0.html",
-      "left": "types/CB.FB8D0_L.html",
-      "right": "types/CB.FB8D0_R.html"
-    },
-    "synonyms": "FB8I",
-    "flywire_types": null,
-    "primary_url": "types/CB.FB8D0.html"
-  },
-  {
-    "name": "CB.FB8D1",
-    "urls": {
-      "combined": "types/CB.FB8D1.html",
-      "left": "types/CB.FB8D1_L.html",
-      "right": "types/CB.FB8D1_R.html"
-    },
-    "synonyms": "FB8E",
-    "flywire_types": null,
-    "primary_url": "types/CB.FB8D1.html"
-  },
-  {
-    "name": "CB.FB8D2",
-    "urls": {
-      "combined": "types/CB.FB8D2.html",
-      "left": "types/CB.FB8D2_L.html",
-      "right": "types/CB.FB8D2_R.html"
-    },
-    "synonyms": "FB8E",
-    "flywire_types": null,
-    "primary_url": "types/CB.FB8D2.html"
-  },
-  {
-    "name": "CB.FB8E0",
-    "urls": {
-      "combined": "types/CB.FB8E0.html",
-      "left": "types/CB.FB8E0_L.html",
-      "right": "types/CB.FB8E0_R.html"
-    },
-    "synonyms": "FB7L",
-    "flywire_types": null,
-    "primary_url": "types/CB.FB8E0.html"
-  },
-  {
-    "name": "CB.FB8E1",
-    "urls": {
-      "combined": "types/CB.FB8E1.html",
-      "left": "types/CB.FB8E1_L.html",
-      "right": "types/CB.FB8E1_R.html"
-    },
-    "synonyms": "FB8A, FB8H",
-    "flywire_types": null,
-    "primary_url": "types/CB.FB8E1.html"
-  },
-  {
-    "name": "CB.FB9C0",
-    "urls": {
-      "combined": "types/CB.FB9C0.html",
-      "left": "types/CB.FB9C0_L.html",
-      "right": "types/CB.FB9C0_R.html"
-    },
-    "synonyms": "FB9A, FB9C",
-    "flywire_types": null,
-    "primary_url": "types/CB.FB9C0.html"
-  },
-  {
-    "name": "CB.FB9D0",
-    "urls": {
-      "combined": "types/CB.FB9D0.html",
-      "left": "types/CB.FB9D0_L.html",
-      "right": "types/CB.FB9D0_R.html"
-    },
-    "synonyms": "FB9B",
-    "flywire_types": null,
-    "primary_url": "types/CB.FB9D0.html"
-  },
-  {
-    "name": "CB.FBTF0",
-    "urls": {
-      "combined": "types/CB.FBTF0.html",
-      "left": "types/CB.FBTF0_L.html",
-      "right": "types/CB.FBTF0_R.html"
-    },
-    "synonyms": "FB1H",
-    "flywire_types": null,
-    "primary_url": "types/CB.FBTF0.html"
-  },
-  {
-    "name": "CB.FBTI0",
-    "urls": {
-      "combined": "types/CB.FBTI0.html",
-      "left": "types/CB.FBTI0_L.html",
-      "right": "types/CB.FBTI0_R.html"
-    },
-    "synonyms": null,
-    "flywire_types": null,
-    "primary_url": "types/CB.FBTI0.html"
-  },
-  {
-    "name": "CB.FBTI1",
-    "urls": {
-      "combined": "types/CB.FBTI1.html",
-      "left": "types/CB.FBTI1_L.html",
-      "right": "types/CB.FBTI1_R.html"
-    },
-    "synonyms": "SAF",
-    "flywire_types": null,
-    "primary_url": "types/CB.FBTI1.html"
-  },
-  {
     "name": "CB0004",
     "urls": {
       "combined": "types/CB0004.html",
@@ -21596,7 +20895,7 @@ const NEURON_DATA = [
       "left": "types/CB0007_L.html",
       "right": "types/CB0007_R.html"
     },
-    "synonyms": "aSP16",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB0007.html"
   },
@@ -21673,7 +20972,7 @@ const NEURON_DATA = [
       "left": "types/CB0015_L.html",
       "right": "types/CB0015_R.html"
     },
-    "synonyms": null,
+    "synonyms": "Cachero 2010: aDT-h;Yu 2010: aDT6",
     "flywire_types": null,
     "primary_url": "types/CB0015.html"
   },
@@ -21860,7 +21159,7 @@ const NEURON_DATA = [
       "left": "types/CB0033_L.html",
       "right": "types/CB0033_R.html"
     },
-    "synonyms": "IPS_pr02",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB0033.html"
   },
@@ -22366,7 +21665,7 @@ const NEURON_DATA = [
       "left": "types/CB0090_L.html",
       "right": "types/CB0090_R.html"
     },
-    "synonyms": "B2, aPN_lateral",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB0090.html"
   },
@@ -22388,7 +21687,7 @@ const NEURON_DATA = [
       "left": "types/CB0094_L.html",
       "right": "types/CB0094_R.html"
     },
-    "synonyms": "pMP5",
+    "synonyms": "Cachero 2010: pMP-b; Yu 2010: pMP5; Rideout 2010: pC3; Zhou 2014: pCd; Nojima 2021: pCd-2",
     "flywire_types": null,
     "primary_url": "types/CB0094.html"
   },
@@ -22498,7 +21797,7 @@ const NEURON_DATA = [
       "left": "types/CB0104_L.html",
       "right": "types/CB0104_R.html"
     },
-    "synonyms": "SAD_pr01",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB0104.html"
   },
@@ -22822,24 +22121,13 @@ const NEURON_DATA = [
     "primary_url": "types/CB0144.html"
   },
   {
-    "name": "CB0147",
-    "urls": {
-      "combined": "types/CB0147.html",
-      "left": "types/CB0147_L.html",
-      "right": "types/CB0147_R.html"
-    },
-    "synonyms": null,
-    "flywire_types": null,
-    "primary_url": "types/CB0147.html"
-  },
-  {
     "name": "CB0148",
     "urls": {
       "combined": "types/CB0148.html",
       "left": "types/CB0148_L.html",
       "right": "types/CB0148_R.html"
     },
-    "synonyms": "AVLP_pr23",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB0148.html"
   },
@@ -22894,7 +22182,7 @@ const NEURON_DATA = [
       "left": "types/CB0153_L.html",
       "right": "types/CB0153_R.html"
     },
-    "synonyms": "Trumpet",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB0153.html"
   },
@@ -22905,7 +22193,7 @@ const NEURON_DATA = [
       "left": "types/CB0154_L.html",
       "right": "types/CB0154_R.html"
     },
-    "synonyms": "PVLP095",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB0154.html"
   },
@@ -23433,7 +22721,7 @@ const NEURON_DATA = [
       "left": "types/CB0220_L.html",
       "right": "types/CB0220_R.html"
     },
-    "synonyms": null,
+    "synonyms": "fru-F-000100",
     "flywire_types": null,
     "primary_url": "types/CB0220.html"
   },
@@ -23565,7 +22853,7 @@ const NEURON_DATA = [
       "left": "types/CB0232_L.html",
       "right": "types/CB0232_R.html"
     },
-    "synonyms": null,
+    "synonyms": "fru-F-200134",
     "flywire_types": null,
     "primary_url": "types/CB0232.html"
   },
@@ -23840,7 +23128,7 @@ const NEURON_DATA = [
       "left": "types/CB0264_L.html",
       "right": "types/CB0264_R.html"
     },
-    "synonyms": "AVLP_pr23",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB0264.html"
   },
@@ -24445,7 +23733,7 @@ const NEURON_DATA = [
       "left": "types/CB0339_L.html",
       "right": "types/CB0339_R.html"
     },
-    "synonyms": "LHPD2b1",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB0339.html"
   },
@@ -24478,7 +23766,7 @@ const NEURON_DATA = [
       "left": "types/CB0342_L.html",
       "right": "types/CB0342_R.html"
     },
-    "synonyms": null,
+    "synonyms": "fru-F-500227, fru-F-600091, fru-F-700130",
     "flywire_types": null,
     "primary_url": "types/CB0342.html"
   },
@@ -24566,7 +23854,7 @@ const NEURON_DATA = [
       "left": "types/CB0352_L.html",
       "right": "types/CB0352_R.html"
     },
-    "synonyms": null,
+    "synonyms": "Cachero 2010: aIP-a",
     "flywire_types": null,
     "primary_url": "types/CB0352.html"
   },
@@ -24621,7 +23909,7 @@ const NEURON_DATA = [
       "left": "types/CB0359_L.html",
       "right": "types/CB0359_R.html"
     },
-    "synonyms": "aSP16",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB0359.html"
   },
@@ -24643,7 +23931,7 @@ const NEURON_DATA = [
       "left": "types/CB0361_L.html",
       "right": "types/CB0361_R.html"
     },
-    "synonyms": null,
+    "synonyms": "Cachero 2010: aSP-j;Yu 2010: aSP12",
     "flywire_types": null,
     "primary_url": "types/CB0361.html"
   },
@@ -24841,7 +24129,7 @@ const NEURON_DATA = [
       "left": "types/CB0385_L.html",
       "right": "types/CB0385_R.html"
     },
-    "synonyms": "PVLP096",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB0385.html"
   },
@@ -25006,20 +24294,9 @@ const NEURON_DATA = [
       "left": "types/CB0405_L.html",
       "right": "types/CB0405_R.html"
     },
-    "synonyms": "pMP5",
+    "synonyms": "Cachero 2010: pMP-b; Yu 2010: pMP5; Rideout 2010: pC3; Zhou 2014: pCd; Nojima 2021: pCd-2",
     "flywire_types": null,
     "primary_url": "types/CB0405.html"
-  },
-  {
-    "name": "CB0406",
-    "urls": {
-      "combined": "types/CB0406.html",
-      "left": "types/CB0406_L.html",
-      "right": "types/CB0406_R.html"
-    },
-    "synonyms": null,
-    "flywire_types": null,
-    "primary_url": "types/CB0406.html"
   },
   {
     "name": "CB0407",
@@ -25578,7 +24855,7 @@ const NEURON_DATA = [
       "left": "types/CB0465_L.html",
       "right": "types/CB0465_R.html"
     },
-    "synonyms": null,
+    "synonyms": "fru-F-300125",
     "flywire_types": null,
     "primary_url": "types/CB0465.html"
   },
@@ -25625,17 +24902,6 @@ const NEURON_DATA = [
     "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB0469.html"
-  },
-  {
-    "name": "CB0472",
-    "urls": {
-      "combined": "types/CB0472.html",
-      "left": "types/CB0472_L.html",
-      "right": "types/CB0472_R.html"
-    },
-    "synonyms": "LT54",
-    "flywire_types": null,
-    "primary_url": "types/CB0472.html"
   },
   {
     "name": "CB0473",
@@ -26496,17 +25762,6 @@ const NEURON_DATA = [
     "primary_url": "types/CB0565.html"
   },
   {
-    "name": "CB0566",
-    "urls": {
-      "combined": "types/CB0566.html",
-      "left": "types/CB0566_L.html",
-      "right": "types/CB0566_R.html"
-    },
-    "synonyms": "MeMe_e12",
-    "flywire_types": null,
-    "primary_url": "types/CB0566.html"
-  },
-  {
     "name": "CB0567",
     "urls": {
       "combined": "types/CB0567.html",
@@ -26579,7 +25834,7 @@ const NEURON_DATA = [
       "left": "types/CB0575_L.html",
       "right": "types/CB0575_R.html"
     },
-    "synonyms": null,
+    "synonyms": "Cachero 2010: aDT-h;Yu 2010: aDT6",
     "flywire_types": null,
     "primary_url": "types/CB0575.html"
   },
@@ -26593,17 +25848,6 @@ const NEURON_DATA = [
     "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB0576.html"
-  },
-  {
-    "name": "CB0578",
-    "urls": {
-      "combined": "types/CB0578.html",
-      "left": "types/CB0578_L.html",
-      "right": "types/CB0578_R.html"
-    },
-    "synonyms": null,
-    "flywire_types": null,
-    "primary_url": "types/CB0578.html"
   },
   {
     "name": "CB0579",
@@ -26725,17 +25969,6 @@ const NEURON_DATA = [
     "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB0591.html"
-  },
-  {
-    "name": "CB0592",
-    "urls": {
-      "combined": "types/CB0592.html",
-      "left": "types/CB0592_L.html",
-      "right": "types/CB0592_R.html"
-    },
-    "synonyms": "MeMe_e13",
-    "flywire_types": null,
-    "primary_url": "types/CB0592.html"
   },
   {
     "name": "CB0593",
@@ -27019,7 +26252,7 @@ const NEURON_DATA = [
       "left": "types/CB0623_L.html",
       "right": "types/CB0623_R.html"
     },
-    "synonyms": "hb-1416796844",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB0623.html"
   },
@@ -27030,7 +26263,7 @@ const NEURON_DATA = [
       "left": "types/CB0624_L.html",
       "right": "types/CB0624_R.html"
     },
-    "synonyms": "hb-5812982885, hb-5901225755",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB0624.html"
   },
@@ -27041,7 +26274,7 @@ const NEURON_DATA = [
       "left": "types/CB0625_L.html",
       "right": "types/CB0625_R.html"
     },
-    "synonyms": "hb-1848277193",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB0625.html"
   },
@@ -27052,7 +26285,7 @@ const NEURON_DATA = [
       "left": "types/CB0626_L.html",
       "right": "types/CB0626_R.html"
     },
-    "synonyms": "hb-5813083315",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB0626.html"
   },
@@ -27063,7 +26296,7 @@ const NEURON_DATA = [
       "left": "types/CB0627_L.html",
       "right": "types/CB0627_R.html"
     },
-    "synonyms": "hb-702618710",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB0627.html"
   },
@@ -27074,7 +26307,7 @@ const NEURON_DATA = [
       "left": "types/CB0628_L.html",
       "right": "types/CB0628_R.html"
     },
-    "synonyms": "hb-1197571795",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB0628.html"
   },
@@ -27085,7 +26318,7 @@ const NEURON_DATA = [
       "left": "types/CB0629_L.html",
       "right": "types/CB0629_R.html"
     },
-    "synonyms": "hb-2005894552",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB0629.html"
   },
@@ -27096,7 +26329,7 @@ const NEURON_DATA = [
       "left": "types/CB0630_L.html",
       "right": "types/CB0630_R.html"
     },
-    "synonyms": "hb-5813023379",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB0630.html"
   },
@@ -27107,7 +26340,7 @@ const NEURON_DATA = [
       "left": "types/CB0631_L.html",
       "right": "types/CB0631_R.html"
     },
-    "synonyms": "hb-546771021, hb-637487760",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB0631.html"
   },
@@ -27118,7 +26351,7 @@ const NEURON_DATA = [
       "left": "types/CB0632_L.html",
       "right": "types/CB0632_R.html"
     },
-    "synonyms": "hb-1815947603",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB0632.html"
   },
@@ -27129,7 +26362,7 @@ const NEURON_DATA = [
       "left": "types/CB0633_L.html",
       "right": "types/CB0633_R.html"
     },
-    "synonyms": "hb-5813078629",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB0633.html"
   },
@@ -27140,7 +26373,7 @@ const NEURON_DATA = [
       "left": "types/CB0635_L.html",
       "right": "types/CB0635_R.html"
     },
-    "synonyms": "hb-1283868229",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB0635.html"
   },
@@ -27151,7 +26384,7 @@ const NEURON_DATA = [
       "left": "types/CB0637_L.html",
       "right": "types/CB0637_R.html"
     },
-    "synonyms": "hb-1313513195",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB0637.html"
   },
@@ -27162,7 +26395,7 @@ const NEURON_DATA = [
       "left": "types/CB0638_L.html",
       "right": "types/CB0638_R.html"
     },
-    "synonyms": "hb-583042026, hb-614059839",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB0638.html"
   },
@@ -27173,7 +26406,7 @@ const NEURON_DATA = [
       "left": "types/CB0640_L.html",
       "right": "types/CB0640_R.html"
     },
-    "synonyms": "hb-1746952120",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB0640.html"
   },
@@ -27184,7 +26417,7 @@ const NEURON_DATA = [
       "left": "types/CB0641_L.html",
       "right": "types/CB0641_R.html"
     },
-    "synonyms": "hb-699652692",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB0641.html"
   },
@@ -27195,7 +26428,7 @@ const NEURON_DATA = [
       "left": "types/CB0642_L.html",
       "right": "types/CB0642_R.html"
     },
-    "synonyms": "hb-1223848354",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB0642.html"
   },
@@ -27206,7 +26439,7 @@ const NEURON_DATA = [
       "left": "types/CB0643_L.html",
       "right": "types/CB0643_R.html"
     },
-    "synonyms": "hb-330998071, hb-362024428",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB0643.html"
   },
@@ -27217,7 +26450,7 @@ const NEURON_DATA = [
       "left": "types/CB0644_L.html",
       "right": "types/CB0644_R.html"
     },
-    "synonyms": "hb-5812989437",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB0644.html"
   },
@@ -27228,7 +26461,7 @@ const NEURON_DATA = [
       "left": "types/CB0645_L.html",
       "right": "types/CB0645_R.html"
     },
-    "synonyms": "hb-545734335",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB0645.html"
   },
@@ -27239,7 +26472,7 @@ const NEURON_DATA = [
       "left": "types/CB0646_L.html",
       "right": "types/CB0646_R.html"
     },
-    "synonyms": "hb-1822686129",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB0646.html"
   },
@@ -27250,7 +26483,7 @@ const NEURON_DATA = [
       "left": "types/CB0647_L.html",
       "right": "types/CB0647_R.html"
     },
-    "synonyms": "hb-1914171250",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB0647.html"
   },
@@ -27261,7 +26494,7 @@ const NEURON_DATA = [
       "left": "types/CB0648_L.html",
       "right": "types/CB0648_R.html"
     },
-    "synonyms": "hb-543105865",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB0648.html"
   },
@@ -27272,7 +26505,7 @@ const NEURON_DATA = [
       "left": "types/CB0649_L.html",
       "right": "types/CB0649_R.html"
     },
-    "synonyms": "hb-1353341956, hb-1665762714",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB0649.html"
   },
@@ -27283,7 +26516,7 @@ const NEURON_DATA = [
       "left": "types/CB0650_L.html",
       "right": "types/CB0650_R.html"
     },
-    "synonyms": "hb-519236349",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB0650.html"
   },
@@ -27294,7 +26527,7 @@ const NEURON_DATA = [
       "left": "types/CB0651_L.html",
       "right": "types/CB0651_R.html"
     },
-    "synonyms": "hb-1345277432",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB0651.html"
   },
@@ -27305,7 +26538,7 @@ const NEURON_DATA = [
       "left": "types/CB0652_L.html",
       "right": "types/CB0652_R.html"
     },
-    "synonyms": "hb-1870781346",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB0652.html"
   },
@@ -27316,7 +26549,7 @@ const NEURON_DATA = [
       "left": "types/CB0653_L.html",
       "right": "types/CB0653_R.html"
     },
-    "synonyms": "hb-608166388",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB0653.html"
   },
@@ -27327,7 +26560,7 @@ const NEURON_DATA = [
       "left": "types/CB0654_L.html",
       "right": "types/CB0654_R.html"
     },
-    "synonyms": "hb-1283392486",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB0654.html"
   },
@@ -27338,7 +26571,7 @@ const NEURON_DATA = [
       "left": "types/CB0655_L.html",
       "right": "types/CB0655_R.html"
     },
-    "synonyms": "hb-734814622",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB0655.html"
   },
@@ -27349,7 +26582,7 @@ const NEURON_DATA = [
       "left": "types/CB0656_L.html",
       "right": "types/CB0656_R.html"
     },
-    "synonyms": "hb-386829647",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB0656.html"
   },
@@ -27360,7 +26593,7 @@ const NEURON_DATA = [
       "left": "types/CB0657_L.html",
       "right": "types/CB0657_R.html"
     },
-    "synonyms": "hb-1652832941",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB0657.html"
   },
@@ -27371,7 +26604,7 @@ const NEURON_DATA = [
       "left": "types/CB0658_L.html",
       "right": "types/CB0658_R.html"
     },
-    "synonyms": "hb-509945954",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB0658.html"
   },
@@ -27382,7 +26615,7 @@ const NEURON_DATA = [
       "left": "types/CB0659_L.html",
       "right": "types/CB0659_R.html"
     },
-    "synonyms": "hb-2099569065",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB0659.html"
   },
@@ -27393,7 +26626,7 @@ const NEURON_DATA = [
       "left": "types/CB0660_L.html",
       "right": "types/CB0660_R.html"
     },
-    "synonyms": "hb-1221802845",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB0660.html"
   },
@@ -27404,7 +26637,7 @@ const NEURON_DATA = [
       "left": "types/CB0661_L.html",
       "right": "types/CB0661_R.html"
     },
-    "synonyms": "hb-703317507, hb-732319555",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB0661.html"
   },
@@ -27415,7 +26648,7 @@ const NEURON_DATA = [
       "left": "types/CB0662_L.html",
       "right": "types/CB0662_R.html"
     },
-    "synonyms": "hb-1101708390",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB0662.html"
   },
@@ -27426,7 +26659,7 @@ const NEURON_DATA = [
       "left": "types/CB0663_L.html",
       "right": "types/CB0663_R.html"
     },
-    "synonyms": "hb-1934975261",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB0663.html"
   },
@@ -27437,7 +26670,7 @@ const NEURON_DATA = [
       "left": "types/CB0665_L.html",
       "right": "types/CB0665_R.html"
     },
-    "synonyms": "hb-916158794",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB0665.html"
   },
@@ -27448,7 +26681,7 @@ const NEURON_DATA = [
       "left": "types/CB0666_L.html",
       "right": "types/CB0666_R.html"
     },
-    "synonyms": "hb-953013850, pMN1",
+    "synonyms": "Cachero 2010: pIP-h;Yu 2010: pIP9",
     "flywire_types": null,
     "primary_url": "types/CB0666.html"
   },
@@ -27459,7 +26692,7 @@ const NEURON_DATA = [
       "left": "types/CB0667_L.html",
       "right": "types/CB0667_R.html"
     },
-    "synonyms": "hb-2062789026",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB0667.html"
   },
@@ -27470,7 +26703,7 @@ const NEURON_DATA = [
       "left": "types/CB0668_L.html",
       "right": "types/CB0668_R.html"
     },
-    "synonyms": "hb-1158610253",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB0668.html"
   },
@@ -27481,7 +26714,7 @@ const NEURON_DATA = [
       "left": "types/CB0669_L.html",
       "right": "types/CB0669_R.html"
     },
-    "synonyms": "hb-1251511957",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB0669.html"
   },
@@ -27492,7 +26725,7 @@ const NEURON_DATA = [
       "left": "types/CB0670_L.html",
       "right": "types/CB0670_R.html"
     },
-    "synonyms": "hb-606447968",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB0670.html"
   },
@@ -27503,7 +26736,7 @@ const NEURON_DATA = [
       "left": "types/CB0671_L.html",
       "right": "types/CB0671_R.html"
     },
-    "synonyms": "hb-5813078116",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB0671.html"
   },
@@ -27512,7 +26745,7 @@ const NEURON_DATA = [
     "urls": {
       "middle": "types/CB0674_M.html"
     },
-    "synonyms": "hb-5813069767",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB0674_M.html"
   },
@@ -27523,7 +26756,7 @@ const NEURON_DATA = [
       "left": "types/CB0675_L.html",
       "right": "types/CB0675_R.html"
     },
-    "synonyms": "hb-1622138907",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB0675.html"
   },
@@ -27534,7 +26767,7 @@ const NEURON_DATA = [
       "left": "types/CB0676_L.html",
       "right": "types/CB0676_R.html"
     },
-    "synonyms": "hb-1345285966",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB0676.html"
   },
@@ -27545,7 +26778,7 @@ const NEURON_DATA = [
       "left": "types/CB0677_L.html",
       "right": "types/CB0677_R.html"
     },
-    "synonyms": "hb-2035544474",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB0677.html"
   },
@@ -27556,7 +26789,7 @@ const NEURON_DATA = [
       "left": "types/CB0678_L.html",
       "right": "types/CB0678_R.html"
     },
-    "synonyms": "hb-457175054, hb-488891877",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB0678.html"
   },
@@ -27567,7 +26800,7 @@ const NEURON_DATA = [
       "left": "types/CB0679_L.html",
       "right": "types/CB0679_R.html"
     },
-    "synonyms": "hb-5813043077",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB0679.html"
   },
@@ -27578,7 +26811,7 @@ const NEURON_DATA = [
       "left": "types/CB0681_L.html",
       "right": "types/CB0681_R.html"
     },
-    "synonyms": "hb-5813047811",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB0681.html"
   },
@@ -27589,7 +26822,7 @@ const NEURON_DATA = [
       "left": "types/CB0682_L.html",
       "right": "types/CB0682_R.html"
     },
-    "synonyms": "hb-1066542063",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB0682.html"
   },
@@ -27600,7 +26833,7 @@ const NEURON_DATA = [
       "left": "types/CB0683_L.html",
       "right": "types/CB0683_R.html"
     },
-    "synonyms": "hb-1762351201",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB0683.html"
   },
@@ -27611,7 +26844,7 @@ const NEURON_DATA = [
       "left": "types/CB0684_L.html",
       "right": "types/CB0684_R.html"
     },
-    "synonyms": "hb-451722668",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB0684.html"
   },
@@ -27622,7 +26855,7 @@ const NEURON_DATA = [
       "left": "types/CB0685_L.html",
       "right": "types/CB0685_R.html"
     },
-    "synonyms": "hb-825445636",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB0685.html"
   },
@@ -27633,7 +26866,7 @@ const NEURON_DATA = [
       "left": "types/CB0687_L.html",
       "right": "types/CB0687_R.html"
     },
-    "synonyms": "hb-482071823",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB0687.html"
   },
@@ -27644,7 +26877,7 @@ const NEURON_DATA = [
       "left": "types/CB0688_L.html",
       "right": "types/CB0688_R.html"
     },
-    "synonyms": "hb-5813054853",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB0688.html"
   },
@@ -27655,7 +26888,7 @@ const NEURON_DATA = [
       "left": "types/CB0689_L.html",
       "right": "types/CB0689_R.html"
     },
-    "synonyms": "hb-1760327095",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB0689.html"
   },
@@ -27666,7 +26899,7 @@ const NEURON_DATA = [
       "left": "types/CB0690_L.html",
       "right": "types/CB0690_R.html"
     },
-    "synonyms": "hb-5813078104",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB0690.html"
   },
@@ -27710,7 +26943,7 @@ const NEURON_DATA = [
       "left": "types/CB0699_L.html",
       "right": "types/CB0699_R.html"
     },
-    "synonyms": "aDT6",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB0699.html"
   },
@@ -27875,7 +27108,7 @@ const NEURON_DATA = [
       "left": "types/CB0718_L.html",
       "right": "types/CB0718_R.html"
     },
-    "synonyms": "hb-1970745542",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB0718.html"
   },
@@ -27946,17 +27179,6 @@ const NEURON_DATA = [
     "primary_url": "types/CB0724.html"
   },
   {
-    "name": "CB0726",
-    "urls": {
-      "combined": "types/CB0726.html",
-      "left": "types/CB0726_L.html",
-      "right": "types/CB0726_R.html"
-    },
-    "synonyms": null,
-    "flywire_types": null,
-    "primary_url": "types/CB0726.html"
-  },
-  {
     "name": "CB0727",
     "urls": {
       "combined": "types/CB0727.html",
@@ -27996,7 +27218,7 @@ const NEURON_DATA = [
       "left": "types/CB0732_L.html",
       "right": "types/CB0732_R.html"
     },
-    "synonyms": "PVLP098",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB0732.html"
   },
@@ -28062,7 +27284,7 @@ const NEURON_DATA = [
       "left": "types/CB0739_L.html",
       "right": "types/CB0739_R.html"
     },
-    "synonyms": "aSP16",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB0739.html"
   },
@@ -28161,7 +27383,7 @@ const NEURON_DATA = [
       "left": "types/CB0751_L.html",
       "right": "types/CB0751_R.html"
     },
-    "synonyms": "hb-1786232749",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB0751.html"
   },
@@ -28205,7 +27427,7 @@ const NEURON_DATA = [
       "left": "types/CB0755_L.html",
       "right": "types/CB0755_R.html"
     },
-    "synonyms": "hb-1282507669",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB0755.html"
   },
@@ -28238,7 +27460,7 @@ const NEURON_DATA = [
       "left": "types/CB0758_L.html",
       "right": "types/CB0758_R.html"
     },
-    "synonyms": "B2, aPN_lateral",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB0758.html"
   },
@@ -28370,7 +27592,7 @@ const NEURON_DATA = [
       "left": "types/CB0772_L.html",
       "right": "types/CB0772_R.html"
     },
-    "synonyms": null,
+    "synonyms": "Cachero 2010: aDT-h; Yu 2010: aDT6",
     "flywire_types": null,
     "primary_url": "types/CB0772.html"
   },
@@ -28656,7 +27878,7 @@ const NEURON_DATA = [
       "left": "types/CB0804_L.html",
       "right": "types/CB0804_R.html"
     },
-    "synonyms": "Ruby",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB0804.html"
   },
@@ -28755,20 +27977,9 @@ const NEURON_DATA = [
       "left": "types/CB0815_L.html",
       "right": "types/CB0815_R.html"
     },
-    "synonyms": "hb-5812979054",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB0815.html"
-  },
-  {
-    "name": "CB0816",
-    "urls": {
-      "combined": "types/CB0816.html",
-      "left": "types/CB0816_L.html",
-      "right": "types/CB0816_R.html"
-    },
-    "synonyms": "MeMe_e11",
-    "flywire_types": null,
-    "primary_url": "types/CB0816.html"
   },
   {
     "name": "CB0817",
@@ -28854,7 +28065,7 @@ const NEURON_DATA = [
       "left": "types/CB0828_L.html",
       "right": "types/CB0828_R.html"
     },
-    "synonyms": "hb-1283851444",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB0828.html"
   },
@@ -29316,7 +28527,7 @@ const NEURON_DATA = [
       "left": "types/CB0878_L.html",
       "right": "types/CB0878_R.html"
     },
-    "synonyms": "aSG7",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB0878.html"
   },
@@ -29547,7 +28758,7 @@ const NEURON_DATA = [
       "left": "types/CB0901_L.html",
       "right": "types/CB0901_R.html"
     },
-    "synonyms": "Ruby",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB0901.html"
   },
@@ -29583,17 +28794,6 @@ const NEURON_DATA = [
     "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB0904.html"
-  },
-  {
-    "name": "CB0905",
-    "urls": {
-      "combined": "types/CB0905.html",
-      "left": "types/CB0905_L.html",
-      "right": "types/CB0905_R.html"
-    },
-    "synonyms": null,
-    "flywire_types": null,
-    "primary_url": "types/CB0905.html"
   },
   {
     "name": "CB0906",
@@ -29943,7 +29143,7 @@ const NEURON_DATA = [
       "left": "types/CB0942_L.html",
       "right": "types/CB0942_R.html"
     },
-    "synonyms": null,
+    "synonyms": "Cachero 2010: pMP-a;Yu 2010: pMP5",
     "flywire_types": null,
     "primary_url": "types/CB0942.html"
   },
@@ -30095,7 +29295,8 @@ const NEURON_DATA = [
     "urls": {
       "combined": "types/CB0959.html",
       "left": "types/CB0959_L.html",
-      "right": "types/CB0959_R.html"
+      "right": "types/CB0959_R.html",
+      "middle": "types/CB0959_M.html"
     },
     "synonyms": null,
     "flywire_types": null,
@@ -30104,13 +29305,11 @@ const NEURON_DATA = [
   {
     "name": "CB0960",
     "urls": {
-      "combined": "types/CB0960.html",
-      "left": "types/CB0960_L.html",
       "right": "types/CB0960_R.html"
     },
-    "synonyms": "aDT6",
+    "synonyms": "Cachero 2010: aDT-h;Yu 2010: aDT6",
     "flywire_types": null,
-    "primary_url": "types/CB0960.html"
+    "primary_url": "types/CB0960_R.html"
   },
   {
     "name": "CB0961",
@@ -30245,22 +29444,13 @@ const NEURON_DATA = [
     "primary_url": "types/CB0973.html"
   },
   {
-    "name": "CB0974",
-    "urls": {
-      "right": "types/CB0974_R.html"
-    },
-    "synonyms": null,
-    "flywire_types": null,
-    "primary_url": "types/CB0974_R.html"
-  },
-  {
     "name": "CB0975",
     "urls": {
       "combined": "types/CB0975.html",
       "left": "types/CB0975_L.html",
       "right": "types/CB0975_R.html"
     },
-    "synonyms": "pMP3-pCd1",
+    "synonyms": "Rideout 2010: pC3; Zhou 2014: pCd; Nojima 2021: pCd-1; Allen 2025: pMP-z",
     "flywire_types": null,
     "primary_url": "types/CB0975.html"
   },
@@ -30337,7 +29527,7 @@ const NEURON_DATA = [
       "left": "types/CB0982_L.html",
       "right": "types/CB0982_R.html"
     },
-    "synonyms": null,
+    "synonyms": "Cachero 2010: pSG-a",
     "flywire_types": null,
     "primary_url": "types/CB0982.html"
   },
@@ -30601,7 +29791,7 @@ const NEURON_DATA = [
       "left": "types/CB1008_L.html",
       "right": "types/CB1008_R.html"
     },
-    "synonyms": "aDT6",
+    "synonyms": "Cachero 2010: aDT-h;Yu 2010: aDT6",
     "flywire_types": null,
     "primary_url": "types/CB1008.html"
   },
@@ -30612,7 +29802,7 @@ const NEURON_DATA = [
       "left": "types/CB1009_L.html",
       "right": "types/CB1009_R.html"
     },
-    "synonyms": null,
+    "synonyms": "Cachero 2010: aDT-h;Yu 2010: aDT6",
     "flywire_types": null,
     "primary_url": "types/CB1009.html"
   },
@@ -30634,7 +29824,7 @@ const NEURON_DATA = [
       "left": "types/CB1011_L.html",
       "right": "types/CB1011_R.html"
     },
-    "synonyms": "DN3A",
+    "synonyms": "Cachero 2010: pSP-b;Yu 2010: pSP2/3",
     "flywire_types": null,
     "primary_url": "types/CB1011.html"
   },
@@ -30764,7 +29954,7 @@ const NEURON_DATA = [
       "left": "types/CB1024_L.html",
       "right": "types/CB1024_R.html"
     },
-    "synonyms": null,
+    "synonyms": "Cachero 2010: aDT-h;Yu 2010: aDT6",
     "flywire_types": null,
     "primary_url": "types/CB1024.html"
   },
@@ -30786,7 +29976,7 @@ const NEURON_DATA = [
       "left": "types/CB1026_L.html",
       "right": "types/CB1026_R.html"
     },
-    "synonyms": null,
+    "synonyms": "Cachero 2010: aDT-h;Yu 2010: aDT6",
     "flywire_types": null,
     "primary_url": "types/CB1026.html"
   },
@@ -30921,17 +30111,6 @@ const NEURON_DATA = [
     "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB1040.html"
-  },
-  {
-    "name": "CB1041",
-    "urls": {
-      "combined": "types/CB1041.html",
-      "left": "types/CB1041_L.html",
-      "right": "types/CB1041_R.html"
-    },
-    "synonyms": null,
-    "flywire_types": null,
-    "primary_url": "types/CB1041.html"
   },
   {
     "name": "CB1042",
@@ -31226,7 +30405,7 @@ const NEURON_DATA = [
       "left": "types/CB1069_L.html",
       "right": "types/CB1069_R.html"
     },
-    "synonyms": "AVLP_pr22",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB1069.html"
   },
@@ -31275,24 +30454,13 @@ const NEURON_DATA = [
     "primary_url": "types/CB1074.html"
   },
   {
-    "name": "CB1075",
-    "urls": {
-      "combined": "types/CB1075.html",
-      "left": "types/CB1075_L.html",
-      "right": "types/CB1075_R.html"
-    },
-    "synonyms": "B1-3, aPN1",
-    "flywire_types": null,
-    "primary_url": "types/CB1075.html"
-  },
-  {
     "name": "CB1076",
     "urls": {
       "combined": "types/CB1076.html",
       "left": "types/CB1076_L.html",
       "right": "types/CB1076_R.html"
     },
-    "synonyms": "B1-5, aPN1",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB1076.html"
   },
@@ -31314,7 +30482,7 @@ const NEURON_DATA = [
       "left": "types/CB1078_L.html",
       "right": "types/CB1078_R.html"
     },
-    "synonyms": "B1-2, aPN1",
+    "synonyms": "Cachero 2010: aDT-e",
     "flywire_types": null,
     "primary_url": "types/CB1078.html"
   },
@@ -31336,7 +30504,7 @@ const NEURON_DATA = [
       "left": "types/CB1080_L.html",
       "right": "types/CB1080_R.html"
     },
-    "synonyms": null,
+    "synonyms": "Cachero 2010: aSP-j;Yu 2010: aSP12",
     "flywire_types": null,
     "primary_url": "types/CB1080.html"
   },
@@ -31380,7 +30548,7 @@ const NEURON_DATA = [
       "left": "types/CB1085_L.html",
       "right": "types/CB1085_R.html"
     },
-    "synonyms": "aSP10",
+    "synonyms": "Cachero 2010: aIP-b",
     "flywire_types": null,
     "primary_url": "types/CB1085.html"
   },
@@ -31435,7 +30603,7 @@ const NEURON_DATA = [
       "left": "types/CB1090_L.html",
       "right": "types/CB1090_R.html"
     },
-    "synonyms": "aSP10",
+    "synonyms": "Cachero 2010: aIP-b",
     "flywire_types": null,
     "primary_url": "types/CB1090.html"
   },
@@ -31655,7 +30823,7 @@ const NEURON_DATA = [
       "left": "types/CB1110_L.html",
       "right": "types/CB1110_R.html"
     },
-    "synonyms": null,
+    "synonyms": "Cachero 2010: aIP-c;Yu 2010: aIP1/aIP4/aSP10",
     "flywire_types": null,
     "primary_url": "types/CB1110.html"
   },
@@ -31737,17 +30905,6 @@ const NEURON_DATA = [
     "primary_url": "types/CB1117.html"
   },
   {
-    "name": "CB1118",
-    "urls": {
-      "combined": "types/CB1118.html",
-      "left": "types/CB1118_L.html",
-      "right": "types/CB1118_R.html"
-    },
-    "synonyms": null,
-    "flywire_types": null,
-    "primary_url": "types/CB1118.html"
-  },
-  {
     "name": "CB1119",
     "urls": {
       "combined": "types/CB1119.html",
@@ -31809,7 +30966,7 @@ const NEURON_DATA = [
       "left": "types/CB1125_L.html",
       "right": "types/CB1125_R.html"
     },
-    "synonyms": "aSP18",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB1125.html"
   },
@@ -31831,7 +30988,7 @@ const NEURON_DATA = [
       "left": "types/CB1127_L.html",
       "right": "types/CB1127_R.html"
     },
-    "synonyms": "aIPgb",
+    "synonyms": "Cachero 2010: aIP-g;Yu 2010: pIP6",
     "flywire_types": null,
     "primary_url": "types/CB1127.html"
   },
@@ -31891,17 +31048,6 @@ const NEURON_DATA = [
     "primary_url": "types/CB1132.html"
   },
   {
-    "name": "CB1133",
-    "urls": {
-      "combined": "types/CB1133.html",
-      "left": "types/CB1133_L.html",
-      "right": "types/CB1133_R.html"
-    },
-    "synonyms": null,
-    "flywire_types": null,
-    "primary_url": "types/CB1133.html"
-  },
-  {
     "name": "CB1134",
     "urls": {
       "combined": "types/CB1134.html",
@@ -31911,17 +31057,6 @@ const NEURON_DATA = [
     "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB1134.html"
-  },
-  {
-    "name": "CB1136",
-    "urls": {
-      "combined": "types/CB1136.html",
-      "left": "types/CB1136_L.html",
-      "right": "types/CB1136_R.html"
-    },
-    "synonyms": null,
-    "flywire_types": null,
-    "primary_url": "types/CB1136.html"
   },
   {
     "name": "CB1138",
@@ -31957,15 +31092,15 @@ const NEURON_DATA = [
     "primary_url": "types/CB1140.html"
   },
   {
-    "name": "CB1141",
+    "name": "CB1141,CB1285",
     "urls": {
-      "combined": "types/CB1141.html",
-      "left": "types/CB1141_L.html",
-      "right": "types/CB1141_R.html"
+      "combined": "types/CB1141,CB1285.html",
+      "left": "types/CB1141,CB1285_L.html",
+      "right": "types/CB1141,CB1285_R.html"
     },
     "synonyms": null,
     "flywire_types": null,
-    "primary_url": "types/CB1141.html"
+    "primary_url": "types/CB1141,CB1285.html"
   },
   {
     "name": "CB1142",
@@ -32040,7 +31175,7 @@ const NEURON_DATA = [
       "left": "types/CB1150_L.html",
       "right": "types/CB1150_R.html"
     },
-    "synonyms": "pSP3",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB1150.html"
   },
@@ -32139,7 +31274,7 @@ const NEURON_DATA = [
       "left": "types/CB1161_L.html",
       "right": "types/CB1161_R.html"
     },
-    "synonyms": "pC2la",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB1161.html"
   },
@@ -32315,7 +31450,7 @@ const NEURON_DATA = [
       "left": "types/CB1182_L.html",
       "right": "types/CB1182_R.html"
     },
-    "synonyms": "aSP9",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB1182.html"
   },
@@ -32348,7 +31483,7 @@ const NEURON_DATA = [
       "left": "types/CB1185_L.html",
       "right": "types/CB1185_R.html"
     },
-    "synonyms": null,
+    "synonyms": "Cachero 2010: aIP-e;Yu 2010: aSP9",
     "flywire_types": null,
     "primary_url": "types/CB1185.html"
   },
@@ -32359,7 +31494,7 @@ const NEURON_DATA = [
       "left": "types/CB1187_L.html",
       "right": "types/CB1187_R.html"
     },
-    "synonyms": null,
+    "synonyms": "Cachero 2010: aIP-c; Yu 2010: aIP1/aIP4/aSP10",
     "flywire_types": null,
     "primary_url": "types/CB1187.html"
   },
@@ -32414,7 +31549,7 @@ const NEURON_DATA = [
       "left": "types/CB1192_L.html",
       "right": "types/CB1192_R.html"
     },
-    "synonyms": null,
+    "synonyms": "Cachero 2010: aIP-c;Yu 2010: aIP1/aIP4/aSP10",
     "flywire_types": null,
     "primary_url": "types/CB1192.html"
   },
@@ -32425,7 +31560,7 @@ const NEURON_DATA = [
       "left": "types/CB1193_L.html",
       "right": "types/CB1193_R.html"
     },
-    "synonyms": null,
+    "synonyms": "Cachero 2010: aIP-b",
     "flywire_types": null,
     "primary_url": "types/CB1193.html"
   },
@@ -32436,7 +31571,7 @@ const NEURON_DATA = [
       "left": "types/CB1194_L.html",
       "right": "types/CB1194_R.html"
     },
-    "synonyms": null,
+    "synonyms": "Cachero 2010: aIP-c;Yu 2010: aIP1/aIP4/aSP10",
     "flywire_types": null,
     "primary_url": "types/CB1194.html"
   },
@@ -32458,7 +31593,7 @@ const NEURON_DATA = [
       "left": "types/CB1196_L.html",
       "right": "types/CB1196_R.html"
     },
-    "synonyms": "aIP2",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB1196.html"
   },
@@ -32480,7 +31615,7 @@ const NEURON_DATA = [
       "left": "types/CB1198_L.html",
       "right": "types/CB1198_R.html"
     },
-    "synonyms": "SAD_pr02",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB1198.html"
   },
@@ -32557,7 +31692,7 @@ const NEURON_DATA = [
       "left": "types/CB1206_L.html",
       "right": "types/CB1206_R.html"
     },
-    "synonyms": "WED-VLP-2",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB1206.html"
   },
@@ -32667,7 +31802,7 @@ const NEURON_DATA = [
       "left": "types/CB1218_L.html",
       "right": "types/CB1218_R.html"
     },
-    "synonyms": "LHPV4c1",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB1218.html"
   },
@@ -32700,7 +31835,7 @@ const NEURON_DATA = [
       "left": "types/CB1221_L.html",
       "right": "types/CB1221_R.html"
     },
-    "synonyms": "aSP10",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB1221.html"
   },
@@ -32832,20 +31967,9 @@ const NEURON_DATA = [
       "left": "types/CB1233_L.html",
       "right": "types/CB1233_R.html"
     },
-    "synonyms": null,
+    "synonyms": "Cachero 2010: pSG-a",
     "flywire_types": null,
     "primary_url": "types/CB1233.html"
-  },
-  {
-    "name": "CB1234",
-    "urls": {
-      "combined": "types/CB1234.html",
-      "left": "types/CB1234_L.html",
-      "right": "types/CB1234_R.html"
-    },
-    "synonyms": "aDT6",
-    "flywire_types": null,
-    "primary_url": "types/CB1234.html"
   },
   {
     "name": "CB1235",
@@ -32854,7 +31978,7 @@ const NEURON_DATA = [
       "left": "types/CB1235_L.html",
       "right": "types/CB1235_R.html"
     },
-    "synonyms": null,
+    "synonyms": "Cachero 2010: aIP-c;Yu 2010: aIP1/aIP4/aSP10",
     "flywire_types": null,
     "primary_url": "types/CB1235.html"
   },
@@ -32890,17 +32014,6 @@ const NEURON_DATA = [
     "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB1238.html"
-  },
-  {
-    "name": "CB1239",
-    "urls": {
-      "combined": "types/CB1239.html",
-      "left": "types/CB1239_L.html",
-      "right": "types/CB1239_R.html"
-    },
-    "synonyms": null,
-    "flywire_types": null,
-    "primary_url": "types/CB1239.html"
   },
   {
     "name": "CB1240",
@@ -32953,7 +32066,7 @@ const NEURON_DATA = [
       "left": "types/CB1244_L.html",
       "right": "types/CB1244_R.html"
     },
-    "synonyms": "LHAD1b2",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB1244.html"
   },
@@ -32964,7 +32077,7 @@ const NEURON_DATA = [
       "left": "types/CB1245_L.html",
       "right": "types/CB1245_R.html"
     },
-    "synonyms": "LHAD1b2",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB1245.html"
   },
@@ -33052,7 +32165,7 @@ const NEURON_DATA = [
       "left": "types/CB1253_L.html",
       "right": "types/CB1253_R.html"
     },
-    "synonyms": "aDT6",
+    "synonyms": "Cachero 2010: aDT-h; Yu 2010: aDT6",
     "flywire_types": null,
     "primary_url": "types/CB1253.html"
   },
@@ -33121,17 +32234,6 @@ const NEURON_DATA = [
     "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB1260.html"
-  },
-  {
-    "name": "CB1261",
-    "urls": {
-      "combined": "types/CB1261.html",
-      "left": "types/CB1261_L.html",
-      "right": "types/CB1261_R.html"
-    },
-    "synonyms": null,
-    "flywire_types": null,
-    "primary_url": "types/CB1261.html"
   },
   {
     "name": "CB1262",
@@ -33327,7 +32429,7 @@ const NEURON_DATA = [
       "left": "types/CB1280_L.html",
       "right": "types/CB1280_R.html"
     },
-    "synonyms": "B1-4",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB1280.html"
   },
@@ -33374,17 +32476,6 @@ const NEURON_DATA = [
     "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB1284.html"
-  },
-  {
-    "name": "CB1285",
-    "urls": {
-      "combined": "types/CB1285.html",
-      "left": "types/CB1285_L.html",
-      "right": "types/CB1285_R.html"
-    },
-    "synonyms": null,
-    "flywire_types": null,
-    "primary_url": "types/CB1285.html"
   },
   {
     "name": "CB1286",
@@ -33470,7 +32561,7 @@ const NEURON_DATA = [
       "left": "types/CB1294_L.html",
       "right": "types/CB1294_R.html"
     },
-    "synonyms": "aSP16",
+    "synonyms": "Cachero 2010: aSP-d;Yu 2010: aSP13",
     "flywire_types": null,
     "primary_url": "types/CB1294.html"
   },
@@ -33492,7 +32583,7 @@ const NEURON_DATA = [
       "left": "types/CB1296_L.html",
       "right": "types/CB1296_R.html"
     },
-    "synonyms": "DM3_vPN, M_vPNml85, M_vPNml88, M_vPNml89",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB1296.html"
   },
@@ -33547,7 +32638,7 @@ const NEURON_DATA = [
       "left": "types/CB1301_L.html",
       "right": "types/CB1301_R.html"
     },
-    "synonyms": null,
+    "synonyms": "Cachero 2010: aIP-b",
     "flywire_types": null,
     "primary_url": "types/CB1301.html"
   },
@@ -33756,7 +32847,7 @@ const NEURON_DATA = [
       "left": "types/CB1321_L.html",
       "right": "types/CB1321_R.html"
     },
-    "synonyms": "VP1m+VP2_lvPN1, VP1m+VP2_lvPN2",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB1321.html"
   },
@@ -33781,17 +32872,6 @@ const NEURON_DATA = [
     "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB1323.html"
-  },
-  {
-    "name": "CB1324",
-    "urls": {
-      "combined": "types/CB1324.html",
-      "left": "types/CB1324_L.html",
-      "right": "types/CB1324_R.html"
-    },
-    "synonyms": null,
-    "flywire_types": null,
-    "primary_url": "types/CB1324.html"
   },
   {
     "name": "CB1325",
@@ -33844,7 +32924,7 @@ const NEURON_DATA = [
       "left": "types/CB1329_L.html",
       "right": "types/CB1329_R.html"
     },
-    "synonyms": "AOTU055, AOTU056, AOTU057, AOTU058",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB1329.html"
   },
@@ -33860,15 +32940,26 @@ const NEURON_DATA = [
     "primary_url": "types/CB1330.html"
   },
   {
-    "name": "CB1331",
+    "name": "CB1331a",
     "urls": {
-      "combined": "types/CB1331.html",
-      "left": "types/CB1331_L.html",
-      "right": "types/CB1331_R.html"
+      "combined": "types/CB1331a.html",
+      "left": "types/CB1331a_L.html",
+      "right": "types/CB1331a_R.html"
     },
     "synonyms": null,
     "flywire_types": null,
-    "primary_url": "types/CB1331.html"
+    "primary_url": "types/CB1331a.html"
+  },
+  {
+    "name": "CB1331b",
+    "urls": {
+      "combined": "types/CB1331b.html",
+      "left": "types/CB1331b_L.html",
+      "right": "types/CB1331b_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/CB1331b.html"
   },
   {
     "name": "CB1332",
@@ -34207,7 +33298,7 @@ const NEURON_DATA = [
       "left": "types/CB1371_L.html",
       "right": "types/CB1371_R.html"
     },
-    "synonyms": null,
+    "synonyms": "Cachero 2010: pSP-d",
     "flywire_types": null,
     "primary_url": "types/CB1371.html"
   },
@@ -34262,7 +33353,7 @@ const NEURON_DATA = [
       "left": "types/CB1377_L.html",
       "right": "types/CB1377_R.html"
     },
-    "synonyms": "AVLP_pr22",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB1377.html"
   },
@@ -34284,7 +33375,7 @@ const NEURON_DATA = [
       "left": "types/CB1379_L.html",
       "right": "types/CB1379_R.html"
     },
-    "synonyms": "pMP3-pCd1",
+    "synonyms": "Rideout 2010: pC3; Zhou 2014: pCd; Nojima 2021: pCd-1; Allen 2025: pMP-z",
     "flywire_types": null,
     "primary_url": "types/CB1379.html"
   },
@@ -34295,7 +33386,7 @@ const NEURON_DATA = [
       "left": "types/CB1380_L.html",
       "right": "types/CB1380_R.html"
     },
-    "synonyms": "AVLP_pr05",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB1380.html"
   },
@@ -34350,7 +33441,7 @@ const NEURON_DATA = [
       "left": "types/CB1385_L.html",
       "right": "types/CB1385_R.html"
     },
-    "synonyms": "vpoIN",
+    "synonyms": "Cachero 2010: aSP-k;Yu 2010: aSP8",
     "flywire_types": null,
     "primary_url": "types/CB1385.html"
   },
@@ -34383,7 +33474,7 @@ const NEURON_DATA = [
       "left": "types/CB1390_L.html",
       "right": "types/CB1390_R.html"
     },
-    "synonyms": null,
+    "synonyms": "Rideout 2010: pC3; Zhou 2014: pCd; Nojima 2021: pCd-1; Allen 2025: pMP-z",
     "flywire_types": null,
     "primary_url": "types/CB1390.html"
   },
@@ -34421,15 +33512,48 @@ const NEURON_DATA = [
     "primary_url": "types/CB1393.html"
   },
   {
-    "name": "CB1394",
+    "name": "CB1394_a",
     "urls": {
-      "combined": "types/CB1394.html",
-      "left": "types/CB1394_L.html",
-      "right": "types/CB1394_R.html"
+      "combined": "types/CB1394_a.html",
+      "left": "types/CB1394_a_L.html",
+      "right": "types/CB1394_a_R.html"
     },
     "synonyms": null,
     "flywire_types": null,
-    "primary_url": "types/CB1394.html"
+    "primary_url": "types/CB1394_a.html"
+  },
+  {
+    "name": "CB1394_b",
+    "urls": {
+      "combined": "types/CB1394_b.html",
+      "left": "types/CB1394_b_L.html",
+      "right": "types/CB1394_b_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/CB1394_b.html"
+  },
+  {
+    "name": "CB1394_c",
+    "urls": {
+      "combined": "types/CB1394_c.html",
+      "left": "types/CB1394_c_L.html",
+      "right": "types/CB1394_c_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/CB1394_c.html"
+  },
+  {
+    "name": "CB1394_d",
+    "urls": {
+      "combined": "types/CB1394_d.html",
+      "left": "types/CB1394_d_L.html",
+      "right": "types/CB1394_d_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/CB1394_d.html"
   },
   {
     "name": "CB1395",
@@ -34438,7 +33562,7 @@ const NEURON_DATA = [
       "left": "types/CB1395_L.html",
       "right": "types/CB1395_R.html"
     },
-    "synonyms": null,
+    "synonyms": "Cachero 2010: pIP-c;Yu 2010: pIP7",
     "flywire_types": null,
     "primary_url": "types/CB1395.html"
   },
@@ -34608,17 +33732,6 @@ const NEURON_DATA = [
     "primary_url": "types/CB1414.html"
   },
   {
-    "name": "CB1415",
-    "urls": {
-      "combined": "types/CB1415.html",
-      "left": "types/CB1415_L.html",
-      "right": "types/CB1415_R.html"
-    },
-    "synonyms": null,
-    "flywire_types": null,
-    "primary_url": "types/CB1415.html"
-  },
-  {
     "name": "CB1416",
     "urls": {
       "combined": "types/CB1416.html",
@@ -34702,7 +33815,7 @@ const NEURON_DATA = [
       "left": "types/CB1423_L.html",
       "right": "types/CB1423_R.html"
     },
-    "synonyms": "aDT6",
+    "synonyms": "Cachero 2010: aDT-h;Yu 2010: aDT6",
     "flywire_types": null,
     "primary_url": "types/CB1423.html"
   },
@@ -34724,7 +33837,7 @@ const NEURON_DATA = [
       "left": "types/CB1425_L.html",
       "right": "types/CB1425_R.html"
     },
-    "synonyms": "B1-3, aPN1",
+    "synonyms": "Cachero 2010: aDT-e",
     "flywire_types": null,
     "primary_url": "types/CB1425.html"
   },
@@ -34839,17 +33952,6 @@ const NEURON_DATA = [
     "primary_url": "types/CB1435.html"
   },
   {
-    "name": "CB1436",
-    "urls": {
-      "combined": "types/CB1436.html",
-      "left": "types/CB1436_L.html",
-      "right": "types/CB1436_R.html"
-    },
-    "synonyms": "aSP23",
-    "flywire_types": null,
-    "primary_url": "types/CB1436.html"
-  },
-  {
     "name": "CB1437",
     "urls": {
       "combined": "types/CB1437.html",
@@ -34933,7 +34035,7 @@ const NEURON_DATA = [
       "left": "types/CB1444_L.html",
       "right": "types/CB1444_R.html"
     },
-    "synonyms": "hb-5813021922, hb-5813070017",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB1444.html"
   },
@@ -34988,7 +34090,7 @@ const NEURON_DATA = [
       "left": "types/CB1449_L.html",
       "right": "types/CB1449_R.html"
     },
-    "synonyms": null,
+    "synonyms": "Cachero 2010: pSP-b;Yu 2010: pSP2/3",
     "flywire_types": null,
     "primary_url": "types/CB1449.html"
   },
@@ -35026,15 +34128,6 @@ const NEURON_DATA = [
     "primary_url": "types/CB1452.html"
   },
   {
-    "name": "CB1453",
-    "urls": {
-      "left": "types/CB1453_L.html"
-    },
-    "synonyms": "AVLP549",
-    "flywire_types": null,
-    "primary_url": "types/CB1453_L.html"
-  },
-  {
     "name": "CB1454",
     "urls": {
       "combined": "types/CB1454.html",
@@ -35052,7 +34145,7 @@ const NEURON_DATA = [
       "left": "types/CB1455_L.html",
       "right": "types/CB1455_R.html"
     },
-    "synonyms": "aSP18",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB1455.html"
   },
@@ -35063,7 +34156,7 @@ const NEURON_DATA = [
       "left": "types/CB1456_L.html",
       "right": "types/CB1456_R.html"
     },
-    "synonyms": "aSP23",
+    "synonyms": "Cachero 2010: aSP-a;Yu 2010: aSP2",
     "flywire_types": null,
     "primary_url": "types/CB1456.html"
   },
@@ -35118,7 +34211,7 @@ const NEURON_DATA = [
       "left": "types/CB1461_L.html",
       "right": "types/CB1461_R.html"
     },
-    "synonyms": "M_lvPNm30, M_lvPNm32",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB1461.html"
   },
@@ -35193,7 +34286,8 @@ const NEURON_DATA = [
     "urls": {
       "combined": "types/CB1469.html",
       "left": "types/CB1469_L.html",
-      "right": "types/CB1469_R.html"
+      "right": "types/CB1469_R.html",
+      "middle": "types/CB1469_M.html"
     },
     "synonyms": null,
     "flywire_types": null,
@@ -35360,7 +34454,7 @@ const NEURON_DATA = [
       "left": "types/CB1485_L.html",
       "right": "types/CB1485_R.html"
     },
-    "synonyms": "aIP1",
+    "synonyms": "Cachero 2010: aIP-c;Yu 2010: aIP1/aIP4/aSP10",
     "flywire_types": null,
     "primary_url": "types/CB1485.html"
   },
@@ -35492,7 +34586,7 @@ const NEURON_DATA = [
       "left": "types/CB1498_L.html",
       "right": "types/CB1498_R.html"
     },
-    "synonyms": "AVLP/PVLP_pr01",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB1498.html"
   },
@@ -35547,7 +34641,7 @@ const NEURON_DATA = [
       "left": "types/CB1503_L.html",
       "right": "types/CB1503_R.html"
     },
-    "synonyms": "LHPV4a4",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB1503.html"
   },
@@ -35591,7 +34685,7 @@ const NEURON_DATA = [
       "left": "types/CB1507_L.html",
       "right": "types/CB1507_R.html"
     },
-    "synonyms": "PVLP_pr03",
+    "synonyms": "Cachero 2010: aIP-a",
     "flywire_types": null,
     "primary_url": "types/CB1507.html"
   },
@@ -35602,7 +34696,7 @@ const NEURON_DATA = [
       "left": "types/CB1508_L.html",
       "right": "types/CB1508_R.html"
     },
-    "synonyms": "pMP3-pCd1",
+    "synonyms": "Rideout 2010: pC3; Zhou 2014: pCd; Nojima 2021: pCd-1; Allen 2025: pMP-z",
     "flywire_types": null,
     "primary_url": "types/CB1508.html"
   },
@@ -35635,7 +34729,7 @@ const NEURON_DATA = [
       "left": "types/CB1511_L.html",
       "right": "types/CB1511_R.html"
     },
-    "synonyms": "LHPV4c1",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB1511.html"
   },
@@ -35778,20 +34872,9 @@ const NEURON_DATA = [
       "left": "types/CB1527_L.html",
       "right": "types/CB1527_R.html"
     },
-    "synonyms": "LHPV2c1",
-    "flywire_types": null,
-    "primary_url": "types/CB1527.html"
-  },
-  {
-    "name": "CB1528",
-    "urls": {
-      "combined": "types/CB1528.html",
-      "left": "types/CB1528_L.html",
-      "right": "types/CB1528_R.html"
-    },
     "synonyms": null,
     "flywire_types": null,
-    "primary_url": "types/CB1528.html"
+    "primary_url": "types/CB1527.html"
   },
   {
     "name": "CB1529",
@@ -35899,7 +34982,7 @@ const NEURON_DATA = [
       "left": "types/CB1542_L.html",
       "right": "types/CB1542_R.html"
     },
-    "synonyms": "B1-2, aPN1",
+    "synonyms": "Cachero 2010: aDT-e",
     "flywire_types": null,
     "primary_url": "types/CB1542.html"
   },
@@ -35921,7 +35004,7 @@ const NEURON_DATA = [
       "left": "types/CB1544_L.html",
       "right": "types/CB1544_R.html"
     },
-    "synonyms": null,
+    "synonyms": "Cachero 2010: aIP-a",
     "flywire_types": null,
     "primary_url": "types/CB1544.html"
   },
@@ -36064,7 +35147,7 @@ const NEURON_DATA = [
       "left": "types/CB1558_L.html",
       "right": "types/CB1558_R.html"
     },
-    "synonyms": "AOTU055, AOTU056, AOTU057, AOTU058",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB1558.html"
   },
@@ -36383,7 +35466,7 @@ const NEURON_DATA = [
       "left": "types/CB1591_L.html",
       "right": "types/CB1591_R.html"
     },
-    "synonyms": "aSP14",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB1591.html"
   },
@@ -36394,7 +35477,7 @@ const NEURON_DATA = [
       "left": "types/CB1593_L.html",
       "right": "types/CB1593_R.html"
     },
-    "synonyms": "pSP3",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB1593.html"
   },
@@ -36460,7 +35543,7 @@ const NEURON_DATA = [
       "left": "types/CB1601_L.html",
       "right": "types/CB1601_R.html"
     },
-    "synonyms": null,
+    "synonyms": "Cachero 2010: pSG-a",
     "flywire_types": null,
     "primary_url": "types/CB1601.html"
   },
@@ -36542,17 +35625,6 @@ const NEURON_DATA = [
     "primary_url": "types/CB1610.html"
   },
   {
-    "name": "CB1611",
-    "urls": {
-      "combined": "types/CB1611.html",
-      "left": "types/CB1611_L.html",
-      "right": "types/CB1611_R.html"
-    },
-    "synonyms": null,
-    "flywire_types": null,
-    "primary_url": "types/CB1611.html"
-  },
-  {
     "name": "CB1613",
     "urls": {
       "combined": "types/CB1613.html",
@@ -36570,7 +35642,7 @@ const NEURON_DATA = [
       "left": "types/CB1614_L.html",
       "right": "types/CB1614_R.html"
     },
-    "synonyms": "AVLP_pr01",
+    "synonyms": "Cachero 2010: aSP-k;Yu 2010: aSP8",
     "flywire_types": null,
     "primary_url": "types/CB1614.html"
   },
@@ -36603,7 +35675,7 @@ const NEURON_DATA = [
       "left": "types/CB1618_L.html",
       "right": "types/CB1618_R.html"
     },
-    "synonyms": "aIPgb",
+    "synonyms": "Cachero 2010: aIP-g;Yu 2010: pIP6",
     "flywire_types": null,
     "primary_url": "types/CB1618.html"
   },
@@ -36658,7 +35730,7 @@ const NEURON_DATA = [
       "left": "types/CB1624_L.html",
       "right": "types/CB1624_R.html"
     },
-    "synonyms": null,
+    "synonyms": "Cachero 2010: pMP-a;Yu 2010: pMP5",
     "flywire_types": null,
     "primary_url": "types/CB1624.html"
   },
@@ -36900,7 +35972,7 @@ const NEURON_DATA = [
       "left": "types/CB1652_L.html",
       "right": "types/CB1652_R.html"
     },
-    "synonyms": null,
+    "synonyms": "Cachero 2010: aIP-c; Yu 2010: aIP1/aIP4/aSP10",
     "flywire_types": null,
     "primary_url": "types/CB1652.html"
   },
@@ -36944,7 +36016,7 @@ const NEURON_DATA = [
       "left": "types/CB1656_L.html",
       "right": "types/CB1656_R.html"
     },
-    "synonyms": "LHPV5a2",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB1656.html"
   },
@@ -36988,7 +36060,7 @@ const NEURON_DATA = [
       "left": "types/CB1660_L.html",
       "right": "types/CB1660_R.html"
     },
-    "synonyms": "AVLP_pr05",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB1660.html"
   },
@@ -37219,7 +36291,7 @@ const NEURON_DATA = [
       "left": "types/CB1684_L.html",
       "right": "types/CB1684_R.html"
     },
-    "synonyms": "hb-5812991151",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB1684.html"
   },
@@ -37263,20 +36335,9 @@ const NEURON_DATA = [
       "left": "types/CB1688_L.html",
       "right": "types/CB1688_R.html"
     },
-    "synonyms": null,
+    "synonyms": "Cachero 2010: aIP-e;Yu 2010: aSP9",
     "flywire_types": null,
     "primary_url": "types/CB1688.html"
-  },
-  {
-    "name": "CB1690",
-    "urls": {
-      "combined": "types/CB1690.html",
-      "left": "types/CB1690_L.html",
-      "right": "types/CB1690_R.html"
-    },
-    "synonyms": null,
-    "flywire_types": null,
-    "primary_url": "types/CB1690.html"
   },
   {
     "name": "CB1691",
@@ -37395,7 +36456,7 @@ const NEURON_DATA = [
       "left": "types/CB1702_L.html",
       "right": "types/CB1702_R.html"
     },
-    "synonyms": "B1-5",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB1702.html"
   },
@@ -37428,7 +36489,7 @@ const NEURON_DATA = [
       "left": "types/CB1705_L.html",
       "right": "types/CB1705_R.html"
     },
-    "synonyms": null,
+    "synonyms": "Cachero 2010: aIP-h",
     "flywire_types": null,
     "primary_url": "types/CB1705.html"
   },
@@ -37490,11 +36551,13 @@ const NEURON_DATA = [
   {
     "name": "CB1714",
     "urls": {
+      "combined": "types/CB1714.html",
+      "left": "types/CB1714_L.html",
       "right": "types/CB1714_R.html"
     },
     "synonyms": null,
     "flywire_types": null,
-    "primary_url": "types/CB1714_R.html"
+    "primary_url": "types/CB1714.html"
   },
   {
     "name": "CB1716",
@@ -37547,7 +36610,7 @@ const NEURON_DATA = [
       "left": "types/CB1721_L.html",
       "right": "types/CB1721_R.html"
     },
-    "synonyms": null,
+    "synonyms": "Cachero 2010: aSP-d;Yu 2010: aSP13",
     "flywire_types": null,
     "primary_url": "types/CB1721.html"
   },
@@ -37805,17 +36868,6 @@ const NEURON_DATA = [
     "primary_url": "types/CB1748.html"
   },
   {
-    "name": "CB1749",
-    "urls": {
-      "combined": "types/CB1749.html",
-      "left": "types/CB1749_L.html",
-      "right": "types/CB1749_R.html"
-    },
-    "synonyms": null,
-    "flywire_types": null,
-    "primary_url": "types/CB1749.html"
-  },
-  {
     "name": "CB1750",
     "urls": {
       "combined": "types/CB1750.html",
@@ -37882,17 +36934,6 @@ const NEURON_DATA = [
     "primary_url": "types/CB1755.html"
   },
   {
-    "name": "CB1756",
-    "urls": {
-      "combined": "types/CB1756.html",
-      "left": "types/CB1756_L.html",
-      "right": "types/CB1756_R.html"
-    },
-    "synonyms": "aDT6",
-    "flywire_types": null,
-    "primary_url": "types/CB1756.html"
-  },
-  {
     "name": "CB1757",
     "urls": {
       "combined": "types/CB1757.html",
@@ -37954,20 +36995,9 @@ const NEURON_DATA = [
       "left": "types/CB1762_L.html",
       "right": "types/CB1762_R.html"
     },
-    "synonyms": "aIP2",
-    "flywire_types": null,
-    "primary_url": "types/CB1762.html"
-  },
-  {
-    "name": "CB1763",
-    "urls": {
-      "combined": "types/CB1763.html",
-      "left": "types/CB1763_L.html",
-      "right": "types/CB1763_R.html"
-    },
     "synonyms": null,
     "flywire_types": null,
-    "primary_url": "types/CB1763.html"
+    "primary_url": "types/CB1762.html"
   },
   {
     "name": "CB1764",
@@ -38031,7 +37061,7 @@ const NEURON_DATA = [
       "left": "types/CB1770_L.html",
       "right": "types/CB1770_R.html"
     },
-    "synonyms": null,
+    "synonyms": "Cachero 2010: pSP-b;Yu 2010: pSP2/3",
     "flywire_types": null,
     "primary_url": "types/CB1770.html"
   },
@@ -38152,7 +37182,7 @@ const NEURON_DATA = [
       "left": "types/CB1783_L.html",
       "right": "types/CB1783_R.html"
     },
-    "synonyms": "AVLP_pr36, aSP10",
+    "synonyms": "Cachero 2010: aIP-b",
     "flywire_types": null,
     "primary_url": "types/CB1783.html"
   },
@@ -38188,6 +37218,28 @@ const NEURON_DATA = [
     "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB1786.html"
+  },
+  {
+    "name": "CB1786_a",
+    "urls": {
+      "combined": "types/CB1786_a.html",
+      "left": "types/CB1786_a_L.html",
+      "right": "types/CB1786_a_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/CB1786_a.html"
+  },
+  {
+    "name": "CB1786_b",
+    "urls": {
+      "combined": "types/CB1786_b.html",
+      "left": "types/CB1786_b_L.html",
+      "right": "types/CB1786_b_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/CB1786_b.html"
   },
   {
     "name": "CB1787",
@@ -38273,7 +37325,7 @@ const NEURON_DATA = [
       "left": "types/CB1795_L.html",
       "right": "types/CB1795_R.html"
     },
-    "synonyms": "aIPgb",
+    "synonyms": "Cachero 2010: aIP-g;Yu 2010: pIP6",
     "flywire_types": null,
     "primary_url": "types/CB1795.html"
   },
@@ -38287,17 +37339,6 @@ const NEURON_DATA = [
     "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB1797.html"
-  },
-  {
-    "name": "CB1798",
-    "urls": {
-      "combined": "types/CB1798.html",
-      "left": "types/CB1798_L.html",
-      "right": "types/CB1798_R.html"
-    },
-    "synonyms": null,
-    "flywire_types": null,
-    "primary_url": "types/CB1798.html"
   },
   {
     "name": "CB1799",
@@ -38471,7 +37512,7 @@ const NEURON_DATA = [
       "left": "types/CB1817b_L.html",
       "right": "types/CB1817b_R.html"
     },
-    "synonyms": "A2",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB1817b.html"
   },
@@ -38588,13 +37629,11 @@ const NEURON_DATA = [
   {
     "name": "CB1828",
     "urls": {
-      "combined": "types/CB1828.html",
-      "left": "types/CB1828_L.html",
-      "right": "types/CB1828_R.html"
+      "left": "types/CB1828_L.html"
     },
     "synonyms": null,
     "flywire_types": null,
-    "primary_url": "types/CB1828.html"
+    "primary_url": "types/CB1828_L.html"
   },
   {
     "name": "CB1829",
@@ -38652,17 +37691,6 @@ const NEURON_DATA = [
     "primary_url": "types/CB1834.html"
   },
   {
-    "name": "CB1835",
-    "urls": {
-      "combined": "types/CB1835.html",
-      "left": "types/CB1835_L.html",
-      "right": "types/CB1835_R.html"
-    },
-    "synonyms": null,
-    "flywire_types": null,
-    "primary_url": "types/CB1835.html"
-  },
-  {
     "name": "CB1836",
     "urls": {
       "combined": "types/CB1836.html",
@@ -38680,7 +37708,7 @@ const NEURON_DATA = [
       "left": "types/CB1837_L.html",
       "right": "types/CB1837_R.html"
     },
-    "synonyms": "SIP011",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB1837.html"
   },
@@ -38735,7 +37763,7 @@ const NEURON_DATA = [
       "left": "types/CB1843_L.html",
       "right": "types/CB1843_R.html"
     },
-    "synonyms": "aSP9",
+    "synonyms": "Cachero 2010: aIP-e;Yu 2010: aSP9",
     "flywire_types": null,
     "primary_url": "types/CB1843.html"
   },
@@ -38812,7 +37840,7 @@ const NEURON_DATA = [
       "left": "types/CB1852_L.html",
       "right": "types/CB1852_R.html"
     },
-    "synonyms": "aIP3",
+    "synonyms": "Cachero 2010: aIP-e;Yu 2010: aSP9",
     "flywire_types": null,
     "primary_url": "types/CB1852.html"
   },
@@ -38867,7 +37895,7 @@ const NEURON_DATA = [
       "left": "types/CB1857_L.html",
       "right": "types/CB1857_R.html"
     },
-    "synonyms": "pMP6",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB1857.html"
   },
@@ -38916,17 +37944,6 @@ const NEURON_DATA = [
     "primary_url": "types/CB1861.html"
   },
   {
-    "name": "CB1862",
-    "urls": {
-      "combined": "types/CB1862.html",
-      "left": "types/CB1862_L.html",
-      "right": "types/CB1862_R.html"
-    },
-    "synonyms": "aDT6",
-    "flywire_types": null,
-    "primary_url": "types/CB1862.html"
-  },
-  {
     "name": "CB1864",
     "urls": {
       "combined": "types/CB1864.html",
@@ -38955,7 +37972,7 @@ const NEURON_DATA = [
       "left": "types/CB1866_L.html",
       "right": "types/CB1866_R.html"
     },
-    "synonyms": "pMP6",
+    "synonyms": "Cachero 2010: pMP-a; Yu 2010: pMP5",
     "flywire_types": null,
     "primary_url": "types/CB1866.html"
   },
@@ -38988,7 +38005,7 @@ const NEURON_DATA = [
       "left": "types/CB1870_L.html",
       "right": "types/CB1870_R.html"
     },
-    "synonyms": "LHAD1b2",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB1870.html"
   },
@@ -39065,7 +38082,7 @@ const NEURON_DATA = [
       "left": "types/CB1877_L.html",
       "right": "types/CB1877_R.html"
     },
-    "synonyms": "aIPgc",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB1877.html"
   },
@@ -39107,7 +38124,7 @@ const NEURON_DATA = [
       "left": "types/CB1883_L.html",
       "right": "types/CB1883_R.html"
     },
-    "synonyms": null,
+    "synonyms": "fru-F-700048, fru-F-500231, fru-F-500047, fru-F-600041",
     "flywire_types": null,
     "primary_url": "types/CB1883.html"
   },
@@ -39338,7 +38355,7 @@ const NEURON_DATA = [
       "left": "types/CB1904_L.html",
       "right": "types/CB1904_R.html"
     },
-    "synonyms": "AVLP_pr31, aIP2",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB1904.html"
   },
@@ -39459,7 +38476,7 @@ const NEURON_DATA = [
       "left": "types/CB1917_L.html",
       "right": "types/CB1917_R.html"
     },
-    "synonyms": "AVLP_pr22",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB1917.html"
   },
@@ -39470,7 +38487,7 @@ const NEURON_DATA = [
       "left": "types/CB1918_L.html",
       "right": "types/CB1918_R.html"
     },
-    "synonyms": null,
+    "synonyms": "Cachero 2010: pSG-a",
     "flywire_types": null,
     "primary_url": "types/CB1918.html"
   },
@@ -39514,7 +38531,7 @@ const NEURON_DATA = [
       "left": "types/CB1922_L.html",
       "right": "types/CB1922_R.html"
     },
-    "synonyms": "SMP324",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB1922.html"
   },
@@ -39602,7 +38619,7 @@ const NEURON_DATA = [
       "left": "types/CB1930_L.html",
       "right": "types/CB1930_R.html"
     },
-    "synonyms": "pMP3-pCd1",
+    "synonyms": "Rideout 2010: pC3; Zhou 2014: pCd; Nojima 2021: pCd-1; Allen 2025: pMP-z",
     "flywire_types": null,
     "primary_url": "types/CB1930.html"
   },
@@ -39723,7 +38740,7 @@ const NEURON_DATA = [
       "left": "types/CB1942_L.html",
       "right": "types/CB1942_R.html"
     },
-    "synonyms": "SAD_pr02",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB1942.html"
   },
@@ -39745,7 +38762,7 @@ const NEURON_DATA = [
       "left": "types/CB1944_L.html",
       "right": "types/CB1944_R.html"
     },
-    "synonyms": "aDT9",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB1944.html"
   },
@@ -39866,7 +38883,7 @@ const NEURON_DATA = [
       "left": "types/CB1956_L.html",
       "right": "types/CB1956_R.html"
     },
-    "synonyms": null,
+    "synonyms": "Cachero 2010: aSP-d; Yu 2010: aSP13",
     "flywire_types": null,
     "primary_url": "types/CB1956.html"
   },
@@ -39943,7 +38960,7 @@ const NEURON_DATA = [
       "left": "types/CB1963_L.html",
       "right": "types/CB1963_R.html"
     },
-    "synonyms": null,
+    "synonyms": "Cachero 2010: aSP-j;Yu 2010: aSP12",
     "flywire_types": null,
     "primary_url": "types/CB1963.html"
   },
@@ -39976,7 +38993,7 @@ const NEURON_DATA = [
       "left": "types/CB1966_L.html",
       "right": "types/CB1966_R.html"
     },
-    "synonyms": "LHPV2c1",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB1966.html"
   },
@@ -40031,7 +39048,7 @@ const NEURON_DATA = [
       "left": "types/CB1973_L.html",
       "right": "types/CB1973_R.html"
     },
-    "synonyms": null,
+    "synonyms": "Cachero 2010: aIP-g;Yu 2010: pIP6",
     "flywire_types": null,
     "primary_url": "types/CB1973.html"
   },
@@ -40196,7 +39213,7 @@ const NEURON_DATA = [
       "left": "types/CB1988_L.html",
       "right": "types/CB1988_R.html"
     },
-    "synonyms": "M_lvPNm33, M_lvPNm34",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB1988.html"
   },
@@ -40295,7 +39312,7 @@ const NEURON_DATA = [
       "left": "types/CB1999_L.html",
       "right": "types/CB1999_R.html"
     },
-    "synonyms": null,
+    "synonyms": "Cachero 2010: aIP-e;Yu 2010: aSP9",
     "flywire_types": null,
     "primary_url": "types/CB1999.html"
   },
@@ -40350,7 +39367,7 @@ const NEURON_DATA = [
       "left": "types/CB2004_L.html",
       "right": "types/CB2004_R.html"
     },
-    "synonyms": "M_vPNml56, M_vPNml58",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB2004.html"
   },
@@ -40361,7 +39378,7 @@ const NEURON_DATA = [
       "left": "types/CB2005_L.html",
       "right": "types/CB2005_R.html"
     },
-    "synonyms": "aSP9",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB2005.html"
   },
@@ -40520,24 +39537,13 @@ const NEURON_DATA = [
     "primary_url": "types/CB2019.html"
   },
   {
-    "name": "CB2020",
-    "urls": {
-      "combined": "types/CB2020.html",
-      "left": "types/CB2020_L.html",
-      "right": "types/CB2020_R.html"
-    },
-    "synonyms": null,
-    "flywire_types": null,
-    "primary_url": "types/CB2020.html"
-  },
-  {
     "name": "CB2021",
     "urls": {
       "combined": "types/CB2021.html",
       "left": "types/CB2021_L.html",
       "right": "types/CB2021_R.html"
     },
-    "synonyms": "pMP3-pCd1",
+    "synonyms": "Rideout 2010: pC3; Zhou 2014: pCd; Nojima 2021: pCd-1; Allen 2025: pMP-z",
     "flywire_types": null,
     "primary_url": "types/CB2021.html"
   },
@@ -40581,7 +39587,7 @@ const NEURON_DATA = [
       "left": "types/CB2025_L.html",
       "right": "types/CB2025_R.html"
     },
-    "synonyms": null,
+    "synonyms": "Cachero 2010: pMP-a;Yu 2010: pMP5",
     "flywire_types": null,
     "primary_url": "types/CB2025.html"
   },
@@ -40669,7 +39675,7 @@ const NEURON_DATA = [
       "left": "types/CB2034_L.html",
       "right": "types/CB2034_R.html"
     },
-    "synonyms": "aSP18",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB2034.html"
   },
@@ -40680,7 +39686,7 @@ const NEURON_DATA = [
       "left": "types/CB2035_L.html",
       "right": "types/CB2035_R.html"
     },
-    "synonyms": "pMP6",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB2035.html"
   },
@@ -40746,7 +39752,7 @@ const NEURON_DATA = [
       "left": "types/CB2041_L.html",
       "right": "types/CB2041_R.html"
     },
-    "synonyms": "AVLP_pr22",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB2041.html"
   },
@@ -40933,7 +39939,7 @@ const NEURON_DATA = [
       "left": "types/CB2062_L.html",
       "right": "types/CB2062_R.html"
     },
-    "synonyms": "pMP6",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB2062.html"
   },
@@ -40955,7 +39961,7 @@ const NEURON_DATA = [
       "left": "types/CB2064_L.html",
       "right": "types/CB2064_R.html"
     },
-    "synonyms": "LHPV4a4",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB2064.html"
   },
@@ -40999,7 +40005,7 @@ const NEURON_DATA = [
       "left": "types/CB2068_L.html",
       "right": "types/CB2068_R.html"
     },
-    "synonyms": null,
+    "synonyms": "Cachero 2010: aIP-b",
     "flywire_types": null,
     "primary_url": "types/CB2068.html"
   },
@@ -41021,7 +40027,7 @@ const NEURON_DATA = [
       "left": "types/CB2070_L.html",
       "right": "types/CB2070_R.html"
     },
-    "synonyms": null,
+    "synonyms": "Cachero 2010: aSP-j;Yu 2010: aSP12",
     "flywire_types": null,
     "primary_url": "types/CB2070.html"
   },
@@ -41224,17 +40230,6 @@ const NEURON_DATA = [
     "primary_url": "types/CB2090.html"
   },
   {
-    "name": "CB2091",
-    "urls": {
-      "combined": "types/CB2091.html",
-      "left": "types/CB2091_L.html",
-      "right": "types/CB2091_R.html"
-    },
-    "synonyms": null,
-    "flywire_types": null,
-    "primary_url": "types/CB2091.html"
-  },
-  {
     "name": "CB2092",
     "urls": {
       "combined": "types/CB2092.html",
@@ -41257,15 +40252,26 @@ const NEURON_DATA = [
     "primary_url": "types/CB2093.html"
   },
   {
-    "name": "CB2094",
+    "name": "CB2094a",
     "urls": {
-      "combined": "types/CB2094.html",
-      "left": "types/CB2094_L.html",
-      "right": "types/CB2094_R.html"
+      "combined": "types/CB2094a.html",
+      "left": "types/CB2094a_L.html",
+      "right": "types/CB2094a_R.html"
     },
     "synonyms": null,
     "flywire_types": null,
-    "primary_url": "types/CB2094.html"
+    "primary_url": "types/CB2094a.html"
+  },
+  {
+    "name": "CB2094b",
+    "urls": {
+      "combined": "types/CB2094b.html",
+      "left": "types/CB2094b_L.html",
+      "right": "types/CB2094b_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/CB2094b.html"
   },
   {
     "name": "CB2095",
@@ -41406,7 +40412,7 @@ const NEURON_DATA = [
       "left": "types/CB2108_L.html",
       "right": "types/CB2108_R.html"
     },
-    "synonyms": "WED-VLP-1, aIP5",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB2108.html"
   },
@@ -41439,7 +40445,7 @@ const NEURON_DATA = [
       "left": "types/CB2113_L.html",
       "right": "types/CB2113_R.html"
     },
-    "synonyms": "pSP5",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB2113.html"
   },
@@ -41450,7 +40456,7 @@ const NEURON_DATA = [
       "left": "types/CB2114_L.html",
       "right": "types/CB2114_R.html"
     },
-    "synonyms": "AVLP_pr01",
+    "synonyms": "Cachero 2010: aSP-k;Yu 2010: aSP8",
     "flywire_types": null,
     "primary_url": "types/CB2114.html"
   },
@@ -41483,7 +40489,7 @@ const NEURON_DATA = [
       "left": "types/CB2117_L.html",
       "right": "types/CB2117_R.html"
     },
-    "synonyms": null,
+    "synonyms": "Cachero 2010: aSP-d; Yu 2010: aSP13",
     "flywire_types": null,
     "primary_url": "types/CB2117.html"
   },
@@ -41565,22 +40571,13 @@ const NEURON_DATA = [
     "primary_url": "types/CB2124.html"
   },
   {
-    "name": "CB2125",
-    "urls": {
-      "right": "types/CB2125_R.html"
-    },
-    "synonyms": null,
-    "flywire_types": null,
-    "primary_url": "types/CB2125_R.html"
-  },
-  {
     "name": "CB2126",
     "urls": {
       "combined": "types/CB2126.html",
       "left": "types/CB2126_L.html",
       "right": "types/CB2126_R.html"
     },
-    "synonyms": "hb-5813078030",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB2126.html"
   },
@@ -41591,7 +40588,7 @@ const NEURON_DATA = [
       "left": "types/CB2127_L.html",
       "right": "types/CB2127_R.html"
     },
-    "synonyms": "aIP3",
+    "synonyms": "Cachero 2010: aIP-e;Yu 2010: aSP9",
     "flywire_types": null,
     "primary_url": "types/CB2127.html"
   },
@@ -41635,7 +40632,7 @@ const NEURON_DATA = [
       "left": "types/CB2131_L.html",
       "right": "types/CB2131_R.html"
     },
-    "synonyms": "aIPgb",
+    "synonyms": "Cachero 2010: aIP-g;Yu 2010: pIP6",
     "flywire_types": null,
     "primary_url": "types/CB2131.html"
   },
@@ -41712,7 +40709,7 @@ const NEURON_DATA = [
       "left": "types/CB2138_L.html",
       "right": "types/CB2138_R.html"
     },
-    "synonyms": "pMP3-pCd1",
+    "synonyms": "Rideout 2010: pC3; Zhou 2014: pCd; Nojima 2021: pCd-1; Allen 2025: pMP-z",
     "flywire_types": null,
     "primary_url": "types/CB2138.html"
   },
@@ -41866,7 +40863,7 @@ const NEURON_DATA = [
       "left": "types/CB2153_L.html",
       "right": "types/CB2153_R.html"
     },
-    "synonyms": "B1-4",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB2153.html"
   },
@@ -41943,7 +40940,7 @@ const NEURON_DATA = [
       "left": "types/CB2161_L.html",
       "right": "types/CB2161_R.html"
     },
-    "synonyms": "M_lvPNm30, M_lvPNm32",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB2161.html"
   },
@@ -41987,7 +40984,7 @@ const NEURON_DATA = [
       "left": "types/CB2165_L.html",
       "right": "types/CB2165_R.html"
     },
-    "synonyms": "pMP5",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB2165.html"
   },
@@ -42012,17 +41009,6 @@ const NEURON_DATA = [
     "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB2167.html"
-  },
-  {
-    "name": "CB2168",
-    "urls": {
-      "combined": "types/CB2168.html",
-      "left": "types/CB2168_L.html",
-      "right": "types/CB2168_R.html"
-    },
-    "synonyms": "pMP3-pCd1",
-    "flywire_types": null,
-    "primary_url": "types/CB2168.html"
   },
   {
     "name": "CB2169",
@@ -42416,7 +41402,7 @@ const NEURON_DATA = [
       "left": "types/CB2204_L.html",
       "right": "types/CB2204_R.html"
     },
-    "synonyms": "aIPgc",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB2204.html"
   },
@@ -42438,7 +41424,7 @@ const NEURON_DATA = [
       "left": "types/CB2206_L.html",
       "right": "types/CB2206_R.html"
     },
-    "synonyms": "WED_pr01",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB2206.html"
   },
@@ -42526,7 +41512,7 @@ const NEURON_DATA = [
       "left": "types/CB2216_L.html",
       "right": "types/CB2216_R.html"
     },
-    "synonyms": "AOTU055, AOTU056, AOTU057, AOTU058",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB2216.html"
   },
@@ -42537,7 +41523,7 @@ const NEURON_DATA = [
       "left": "types/CB2217_L.html",
       "right": "types/CB2217_R.html"
     },
-    "synonyms": "aSP14",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB2217.html"
   },
@@ -42548,7 +41534,7 @@ const NEURON_DATA = [
       "left": "types/CB2218_L.html",
       "right": "types/CB2218_R.html"
     },
-    "synonyms": "aIP3",
+    "synonyms": "Cachero 2010: aIP-e;Yu 2010: aSP9",
     "flywire_types": null,
     "primary_url": "types/CB2218.html"
   },
@@ -42718,17 +41704,6 @@ const NEURON_DATA = [
     "primary_url": "types/CB2238.html"
   },
   {
-    "name": "CB2239",
-    "urls": {
-      "combined": "types/CB2239.html",
-      "left": "types/CB2239_L.html",
-      "right": "types/CB2239_R.html"
-    },
-    "synonyms": null,
-    "flywire_types": null,
-    "primary_url": "types/CB2239.html"
-  },
-  {
     "name": "CB2240",
     "urls": {
       "combined": "types/CB2240.html",
@@ -42746,7 +41721,7 @@ const NEURON_DATA = [
       "left": "types/CB2241_L.html",
       "right": "types/CB2241_R.html"
     },
-    "synonyms": null,
+    "synonyms": "Cachero 2010: aIP-c;Yu 2010: aIP1/aIP4/aSP10",
     "flywire_types": null,
     "primary_url": "types/CB2241.html"
   },
@@ -42823,7 +41798,7 @@ const NEURON_DATA = [
       "left": "types/CB2248_L.html",
       "right": "types/CB2248_R.html"
     },
-    "synonyms": "aSP10",
+    "synonyms": "Cachero 2010: aIP-b",
     "flywire_types": null,
     "primary_url": "types/CB2248.html"
   },
@@ -42845,7 +41820,7 @@ const NEURON_DATA = [
       "left": "types/CB2250_L.html",
       "right": "types/CB2250_R.html"
     },
-    "synonyms": "aSP1",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB2250.html"
   },
@@ -42878,7 +41853,7 @@ const NEURON_DATA = [
       "left": "types/CB2253_L.html",
       "right": "types/CB2253_R.html"
     },
-    "synonyms": "AVLP_pr01",
+    "synonyms": "Cachero 2010: aSP-k;Yu 2010: aSP8",
     "flywire_types": null,
     "primary_url": "types/CB2253.html"
   },
@@ -42922,7 +41897,7 @@ const NEURON_DATA = [
       "left": "types/CB2258_L.html",
       "right": "types/CB2258_R.html"
     },
-    "synonyms": "aIPgb",
+    "synonyms": "Cachero 2010: aIP-g;Yu 2010: pIP6",
     "flywire_types": null,
     "primary_url": "types/CB2258.html"
   },
@@ -42955,7 +41930,7 @@ const NEURON_DATA = [
       "left": "types/CB2261_L.html",
       "right": "types/CB2261_R.html"
     },
-    "synonyms": "PVLP_pr03",
+    "synonyms": "Cachero 2010: aIP-a",
     "flywire_types": null,
     "primary_url": "types/CB2261.html"
   },
@@ -42966,7 +41941,7 @@ const NEURON_DATA = [
       "left": "types/CB2262_L.html",
       "right": "types/CB2262_R.html"
     },
-    "synonyms": "SIP012",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB2262.html"
   },
@@ -43015,15 +41990,37 @@ const NEURON_DATA = [
     "primary_url": "types/CB2266.html"
   },
   {
-    "name": "CB2267",
+    "name": "CB2267_a",
     "urls": {
-      "combined": "types/CB2267.html",
-      "left": "types/CB2267_L.html",
-      "right": "types/CB2267_R.html"
+      "combined": "types/CB2267_a.html",
+      "left": "types/CB2267_a_L.html",
+      "right": "types/CB2267_a_R.html"
     },
     "synonyms": null,
     "flywire_types": null,
-    "primary_url": "types/CB2267.html"
+    "primary_url": "types/CB2267_a.html"
+  },
+  {
+    "name": "CB2267_b",
+    "urls": {
+      "combined": "types/CB2267_b.html",
+      "left": "types/CB2267_b_L.html",
+      "right": "types/CB2267_b_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/CB2267_b.html"
+  },
+  {
+    "name": "CB2267_c",
+    "urls": {
+      "combined": "types/CB2267_c.html",
+      "left": "types/CB2267_c_L.html",
+      "right": "types/CB2267_c_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/CB2267_c.html"
   },
   {
     "name": "CB2269",
@@ -43065,7 +42062,7 @@ const NEURON_DATA = [
       "left": "types/CB2273_L.html",
       "right": "types/CB2273_R.html"
     },
-    "synonyms": "pSP3",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB2273.html"
   },
@@ -43109,7 +42106,7 @@ const NEURON_DATA = [
       "left": "types/CB2278_L.html",
       "right": "types/CB2278_R.html"
     },
-    "synonyms": "PVLP_pr03",
+    "synonyms": "Cachero 2010: aIP-a",
     "flywire_types": null,
     "primary_url": "types/CB2278.html"
   },
@@ -43142,7 +42139,7 @@ const NEURON_DATA = [
       "left": "types/CB2281_L.html",
       "right": "types/CB2281_R.html"
     },
-    "synonyms": "AVLP_pr11",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB2281.html"
   },
@@ -43175,7 +42172,7 @@ const NEURON_DATA = [
       "left": "types/CB2284_L.html",
       "right": "types/CB2284_R.html"
     },
-    "synonyms": "pMP3-pCd1",
+    "synonyms": "Rideout 2010: pC3; Zhou 2014: pCd; Nojima 2021: pCd-1; Allen 2025: pMP-z",
     "flywire_types": null,
     "primary_url": "types/CB2284.html"
   },
@@ -43400,17 +42397,6 @@ const NEURON_DATA = [
     "primary_url": "types/CB2305.html"
   },
   {
-    "name": "CB2307",
-    "urls": {
-      "combined": "types/CB2307.html",
-      "left": "types/CB2307_L.html",
-      "right": "types/CB2307_R.html"
-    },
-    "synonyms": null,
-    "flywire_types": null,
-    "primary_url": "types/CB2307.html"
-  },
-  {
     "name": "CB2308",
     "urls": {
       "combined": "types/CB2308.html",
@@ -43505,7 +42491,7 @@ const NEURON_DATA = [
       "left": "types/CB2317_L.html",
       "right": "types/CB2317_R.html"
     },
-    "synonyms": null,
+    "synonyms": "Cachero 2010: aSP-a;Yu 2010: aSP2",
     "flywire_types": null,
     "primary_url": "types/CB2317.html"
   },
@@ -43563,28 +42549,6 @@ const NEURON_DATA = [
     "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB2323.html"
-  },
-  {
-    "name": "CB2326",
-    "urls": {
-      "combined": "types/CB2326.html",
-      "left": "types/CB2326_L.html",
-      "right": "types/CB2326_R.html"
-    },
-    "synonyms": null,
-    "flywire_types": null,
-    "primary_url": "types/CB2326.html"
-  },
-  {
-    "name": "CB2327",
-    "urls": {
-      "combined": "types/CB2327.html",
-      "left": "types/CB2327_L.html",
-      "right": "types/CB2327_R.html"
-    },
-    "synonyms": null,
-    "flywire_types": null,
-    "primary_url": "types/CB2327.html"
   },
   {
     "name": "CB2328",
@@ -43648,7 +42612,7 @@ const NEURON_DATA = [
       "left": "types/CB2334_L.html",
       "right": "types/CB2334_R.html"
     },
-    "synonyms": null,
+    "synonyms": "Cachero 2010: pIP-c;Yu 2010: pIP7",
     "flywire_types": null,
     "primary_url": "types/CB2334.html"
   },
@@ -43659,7 +42623,7 @@ const NEURON_DATA = [
       "left": "types/CB2335_L.html",
       "right": "types/CB2335_R.html"
     },
-    "synonyms": "pSP3",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB2335.html"
   },
@@ -43956,7 +42920,7 @@ const NEURON_DATA = [
       "left": "types/CB2364_L.html",
       "right": "types/CB2364_R.html"
     },
-    "synonyms": "AVLP_pr01",
+    "synonyms": "Cachero 2010: aSP-k; Yu 2010: aSP8; Ruta 2010: LC1",
     "flywire_types": null,
     "primary_url": "types/CB2364.html"
   },
@@ -44071,24 +43035,13 @@ const NEURON_DATA = [
     "primary_url": "types/CB2374.html"
   },
   {
-    "name": "CB2375",
-    "urls": {
-      "combined": "types/CB2375.html",
-      "left": "types/CB2375_L.html",
-      "right": "types/CB2375_R.html"
-    },
-    "synonyms": "pIP5",
-    "flywire_types": null,
-    "primary_url": "types/CB2375.html"
-  },
-  {
     "name": "CB2376",
     "urls": {
       "combined": "types/CB2376.html",
       "left": "types/CB2376_L.html",
       "right": "types/CB2376_R.html"
     },
-    "synonyms": null,
+    "synonyms": "Cachero 2010: aIP-b",
     "flywire_types": null,
     "primary_url": "types/CB2376.html"
   },
@@ -44121,7 +43074,7 @@ const NEURON_DATA = [
       "left": "types/CB2379_L.html",
       "right": "types/CB2379_R.html"
     },
-    "synonyms": "aSP9",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB2379.html"
   },
@@ -44132,20 +43085,9 @@ const NEURON_DATA = [
       "left": "types/CB2380_L.html",
       "right": "types/CB2380_R.html"
     },
-    "synonyms": null,
+    "synonyms": "Vaughan 2014: aLN(al)",
     "flywire_types": null,
     "primary_url": "types/CB2380.html"
-  },
-  {
-    "name": "CB2381",
-    "urls": {
-      "combined": "types/CB2381.html",
-      "left": "types/CB2381_L.html",
-      "right": "types/CB2381_R.html"
-    },
-    "synonyms": null,
-    "flywire_types": null,
-    "primary_url": "types/CB2381.html"
   },
   {
     "name": "CB2382",
@@ -44220,7 +43162,7 @@ const NEURON_DATA = [
       "left": "types/CB2388_L.html",
       "right": "types/CB2388_R.html"
     },
-    "synonyms": "VP2+Z_lvPN, Z_lvPNm1",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB2388.html"
   },
@@ -44280,26 +43222,26 @@ const NEURON_DATA = [
     "primary_url": "types/CB2393.html"
   },
   {
-    "name": "CB2394",
+    "name": "CB2395a",
     "urls": {
-      "combined": "types/CB2394.html",
-      "left": "types/CB2394_L.html",
-      "right": "types/CB2394_R.html"
+      "combined": "types/CB2395a.html",
+      "left": "types/CB2395a_L.html",
+      "right": "types/CB2395a_R.html"
     },
     "synonyms": null,
     "flywire_types": null,
-    "primary_url": "types/CB2394.html"
+    "primary_url": "types/CB2395a.html"
   },
   {
-    "name": "CB2395",
+    "name": "CB2395b",
     "urls": {
-      "combined": "types/CB2395.html",
-      "left": "types/CB2395_L.html",
-      "right": "types/CB2395_R.html"
+      "combined": "types/CB2395b.html",
+      "left": "types/CB2395b_L.html",
+      "right": "types/CB2395b_R.html"
     },
     "synonyms": null,
     "flywire_types": null,
-    "primary_url": "types/CB2395.html"
+    "primary_url": "types/CB2395b.html"
   },
   {
     "name": "CB2396",
@@ -44390,17 +43332,6 @@ const NEURON_DATA = [
     "primary_url": "types/CB2404.html"
   },
   {
-    "name": "CB2405",
-    "urls": {
-      "combined": "types/CB2405.html",
-      "left": "types/CB2405_L.html",
-      "right": "types/CB2405_R.html"
-    },
-    "synonyms": null,
-    "flywire_types": null,
-    "primary_url": "types/CB2405.html"
-  },
-  {
     "name": "CB2406",
     "urls": {
       "combined": "types/CB2406.html",
@@ -44432,17 +43363,6 @@ const NEURON_DATA = [
     "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB2408.html"
-  },
-  {
-    "name": "CB2409",
-    "urls": {
-      "combined": "types/CB2409.html",
-      "left": "types/CB2409_L.html",
-      "right": "types/CB2409_R.html"
-    },
-    "synonyms": "aIP1",
-    "flywire_types": null,
-    "primary_url": "types/CB2409.html"
   },
   {
     "name": "CB2411",
@@ -44520,17 +43440,6 @@ const NEURON_DATA = [
     "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB2417.html"
-  },
-  {
-    "name": "CB2418",
-    "urls": {
-      "combined": "types/CB2418.html",
-      "left": "types/CB2418_L.html",
-      "right": "types/CB2418_R.html"
-    },
-    "synonyms": null,
-    "flywire_types": null,
-    "primary_url": "types/CB2418.html"
   },
   {
     "name": "CB2419",
@@ -44660,7 +43569,7 @@ const NEURON_DATA = [
       "left": "types/CB2430_L.html",
       "right": "types/CB2430_R.html"
     },
-    "synonyms": null,
+    "synonyms": "Cachero 2010: aIP-h",
     "flywire_types": null,
     "primary_url": "types/CB2430.html"
   },
@@ -44693,7 +43602,7 @@ const NEURON_DATA = [
       "left": "types/CB2433_L.html",
       "right": "types/CB2433_R.html"
     },
-    "synonyms": "AVLP_pr22",
+    "synonyms": "Cachero 2010: aIP-c; Yu 2010: aIP1/aIP4/aSP10",
     "flywire_types": null,
     "primary_url": "types/CB2433.html"
   },
@@ -44814,7 +43723,7 @@ const NEURON_DATA = [
       "left": "types/CB2447_L.html",
       "right": "types/CB2447_R.html"
     },
-    "synonyms": "pIP13",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB2447.html"
   },
@@ -44836,7 +43745,7 @@ const NEURON_DATA = [
       "left": "types/CB2449_L.html",
       "right": "types/CB2449_R.html"
     },
-    "synonyms": "WED-VLP-2",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB2449.html"
   },
@@ -44883,17 +43792,6 @@ const NEURON_DATA = [
     "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB2453.html"
-  },
-  {
-    "name": "CB2454",
-    "urls": {
-      "combined": "types/CB2454.html",
-      "left": "types/CB2454_L.html",
-      "right": "types/CB2454_R.html"
-    },
-    "synonyms": null,
-    "flywire_types": null,
-    "primary_url": "types/CB2454.html"
   },
   {
     "name": "CB2455",
@@ -45111,7 +44009,7 @@ const NEURON_DATA = [
       "left": "types/CB2475_L.html",
       "right": "types/CB2475_R.html"
     },
-    "synonyms": "B1, aPN1",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB2475.html"
   },
@@ -45144,7 +44042,7 @@ const NEURON_DATA = [
       "left": "types/CB2478_L.html",
       "right": "types/CB2478_R.html"
     },
-    "synonyms": null,
+    "synonyms": "Cachero 2010: aIP-g;Yu 2010: pIP6",
     "flywire_types": null,
     "primary_url": "types/CB2478.html"
   },
@@ -45419,7 +44317,7 @@ const NEURON_DATA = [
       "left": "types/CB2509_L.html",
       "right": "types/CB2509_R.html"
     },
-    "synonyms": null,
+    "synonyms": "Cachero 2010: pMP-a; Yu 2010: pMP5",
     "flywire_types": null,
     "primary_url": "types/CB2509.html"
   },
@@ -45433,17 +44331,6 @@ const NEURON_DATA = [
     "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB2510.html"
-  },
-  {
-    "name": "CB2511",
-    "urls": {
-      "combined": "types/CB2511.html",
-      "left": "types/CB2511_L.html",
-      "right": "types/CB2511_R.html"
-    },
-    "synonyms": null,
-    "flywire_types": null,
-    "primary_url": "types/CB2511.html"
   },
   {
     "name": "CB2512",
@@ -45540,7 +44427,7 @@ const NEURON_DATA = [
       "left": "types/CB2520_L.html",
       "right": "types/CB2520_R.html"
     },
-    "synonyms": "pMP3-pCd1",
+    "synonyms": "Rideout 2010: pC3; Zhou 2014: pCd; Nojima 2021: pCd-1; Allen 2025: pMP-z",
     "flywire_types": null,
     "primary_url": "types/CB2520.html"
   },
@@ -45551,7 +44438,7 @@ const NEURON_DATA = [
       "left": "types/CB2521_L.html",
       "right": "types/CB2521_R.html"
     },
-    "synonyms": "B1-5, aPN1",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB2521.html"
   },
@@ -45584,7 +44471,7 @@ const NEURON_DATA = [
       "left": "types/CB2524_L.html",
       "right": "types/CB2524_R.html"
     },
-    "synonyms": "LHPV5a2",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB2524.html"
   },
@@ -45595,7 +44482,7 @@ const NEURON_DATA = [
       "left": "types/CB2525_L.html",
       "right": "types/CB2525_R.html"
     },
-    "synonyms": "SMP324",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB2525.html"
   },
@@ -45710,17 +44597,6 @@ const NEURON_DATA = [
     "primary_url": "types/CB2535.html"
   },
   {
-    "name": "CB2536",
-    "urls": {
-      "combined": "types/CB2536.html",
-      "left": "types/CB2536_L.html",
-      "right": "types/CB2536_R.html"
-    },
-    "synonyms": null,
-    "flywire_types": null,
-    "primary_url": "types/CB2536.html"
-  },
-  {
     "name": "CB2537",
     "urls": {
       "combined": "types/CB2537.html",
@@ -45749,20 +44625,9 @@ const NEURON_DATA = [
       "left": "types/CB2539_L.html",
       "right": "types/CB2539_R.html"
     },
-    "synonyms": "pMP5",
-    "flywire_types": null,
-    "primary_url": "types/CB2539.html"
-  },
-  {
-    "name": "CB2540",
-    "urls": {
-      "combined": "types/CB2540.html",
-      "left": "types/CB2540_L.html",
-      "right": "types/CB2540_R.html"
-    },
     "synonyms": null,
     "flywire_types": null,
-    "primary_url": "types/CB2540.html"
+    "primary_url": "types/CB2539.html"
   },
   {
     "name": "CB2541",
@@ -45925,7 +44790,7 @@ const NEURON_DATA = [
       "left": "types/CB2556_L.html",
       "right": "types/CB2556_R.html"
     },
-    "synonyms": "B1, aPN1",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB2556.html"
   },
@@ -45947,7 +44812,7 @@ const NEURON_DATA = [
       "left": "types/CB2558_L.html",
       "right": "types/CB2558_R.html"
     },
-    "synonyms": "B1",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB2558.html"
   },
@@ -45958,7 +44823,7 @@ const NEURON_DATA = [
       "left": "types/CB2559_L.html",
       "right": "types/CB2559_R.html"
     },
-    "synonyms": "LHPV5d3",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB2559.html"
   },
@@ -46011,7 +44876,7 @@ const NEURON_DATA = [
       "left": "types/CB2565_L.html",
       "right": "types/CB2565_R.html"
     },
-    "synonyms": "pIP13",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB2565.html"
   },
@@ -46058,17 +44923,6 @@ const NEURON_DATA = [
     "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB2569.html"
-  },
-  {
-    "name": "CB2570",
-    "urls": {
-      "combined": "types/CB2570.html",
-      "left": "types/CB2570_L.html",
-      "right": "types/CB2570_R.html"
-    },
-    "synonyms": null,
-    "flywire_types": null,
-    "primary_url": "types/CB2570.html"
   },
   {
     "name": "CB2571",
@@ -46253,20 +45107,9 @@ const NEURON_DATA = [
       "left": "types/CB2589_L.html",
       "right": "types/CB2589_R.html"
     },
-    "synonyms": "DM3_vPN, M_vPNml85, M_vPNml88, M_vPNml89",
-    "flywire_types": null,
-    "primary_url": "types/CB2589.html"
-  },
-  {
-    "name": "CB2590",
-    "urls": {
-      "combined": "types/CB2590.html",
-      "left": "types/CB2590_L.html",
-      "right": "types/CB2590_R.html"
-    },
     "synonyms": null,
     "flywire_types": null,
-    "primary_url": "types/CB2590.html"
+    "primary_url": "types/CB2589.html"
   },
   {
     "name": "CB2591",
@@ -46297,7 +45140,7 @@ const NEURON_DATA = [
       "left": "types/CB2593_L.html",
       "right": "types/CB2593_R.html"
     },
-    "synonyms": "AVLP_pr31, aIP2",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB2593.html"
   },
@@ -46368,17 +45211,6 @@ const NEURON_DATA = [
     "primary_url": "types/CB2600.html"
   },
   {
-    "name": "CB2601",
-    "urls": {
-      "combined": "types/CB2601.html",
-      "left": "types/CB2601_L.html",
-      "right": "types/CB2601_R.html"
-    },
-    "synonyms": "pMP3-pCd1",
-    "flywire_types": null,
-    "primary_url": "types/CB2601.html"
-  },
-  {
     "name": "CB2602",
     "urls": {
       "combined": "types/CB2602.html",
@@ -46440,7 +45272,7 @@ const NEURON_DATA = [
       "left": "types/CB2608_L.html",
       "right": "types/CB2608_R.html"
     },
-    "synonyms": null,
+    "synonyms": "Cachero 2010: pMP-b; Yu 2010: pMP5; Rideout 2010: pC3; Zhou 2014: pCd; Nojima 2021: pCd-2",
     "flywire_types": null,
     "primary_url": "types/CB2608.html"
   },
@@ -46528,7 +45360,7 @@ const NEURON_DATA = [
       "left": "types/CB2618_L.html",
       "right": "types/CB2618_R.html"
     },
-    "synonyms": null,
+    "synonyms": "fru-F-700048, fru-F-500231, fru-F-600041",
     "flywire_types": null,
     "primary_url": "types/CB2618.html"
   },
@@ -46572,7 +45404,7 @@ const NEURON_DATA = [
       "left": "types/CB2623_L.html",
       "right": "types/CB2623_R.html"
     },
-    "synonyms": "AVLP_pr22",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB2623.html"
   },
@@ -46627,7 +45459,7 @@ const NEURON_DATA = [
       "left": "types/CB2628_L.html",
       "right": "types/CB2628_R.html"
     },
-    "synonyms": null,
+    "synonyms": "Cachero 2010: aSP-a;Yu 2010: aSP2",
     "flywire_types": null,
     "primary_url": "types/CB2628.html"
   },
@@ -46660,7 +45492,7 @@ const NEURON_DATA = [
       "left": "types/CB2632_L.html",
       "right": "types/CB2632_R.html"
     },
-    "synonyms": null,
+    "synonyms": "Cachero 2010: pMP-a;Yu 2010: pMP5",
     "flywire_types": null,
     "primary_url": "types/CB2632.html"
   },
@@ -46704,7 +45536,7 @@ const NEURON_DATA = [
       "left": "types/CB2636_L.html",
       "right": "types/CB2636_R.html"
     },
-    "synonyms": null,
+    "synonyms": "Cachero 2010: aDT-h;Yu 2010: aDT6",
     "flywire_types": null,
     "primary_url": "types/CB2636.html"
   },
@@ -46737,7 +45569,7 @@ const NEURON_DATA = [
       "left": "types/CB2639_L.html",
       "right": "types/CB2639_R.html"
     },
-    "synonyms": null,
+    "synonyms": "Cachero 2010: aSP-k;Yu 2010: aSP8",
     "flywire_types": null,
     "primary_url": "types/CB2639.html"
   },
@@ -46885,17 +45717,6 @@ const NEURON_DATA = [
     "primary_url": "types/CB2653.html"
   },
   {
-    "name": "CB2654",
-    "urls": {
-      "combined": "types/CB2654.html",
-      "left": "types/CB2654_L.html",
-      "right": "types/CB2654_R.html"
-    },
-    "synonyms": "pSP3",
-    "flywire_types": null,
-    "primary_url": "types/CB2654.html"
-  },
-  {
     "name": "CB2655",
     "urls": {
       "combined": "types/CB2655.html",
@@ -46935,7 +45756,7 @@ const NEURON_DATA = [
       "left": "types/CB2659_L.html",
       "right": "types/CB2659_R.html"
     },
-    "synonyms": "AVLP_pr11",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB2659.html"
   },
@@ -46968,7 +45789,7 @@ const NEURON_DATA = [
       "left": "types/CB2662_L.html",
       "right": "types/CB2662_R.html"
     },
-    "synonyms": "SIP011",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB2662.html"
   },
@@ -46990,7 +45811,7 @@ const NEURON_DATA = [
       "left": "types/CB2664_L.html",
       "right": "types/CB2664_R.html"
     },
-    "synonyms": "B1-4",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB2664.html"
   },
@@ -47034,7 +45855,7 @@ const NEURON_DATA = [
       "left": "types/CB2668_L.html",
       "right": "types/CB2668_R.html"
     },
-    "synonyms": "aIPgb",
+    "synonyms": "Cachero 2010: aIP-g;Yu 2010: pIP6",
     "flywire_types": null,
     "primary_url": "types/CB2668.html"
   },
@@ -47111,7 +45932,7 @@ const NEURON_DATA = [
       "left": "types/CB2675_L.html",
       "right": "types/CB2675_R.html"
     },
-    "synonyms": null,
+    "synonyms": "Cachero 2010: aIP-h",
     "flywire_types": null,
     "primary_url": "types/CB2675.html"
   },
@@ -47122,7 +45943,7 @@ const NEURON_DATA = [
       "left": "types/CB2676_L.html",
       "right": "types/CB2676_R.html"
     },
-    "synonyms": "PVLP_pr03",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB2676.html"
   },
@@ -47419,7 +46240,7 @@ const NEURON_DATA = [
       "left": "types/CB2706_L.html",
       "right": "types/CB2706_R.html"
     },
-    "synonyms": "pMP6",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB2706.html"
   },
@@ -47463,7 +46284,7 @@ const NEURON_DATA = [
       "left": "types/CB2710_L.html",
       "right": "types/CB2710_R.html"
     },
-    "synonyms": "WEDPN8C",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB2710.html"
   },
@@ -47653,17 +46474,6 @@ const NEURON_DATA = [
     "primary_url": "types/CB2729.html"
   },
   {
-    "name": "CB2730",
-    "urls": {
-      "combined": "types/CB2730.html",
-      "left": "types/CB2730_L.html",
-      "right": "types/CB2730_R.html"
-    },
-    "synonyms": null,
-    "flywire_types": null,
-    "primary_url": "types/CB2730.html"
-  },
-  {
     "name": "CB2731",
     "urls": {
       "combined": "types/CB2731.html",
@@ -47684,17 +46494,6 @@ const NEURON_DATA = [
     "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB2733.html"
-  },
-  {
-    "name": "CB2734",
-    "urls": {
-      "combined": "types/CB2734.html",
-      "left": "types/CB2734_L.html",
-      "right": "types/CB2734_R.html"
-    },
-    "synonyms": null,
-    "flywire_types": null,
-    "primary_url": "types/CB2734.html"
   },
   {
     "name": "CB2735",
@@ -47750,17 +46549,6 @@ const NEURON_DATA = [
     "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB2739.html"
-  },
-  {
-    "name": "CB2740",
-    "urls": {
-      "combined": "types/CB2740.html",
-      "left": "types/CB2740_L.html",
-      "right": "types/CB2740_R.html"
-    },
-    "synonyms": "aSP9",
-    "flywire_types": null,
-    "primary_url": "types/CB2740.html"
   },
   {
     "name": "CB2741",
@@ -47857,7 +46645,7 @@ const NEURON_DATA = [
       "left": "types/CB2750_L.html",
       "right": "types/CB2750_R.html"
     },
-    "synonyms": "pSP9",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB2750.html"
   },
@@ -47868,7 +46656,7 @@ const NEURON_DATA = [
       "left": "types/CB2751_L.html",
       "right": "types/CB2751_R.html"
     },
-    "synonyms": null,
+    "synonyms": "Cachero 2010: pSG-a",
     "flywire_types": null,
     "primary_url": "types/CB2751.html"
   },
@@ -47934,7 +46722,7 @@ const NEURON_DATA = [
       "left": "types/CB2758_L.html",
       "right": "types/CB2758_R.html"
     },
-    "synonyms": "pSP9",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB2758.html"
   },
@@ -47989,7 +46777,7 @@ const NEURON_DATA = [
       "left": "types/CB2763_L.html",
       "right": "types/CB2763_R.html"
     },
-    "synonyms": null,
+    "synonyms": "Cachero 2010: aSP-k;Yu 2010: aSP8",
     "flywire_types": null,
     "primary_url": "types/CB2763.html"
   },
@@ -48036,17 +46824,6 @@ const NEURON_DATA = [
     "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB2767.html"
-  },
-  {
-    "name": "CB2768",
-    "urls": {
-      "combined": "types/CB2768.html",
-      "left": "types/CB2768_L.html",
-      "right": "types/CB2768_R.html"
-    },
-    "synonyms": null,
-    "flywire_types": null,
-    "primary_url": "types/CB2768.html"
   },
   {
     "name": "CB2769",
@@ -48143,7 +46920,7 @@ const NEURON_DATA = [
       "left": "types/CB2778_L.html",
       "right": "types/CB2778_R.html"
     },
-    "synonyms": "WEDPN7A",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB2778.html"
   },
@@ -48253,7 +47030,7 @@ const NEURON_DATA = [
       "left": "types/CB2789_L.html",
       "right": "types/CB2789_R.html"
     },
-    "synonyms": "B1",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB2789.html"
   },
@@ -48297,7 +47074,7 @@ const NEURON_DATA = [
       "left": "types/CB2793_L.html",
       "right": "types/CB2793_R.html"
     },
-    "synonyms": "aSP9",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB2793.html"
   },
@@ -48555,17 +47332,6 @@ const NEURON_DATA = [
     "primary_url": "types/CB2821.html"
   },
   {
-    "name": "CB2822",
-    "urls": {
-      "combined": "types/CB2822.html",
-      "left": "types/CB2822_L.html",
-      "right": "types/CB2822_R.html"
-    },
-    "synonyms": null,
-    "flywire_types": null,
-    "primary_url": "types/CB2822.html"
-  },
-  {
     "name": "CB2823",
     "urls": {
       "combined": "types/CB2823.html",
@@ -48610,24 +47376,13 @@ const NEURON_DATA = [
     "primary_url": "types/CB2826.html"
   },
   {
-    "name": "CB2827",
-    "urls": {
-      "combined": "types/CB2827.html",
-      "left": "types/CB2827_L.html",
-      "right": "types/CB2827_R.html"
-    },
-    "synonyms": "pIP5",
-    "flywire_types": null,
-    "primary_url": "types/CB2827.html"
-  },
-  {
     "name": "CB2828",
     "urls": {
       "combined": "types/CB2828.html",
       "left": "types/CB2828_L.html",
       "right": "types/CB2828_R.html"
     },
-    "synonyms": "LHPV2c1",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB2828.html"
   },
@@ -48638,20 +47393,9 @@ const NEURON_DATA = [
       "left": "types/CB2829_L.html",
       "right": "types/CB2829_R.html"
     },
-    "synonyms": "AVLP549",
-    "flywire_types": null,
-    "primary_url": "types/CB2829.html"
-  },
-  {
-    "name": "CB2830",
-    "urls": {
-      "combined": "types/CB2830.html",
-      "left": "types/CB2830_L.html",
-      "right": "types/CB2830_R.html"
-    },
     "synonyms": null,
     "flywire_types": null,
-    "primary_url": "types/CB2830.html"
+    "primary_url": "types/CB2829.html"
   },
   {
     "name": "CB2831",
@@ -48663,17 +47407,6 @@ const NEURON_DATA = [
     "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB2831.html"
-  },
-  {
-    "name": "CB2833",
-    "urls": {
-      "combined": "types/CB2833.html",
-      "left": "types/CB2833_L.html",
-      "right": "types/CB2833_R.html"
-    },
-    "synonyms": null,
-    "flywire_types": null,
-    "primary_url": "types/CB2833.html"
   },
   {
     "name": "CB2834",
@@ -48693,7 +47426,7 @@ const NEURON_DATA = [
       "left": "types/CB2835_L.html",
       "right": "types/CB2835_R.html"
     },
-    "synonyms": "LHAV4e7",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB2835.html"
   },
@@ -48737,7 +47470,7 @@ const NEURON_DATA = [
       "left": "types/CB2842_L.html",
       "right": "types/CB2842_R.html"
     },
-    "synonyms": "LHPD2a1",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB2842.html"
   },
@@ -48748,7 +47481,7 @@ const NEURON_DATA = [
       "left": "types/CB2843_L.html",
       "right": "types/CB2843_R.html"
     },
-    "synonyms": null,
+    "synonyms": "Cachero 2010: pSP-b;Yu 2010: pSP2/3",
     "flywire_types": null,
     "primary_url": "types/CB2843.html"
   },
@@ -48781,7 +47514,7 @@ const NEURON_DATA = [
       "left": "types/CB2846_L.html",
       "right": "types/CB2846_R.html"
     },
-    "synonyms": null,
+    "synonyms": "Cachero 2010: aSP-d; Yu 2010: aSP13",
     "flywire_types": null,
     "primary_url": "types/CB2846.html"
   },
@@ -48847,7 +47580,7 @@ const NEURON_DATA = [
       "left": "types/CB2853_L.html",
       "right": "types/CB2853_R.html"
     },
-    "synonyms": null,
+    "synonyms": "Cachero 2010: aIP-a",
     "flywire_types": null,
     "primary_url": "types/CB2853.html"
   },
@@ -48891,7 +47624,7 @@ const NEURON_DATA = [
       "left": "types/CB2858_L.html",
       "right": "types/CB2858_R.html"
     },
-    "synonyms": "aIP2",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB2858.html"
   },
@@ -48909,13 +47642,11 @@ const NEURON_DATA = [
   {
     "name": "CB2860",
     "urls": {
-      "combined": "types/CB2860.html",
-      "left": "types/CB2860_L.html",
-      "right": "types/CB2860_R.html"
+      "left": "types/CB2860_L.html"
     },
     "synonyms": null,
     "flywire_types": null,
-    "primary_url": "types/CB2860.html"
+    "primary_url": "types/CB2860_L.html"
   },
   {
     "name": "CB2861",
@@ -48935,7 +47666,7 @@ const NEURON_DATA = [
       "left": "types/CB2862_L.html",
       "right": "types/CB2862_R.html"
     },
-    "synonyms": "pSP9",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB2862.html"
   },
@@ -48995,15 +47726,26 @@ const NEURON_DATA = [
     "primary_url": "types/CB2867.html"
   },
   {
-    "name": "CB2868",
+    "name": "CB2868_a",
     "urls": {
-      "combined": "types/CB2868.html",
-      "left": "types/CB2868_L.html",
-      "right": "types/CB2868_R.html"
+      "combined": "types/CB2868_a.html",
+      "left": "types/CB2868_a_L.html",
+      "right": "types/CB2868_a_R.html"
     },
     "synonyms": null,
     "flywire_types": null,
-    "primary_url": "types/CB2868.html"
+    "primary_url": "types/CB2868_a.html"
+  },
+  {
+    "name": "CB2868_b",
+    "urls": {
+      "combined": "types/CB2868_b.html",
+      "left": "types/CB2868_b_L.html",
+      "right": "types/CB2868_b_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/CB2868_b.html"
   },
   {
     "name": "CB2869",
@@ -49303,24 +48045,13 @@ const NEURON_DATA = [
     "primary_url": "types/CB2899.html"
   },
   {
-    "name": "CB2900",
-    "urls": {
-      "combined": "types/CB2900.html",
-      "left": "types/CB2900_L.html",
-      "right": "types/CB2900_R.html"
-    },
-    "synonyms": null,
-    "flywire_types": null,
-    "primary_url": "types/CB2900.html"
-  },
-  {
     "name": "CB2901",
     "urls": {
       "combined": "types/CB2901.html",
       "left": "types/CB2901_L.html",
       "right": "types/CB2901_R.html"
     },
-    "synonyms": null,
+    "synonyms": "Cachero 2010: pSP-b;Yu 2010: pSP2/3",
     "flywire_types": null,
     "primary_url": "types/CB2901.html"
   },
@@ -49342,7 +48073,7 @@ const NEURON_DATA = [
       "left": "types/CB2903_L.html",
       "right": "types/CB2903_R.html"
     },
-    "synonyms": "aIP2",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB2903.html"
   },
@@ -49562,7 +48293,7 @@ const NEURON_DATA = [
       "left": "types/CB2924_L.html",
       "right": "types/CB2924_R.html"
     },
-    "synonyms": "WEDPN7A",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB2924.html"
   },
@@ -49639,7 +48370,7 @@ const NEURON_DATA = [
       "left": "types/CB2931_L.html",
       "right": "types/CB2931_R.html"
     },
-    "synonyms": "CL145, CL148",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB2931.html"
   },
@@ -49936,7 +48667,7 @@ const NEURON_DATA = [
       "left": "types/CB2960_L.html",
       "right": "types/CB2960_R.html"
     },
-    "synonyms": "LHPV5a3",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB2960.html"
   },
@@ -49963,6 +48694,15 @@ const NEURON_DATA = [
     "primary_url": "types/CB2962.html"
   },
   {
+    "name": "CB2962a",
+    "urls": {
+      "left": "types/CB2962a_L.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/CB2962a_L.html"
+  },
+  {
     "name": "CB2963",
     "urls": {
       "combined": "types/CB2963.html",
@@ -49980,7 +48720,7 @@ const NEURON_DATA = [
       "left": "types/CB2965_L.html",
       "right": "types/CB2965_R.html"
     },
-    "synonyms": "pSP9",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB2965.html"
   },
@@ -50068,7 +48808,7 @@ const NEURON_DATA = [
       "left": "types/CB2973_L.html",
       "right": "types/CB2973_R.html"
     },
-    "synonyms": "pSP9",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB2973.html"
   },
@@ -50112,7 +48852,7 @@ const NEURON_DATA = [
       "left": "types/CB2977_L.html",
       "right": "types/CB2977_R.html"
     },
-    "synonyms": "LHPD2a1",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB2977.html"
   },
@@ -50156,7 +48896,7 @@ const NEURON_DATA = [
       "left": "types/CB2981_L.html",
       "right": "types/CB2981_R.html"
     },
-    "synonyms": null,
+    "synonyms": "Cachero 2010: aSP-j; Yu 2010: aSP12",
     "flywire_types": null,
     "primary_url": "types/CB2981.html"
   },
@@ -50205,24 +48945,13 @@ const NEURON_DATA = [
     "primary_url": "types/CB2985.html"
   },
   {
-    "name": "CB2986",
-    "urls": {
-      "combined": "types/CB2986.html",
-      "left": "types/CB2986_L.html",
-      "right": "types/CB2986_R.html"
-    },
-    "synonyms": "aIP1",
-    "flywire_types": null,
-    "primary_url": "types/CB2986.html"
-  },
-  {
     "name": "CB2987",
     "urls": {
       "combined": "types/CB2987.html",
       "left": "types/CB2987_L.html",
       "right": "types/CB2987_R.html"
     },
-    "synonyms": "LHPV5a3",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB2987.html"
   },
@@ -50244,20 +48973,9 @@ const NEURON_DATA = [
       "left": "types/CB2989_L.html",
       "right": "types/CB2989_R.html"
     },
-    "synonyms": null,
+    "synonyms": "Cachero 2010: pSP-b;Yu 2010: pSP2/3",
     "flywire_types": null,
     "primary_url": "types/CB2989.html"
-  },
-  {
-    "name": "CB2990",
-    "urls": {
-      "combined": "types/CB2990.html",
-      "left": "types/CB2990_L.html",
-      "right": "types/CB2990_R.html"
-    },
-    "synonyms": null,
-    "flywire_types": null,
-    "primary_url": "types/CB2990.html"
   },
   {
     "name": "CB2991",
@@ -50284,13 +49002,11 @@ const NEURON_DATA = [
   {
     "name": "CB2993",
     "urls": {
-      "combined": "types/CB2993.html",
-      "left": "types/CB2993_L.html",
       "right": "types/CB2993_R.html"
     },
     "synonyms": null,
     "flywire_types": null,
-    "primary_url": "types/CB2993.html"
+    "primary_url": "types/CB2993_R.html"
   },
   {
     "name": "CB2995",
@@ -50343,7 +49059,7 @@ const NEURON_DATA = [
       "left": "types/CB2999_L.html",
       "right": "types/CB2999_R.html"
     },
-    "synonyms": "SIP012",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB2999.html"
   },
@@ -50376,7 +49092,7 @@ const NEURON_DATA = [
       "left": "types/CB3002_L.html",
       "right": "types/CB3002_R.html"
     },
-    "synonyms": "aIP2",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB3002.html"
   },
@@ -50420,7 +49136,7 @@ const NEURON_DATA = [
       "left": "types/CB3006_L.html",
       "right": "types/CB3006_R.html"
     },
-    "synonyms": "aIP2",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB3006.html"
   },
@@ -50453,7 +49169,7 @@ const NEURON_DATA = [
       "left": "types/CB3009_L.html",
       "right": "types/CB3009_R.html"
     },
-    "synonyms": "LHPD2a1",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB3009.html"
   },
@@ -50475,7 +49191,7 @@ const NEURON_DATA = [
       "left": "types/CB3011_L.html",
       "right": "types/CB3011_R.html"
     },
-    "synonyms": "aIP2",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB3011.html"
   },
@@ -50590,17 +49306,6 @@ const NEURON_DATA = [
     "primary_url": "types/CB3021.html"
   },
   {
-    "name": "CB3022",
-    "urls": {
-      "combined": "types/CB3022.html",
-      "left": "types/CB3022_L.html",
-      "right": "types/CB3022_R.html"
-    },
-    "synonyms": null,
-    "flywire_types": null,
-    "primary_url": "types/CB3022.html"
-  },
-  {
     "name": "CB3023",
     "urls": {
       "combined": "types/CB3023.html",
@@ -50621,17 +49326,6 @@ const NEURON_DATA = [
     "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB3024.html"
-  },
-  {
-    "name": "CB3025",
-    "urls": {
-      "combined": "types/CB3025.html",
-      "left": "types/CB3025_L.html",
-      "right": "types/CB3025_R.html"
-    },
-    "synonyms": null,
-    "flywire_types": null,
-    "primary_url": "types/CB3025.html"
   },
   {
     "name": "CB3026",
@@ -50953,24 +49647,13 @@ const NEURON_DATA = [
     "primary_url": "types/CB3058.html"
   },
   {
-    "name": "CB3059",
-    "urls": {
-      "combined": "types/CB3059.html",
-      "left": "types/CB3059_L.html",
-      "right": "types/CB3059_R.html"
-    },
-    "synonyms": null,
-    "flywire_types": null,
-    "primary_url": "types/CB3059.html"
-  },
-  {
     "name": "CB3060",
     "urls": {
       "combined": "types/CB3060.html",
       "left": "types/CB3060_L.html",
       "right": "types/CB3060_R.html"
     },
-    "synonyms": "pSP5",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB3060.html"
   },
@@ -51050,17 +49733,6 @@ const NEURON_DATA = [
     "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB3069.html"
-  },
-  {
-    "name": "CB3070",
-    "urls": {
-      "combined": "types/CB3070.html",
-      "left": "types/CB3070_L.html",
-      "right": "types/CB3070_R.html"
-    },
-    "synonyms": null,
-    "flywire_types": null,
-    "primary_url": "types/CB3070.html"
   },
   {
     "name": "CB3071",
@@ -51250,17 +49922,6 @@ const NEURON_DATA = [
     "primary_url": "types/CB3089.html"
   },
   {
-    "name": "CB3091",
-    "urls": {
-      "combined": "types/CB3091.html",
-      "left": "types/CB3091_L.html",
-      "right": "types/CB3091_R.html"
-    },
-    "synonyms": null,
-    "flywire_types": null,
-    "primary_url": "types/CB3091.html"
-  },
-  {
     "name": "CB3092",
     "urls": {
       "combined": "types/CB3092.html",
@@ -51300,7 +49961,7 @@ const NEURON_DATA = [
       "left": "types/CB3095_L.html",
       "right": "types/CB3095_R.html"
     },
-    "synonyms": null,
+    "synonyms": "Cachero 2010: pSP-b;Yu 2010: pSP2/3",
     "flywire_types": null,
     "primary_url": "types/CB3095.html"
   },
@@ -51476,7 +50137,7 @@ const NEURON_DATA = [
       "left": "types/CB3115_L.html",
       "right": "types/CB3115_R.html"
     },
-    "synonyms": null,
+    "synonyms": "fru-F-500044",
     "flywire_types": null,
     "primary_url": "types/CB3115.html"
   },
@@ -51498,7 +50159,7 @@ const NEURON_DATA = [
       "left": "types/CB3118_L.html",
       "right": "types/CB3118_R.html"
     },
-    "synonyms": "DN3A",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB3118.html"
   },
@@ -51553,7 +50214,7 @@ const NEURON_DATA = [
       "left": "types/CB3123_L.html",
       "right": "types/CB3123_R.html"
     },
-    "synonyms": "LHAV4e7",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB3123.html"
   },
@@ -51575,7 +50236,7 @@ const NEURON_DATA = [
       "left": "types/CB3125_L.html",
       "right": "types/CB3125_R.html"
     },
-    "synonyms": null,
+    "synonyms": "Cachero 2010: aIP-g;Yu 2010: pIP6",
     "flywire_types": null,
     "primary_url": "types/CB3125.html"
   },
@@ -51597,7 +50258,7 @@ const NEURON_DATA = [
       "left": "types/CB3127_L.html",
       "right": "types/CB3127_R.html"
     },
-    "synonyms": null,
+    "synonyms": "Cachero 2010: aSP-j; Yu 2010: aSP12",
     "flywire_types": null,
     "primary_url": "types/CB3127.html"
   },
@@ -51657,15 +50318,24 @@ const NEURON_DATA = [
     "primary_url": "types/CB3133.html"
   },
   {
-    "name": "CB3134",
+    "name": "CB3134a",
     "urls": {
-      "combined": "types/CB3134.html",
-      "left": "types/CB3134_L.html",
-      "right": "types/CB3134_R.html"
+      "left": "types/CB3134a_L.html"
     },
     "synonyms": null,
     "flywire_types": null,
-    "primary_url": "types/CB3134.html"
+    "primary_url": "types/CB3134a_L.html"
+  },
+  {
+    "name": "CB3134b",
+    "urls": {
+      "combined": "types/CB3134b.html",
+      "left": "types/CB3134b_L.html",
+      "right": "types/CB3134b_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/CB3134b.html"
   },
   {
     "name": "CB3135",
@@ -51690,24 +50360,13 @@ const NEURON_DATA = [
     "primary_url": "types/CB3136.html"
   },
   {
-    "name": "CB3137",
-    "urls": {
-      "combined": "types/CB3137.html",
-      "left": "types/CB3137_L.html",
-      "right": "types/CB3137_R.html"
-    },
-    "synonyms": null,
-    "flywire_types": null,
-    "primary_url": "types/CB3137.html"
-  },
-  {
     "name": "CB3138",
     "urls": {
       "combined": "types/CB3138.html",
       "left": "types/CB3138_L.html",
       "right": "types/CB3138_R.html"
     },
-    "synonyms": "LHPV5d3",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB3138.html"
   },
@@ -51736,11 +50395,13 @@ const NEURON_DATA = [
   {
     "name": "CB3142",
     "urls": {
-      "left": "types/CB3142_L.html"
+      "combined": "types/CB3142.html",
+      "left": "types/CB3142_L.html",
+      "right": "types/CB3142_R.html"
     },
     "synonyms": null,
     "flywire_types": null,
-    "primary_url": "types/CB3142_L.html"
+    "primary_url": "types/CB3142.html"
   },
   {
     "name": "CB3143",
@@ -51919,17 +50580,6 @@ const NEURON_DATA = [
     "primary_url": "types/CB3160.html"
   },
   {
-    "name": "CB3161",
-    "urls": {
-      "combined": "types/CB3161.html",
-      "left": "types/CB3161_L.html",
-      "right": "types/CB3161_R.html"
-    },
-    "synonyms": null,
-    "flywire_types": null,
-    "primary_url": "types/CB3161.html"
-  },
-  {
     "name": "CB3162",
     "urls": {
       "combined": "types/CB3162.html",
@@ -51969,7 +50619,7 @@ const NEURON_DATA = [
       "left": "types/CB3166_L.html",
       "right": "types/CB3166_R.html"
     },
-    "synonyms": "aIPgb",
+    "synonyms": "Cachero 2010: aIP-g;Yu 2010: pIP6",
     "flywire_types": null,
     "primary_url": "types/CB3166.html"
   },
@@ -52183,17 +50833,6 @@ const NEURON_DATA = [
     "primary_url": "types/CB3187.html"
   },
   {
-    "name": "CB3188",
-    "urls": {
-      "combined": "types/CB3188.html",
-      "left": "types/CB3188_L.html",
-      "right": "types/CB3188_R.html"
-    },
-    "synonyms": null,
-    "flywire_types": null,
-    "primary_url": "types/CB3188.html"
-  },
-  {
     "name": "CB3189",
     "urls": {
       "combined": "types/CB3189.html",
@@ -52233,7 +50872,7 @@ const NEURON_DATA = [
       "left": "types/CB3192_L.html",
       "right": "types/CB3192_R.html"
     },
-    "synonyms": null,
+    "synonyms": "Cachero 2010: pSP-b;Yu 2010: pSP2/3",
     "flywire_types": null,
     "primary_url": "types/CB3192.html"
   },
@@ -52299,7 +50938,7 @@ const NEURON_DATA = [
       "left": "types/CB3198_L.html",
       "right": "types/CB3198_R.html"
     },
-    "synonyms": "LHPD2b1",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB3198.html"
   },
@@ -52324,6 +50963,17 @@ const NEURON_DATA = [
     "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB3200.html"
+  },
+  {
+    "name": "CB3200b",
+    "urls": {
+      "combined": "types/CB3200b.html",
+      "left": "types/CB3200b_L.html",
+      "right": "types/CB3200b_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/CB3200b.html"
   },
   {
     "name": "CB3201",
@@ -52376,7 +51026,7 @@ const NEURON_DATA = [
       "left": "types/CB3205_L.html",
       "right": "types/CB3205_R.html"
     },
-    "synonyms": "LHPD2a1",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB3205.html"
   },
@@ -52387,7 +51037,7 @@ const NEURON_DATA = [
       "left": "types/CB3206_L.html",
       "right": "types/CB3206_R.html"
     },
-    "synonyms": "VP1m+VP2_lvPN1, VP1m+VP2_lvPN2",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB3206.html"
   },
@@ -52464,7 +51114,7 @@ const NEURON_DATA = [
       "left": "types/CB3214_L.html",
       "right": "types/CB3214_R.html"
     },
-    "synonyms": null,
+    "synonyms": "Cachero 2010: aIP-c;Yu 2010: aIP1/aIP4/aSP10",
     "flywire_types": null,
     "primary_url": "types/CB3214.html"
   },
@@ -52475,7 +51125,7 @@ const NEURON_DATA = [
       "left": "types/CB3215_L.html",
       "right": "types/CB3215_R.html"
     },
-    "synonyms": "pMP6",
+    "synonyms": "Cachero 2010: pMP-a;Yu 2010: pMP5",
     "flywire_types": null,
     "primary_url": "types/CB3215.html"
   },
@@ -52623,17 +51273,6 @@ const NEURON_DATA = [
     "primary_url": "types/CB3231.html"
   },
   {
-    "name": "CB3232",
-    "urls": {
-      "combined": "types/CB3232.html",
-      "left": "types/CB3232_L.html",
-      "right": "types/CB3232_R.html"
-    },
-    "synonyms": null,
-    "flywire_types": null,
-    "primary_url": "types/CB3232.html"
-  },
-  {
     "name": "CB3233",
     "urls": {
       "combined": "types/CB3233.html",
@@ -52651,7 +51290,7 @@ const NEURON_DATA = [
       "left": "types/CB3234_L.html",
       "right": "types/CB3234_R.html"
     },
-    "synonyms": "WED-VLP, aIP5",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB3234.html"
   },
@@ -52717,7 +51356,7 @@ const NEURON_DATA = [
       "left": "types/CB3241_L.html",
       "right": "types/CB3241_R.html"
     },
-    "synonyms": "SMP110",
+    "synonyms": "Cachero 2010: aSP-d;Yu 2010: aSP13",
     "flywire_types": null,
     "primary_url": "types/CB3241.html"
   },
@@ -52750,7 +51389,7 @@ const NEURON_DATA = [
       "left": "types/CB3244_L.html",
       "right": "types/CB3244_R.html"
     },
-    "synonyms": null,
+    "synonyms": "Cachero 2010: aSP-h; Ruta 2010: DC2",
     "flywire_types": null,
     "primary_url": "types/CB3244.html"
   },
@@ -52816,7 +51455,7 @@ const NEURON_DATA = [
       "left": "types/CB3252_L.html",
       "right": "types/CB3252_R.html"
     },
-    "synonyms": null,
+    "synonyms": "Cachero 2010: pSP-b;Yu 2010: pSP2/3",
     "flywire_types": null,
     "primary_url": "types/CB3252.html"
   },
@@ -52898,17 +51537,6 @@ const NEURON_DATA = [
     "primary_url": "types/CB3261.html"
   },
   {
-    "name": "CB3262",
-    "urls": {
-      "combined": "types/CB3262.html",
-      "left": "types/CB3262_L.html",
-      "right": "types/CB3262_R.html"
-    },
-    "synonyms": "pSP3",
-    "flywire_types": null,
-    "primary_url": "types/CB3262.html"
-  },
-  {
     "name": "CB3263",
     "urls": {
       "combined": "types/CB3263.html",
@@ -52970,7 +51598,7 @@ const NEURON_DATA = [
       "left": "types/CB3270_L.html",
       "right": "types/CB3270_R.html"
     },
-    "synonyms": "pMP3-pCd1",
+    "synonyms": "Rideout 2010: pC3; Zhou 2014: pCd; Nojima 2021: pCd-1; Allen 2025: pMP-z",
     "flywire_types": null,
     "primary_url": "types/CB3270.html"
   },
@@ -53083,17 +51711,6 @@ const NEURON_DATA = [
     "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB3281.html"
-  },
-  {
-    "name": "CB3282",
-    "urls": {
-      "combined": "types/CB3282.html",
-      "left": "types/CB3282_L.html",
-      "right": "types/CB3282_R.html"
-    },
-    "synonyms": null,
-    "flywire_types": null,
-    "primary_url": "types/CB3282.html"
   },
   {
     "name": "CB3283",
@@ -53234,7 +51851,7 @@ const NEURON_DATA = [
       "left": "types/CB3295_L.html",
       "right": "types/CB3295_R.html"
     },
-    "synonyms": "WEDPN8C",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB3295.html"
   },
@@ -53281,17 +51898,6 @@ const NEURON_DATA = [
     "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB3300.html"
-  },
-  {
-    "name": "CB3301",
-    "urls": {
-      "combined": "types/CB3301.html",
-      "left": "types/CB3301_L.html",
-      "right": "types/CB3301_R.html"
-    },
-    "synonyms": "pMP3-pCd1",
-    "flywire_types": null,
-    "primary_url": "types/CB3301.html"
   },
   {
     "name": "CB3302",
@@ -53388,7 +51994,7 @@ const NEURON_DATA = [
       "left": "types/CB3313_L.html",
       "right": "types/CB3313_R.html"
     },
-    "synonyms": "AVLP_pr36",
+    "synonyms": "Cachero 2010: aIP-b",
     "flywire_types": null,
     "primary_url": "types/CB3313.html"
   },
@@ -53432,7 +52038,7 @@ const NEURON_DATA = [
       "left": "types/CB3317_L.html",
       "right": "types/CB3317_R.html"
     },
-    "synonyms": null,
+    "synonyms": "Cachero 2010: aIP-e;Yu 2010: aSP9",
     "flywire_types": null,
     "primary_url": "types/CB3317.html"
   },
@@ -53542,7 +52148,7 @@ const NEURON_DATA = [
       "left": "types/CB3327_L.html",
       "right": "types/CB3327_R.html"
     },
-    "synonyms": null,
+    "synonyms": "Cachero 2010: aIP-c;Yu 2010: aIP1/aIP4/aSP10",
     "flywire_types": null,
     "primary_url": "types/CB3327.html"
   },
@@ -53575,7 +52181,7 @@ const NEURON_DATA = [
       "left": "types/CB3330_L.html",
       "right": "types/CB3330_R.html"
     },
-    "synonyms": "aIPgb",
+    "synonyms": "Cachero 2010: aIP-g;Yu 2010: pIP6",
     "flywire_types": null,
     "primary_url": "types/CB3330.html"
   },
@@ -53608,7 +52214,7 @@ const NEURON_DATA = [
       "left": "types/CB3335_L.html",
       "right": "types/CB3335_R.html"
     },
-    "synonyms": null,
+    "synonyms": "Cachero 2010: aIP-a",
     "flywire_types": null,
     "primary_url": "types/CB3335.html"
   },
@@ -53751,7 +52357,7 @@ const NEURON_DATA = [
       "left": "types/CB3349_L.html",
       "right": "types/CB3349_R.html"
     },
-    "synonyms": "aIPgb",
+    "synonyms": "Cachero 2010: aIP-g;Yu 2010: pIP6",
     "flywire_types": null,
     "primary_url": "types/CB3349.html"
   },
@@ -53894,7 +52500,7 @@ const NEURON_DATA = [
       "left": "types/CB3363_L.html",
       "right": "types/CB3363_R.html"
     },
-    "synonyms": "pIP13",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB3363.html"
   },
@@ -53938,7 +52544,7 @@ const NEURON_DATA = [
       "left": "types/CB3368_L.html",
       "right": "types/CB3368_R.html"
     },
-    "synonyms": null,
+    "synonyms": "Cachero 2010: aIP-b",
     "flywire_types": null,
     "primary_url": "types/CB3368.html"
   },
@@ -53949,7 +52555,7 @@ const NEURON_DATA = [
       "left": "types/CB3369_L.html",
       "right": "types/CB3369_R.html"
     },
-    "synonyms": "LHAD1b2",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB3369.html"
   },
@@ -54026,7 +52632,7 @@ const NEURON_DATA = [
       "left": "types/CB3377_L.html",
       "right": "types/CB3377_R.html"
     },
-    "synonyms": "WED-VLP-1",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB3377.html"
   },
@@ -54081,7 +52687,7 @@ const NEURON_DATA = [
       "left": "types/CB3382_L.html",
       "right": "types/CB3382_R.html"
     },
-    "synonyms": null,
+    "synonyms": "Cachero 2010: aIP-g;Yu 2010: pIP6",
     "flywire_types": null,
     "primary_url": "types/CB3382.html"
   },
@@ -54092,7 +52698,7 @@ const NEURON_DATA = [
       "left": "types/CB3383_L.html",
       "right": "types/CB3383_R.html"
     },
-    "synonyms": "M_lvPNm38, VC5_lvPN",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB3383.html"
   },
@@ -54180,7 +52786,7 @@ const NEURON_DATA = [
       "left": "types/CB3392_L.html",
       "right": "types/CB3392_R.html"
     },
-    "synonyms": null,
+    "synonyms": "Cachero 2010: aSP-h; Ruta 2010: DC2",
     "flywire_types": null,
     "primary_url": "types/CB3392.html"
   },
@@ -54227,17 +52833,6 @@ const NEURON_DATA = [
     "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB3396.html"
-  },
-  {
-    "name": "CB3397",
-    "urls": {
-      "combined": "types/CB3397.html",
-      "left": "types/CB3397_L.html",
-      "right": "types/CB3397_R.html"
-    },
-    "synonyms": null,
-    "flywire_types": null,
-    "primary_url": "types/CB3397.html"
   },
   {
     "name": "CB3398",
@@ -54323,7 +52918,7 @@ const NEURON_DATA = [
       "left": "types/CB3405_L.html",
       "right": "types/CB3405_R.html"
     },
-    "synonyms": null,
+    "synonyms": "Cachero 2010: aIP-c;Yu 2010: aIP1/aIP4/aSP10",
     "flywire_types": null,
     "primary_url": "types/CB3405.html"
   },
@@ -54651,7 +53246,7 @@ const NEURON_DATA = [
       "left": "types/CB3437_L.html",
       "right": "types/CB3437_R.html"
     },
-    "synonyms": "B1, aPN1",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB3437.html"
   },
@@ -54684,7 +53279,7 @@ const NEURON_DATA = [
       "left": "types/CB3441_L.html",
       "right": "types/CB3441_R.html"
     },
-    "synonyms": "SMP110",
+    "synonyms": "Cachero 2010: aSP-d; Yu 2010: aSP13",
     "flywire_types": null,
     "primary_url": "types/CB3441.html"
   },
@@ -54739,7 +53334,7 @@ const NEURON_DATA = [
       "left": "types/CB3447_L.html",
       "right": "types/CB3447_R.html"
     },
-    "synonyms": null,
+    "synonyms": "Cachero 2010: aDT-f",
     "flywire_types": null,
     "primary_url": "types/CB3447.html"
   },
@@ -54761,7 +53356,7 @@ const NEURON_DATA = [
       "left": "types/CB3449_L.html",
       "right": "types/CB3449_R.html"
     },
-    "synonyms": null,
+    "synonyms": "Cachero 2010: pSP-b;Yu 2010: pSP2/3",
     "flywire_types": null,
     "primary_url": "types/CB3449.html"
   },
@@ -55080,7 +53675,7 @@ const NEURON_DATA = [
       "left": "types/CB3483_L.html",
       "right": "types/CB3483_R.html"
     },
-    "synonyms": null,
+    "synonyms": "Cachero 2010: aIP-a",
     "flywire_types": null,
     "primary_url": "types/CB3483.html"
   },
@@ -55157,7 +53752,7 @@ const NEURON_DATA = [
       "left": "types/CB3491_L.html",
       "right": "types/CB3491_R.html"
     },
-    "synonyms": "WED_pr02",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB3491.html"
   },
@@ -55289,7 +53884,7 @@ const NEURON_DATA = [
       "left": "types/CB3505_L.html",
       "right": "types/CB3505_R.html"
     },
-    "synonyms": null,
+    "synonyms": "Cachero 2010: pMP-b; Yu 2010: pMP5; Rideout 2010: pC3; Zhou 2014: pCd; Nojima 2021: pCd-2",
     "flywire_types": null,
     "primary_url": "types/CB3505.html"
   },
@@ -55322,7 +53917,7 @@ const NEURON_DATA = [
       "left": "types/CB3508_L.html",
       "right": "types/CB3508_R.html"
     },
-    "synonyms": "DN3A",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB3508.html"
   },
@@ -55333,7 +53928,7 @@ const NEURON_DATA = [
       "left": "types/CB3509_L.html",
       "right": "types/CB3509_R.html"
     },
-    "synonyms": "pSP5",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB3509.html"
   },
@@ -55360,15 +53955,26 @@ const NEURON_DATA = [
     "primary_url": "types/CB3512.html"
   },
   {
-    "name": "CB3513",
+    "name": "CB3513a",
     "urls": {
-      "combined": "types/CB3513.html",
-      "left": "types/CB3513_L.html",
-      "right": "types/CB3513_R.html"
+      "combined": "types/CB3513a.html",
+      "left": "types/CB3513a_L.html",
+      "right": "types/CB3513a_R.html"
     },
     "synonyms": null,
     "flywire_types": null,
-    "primary_url": "types/CB3513.html"
+    "primary_url": "types/CB3513a.html"
+  },
+  {
+    "name": "CB3513b",
+    "urls": {
+      "combined": "types/CB3513b.html",
+      "left": "types/CB3513b_L.html",
+      "right": "types/CB3513b_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/CB3513b.html"
   },
   {
     "name": "CB3514",
@@ -55377,7 +53983,7 @@ const NEURON_DATA = [
       "left": "types/CB3514_L.html",
       "right": "types/CB3514_R.html"
     },
-    "synonyms": "hb-1481548230",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB3514.html"
   },
@@ -55388,7 +53994,7 @@ const NEURON_DATA = [
       "left": "types/CB3515_L.html",
       "right": "types/CB3515_R.html"
     },
-    "synonyms": null,
+    "synonyms": "Cachero 2010: aSP-h; Ruta 2010: DC2",
     "flywire_types": null,
     "primary_url": "types/CB3515.html"
   },
@@ -55465,7 +54071,7 @@ const NEURON_DATA = [
       "left": "types/CB3522_L.html",
       "right": "types/CB3522_R.html"
     },
-    "synonyms": null,
+    "synonyms": "Cachero 2010: pSP-d",
     "flywire_types": null,
     "primary_url": "types/CB3522.html"
   },
@@ -55531,7 +54137,7 @@ const NEURON_DATA = [
       "left": "types/CB3529_L.html",
       "right": "types/CB3529_R.html"
     },
-    "synonyms": "pMP3-pCd1",
+    "synonyms": "Rideout 2010: pC3; Zhou 2014: pCd; Nojima 2021: pCd-1; Allen 2025: pMP-z",
     "flywire_types": null,
     "primary_url": "types/CB3529.html"
   },
@@ -55575,7 +54181,7 @@ const NEURON_DATA = [
       "left": "types/CB3533_L.html",
       "right": "types/CB3533_R.html"
     },
-    "synonyms": "B1",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB3533.html"
   },
@@ -55729,7 +54335,7 @@ const NEURON_DATA = [
       "left": "types/CB3549_L.html",
       "right": "types/CB3549_R.html"
     },
-    "synonyms": "PVLP_pr03",
+    "synonyms": "Cachero 2010: aIP-a",
     "flywire_types": null,
     "primary_url": "types/CB3549.html"
   },
@@ -55820,17 +54426,6 @@ const NEURON_DATA = [
     "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB3557.html"
-  },
-  {
-    "name": "CB3558",
-    "urls": {
-      "combined": "types/CB3558.html",
-      "left": "types/CB3558_L.html",
-      "right": "types/CB3558_R.html"
-    },
-    "synonyms": null,
-    "flywire_types": null,
-    "primary_url": "types/CB3558.html"
   },
   {
     "name": "CB3559",
@@ -56026,7 +54621,7 @@ const NEURON_DATA = [
       "left": "types/CB3577_L.html",
       "right": "types/CB3577_R.html"
     },
-    "synonyms": "pSP5",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB3577.html"
   },
@@ -56070,7 +54665,7 @@ const NEURON_DATA = [
       "left": "types/CB3581_L.html",
       "right": "types/CB3581_R.html"
     },
-    "synonyms": "B1",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB3581.html"
   },
@@ -56081,7 +54676,7 @@ const NEURON_DATA = [
       "left": "types/CB3582_L.html",
       "right": "types/CB3582_R.html"
     },
-    "synonyms": "PVLP_pr03",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB3582.html"
   },
@@ -56114,7 +54709,7 @@ const NEURON_DATA = [
       "left": "types/CB3588_L.html",
       "right": "types/CB3588_R.html"
     },
-    "synonyms": "B1-5",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB3588.html"
   },
@@ -56125,7 +54720,7 @@ const NEURON_DATA = [
       "left": "types/CB3589_L.html",
       "right": "types/CB3589_R.html"
     },
-    "synonyms": "aSP10",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB3589.html"
   },
@@ -56147,7 +54742,7 @@ const NEURON_DATA = [
       "left": "types/CB3591_L.html",
       "right": "types/CB3591_R.html"
     },
-    "synonyms": "pMP5",
+    "synonyms": "Cachero 2010: pMP-b; Yu 2010: pMP5; Rideout 2010: pC3; Zhou 2014: pCd; Nojima 2021: pCd-2",
     "flywire_types": null,
     "primary_url": "types/CB3591.html"
   },
@@ -56196,17 +54791,6 @@ const NEURON_DATA = [
     "primary_url": "types/CB3595.html"
   },
   {
-    "name": "CB3597",
-    "urls": {
-      "combined": "types/CB3597.html",
-      "left": "types/CB3597_L.html",
-      "right": "types/CB3597_R.html"
-    },
-    "synonyms": null,
-    "flywire_types": null,
-    "primary_url": "types/CB3597.html"
-  },
-  {
     "name": "CB3598",
     "urls": {
       "combined": "types/CB3598.html",
@@ -56247,17 +54831,6 @@ const NEURON_DATA = [
     "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB3601.html"
-  },
-  {
-    "name": "CB3602",
-    "urls": {
-      "combined": "types/CB3602.html",
-      "left": "types/CB3602_L.html",
-      "right": "types/CB3602_R.html"
-    },
-    "synonyms": null,
-    "flywire_types": null,
-    "primary_url": "types/CB3602.html"
   },
   {
     "name": "CB3603",
@@ -56453,7 +55026,7 @@ const NEURON_DATA = [
       "left": "types/CB3623_L.html",
       "right": "types/CB3623_R.html"
     },
-    "synonyms": "VP2+Z_lvPN, Z_lvPNm1",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB3623.html"
   },
@@ -56508,7 +55081,7 @@ const NEURON_DATA = [
       "left": "types/CB3628_L.html",
       "right": "types/CB3628_R.html"
     },
-    "synonyms": "aSP10",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB3628.html"
   },
@@ -56541,7 +55114,7 @@ const NEURON_DATA = [
       "left": "types/CB3631_L.html",
       "right": "types/CB3631_R.html"
     },
-    "synonyms": "B1",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB3631.html"
   },
@@ -56682,7 +55255,7 @@ const NEURON_DATA = [
     "urls": {
       "left": "types/CB3646_L.html"
     },
-    "synonyms": "B1",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB3646_L.html"
   },
@@ -56790,7 +55363,7 @@ const NEURON_DATA = [
       "left": "types/CB3657_L.html",
       "right": "types/CB3657_R.html"
     },
-    "synonyms": null,
+    "synonyms": "Cachero 2010: aIP-b",
     "flywire_types": null,
     "primary_url": "types/CB3657.html"
   },
@@ -56966,7 +55539,7 @@ const NEURON_DATA = [
       "left": "types/CB3673_L.html",
       "right": "types/CB3673_R.html"
     },
-    "synonyms": "B1",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB3673.html"
   },
@@ -56988,7 +55561,7 @@ const NEURON_DATA = [
       "left": "types/CB3675_L.html",
       "right": "types/CB3675_R.html"
     },
-    "synonyms": null,
+    "synonyms": "Cachero 2010: aIP-b",
     "flywire_types": null,
     "primary_url": "types/CB3675.html"
   },
@@ -57131,7 +55704,7 @@ const NEURON_DATA = [
       "left": "types/CB3692_L.html",
       "right": "types/CB3692_R.html"
     },
-    "synonyms": "B1",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB3692.html"
   },
@@ -57162,7 +55735,7 @@ const NEURON_DATA = [
       "left": "types/CB3695_L.html",
       "right": "types/CB3695_R.html"
     },
-    "synonyms": null,
+    "synonyms": "Cachero 2010: aDT-h;Yu 2010: aDT6",
     "flywire_types": null,
     "primary_url": "types/CB3695.html"
   },
@@ -57305,7 +55878,7 @@ const NEURON_DATA = [
       "left": "types/CB3710_L.html",
       "right": "types/CB3710_R.html"
     },
-    "synonyms": "B1-5, aPN1",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB3710.html"
   },
@@ -57349,7 +55922,7 @@ const NEURON_DATA = [
       "left": "types/CB3716_L.html",
       "right": "types/CB3716_R.html"
     },
-    "synonyms": "hb-1683941579",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB3716.html"
   },
@@ -57365,17 +55938,6 @@ const NEURON_DATA = [
     "primary_url": "types/CB3717.html"
   },
   {
-    "name": "CB3719",
-    "urls": {
-      "combined": "types/CB3719.html",
-      "left": "types/CB3719_L.html",
-      "right": "types/CB3719_R.html"
-    },
-    "synonyms": "B1-4",
-    "flywire_types": null,
-    "primary_url": "types/CB3719.html"
-  },
-  {
     "name": "CB3720",
     "urls": {
       "combined": "types/CB3720.html",
@@ -57385,17 +55947,6 @@ const NEURON_DATA = [
     "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB3720.html"
-  },
-  {
-    "name": "CB3721",
-    "urls": {
-      "combined": "types/CB3721.html",
-      "left": "types/CB3721_L.html",
-      "right": "types/CB3721_R.html"
-    },
-    "synonyms": "aDT6",
-    "flywire_types": null,
-    "primary_url": "types/CB3721.html"
   },
   {
     "name": "CB3723",
@@ -57459,7 +56010,7 @@ const NEURON_DATA = [
       "left": "types/CB3729_L.html",
       "right": "types/CB3729_R.html"
     },
-    "synonyms": "pSP9",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB3729.html"
   },
@@ -57519,17 +56070,6 @@ const NEURON_DATA = [
     "primary_url": "types/CB3735.html"
   },
   {
-    "name": "CB3736",
-    "urls": {
-      "combined": "types/CB3736.html",
-      "left": "types/CB3736_L.html",
-      "right": "types/CB3736_R.html"
-    },
-    "synonyms": null,
-    "flywire_types": null,
-    "primary_url": "types/CB3736.html"
-  },
-  {
     "name": "CB3737",
     "urls": {
       "combined": "types/CB3737.html",
@@ -57580,7 +56120,7 @@ const NEURON_DATA = [
       "left": "types/CB3741_L.html",
       "right": "types/CB3741_R.html"
     },
-    "synonyms": null,
+    "synonyms": "fru-F-200171",
     "flywire_types": null,
     "primary_url": "types/CB3741.html"
   },
@@ -57789,7 +56329,7 @@ const NEURON_DATA = [
       "left": "types/CB3763_L.html",
       "right": "types/CB3763_R.html"
     },
-    "synonyms": "DN3A",
+    "synonyms": "Cachero 2010: pSP-b;Yu 2010: pSP2/3",
     "flywire_types": null,
     "primary_url": "types/CB3763.html"
   },
@@ -57800,7 +56340,7 @@ const NEURON_DATA = [
       "left": "types/CB3764_L.html",
       "right": "types/CB3764_R.html"
     },
-    "synonyms": "DN3A",
+    "synonyms": "Cachero 2010: pSP-b;Yu 2010: pSP2/3",
     "flywire_types": null,
     "primary_url": "types/CB3764.html"
   },
@@ -57811,7 +56351,7 @@ const NEURON_DATA = [
       "left": "types/CB3765_L.html",
       "right": "types/CB3765_R.html"
     },
-    "synonyms": null,
+    "synonyms": "Cachero 2010: pSP-b;Yu 2010: pSP2/3",
     "flywire_types": null,
     "primary_url": "types/CB3765.html"
   },
@@ -57822,7 +56362,7 @@ const NEURON_DATA = [
       "left": "types/CB3766_L.html",
       "right": "types/CB3766_R.html"
     },
-    "synonyms": null,
+    "synonyms": "Cachero 2010: pSP-b;Yu 2010: pSP2/3",
     "flywire_types": null,
     "primary_url": "types/CB3766.html"
   },
@@ -57888,7 +56428,7 @@ const NEURON_DATA = [
       "left": "types/CB3773_L.html",
       "right": "types/CB3773_R.html"
     },
-    "synonyms": null,
+    "synonyms": "Cachero 2010: pSP-a",
     "flywire_types": null,
     "primary_url": "types/CB3773.html"
   },
@@ -57921,7 +56461,7 @@ const NEURON_DATA = [
       "left": "types/CB3776_L.html",
       "right": "types/CB3776_R.html"
     },
-    "synonyms": "pSP5",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB3776.html"
   },
@@ -57965,7 +56505,7 @@ const NEURON_DATA = [
       "left": "types/CB3780_L.html",
       "right": "types/CB3780_R.html"
     },
-    "synonyms": "LHAD1b2",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB3780.html"
   },
@@ -58265,115 +56805,6 @@ const NEURON_DATA = [
     "primary_url": "types/CB3814_R.html"
   },
   {
-    "name": "CB3815",
-    "urls": {
-      "right": "types/CB3815_R.html"
-    },
-    "synonyms": null,
-    "flywire_types": null,
-    "primary_url": "types/CB3815_R.html"
-  },
-  {
-    "name": "CB3816",
-    "urls": {
-      "right": "types/CB3816_R.html"
-    },
-    "synonyms": null,
-    "flywire_types": null,
-    "primary_url": "types/CB3816_R.html"
-  },
-  {
-    "name": "CB3818",
-    "urls": {
-      "combined": "types/CB3818.html",
-      "left": "types/CB3818_L.html",
-      "right": "types/CB3818_R.html"
-    },
-    "synonyms": null,
-    "flywire_types": null,
-    "primary_url": "types/CB3818.html"
-  },
-  {
-    "name": "CB3820",
-    "urls": {
-      "combined": "types/CB3820.html",
-      "left": "types/CB3820_L.html",
-      "right": "types/CB3820_R.html"
-    },
-    "synonyms": null,
-    "flywire_types": null,
-    "primary_url": "types/CB3820.html"
-  },
-  {
-    "name": "CB3825",
-    "urls": {
-      "left": "types/CB3825_L.html"
-    },
-    "synonyms": null,
-    "flywire_types": null,
-    "primary_url": "types/CB3825_L.html"
-  },
-  {
-    "name": "CB3826",
-    "urls": {
-      "combined": "types/CB3826.html",
-      "left": "types/CB3826_L.html",
-      "right": "types/CB3826_R.html"
-    },
-    "synonyms": null,
-    "flywire_types": null,
-    "primary_url": "types/CB3826.html"
-  },
-  {
-    "name": "CB3832",
-    "urls": {
-      "left": "types/CB3832_L.html"
-    },
-    "synonyms": null,
-    "flywire_types": null,
-    "primary_url": "types/CB3832_L.html"
-  },
-  {
-    "name": "CB3833",
-    "urls": {
-      "combined": "types/CB3833.html",
-      "left": "types/CB3833_L.html",
-      "right": "types/CB3833_R.html"
-    },
-    "synonyms": null,
-    "flywire_types": null,
-    "primary_url": "types/CB3833.html"
-  },
-  {
-    "name": "CB3846",
-    "urls": {
-      "left": "types/CB3846_L.html"
-    },
-    "synonyms": null,
-    "flywire_types": null,
-    "primary_url": "types/CB3846_L.html"
-  },
-  {
-    "name": "CB3849",
-    "urls": {
-      "right": "types/CB3849_R.html"
-    },
-    "synonyms": null,
-    "flywire_types": null,
-    "primary_url": "types/CB3849_R.html"
-  },
-  {
-    "name": "CB3851",
-    "urls": {
-      "combined": "types/CB3851.html",
-      "left": "types/CB3851_L.html",
-      "right": "types/CB3851_R.html"
-    },
-    "synonyms": null,
-    "flywire_types": null,
-    "primary_url": "types/CB3851.html"
-  },
-  {
     "name": "CB3858",
     "urls": {
       "combined": "types/CB3858.html",
@@ -58391,7 +56822,7 @@ const NEURON_DATA = [
       "left": "types/CB3859_L.html",
       "right": "types/CB3859_R.html"
     },
-    "synonyms": "AVLP551, AVLP552",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB3859.html"
   },
@@ -58402,7 +56833,7 @@ const NEURON_DATA = [
       "left": "types/CB3860_L.html",
       "right": "types/CB3860_R.html"
     },
-    "synonyms": "SMP321, SMP322",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB3860.html"
   },
@@ -58413,7 +56844,7 @@ const NEURON_DATA = [
       "left": "types/CB3861_L.html",
       "right": "types/CB3861_R.html"
     },
-    "synonyms": "AVLP551, AVLP552",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB3861.html"
   },
@@ -58424,7 +56855,7 @@ const NEURON_DATA = [
       "left": "types/CB3862_L.html",
       "right": "types/CB3862_R.html"
     },
-    "synonyms": "SMP321, SMP322",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB3862.html"
   },
@@ -58435,18 +56866,9 @@ const NEURON_DATA = [
       "left": "types/CB3863_L.html",
       "right": "types/CB3863_R.html"
     },
-    "synonyms": "AVLP551, AVLP552",
-    "flywire_types": null,
-    "primary_url": "types/CB3863.html"
-  },
-  {
-    "name": "CB3864",
-    "urls": {
-      "right": "types/CB3864_R.html"
-    },
     "synonyms": null,
     "flywire_types": null,
-    "primary_url": "types/CB3864_R.html"
+    "primary_url": "types/CB3863.html"
   },
   {
     "name": "CB3865",
@@ -58502,6 +56924,1265 @@ const NEURON_DATA = [
     "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CB3869.html"
+  },
+  {
+    "name": "CB3870",
+    "urls": {
+      "combined": "types/CB3870.html",
+      "left": "types/CB3870_L.html",
+      "right": "types/CB3870_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/CB3870.html"
+  },
+  {
+    "name": "CB3871",
+    "urls": {
+      "combined": "types/CB3871.html",
+      "left": "types/CB3871_L.html",
+      "right": "types/CB3871_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/CB3871.html"
+  },
+  {
+    "name": "CB3872",
+    "urls": {
+      "combined": "types/CB3872.html",
+      "left": "types/CB3872_L.html",
+      "right": "types/CB3872_R.html"
+    },
+    "synonyms": "fru-F-500245, fru-F-000058",
+    "flywire_types": null,
+    "primary_url": "types/CB3872.html"
+  },
+  {
+    "name": "CB3873",
+    "urls": {
+      "combined": "types/CB3873.html",
+      "left": "types/CB3873_L.html",
+      "right": "types/CB3873_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/CB3873.html"
+  },
+  {
+    "name": "CB3874",
+    "urls": {
+      "combined": "types/CB3874.html",
+      "left": "types/CB3874_L.html",
+      "right": "types/CB3874_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/CB3874.html"
+  },
+  {
+    "name": "CB3875",
+    "urls": {
+      "middle": "types/CB3875_M.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/CB3875_M.html"
+  },
+  {
+    "name": "CB3876",
+    "urls": {
+      "middle": "types/CB3876_M.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/CB3876_M.html"
+  },
+  {
+    "name": "CB3877",
+    "urls": {
+      "middle": "types/CB3877_M.html"
+    },
+    "synonyms": "Cachero 2010: pSG-d; Vaughan 2014: aLN(m); Baker 2022: WV-WV",
+    "flywire_types": null,
+    "primary_url": "types/CB3877_M.html"
+  },
+  {
+    "name": "CB3878",
+    "urls": {
+      "middle": "types/CB3878_M.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/CB3878_M.html"
+  },
+  {
+    "name": "CB3879",
+    "urls": {
+      "combined": "types/CB3879.html",
+      "left": "types/CB3879_L.html",
+      "right": "types/CB3879_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/CB3879.html"
+  },
+  {
+    "name": "CB3880",
+    "urls": {
+      "middle": "types/CB3880_M.html"
+    },
+    "synonyms": "Cachero 2010: pSG-d",
+    "flywire_types": null,
+    "primary_url": "types/CB3880_M.html"
+  },
+  {
+    "name": "CB3881",
+    "urls": {
+      "middle": "types/CB3881_M.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/CB3881_M.html"
+  },
+  {
+    "name": "CB3882",
+    "urls": {
+      "middle": "types/CB3882_M.html"
+    },
+    "synonyms": "Cachero 2010: pSG-d",
+    "flywire_types": null,
+    "primary_url": "types/CB3882_M.html"
+  },
+  {
+    "name": "CB3883",
+    "urls": {
+      "middle": "types/CB3883_M.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/CB3883_M.html"
+  },
+  {
+    "name": "CB3884",
+    "urls": {
+      "middle": "types/CB3884_M.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/CB3884_M.html"
+  },
+  {
+    "name": "CB3885",
+    "urls": {
+      "middle": "types/CB3885_M.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/CB3885_M.html"
+  },
+  {
+    "name": "CB3886",
+    "urls": {
+      "middle": "types/CB3886_M.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/CB3886_M.html"
+  },
+  {
+    "name": "CB3887",
+    "urls": {
+      "middle": "types/CB3887_M.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/CB3887_M.html"
+  },
+  {
+    "name": "CB3888",
+    "urls": {
+      "combined": "types/CB3888.html",
+      "left": "types/CB3888_L.html",
+      "right": "types/CB3888_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/CB3888.html"
+  },
+  {
+    "name": "CB3889",
+    "urls": {
+      "combined": "types/CB3889.html",
+      "left": "types/CB3889_L.html",
+      "right": "types/CB3889_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/CB3889.html"
+  },
+  {
+    "name": "CB3890",
+    "urls": {
+      "combined": "types/CB3890.html",
+      "left": "types/CB3890_L.html",
+      "right": "types/CB3890_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/CB3890.html"
+  },
+  {
+    "name": "CB3892a",
+    "urls": {
+      "middle": "types/CB3892a_M.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/CB3892a_M.html"
+  },
+  {
+    "name": "CB3892b",
+    "urls": {
+      "middle": "types/CB3892b_M.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/CB3892b_M.html"
+  },
+  {
+    "name": "CB3895",
+    "urls": {
+      "combined": "types/CB3895.html",
+      "left": "types/CB3895_L.html",
+      "right": "types/CB3895_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/CB3895.html"
+  },
+  {
+    "name": "CB3896",
+    "urls": {
+      "combined": "types/CB3896.html",
+      "left": "types/CB3896_L.html",
+      "right": "types/CB3896_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/CB3896.html"
+  },
+  {
+    "name": "CB3897",
+    "urls": {
+      "middle": "types/CB3897_M.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/CB3897_M.html"
+  },
+  {
+    "name": "CB3898",
+    "urls": {
+      "middle": "types/CB3898_M.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/CB3898_M.html"
+  },
+  {
+    "name": "CB3899",
+    "urls": {
+      "middle": "types/CB3899_M.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/CB3899_M.html"
+  },
+  {
+    "name": "CB3900",
+    "urls": {
+      "combined": "types/CB3900.html",
+      "left": "types/CB3900_L.html",
+      "right": "types/CB3900_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/CB3900.html"
+  },
+  {
+    "name": "CB3901",
+    "urls": {
+      "middle": "types/CB3901_M.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/CB3901_M.html"
+  },
+  {
+    "name": "CB3902",
+    "urls": {
+      "middle": "types/CB3902_M.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/CB3902_M.html"
+  },
+  {
+    "name": "CB3903",
+    "urls": {
+      "middle": "types/CB3903_M.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/CB3903_M.html"
+  },
+  {
+    "name": "CB3904",
+    "urls": {
+      "middle": "types/CB3904_M.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/CB3904_M.html"
+  },
+  {
+    "name": "CB3905",
+    "urls": {
+      "middle": "types/CB3905_M.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/CB3905_M.html"
+  },
+  {
+    "name": "CB3906",
+    "urls": {
+      "combined": "types/CB3906.html",
+      "left": "types/CB3906_L.html",
+      "right": "types/CB3906_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/CB3906.html"
+  },
+  {
+    "name": "CB3907",
+    "urls": {
+      "combined": "types/CB3907.html",
+      "left": "types/CB3907_L.html",
+      "right": "types/CB3907_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/CB3907.html"
+  },
+  {
+    "name": "CB3908",
+    "urls": {
+      "combined": "types/CB3908.html",
+      "left": "types/CB3908_L.html",
+      "right": "types/CB3908_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/CB3908.html"
+  },
+  {
+    "name": "CB3909",
+    "urls": {
+      "combined": "types/CB3909.html",
+      "left": "types/CB3909_L.html",
+      "right": "types/CB3909_R.html"
+    },
+    "synonyms": "Cachero 2010: aIP-g;Yu 2010: pIP6",
+    "flywire_types": null,
+    "primary_url": "types/CB3909.html"
+  },
+  {
+    "name": "CB3910",
+    "urls": {
+      "combined": "types/CB3910.html",
+      "left": "types/CB3910_L.html",
+      "right": "types/CB3910_R.html"
+    },
+    "synonyms": "Cachero 2010: aIP-g;Yu 2010: pIP6",
+    "flywire_types": null,
+    "primary_url": "types/CB3910.html"
+  },
+  {
+    "name": "CB3911",
+    "urls": {
+      "middle": "types/CB3911_M.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/CB3911_M.html"
+  },
+  {
+    "name": "CB3912",
+    "urls": {
+      "combined": "types/CB3912.html",
+      "left": "types/CB3912_L.html",
+      "right": "types/CB3912_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/CB3912.html"
+  },
+  {
+    "name": "CB3913",
+    "urls": {
+      "middle": "types/CB3913_M.html"
+    },
+    "synonyms": "Cachero 2010: pSG-d; Vaughan 2014: aLN(m); Baker 2022: WV-WV",
+    "flywire_types": null,
+    "primary_url": "types/CB3913_M.html"
+  },
+  {
+    "name": "CB3914",
+    "urls": {
+      "middle": "types/CB3914_M.html"
+    },
+    "synonyms": "Cachero 2010: pSG-d; Vaughan 2014: aLN(m); Baker 2022: WV-WV",
+    "flywire_types": null,
+    "primary_url": "types/CB3914_M.html"
+  },
+  {
+    "name": "CB3915",
+    "urls": {
+      "middle": "types/CB3915_M.html"
+    },
+    "synonyms": "Cachero 2010: pSG-d; Vaughan 2014: aLN(m); Baker 2022: WV-WV",
+    "flywire_types": null,
+    "primary_url": "types/CB3915_M.html"
+  },
+  {
+    "name": "CB3916",
+    "urls": {
+      "middle": "types/CB3916_M.html"
+    },
+    "synonyms": "Cachero 2010: pSG-e",
+    "flywire_types": null,
+    "primary_url": "types/CB3916_M.html"
+  },
+  {
+    "name": "CB3917",
+    "urls": {
+      "middle": "types/CB3917_M.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/CB3917_M.html"
+  },
+  {
+    "name": "CB3918",
+    "urls": {
+      "middle": "types/CB3918_M.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/CB3918_M.html"
+  },
+  {
+    "name": "CB3919",
+    "urls": {
+      "middle": "types/CB3919_M.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/CB3919_M.html"
+  },
+  {
+    "name": "CB3920",
+    "urls": {
+      "middle": "types/CB3920_M.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/CB3920_M.html"
+  },
+  {
+    "name": "CB3921",
+    "urls": {
+      "middle": "types/CB3921_M.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/CB3921_M.html"
+  },
+  {
+    "name": "CB3922",
+    "urls": {
+      "middle": "types/CB3922_M.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/CB3922_M.html"
+  },
+  {
+    "name": "CB3923",
+    "urls": {
+      "middle": "types/CB3923_M.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/CB3923_M.html"
+  },
+  {
+    "name": "CB3924",
+    "urls": {
+      "middle": "types/CB3924_M.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/CB3924_M.html"
+  },
+  {
+    "name": "CB3925",
+    "urls": {
+      "middle": "types/CB3925_M.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/CB3925_M.html"
+  },
+  {
+    "name": "CB3930",
+    "urls": {
+      "combined": "types/CB3930.html",
+      "left": "types/CB3930_L.html",
+      "right": "types/CB3930_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/CB3930.html"
+  },
+  {
+    "name": "CB3931",
+    "urls": {
+      "combined": "types/CB3931.html",
+      "left": "types/CB3931_L.html",
+      "right": "types/CB3931_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/CB3931.html"
+  },
+  {
+    "name": "CB3932",
+    "urls": {
+      "combined": "types/CB3932.html",
+      "left": "types/CB3932_L.html",
+      "right": "types/CB3932_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/CB3932.html"
+  },
+  {
+    "name": "CB3936",
+    "urls": {
+      "combined": "types/CB3936.html",
+      "left": "types/CB3936_L.html",
+      "right": "types/CB3936_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/CB3936.html"
+  },
+  {
+    "name": "CB3937",
+    "urls": {
+      "combined": "types/CB3937.html",
+      "left": "types/CB3937_L.html",
+      "right": "types/CB3937_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/CB3937.html"
+  },
+  {
+    "name": "CB3941",
+    "urls": {
+      "combined": "types/CB3941.html",
+      "left": "types/CB3941_L.html",
+      "right": "types/CB3941_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/CB3941.html"
+  },
+  {
+    "name": "CB3951",
+    "urls": {
+      "combined": "types/CB3951.html",
+      "left": "types/CB3951_L.html",
+      "right": "types/CB3951_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/CB3951.html"
+  },
+  {
+    "name": "CB3952",
+    "urls": {
+      "combined": "types/CB3952.html",
+      "left": "types/CB3952_L.html",
+      "right": "types/CB3952_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/CB3952.html"
+  },
+  {
+    "name": "CB3953",
+    "urls": {
+      "combined": "types/CB3953.html",
+      "left": "types/CB3953_L.html",
+      "right": "types/CB3953_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/CB3953.html"
+  },
+  {
+    "name": "CB3956",
+    "urls": {
+      "combined": "types/CB3956.html",
+      "left": "types/CB3956_L.html",
+      "right": "types/CB3956_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/CB3956.html"
+  },
+  {
+    "name": "CB3958",
+    "urls": {
+      "middle": "types/CB3958_M.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/CB3958_M.html"
+  },
+  {
+    "name": "CB3959",
+    "urls": {
+      "combined": "types/CB3959.html",
+      "left": "types/CB3959_L.html",
+      "right": "types/CB3959_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/CB3959.html"
+  },
+  {
+    "name": "CB3966",
+    "urls": {
+      "combined": "types/CB3966.html",
+      "left": "types/CB3966_L.html",
+      "right": "types/CB3966_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/CB3966.html"
+  },
+  {
+    "name": "CB3968",
+    "urls": {
+      "right": "types/CB3968_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/CB3968_R.html"
+  },
+  {
+    "name": "CB3977",
+    "urls": {
+      "combined": "types/CB3977.html",
+      "left": "types/CB3977_L.html",
+      "right": "types/CB3977_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/CB3977.html"
+  },
+  {
+    "name": "CB3978",
+    "urls": {
+      "combined": "types/CB3978.html",
+      "left": "types/CB3978_L.html",
+      "right": "types/CB3978_R.html"
+    },
+    "synonyms": "Cachero 2010: aDT-g;Yu 2010: aDT5",
+    "flywire_types": null,
+    "primary_url": "types/CB3978.html"
+  },
+  {
+    "name": "CB3983",
+    "urls": {
+      "combined": "types/CB3983.html",
+      "left": "types/CB3983_L.html",
+      "right": "types/CB3983_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/CB3983.html"
+  },
+  {
+    "name": "CB3992",
+    "urls": {
+      "combined": "types/CB3992.html",
+      "left": "types/CB3992_L.html",
+      "right": "types/CB3992_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/CB3992.html"
+  },
+  {
+    "name": "CB4014",
+    "urls": {
+      "right": "types/CB4014_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/CB4014_R.html"
+  },
+  {
+    "name": "CB4045",
+    "urls": {
+      "middle": "types/CB4045_M.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/CB4045_M.html"
+  },
+  {
+    "name": "CB4053",
+    "urls": {
+      "left": "types/CB4053_L.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/CB4053_L.html"
+  },
+  {
+    "name": "CB4055",
+    "urls": {
+      "combined": "types/CB4055.html",
+      "left": "types/CB4055_L.html",
+      "right": "types/CB4055_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/CB4055.html"
+  },
+  {
+    "name": "CB4058",
+    "urls": {
+      "middle": "types/CB4058_M.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/CB4058_M.html"
+  },
+  {
+    "name": "CB4068",
+    "urls": {
+      "combined": "types/CB4068.html",
+      "left": "types/CB4068_L.html",
+      "right": "types/CB4068_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/CB4068.html"
+  },
+  {
+    "name": "CB4073",
+    "urls": {
+      "right": "types/CB4073_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/CB4073_R.html"
+  },
+  {
+    "name": "CB4075",
+    "urls": {
+      "right": "types/CB4075_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/CB4075_R.html"
+  },
+  {
+    "name": "CB4094",
+    "urls": {
+      "right": "types/CB4094_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/CB4094_R.html"
+  },
+  {
+    "name": "CB4103",
+    "urls": {
+      "left": "types/CB4103_L.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/CB4103_L.html"
+  },
+  {
+    "name": "CB4105",
+    "urls": {
+      "right": "types/CB4105_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/CB4105_R.html"
+  },
+  {
+    "name": "CB4113",
+    "urls": {
+      "combined": "types/CB4113.html",
+      "left": "types/CB4113_L.html",
+      "right": "types/CB4113_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/CB4113.html"
+  },
+  {
+    "name": "CB4130",
+    "urls": {
+      "combined": "types/CB4130.html",
+      "left": "types/CB4130_L.html",
+      "right": "types/CB4130_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/CB4130.html"
+  },
+  {
+    "name": "CB4141",
+    "urls": {
+      "combined": "types/CB4141.html",
+      "left": "types/CB4141_L.html",
+      "right": "types/CB4141_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/CB4141.html"
+  },
+  {
+    "name": "CB4146",
+    "urls": {
+      "combined": "types/CB4146.html",
+      "left": "types/CB4146_L.html",
+      "right": "types/CB4146_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/CB4146.html"
+  },
+  {
+    "name": "CB4147",
+    "urls": {
+      "combined": "types/CB4147.html",
+      "left": "types/CB4147_L.html",
+      "right": "types/CB4147_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/CB4147.html"
+  },
+  {
+    "name": "CB4148",
+    "urls": {
+      "combined": "types/CB4148.html",
+      "left": "types/CB4148_L.html",
+      "right": "types/CB4148_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/CB4148.html"
+  },
+  {
+    "name": "CB4149",
+    "urls": {
+      "left": "types/CB4149_L.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/CB4149_L.html"
+  },
+  {
+    "name": "CB4159",
+    "urls": {
+      "combined": "types/CB4159.html",
+      "left": "types/CB4159_L.html",
+      "right": "types/CB4159_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/CB4159.html"
+  },
+  {
+    "name": "CB4161",
+    "urls": {
+      "middle": "types/CB4161_M.html"
+    },
+    "synonyms": "Cachero 2010: pSG-d; Vaughan 2014: aLN(m); Baker 2022: WV-WV",
+    "flywire_types": null,
+    "primary_url": "types/CB4161_M.html"
+  },
+  {
+    "name": "CB4171",
+    "urls": {
+      "combined": "types/CB4171.html",
+      "left": "types/CB4171_L.html",
+      "right": "types/CB4171_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/CB4171.html"
+  },
+  {
+    "name": "CB4186",
+    "urls": {
+      "right": "types/CB4186_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/CB4186_R.html"
+  },
+  {
+    "name": "CB4187",
+    "urls": {
+      "combined": "types/CB4187.html",
+      "left": "types/CB4187_L.html",
+      "right": "types/CB4187_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/CB4187.html"
+  },
+  {
+    "name": "CB4188",
+    "urls": {
+      "right": "types/CB4188_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/CB4188_R.html"
+  },
+  {
+    "name": "CB4191",
+    "urls": {
+      "right": "types/CB4191_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/CB4191_R.html"
+  },
+  {
+    "name": "CB4192",
+    "urls": {
+      "right": "types/CB4192_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/CB4192_R.html"
+  },
+  {
+    "name": "CB4193",
+    "urls": {
+      "combined": "types/CB4193.html",
+      "left": "types/CB4193_L.html",
+      "right": "types/CB4193_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/CB4193.html"
+  },
+  {
+    "name": "CB4198",
+    "urls": {
+      "combined": "types/CB4198.html",
+      "left": "types/CB4198_L.html",
+      "right": "types/CB4198_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/CB4198.html"
+  },
+  {
+    "name": "CB4202",
+    "urls": {
+      "middle": "types/CB4202_M.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/CB4202_M.html"
+  },
+  {
+    "name": "CB4203",
+    "urls": {
+      "middle": "types/CB4203_M.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/CB4203_M.html"
+  },
+  {
+    "name": "CB4204",
+    "urls": {
+      "middle": "types/CB4204_M.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/CB4204_M.html"
+  },
+  {
+    "name": "CB4210",
+    "urls": {
+      "combined": "types/CB4210.html",
+      "left": "types/CB4210_L.html",
+      "right": "types/CB4210_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/CB4210.html"
+  },
+  {
+    "name": "CB4211",
+    "urls": {
+      "combined": "types/CB4211.html",
+      "left": "types/CB4211_L.html",
+      "right": "types/CB4211_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/CB4211.html"
+  },
+  {
+    "name": "CB4212",
+    "urls": {
+      "combined": "types/CB4212.html",
+      "left": "types/CB4212_L.html",
+      "right": "types/CB4212_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/CB4212.html"
+  },
+  {
+    "name": "CB4213",
+    "urls": {
+      "left": "types/CB4213_L.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/CB4213_L.html"
+  },
+  {
+    "name": "CB4218",
+    "urls": {
+      "combined": "types/CB4218.html",
+      "left": "types/CB4218_L.html",
+      "right": "types/CB4218_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/CB4218.html"
+  },
+  {
+    "name": "CB4219",
+    "urls": {
+      "combined": "types/CB4219.html",
+      "left": "types/CB4219_L.html",
+      "right": "types/CB4219_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/CB4219.html"
+  },
+  {
+    "name": "CB4220",
+    "urls": {
+      "combined": "types/CB4220.html",
+      "left": "types/CB4220_L.html",
+      "right": "types/CB4220_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/CB4220.html"
+  },
+  {
+    "name": "CB4229",
+    "urls": {
+      "combined": "types/CB4229.html",
+      "left": "types/CB4229_L.html",
+      "right": "types/CB4229_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/CB4229.html"
+  },
+  {
+    "name": "CB4230",
+    "urls": {
+      "combined": "types/CB4230.html",
+      "left": "types/CB4230_L.html",
+      "right": "types/CB4230_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/CB4230.html"
+  },
+  {
+    "name": "CB4233",
+    "urls": {
+      "combined": "types/CB4233.html",
+      "left": "types/CB4233_L.html",
+      "right": "types/CB4233_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/CB4233.html"
+  },
+  {
+    "name": "CB4235",
+    "urls": {
+      "left": "types/CB4235_L.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/CB4235_L.html"
+  },
+  {
+    "name": "CB4236",
+    "urls": {
+      "combined": "types/CB4236.html",
+      "left": "types/CB4236_L.html",
+      "right": "types/CB4236_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/CB4236.html"
+  },
+  {
+    "name": "CB4237",
+    "urls": {
+      "combined": "types/CB4237.html",
+      "left": "types/CB4237_L.html",
+      "right": "types/CB4237_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/CB4237.html"
+  },
+  {
+    "name": "CB4238",
+    "urls": {
+      "combined": "types/CB4238.html",
+      "left": "types/CB4238_L.html",
+      "right": "types/CB4238_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/CB4238.html"
+  },
+  {
+    "name": "CB4240",
+    "urls": {
+      "combined": "types/CB4240.html",
+      "left": "types/CB4240_L.html",
+      "right": "types/CB4240_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/CB4240.html"
+  },
+  {
+    "name": "CB4241",
+    "urls": {
+      "combined": "types/CB4241.html",
+      "left": "types/CB4241_L.html",
+      "right": "types/CB4241_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/CB4241.html"
+  },
+  {
+    "name": "CB4242",
+    "urls": {
+      "combined": "types/CB4242.html",
+      "left": "types/CB4242_L.html",
+      "right": "types/CB4242_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/CB4242.html"
+  },
+  {
+    "name": "CB4243",
+    "urls": {
+      "combined": "types/CB4243.html",
+      "left": "types/CB4243_L.html",
+      "right": "types/CB4243_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/CB4243.html"
+  },
+  {
+    "name": "CB4244",
+    "urls": {
+      "combined": "types/CB4244.html",
+      "left": "types/CB4244_L.html",
+      "right": "types/CB4244_R.html"
+    },
+    "synonyms": "Cachero 2010: aIP-c;Yu 2010: aIP1/aIP4/aSP10",
+    "flywire_types": null,
+    "primary_url": "types/CB4244.html"
+  },
+  {
+    "name": "CB4245",
+    "urls": {
+      "combined": "types/CB4245.html",
+      "left": "types/CB4245_L.html",
+      "right": "types/CB4245_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/CB4245.html"
+  },
+  {
+    "name": "CB4246",
+    "urls": {
+      "combined": "types/CB4246.html",
+      "left": "types/CB4246_L.html",
+      "right": "types/CB4246_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/CB4246.html"
+  },
+  {
+    "name": "CEM",
+    "urls": {
+      "combined": "types/CEM.html",
+      "left": "types/CEM_L.html",
+      "right": "types/CEM_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/CEM.html"
   },
   {
     "name": "CL001",
@@ -58686,7 +58367,7 @@ const NEURON_DATA = [
       "left": "types/CL018a_L.html",
       "right": "types/CL018a_R.html"
     },
-    "synonyms": "CL018",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CL018a.html"
   },
@@ -58697,7 +58378,7 @@ const NEURON_DATA = [
       "left": "types/CL018b_L.html",
       "right": "types/CL018b_R.html"
     },
-    "synonyms": "CL018",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CL018b.html"
   },
@@ -58741,7 +58422,7 @@ const NEURON_DATA = [
       "left": "types/CL024a_L.html",
       "right": "types/CL024a_R.html"
     },
-    "synonyms": "CL024",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CL024a.html"
   },
@@ -58752,7 +58433,7 @@ const NEURON_DATA = [
       "left": "types/CL024b_L.html",
       "right": "types/CL024b_R.html"
     },
-    "synonyms": "CL024",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CL024b.html"
   },
@@ -58807,7 +58488,7 @@ const NEURON_DATA = [
       "left": "types/CL029a_L.html",
       "right": "types/CL029a_R.html"
     },
-    "synonyms": "CL029",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CL029a.html"
   },
@@ -58818,7 +58499,7 @@ const NEURON_DATA = [
       "left": "types/CL029b_L.html",
       "right": "types/CL029b_R.html"
     },
-    "synonyms": "CL029",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CL029b.html"
   },
@@ -58873,7 +58554,7 @@ const NEURON_DATA = [
       "left": "types/CL037_L.html",
       "right": "types/CL037_R.html"
     },
-    "synonyms": "aSP30",
+    "synonyms": "Cachero 2010: aSP-e",
     "flywire_types": null,
     "primary_url": "types/CL037.html"
   },
@@ -58887,17 +58568,6 @@ const NEURON_DATA = [
     "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CL038.html"
-  },
-  {
-    "name": "CL040",
-    "urls": {
-      "combined": "types/CL040.html",
-      "left": "types/CL040_L.html",
-      "right": "types/CL040_R.html"
-    },
-    "synonyms": "SMP074",
-    "flywire_types": null,
-    "primary_url": "types/CL040.html"
   },
   {
     "name": "CL042",
@@ -58944,15 +58614,15 @@ const NEURON_DATA = [
     "primary_url": "types/CL055.html"
   },
   {
-    "name": "CL057",
+    "name": "CL057,CL106",
     "urls": {
-      "combined": "types/CL057.html",
-      "left": "types/CL057_L.html",
-      "right": "types/CL057_R.html"
+      "combined": "types/CL057,CL106.html",
+      "left": "types/CL057,CL106_L.html",
+      "right": "types/CL057,CL106_R.html"
     },
-    "synonyms": "CL106",
+    "synonyms": null,
     "flywire_types": null,
-    "primary_url": "types/CL057.html"
+    "primary_url": "types/CL057,CL106.html"
   },
   {
     "name": "CL058",
@@ -58983,7 +58653,7 @@ const NEURON_DATA = [
       "left": "types/CL060_L.html",
       "right": "types/CL060_R.html"
     },
-    "synonyms": null,
+    "synonyms": "Cachero 2010: aIP-d;Yu 2010: aIP1",
     "flywire_types": null,
     "primary_url": "types/CL060.html"
   },
@@ -58994,7 +58664,7 @@ const NEURON_DATA = [
       "left": "types/CL062_a_L.html",
       "right": "types/CL062_a_R.html"
     },
-    "synonyms": "AVLP_pr12",
+    "synonyms": "Cachero 2010: aIP-e;Yu 2010: aSP9",
     "flywire_types": null,
     "primary_url": "types/CL062_a.html"
   },
@@ -59005,7 +58675,7 @@ const NEURON_DATA = [
       "left": "types/CL062_b_L.html",
       "right": "types/CL062_b_R.html"
     },
-    "synonyms": "AVLP_pr12",
+    "synonyms": "Cachero 2010: aIP-e;Yu 2010: aSP9",
     "flywire_types": null,
     "primary_url": "types/CL062_b.html"
   },
@@ -59093,7 +58763,7 @@ const NEURON_DATA = [
       "left": "types/CL070a_L.html",
       "right": "types/CL070a_R.html"
     },
-    "synonyms": "CL070",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CL070a.html"
   },
@@ -59104,7 +58774,7 @@ const NEURON_DATA = [
       "left": "types/CL070b_L.html",
       "right": "types/CL070b_R.html"
     },
-    "synonyms": "CL070",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CL070b.html"
   },
@@ -59115,7 +58785,7 @@ const NEURON_DATA = [
       "left": "types/CL071a_L.html",
       "right": "types/CL071a_R.html"
     },
-    "synonyms": "CL071",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CL071a.html"
   },
@@ -59126,7 +58796,7 @@ const NEURON_DATA = [
       "left": "types/CL071b_L.html",
       "right": "types/CL071b_R.html"
     },
-    "synonyms": "CL071",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CL071b.html"
   },
@@ -59170,7 +58840,7 @@ const NEURON_DATA = [
       "left": "types/CL075a_L.html",
       "right": "types/CL075a_R.html"
     },
-    "synonyms": "CL075",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CL075a.html"
   },
@@ -59181,7 +58851,7 @@ const NEURON_DATA = [
       "left": "types/CL075b_L.html",
       "right": "types/CL075b_R.html"
     },
-    "synonyms": "CL075",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CL075b.html"
   },
@@ -59203,7 +58873,7 @@ const NEURON_DATA = [
       "left": "types/CL078a_L.html",
       "right": "types/CL078a_R.html"
     },
-    "synonyms": "CL078",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CL078a.html"
   },
@@ -59214,9 +58884,20 @@ const NEURON_DATA = [
       "left": "types/CL078b_L.html",
       "right": "types/CL078b_R.html"
     },
-    "synonyms": "CL078",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CL078b.html"
+  },
+  {
+    "name": "CL080",
+    "urls": {
+      "combined": "types/CL080.html",
+      "left": "types/CL080_L.html",
+      "right": "types/CL080_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/CL080.html"
   },
   {
     "name": "CL081",
@@ -59241,15 +58922,37 @@ const NEURON_DATA = [
     "primary_url": "types/CL083.html"
   },
   {
-    "name": "CL086_a",
+    "name": "CL085_a",
     "urls": {
-      "combined": "types/CL086_a.html",
-      "left": "types/CL086_a_L.html",
-      "right": "types/CL086_a_R.html"
+      "combined": "types/CL085_a.html",
+      "left": "types/CL085_a_L.html",
+      "right": "types/CL085_a_R.html"
     },
-    "synonyms": "CL086_d",
+    "synonyms": null,
     "flywire_types": null,
-    "primary_url": "types/CL086_a.html"
+    "primary_url": "types/CL085_a.html"
+  },
+  {
+    "name": "CL085_b",
+    "urls": {
+      "combined": "types/CL085_b.html",
+      "left": "types/CL085_b_L.html",
+      "right": "types/CL085_b_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/CL085_b.html"
+  },
+  {
+    "name": "CL086_a,CL086_d",
+    "urls": {
+      "combined": "types/CL086_a,CL086_d.html",
+      "left": "types/CL086_a,CL086_d_L.html",
+      "right": "types/CL086_a,CL086_d_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/CL086_a,CL086_d.html"
   },
   {
     "name": "CL086_b",
@@ -59283,6 +58986,17 @@ const NEURON_DATA = [
     "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CL086_e.html"
+  },
+  {
+    "name": "CL087",
+    "urls": {
+      "combined": "types/CL087.html",
+      "left": "types/CL087_L.html",
+      "right": "types/CL087_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/CL087.html"
   },
   {
     "name": "CL089_a",
@@ -59324,7 +59038,7 @@ const NEURON_DATA = [
       "left": "types/CL090_a_L.html",
       "right": "types/CL090_a_R.html"
     },
-    "synonyms": null,
+    "synonyms": "fru-F-000000, fru-F-500078,fru-F-500245, fru-F-000058",
     "flywire_types": null,
     "primary_url": "types/CL090_a.html"
   },
@@ -59335,7 +59049,7 @@ const NEURON_DATA = [
       "left": "types/CL090_b_L.html",
       "right": "types/CL090_b_R.html"
     },
-    "synonyms": null,
+    "synonyms": "fru-F-000000, fru-F-500078,fru-F-500245, fru-F-000058",
     "flywire_types": null,
     "primary_url": "types/CL090_b.html"
   },
@@ -59346,7 +59060,7 @@ const NEURON_DATA = [
       "left": "types/CL090_c_L.html",
       "right": "types/CL090_c_R.html"
     },
-    "synonyms": null,
+    "synonyms": "fru-F-000000, fru-F-500078,fru-F-500245, fru-F-000058",
     "flywire_types": null,
     "primary_url": "types/CL090_c.html"
   },
@@ -59357,7 +59071,7 @@ const NEURON_DATA = [
       "left": "types/CL090_e_L.html",
       "right": "types/CL090_e_R.html"
     },
-    "synonyms": null,
+    "synonyms": "fru-F-000000, fru-F-500078,fru-F-500245, fru-F-000058",
     "flywire_types": null,
     "primary_url": "types/CL090_e.html"
   },
@@ -59368,7 +59082,7 @@ const NEURON_DATA = [
       "left": "types/CL091_L.html",
       "right": "types/CL091_R.html"
     },
-    "synonyms": null,
+    "synonyms": "fru-F-000000, fru-F-500078,fru-F-500245, fru-F-000058",
     "flywire_types": null,
     "primary_url": "types/CL091.html"
   },
@@ -59456,7 +59170,7 @@ const NEURON_DATA = [
       "left": "types/CL099a_L.html",
       "right": "types/CL099a_R.html"
     },
-    "synonyms": "CL099",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CL099a.html"
   },
@@ -59467,7 +59181,7 @@ const NEURON_DATA = [
       "left": "types/CL099b_L.html",
       "right": "types/CL099b_R.html"
     },
-    "synonyms": "CL099",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CL099b.html"
   },
@@ -59478,7 +59192,7 @@ const NEURON_DATA = [
       "left": "types/CL099c_L.html",
       "right": "types/CL099c_R.html"
     },
-    "synonyms": "CL099",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CL099c.html"
   },
@@ -59643,7 +59357,7 @@ const NEURON_DATA = [
       "left": "types/CL118_L.html",
       "right": "types/CL118_R.html"
     },
-    "synonyms": null,
+    "synonyms": "Cachero 2010: aDT-g;Yu 2010: aDT5",
     "flywire_types": null,
     "primary_url": "types/CL118.html"
   },
@@ -59654,7 +59368,7 @@ const NEURON_DATA = [
       "left": "types/CL120a_L.html",
       "right": "types/CL120a_R.html"
     },
-    "synonyms": "CL120",
+    "synonyms": "Cachero 2010: aDT-g;Yu 2010: aDT5",
     "flywire_types": null,
     "primary_url": "types/CL120a.html"
   },
@@ -59665,31 +59379,42 @@ const NEURON_DATA = [
       "left": "types/CL120b_L.html",
       "right": "types/CL120b_R.html"
     },
-    "synonyms": "CL120",
+    "synonyms": "Cachero 2010: aDT-g;Yu 2010: aDT5",
     "flywire_types": null,
     "primary_url": "types/CL120b.html"
   },
   {
-    "name": "CL121",
+    "name": "CL121_a",
     "urls": {
-      "combined": "types/CL121.html",
-      "left": "types/CL121_L.html",
-      "right": "types/CL121_R.html"
+      "combined": "types/CL121_a.html",
+      "left": "types/CL121_a_L.html",
+      "right": "types/CL121_a_R.html"
     },
-    "synonyms": "CL122",
+    "synonyms": "Cachero 2010: aDT-g;Yu 2010: aDT5",
     "flywire_types": null,
-    "primary_url": "types/CL121.html"
+    "primary_url": "types/CL121_a.html"
   },
   {
-    "name": "CL123",
+    "name": "CL122_a",
     "urls": {
-      "combined": "types/CL123.html",
-      "left": "types/CL123_L.html",
-      "right": "types/CL123_R.html"
+      "combined": "types/CL122_a.html",
+      "left": "types/CL122_a_L.html",
+      "right": "types/CL122_a_R.html"
     },
-    "synonyms": "CRE061",
+    "synonyms": "Cachero 2010: aDT-g;Yu 2010: aDT5",
     "flywire_types": null,
-    "primary_url": "types/CL123.html"
+    "primary_url": "types/CL122_a.html"
+  },
+  {
+    "name": "CL123,CRE061",
+    "urls": {
+      "combined": "types/CL123,CRE061.html",
+      "left": "types/CL123,CRE061_L.html",
+      "right": "types/CL123,CRE061_R.html"
+    },
+    "synonyms": "Cachero 2010: aDT-d",
+    "flywire_types": null,
+    "primary_url": "types/CL123,CRE061.html"
   },
   {
     "name": "CL126",
@@ -59720,7 +59445,7 @@ const NEURON_DATA = [
       "left": "types/CL128a_L.html",
       "right": "types/CL128a_R.html"
     },
-    "synonyms": "CL128",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CL128a.html"
   },
@@ -59731,7 +59456,7 @@ const NEURON_DATA = [
       "left": "types/CL128b_L.html",
       "right": "types/CL128b_R.html"
     },
-    "synonyms": "CL128",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CL128b.html"
   },
@@ -59742,7 +59467,7 @@ const NEURON_DATA = [
       "left": "types/CL128c_L.html",
       "right": "types/CL128c_R.html"
     },
-    "synonyms": "CL128",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CL128c.html"
   },
@@ -60024,7 +59749,7 @@ const NEURON_DATA = [
       "left": "types/CL160a_L.html",
       "right": "types/CL160a_R.html"
     },
-    "synonyms": "CL160",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CL160a.html"
   },
@@ -60035,7 +59760,7 @@ const NEURON_DATA = [
       "left": "types/CL160b_L.html",
       "right": "types/CL160b_R.html"
     },
-    "synonyms": "CL160",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CL160b.html"
   },
@@ -60046,7 +59771,7 @@ const NEURON_DATA = [
       "left": "types/CL161a_L.html",
       "right": "types/CL161a_R.html"
     },
-    "synonyms": "CL161",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CL161a.html"
   },
@@ -60057,7 +59782,7 @@ const NEURON_DATA = [
       "left": "types/CL161b_L.html",
       "right": "types/CL161b_R.html"
     },
-    "synonyms": "CL161",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CL161b.html"
   },
@@ -60084,15 +59809,15 @@ const NEURON_DATA = [
     "primary_url": "types/CL165.html"
   },
   {
-    "name": "CL166",
+    "name": "CL166,CL168",
     "urls": {
-      "combined": "types/CL166.html",
-      "left": "types/CL166_L.html",
-      "right": "types/CL166_R.html"
+      "combined": "types/CL166,CL168.html",
+      "left": "types/CL166,CL168_L.html",
+      "right": "types/CL166,CL168_R.html"
     },
-    "synonyms": "CL168",
+    "synonyms": null,
     "flywire_types": null,
-    "primary_url": "types/CL166.html"
+    "primary_url": "types/CL166,CL168.html"
   },
   {
     "name": "CL169",
@@ -60137,6 +59862,17 @@ const NEURON_DATA = [
     "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CL172.html"
+  },
+  {
+    "name": "CL173",
+    "urls": {
+      "combined": "types/CL173.html",
+      "left": "types/CL173_L.html",
+      "right": "types/CL173_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/CL173.html"
   },
   {
     "name": "CL175",
@@ -60266,7 +60002,7 @@ const NEURON_DATA = [
       "left": "types/CL196a_L.html",
       "right": "types/CL196a_R.html"
     },
-    "synonyms": "CL196",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CL196a.html"
   },
@@ -60277,7 +60013,7 @@ const NEURON_DATA = [
       "left": "types/CL196b_L.html",
       "right": "types/CL196b_R.html"
     },
-    "synonyms": "CL196",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CL196b.html"
   },
@@ -60381,6 +60117,17 @@ const NEURON_DATA = [
     "primary_url": "types/CL210.html"
   },
   {
+    "name": "CL210_a",
+    "urls": {
+      "combined": "types/CL210_a.html",
+      "left": "types/CL210_a_L.html",
+      "right": "types/CL210_a_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/CL210_a.html"
+  },
+  {
     "name": "CL211",
     "urls": {
       "combined": "types/CL211.html",
@@ -60447,26 +60194,26 @@ const NEURON_DATA = [
     "primary_url": "types/CL216.html"
   },
   {
-    "name": "CL228",
+    "name": "CL228,SMP491",
     "urls": {
-      "combined": "types/CL228.html",
-      "left": "types/CL228_L.html",
-      "right": "types/CL228_R.html"
+      "combined": "types/CL228,SMP491.html",
+      "left": "types/CL228,SMP491_L.html",
+      "right": "types/CL228,SMP491_R.html"
     },
-    "synonyms": "SMP491",
+    "synonyms": null,
     "flywire_types": null,
-    "primary_url": "types/CL228.html"
+    "primary_url": "types/CL228,SMP491.html"
   },
   {
-    "name": "CL231",
+    "name": "CL231,CL238",
     "urls": {
-      "combined": "types/CL231.html",
-      "left": "types/CL231_L.html",
-      "right": "types/CL231_R.html"
+      "combined": "types/CL231,CL238.html",
+      "left": "types/CL231,CL238_L.html",
+      "right": "types/CL231,CL238_R.html"
     },
-    "synonyms": "CL238",
+    "synonyms": null,
     "flywire_types": null,
-    "primary_url": "types/CL231.html"
+    "primary_url": "types/CL231,CL238.html"
   },
   {
     "name": "CL234",
@@ -60596,7 +60343,7 @@ const NEURON_DATA = [
       "left": "types/CL252_L.html",
       "right": "types/CL252_R.html"
     },
-    "synonyms": "AVLP_pr05",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CL252.html"
   },
@@ -60607,7 +60354,7 @@ const NEURON_DATA = [
       "left": "types/CL253_L.html",
       "right": "types/CL253_R.html"
     },
-    "synonyms": "AVLP_pr05",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CL253.html"
   },
@@ -60667,15 +60414,15 @@ const NEURON_DATA = [
     "primary_url": "types/CL258.html"
   },
   {
-    "name": "CL259",
+    "name": "CL259, CL260",
     "urls": {
-      "combined": "types/CL259.html",
-      "left": "types/CL259_L.html",
-      "right": "types/CL259_R.html"
+      "combined": "types/CL259,_CL260.html",
+      "left": "types/CL259,_CL260_L.html",
+      "right": "types/CL259,_CL260_R.html"
     },
-    "synonyms": "CL260",
+    "synonyms": null,
     "flywire_types": null,
-    "primary_url": "types/CL259.html"
+    "primary_url": "types/CL259,_CL260.html"
   },
   {
     "name": "CL261a",
@@ -60684,7 +60431,7 @@ const NEURON_DATA = [
       "left": "types/CL261a_L.html",
       "right": "types/CL261a_R.html"
     },
-    "synonyms": "CL261",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CL261a.html"
   },
@@ -60695,7 +60442,7 @@ const NEURON_DATA = [
       "left": "types/CL261b_L.html",
       "right": "types/CL261b_R.html"
     },
-    "synonyms": "CL261",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CL261b.html"
   },
@@ -60728,31 +60475,31 @@ const NEURON_DATA = [
       "left": "types/CL265_L.html",
       "right": "types/CL265_R.html"
     },
-    "synonyms": "pIP6",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CL265.html"
   },
   {
-    "name": "CL266a",
+    "name": "CL266_a",
     "urls": {
-      "combined": "types/CL266a.html",
-      "left": "types/CL266a_L.html",
-      "right": "types/CL266a_R.html"
+      "combined": "types/CL266_a.html",
+      "left": "types/CL266_a_L.html",
+      "right": "types/CL266_a_R.html"
     },
-    "synonyms": "CL266",
+    "synonyms": null,
     "flywire_types": null,
-    "primary_url": "types/CL266a.html"
+    "primary_url": "types/CL266_a.html"
   },
   {
-    "name": "CL266b",
+    "name": "CL266_b",
     "urls": {
-      "combined": "types/CL266b.html",
-      "left": "types/CL266b_L.html",
-      "right": "types/CL266b_R.html"
+      "combined": "types/CL266_b.html",
+      "left": "types/CL266_b_L.html",
+      "right": "types/CL266_b_R.html"
     },
-    "synonyms": "CL266",
+    "synonyms": null,
     "flywire_types": null,
-    "primary_url": "types/CL266b.html"
+    "primary_url": "types/CL266_b.html"
   },
   {
     "name": "CL267",
@@ -60794,7 +60541,7 @@ const NEURON_DATA = [
       "left": "types/CL270a_L.html",
       "right": "types/CL270a_R.html"
     },
-    "synonyms": "CL270",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CL270a.html"
   },
@@ -60805,7 +60552,7 @@ const NEURON_DATA = [
       "left": "types/CL270b_L.html",
       "right": "types/CL270b_R.html"
     },
-    "synonyms": "CL270",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CL270b.html"
   },
@@ -60854,28 +60601,6 @@ const NEURON_DATA = [
     "primary_url": "types/CL273.html"
   },
   {
-    "name": "CL278",
-    "urls": {
-      "combined": "types/CL278.html",
-      "left": "types/CL278_L.html",
-      "right": "types/CL278_R.html"
-    },
-    "synonyms": "pIP5",
-    "flywire_types": null,
-    "primary_url": "types/CL278.html"
-  },
-  {
-    "name": "CL279",
-    "urls": {
-      "combined": "types/CL279.html",
-      "left": "types/CL279_L.html",
-      "right": "types/CL279_R.html"
-    },
-    "synonyms": "pIP5",
-    "flywire_types": null,
-    "primary_url": "types/CL279.html"
-  },
-  {
     "name": "CL282",
     "urls": {
       "combined": "types/CL282.html",
@@ -60893,7 +60618,7 @@ const NEURON_DATA = [
       "left": "types/CL283a_L.html",
       "right": "types/CL283a_R.html"
     },
-    "synonyms": "CL283",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CL283a.html"
   },
@@ -60904,7 +60629,7 @@ const NEURON_DATA = [
       "left": "types/CL283b_L.html",
       "right": "types/CL283b_R.html"
     },
-    "synonyms": "CL283",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CL283b.html"
   },
@@ -60915,7 +60640,7 @@ const NEURON_DATA = [
       "left": "types/CL283c_L.html",
       "right": "types/CL283c_R.html"
     },
-    "synonyms": "CL283",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CL283c.html"
   },
@@ -60948,7 +60673,7 @@ const NEURON_DATA = [
       "left": "types/CL288_L.html",
       "right": "types/CL288_R.html"
     },
-    "synonyms": null,
+    "synonyms": "fru-F-700143",
     "flywire_types": null,
     "primary_url": "types/CL288.html"
   },
@@ -60959,7 +60684,7 @@ const NEURON_DATA = [
       "left": "types/CL289_L.html",
       "right": "types/CL289_R.html"
     },
-    "synonyms": null,
+    "synonyms": "Cachero 2010: pIP-f",
     "flywire_types": null,
     "primary_url": "types/CL289.html"
   },
@@ -60992,7 +60717,7 @@ const NEURON_DATA = [
       "left": "types/CL292a_L.html",
       "right": "types/CL292a_R.html"
     },
-    "synonyms": "CL292",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CL292a.html"
   },
@@ -61003,7 +60728,7 @@ const NEURON_DATA = [
       "left": "types/CL292b_L.html",
       "right": "types/CL292b_R.html"
     },
-    "synonyms": "CL292",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CL292b.html"
   },
@@ -61030,15 +60755,15 @@ const NEURON_DATA = [
     "primary_url": "types/CL294.html"
   },
   {
-    "name": "CL301",
+    "name": "CL301,CL302",
     "urls": {
-      "combined": "types/CL301.html",
-      "left": "types/CL301_L.html",
-      "right": "types/CL301_R.html"
+      "combined": "types/CL301,CL302.html",
+      "left": "types/CL301,CL302_L.html",
+      "right": "types/CL301,CL302_R.html"
     },
-    "synonyms": "CL302",
+    "synonyms": null,
     "flywire_types": null,
-    "primary_url": "types/CL301.html"
+    "primary_url": "types/CL301,CL302.html"
   },
   {
     "name": "CL303",
@@ -61111,7 +60836,7 @@ const NEURON_DATA = [
       "left": "types/CL313_L.html",
       "right": "types/CL313_R.html"
     },
-    "synonyms": "pC2la",
+    "synonyms": "Nojima 2021: pC2l",
     "flywire_types": null,
     "primary_url": "types/CL313.html"
   },
@@ -61210,7 +60935,7 @@ const NEURON_DATA = [
       "left": "types/CL323a_L.html",
       "right": "types/CL323a_R.html"
     },
-    "synonyms": "CL323",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CL323a.html"
   },
@@ -61221,7 +60946,7 @@ const NEURON_DATA = [
       "left": "types/CL323b_L.html",
       "right": "types/CL323b_R.html"
     },
-    "synonyms": "CL323",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CL323b.html"
   },
@@ -61248,15 +60973,15 @@ const NEURON_DATA = [
     "primary_url": "types/CL327.html"
   },
   {
-    "name": "CL328",
+    "name": "CL328,IB070,IB071",
     "urls": {
-      "combined": "types/CL328.html",
-      "left": "types/CL328_L.html",
-      "right": "types/CL328_R.html"
+      "combined": "types/CL328,IB070,IB071.html",
+      "left": "types/CL328,IB070,IB071_L.html",
+      "right": "types/CL328,IB070,IB071_R.html"
     },
-    "synonyms": "IB070, IB071",
+    "synonyms": null,
     "flywire_types": null,
-    "primary_url": "types/CL328.html"
+    "primary_url": "types/CL328,IB070,IB071.html"
   },
   {
     "name": "CL333",
@@ -61320,7 +61045,7 @@ const NEURON_DATA = [
       "left": "types/CL344_L.html",
       "right": "types/CL344_R.html"
     },
-    "synonyms": null,
+    "synonyms": "fru-F-200081, fru-F-000066, fru-F-300022, fru-F-000047, fru-F-000052, fru-F-000124, fru-F-600053, fru-F-000142, fru-F-200077, fru-F-300049",
     "flywire_types": null,
     "primary_url": "types/CL344.html"
   },
@@ -61345,6 +61070,15 @@ const NEURON_DATA = [
     "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CL352.html"
+  },
+  {
+    "name": "CL353",
+    "urls": {
+      "left": "types/CL353_L.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/CL353_L.html"
   },
   {
     "name": "CL356",
@@ -61463,20 +61197,20 @@ const NEURON_DATA = [
       "left": "types/CRE007_L.html",
       "right": "types/CRE007_R.html"
     },
-    "synonyms": null,
+    "synonyms": "Cachero 2010: aSP-c",
     "flywire_types": null,
     "primary_url": "types/CRE007.html"
   },
   {
-    "name": "CRE008",
+    "name": "CRE008,CRE010",
     "urls": {
-      "combined": "types/CRE008.html",
-      "left": "types/CRE008_L.html",
-      "right": "types/CRE008_R.html"
+      "combined": "types/CRE008,CRE010.html",
+      "left": "types/CRE008,CRE010_L.html",
+      "right": "types/CRE008,CRE010_R.html"
     },
-    "synonyms": "CRE010",
+    "synonyms": null,
     "flywire_types": null,
-    "primary_url": "types/CRE008.html"
+    "primary_url": "types/CRE008,CRE010.html"
   },
   {
     "name": "CRE009",
@@ -61540,7 +61274,7 @@ const NEURON_DATA = [
       "left": "types/CRE016_L.html",
       "right": "types/CRE016_R.html"
     },
-    "synonyms": null,
+    "synonyms": "Cachero 2010: aSP-d; Yu 2010: aSP13",
     "flywire_types": null,
     "primary_url": "types/CRE016.html"
   },
@@ -61584,7 +61318,7 @@ const NEURON_DATA = [
       "left": "types/CRE020_L.html",
       "right": "types/CRE020_R.html"
     },
-    "synonyms": null,
+    "synonyms": "Cachero 2010: aSP-d; Yu 2010: aSP13",
     "flywire_types": null,
     "primary_url": "types/CRE020.html"
   },
@@ -61655,6 +61389,17 @@ const NEURON_DATA = [
     "primary_url": "types/CRE027.html"
   },
   {
+    "name": "CRE035",
+    "urls": {
+      "combined": "types/CRE035.html",
+      "left": "types/CRE035_L.html",
+      "right": "types/CRE035_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/CRE035.html"
+  },
+  {
     "name": "CRE040",
     "urls": {
       "combined": "types/CRE040.html",
@@ -61710,15 +61455,15 @@ const NEURON_DATA = [
     "primary_url": "types/CRE044.html"
   },
   {
-    "name": "CRE045",
+    "name": "CRE045,CRE046",
     "urls": {
-      "combined": "types/CRE045.html",
-      "left": "types/CRE045_L.html",
-      "right": "types/CRE045_R.html"
+      "combined": "types/CRE045,CRE046.html",
+      "left": "types/CRE045,CRE046_L.html",
+      "right": "types/CRE045,CRE046_R.html"
     },
-    "synonyms": "CRE046",
+    "synonyms": null,
     "flywire_types": null,
-    "primary_url": "types/CRE045.html"
+    "primary_url": "types/CRE045,CRE046.html"
   },
   {
     "name": "CRE048",
@@ -61776,15 +61521,15 @@ const NEURON_DATA = [
     "primary_url": "types/CRE059.html"
   },
   {
-    "name": "CRE060",
+    "name": "CRE060,CRE067",
     "urls": {
-      "combined": "types/CRE060.html",
-      "left": "types/CRE060_L.html",
-      "right": "types/CRE060_R.html"
+      "combined": "types/CRE060,CRE067.html",
+      "left": "types/CRE060,CRE067_L.html",
+      "right": "types/CRE060,CRE067_R.html"
     },
-    "synonyms": "CRE067",
+    "synonyms": null,
     "flywire_types": null,
-    "primary_url": "types/CRE060.html"
+    "primary_url": "types/CRE060,CRE067.html"
   },
   {
     "name": "CRE065",
@@ -61793,7 +61538,7 @@ const NEURON_DATA = [
       "left": "types/CRE065_L.html",
       "right": "types/CRE065_R.html"
     },
-    "synonyms": null,
+    "synonyms": "Cachero 2010: aDT-d",
     "flywire_types": null,
     "primary_url": "types/CRE065.html"
   },
@@ -61936,7 +61681,7 @@ const NEURON_DATA = [
       "left": "types/CRE080a_L.html",
       "right": "types/CRE080a_R.html"
     },
-    "synonyms": "CRE080",
+    "synonyms": "Cachero 2010: pMP-a;Yu 2010: pMP5",
     "flywire_types": null,
     "primary_url": "types/CRE080a.html"
   },
@@ -61947,7 +61692,7 @@ const NEURON_DATA = [
       "left": "types/CRE080b_L.html",
       "right": "types/CRE080b_R.html"
     },
-    "synonyms": "CRE080",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CRE080b.html"
   },
@@ -61958,7 +61703,7 @@ const NEURON_DATA = [
       "left": "types/CRE080c_L.html",
       "right": "types/CRE080c_R.html"
     },
-    "synonyms": "CRE080",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CRE080c.html"
   },
@@ -61969,7 +61714,7 @@ const NEURON_DATA = [
       "left": "types/CRE081_L.html",
       "right": "types/CRE081_R.html"
     },
-    "synonyms": null,
+    "synonyms": "Cachero 2010: pMP-a;Yu 2010: pMP5",
     "flywire_types": null,
     "primary_url": "types/CRE081.html"
   },
@@ -61980,7 +61725,7 @@ const NEURON_DATA = [
       "left": "types/CRE082_L.html",
       "right": "types/CRE082_R.html"
     },
-    "synonyms": null,
+    "synonyms": "Cachero 2010: pMP-a;Yu 2010: pMP5",
     "flywire_types": null,
     "primary_url": "types/CRE082.html"
   },
@@ -61991,7 +61736,7 @@ const NEURON_DATA = [
       "left": "types/CRE087_L.html",
       "right": "types/CRE087_R.html"
     },
-    "synonyms": null,
+    "synonyms": "Cachero 2010: pMP-a;Yu 2010: pMP5",
     "flywire_types": null,
     "primary_url": "types/CRE087.html"
   },
@@ -62002,7 +61747,7 @@ const NEURON_DATA = [
       "left": "types/CRE088_L.html",
       "right": "types/CRE088_R.html"
     },
-    "synonyms": null,
+    "synonyms": "Cachero 2010: pMP-a; Yu 2010: pMP5",
     "flywire_types": null,
     "primary_url": "types/CRE088.html"
   },
@@ -62013,7 +61758,7 @@ const NEURON_DATA = [
       "left": "types/CRE094_L.html",
       "right": "types/CRE094_R.html"
     },
-    "synonyms": "pMP6",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CRE094.html"
   },
@@ -62024,7 +61769,7 @@ const NEURON_DATA = [
       "left": "types/CRE095a_L.html",
       "right": "types/CRE095a_R.html"
     },
-    "synonyms": "CRE095",
+    "synonyms": "Cachero 2010: pMP-a;Yu 2010: pMP5",
     "flywire_types": null,
     "primary_url": "types/CRE095a.html"
   },
@@ -62035,7 +61780,7 @@ const NEURON_DATA = [
       "left": "types/CRE095b_L.html",
       "right": "types/CRE095b_R.html"
     },
-    "synonyms": "CRE095",
+    "synonyms": "Cachero 2010: pMP-a;Yu 2010: pMP5",
     "flywire_types": null,
     "primary_url": "types/CRE095b.html"
   },
@@ -62079,7 +61824,7 @@ const NEURON_DATA = [
       "left": "types/CRE103a_L.html",
       "right": "types/CRE103a_R.html"
     },
-    "synonyms": "CRE103",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CRE103a.html"
   },
@@ -62090,7 +61835,7 @@ const NEURON_DATA = [
       "left": "types/CRE103b_L.html",
       "right": "types/CRE103b_R.html"
     },
-    "synonyms": "CRE103",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CRE103b.html"
   },
@@ -62156,20 +61901,31 @@ const NEURON_DATA = [
       "left": "types/CREa1A_T01_L.html",
       "right": "types/CREa1A_T01_R.html"
     },
-    "synonyms": "ATL005, ATL007",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/CREa1A_T01.html"
   },
   {
-    "name": "CRZ01",
+    "name": "CRZ",
     "urls": {
-      "combined": "types/CRZ01.html",
-      "left": "types/CRZ01_L.html",
-      "right": "types/CRZ01_R.html"
+      "combined": "types/CRZ.html",
+      "left": "types/CRZ_L.html",
+      "right": "types/CRZ_R.html"
     },
-    "synonyms": "CRZ02",
+    "synonyms": null,
     "flywire_types": null,
-    "primary_url": "types/CRZ01.html"
+    "primary_url": "types/CRZ.html"
+  },
+  {
+    "name": "CRZ01,CRZ02",
+    "urls": {
+      "combined": "types/CRZ01,CRZ02.html",
+      "left": "types/CRZ01,CRZ02_L.html",
+      "right": "types/CRZ01,CRZ02_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/CRZ01,CRZ02.html"
   },
   {
     "name": "CSD",
@@ -62200,7 +61956,7 @@ const NEURON_DATA = [
       "left": "types/DA1_lPN_L.html",
       "right": "types/DA1_lPN_R.html"
     },
-    "synonyms": "aDT3",
+    "synonyms": "Cachero 2010: aDT-e",
     "flywire_types": null,
     "primary_url": "types/DA1_lPN.html"
   },
@@ -62211,7 +61967,7 @@ const NEURON_DATA = [
       "left": "types/DA1_vPN_L.html",
       "right": "types/DA1_vPN_R.html"
     },
-    "synonyms": "aDT11",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/DA1_vPN.html"
   },
@@ -62288,7 +62044,7 @@ const NEURON_DATA = [
       "left": "types/DC3_adPN_L.html",
       "right": "types/DC3_adPN_R.html"
     },
-    "synonyms": null,
+    "synonyms": "Cachero 2010: aDT-a;Yu 2010: aDT3",
     "flywire_types": null,
     "primary_url": "types/DC3_adPN.html"
   },
@@ -62335,6 +62091,28 @@ const NEURON_DATA = [
     "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/DGI.html"
+  },
+  {
+    "name": "DH31",
+    "urls": {
+      "combined": "types/DH31.html",
+      "left": "types/DH31_L.html",
+      "right": "types/DH31_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/DH31.html"
+  },
+  {
+    "name": "DH44",
+    "urls": {
+      "combined": "types/DH44.html",
+      "left": "types/DH44_L.html",
+      "right": "types/DH44_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/DH44.html"
   },
   {
     "name": "DL1_adPN",
@@ -62447,6 +62225,17 @@ const NEURON_DATA = [
     "primary_url": "types/DM3_adPN.html"
   },
   {
+    "name": "DM3_vPN",
+    "urls": {
+      "combined": "types/DM3_vPN.html",
+      "left": "types/DM3_vPN_L.html",
+      "right": "types/DM3_vPN_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/DM3_vPN.html"
+  },
+  {
     "name": "DM4_adPN",
     "urls": {
       "combined": "types/DM4_adPN.html",
@@ -62491,13 +62280,24 @@ const NEURON_DATA = [
     "primary_url": "types/DM6_adPN.html"
   },
   {
+    "name": "DMS",
+    "urls": {
+      "combined": "types/DMS.html",
+      "left": "types/DMS_L.html",
+      "right": "types/DMS_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/DMS.html"
+  },
+  {
     "name": "DN1-l",
     "urls": {
       "combined": "types/DN1-l.html",
       "left": "types/DN1-l_L.html",
       "right": "types/DN1-l_R.html"
     },
-    "synonyms": "aMe23",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/DN1-l.html"
   },
@@ -62530,42 +62330,9 @@ const NEURON_DATA = [
       "left": "types/DN1pB_L.html",
       "right": "types/DN1pB_R.html"
     },
-    "synonyms": null,
+    "synonyms": "fru-F-200084, fru-F-200035, fru-F-200143, fru-F-000121, fru-F-100085, fru-F-000051, fru-F-800059, fru-F-400162, fru-F-100008, fru-F-400158",
     "flywire_types": null,
     "primary_url": "types/DN1pB.html"
-  },
-  {
-    "name": "DNES1",
-    "urls": {
-      "combined": "types/DNES1.html",
-      "left": "types/DNES1_L.html",
-      "right": "types/DNES1_R.html"
-    },
-    "synonyms": null,
-    "flywire_types": null,
-    "primary_url": "types/DNES1.html"
-  },
-  {
-    "name": "DNES2",
-    "urls": {
-      "combined": "types/DNES2.html",
-      "left": "types/DNES2_L.html",
-      "right": "types/DNES2_R.html"
-    },
-    "synonyms": null,
-    "flywire_types": null,
-    "primary_url": "types/DNES2.html"
-  },
-  {
-    "name": "DNES3",
-    "urls": {
-      "combined": "types/DNES3.html",
-      "left": "types/DNES3_L.html",
-      "right": "types/DNES3_R.html"
-    },
-    "synonyms": null,
-    "flywire_types": null,
-    "primary_url": "types/DNES3.html"
   },
   {
     "name": "DNa01",
@@ -62574,7 +62341,7 @@ const NEURON_DATA = [
       "left": "types/DNa01_L.html",
       "right": "types/DNa01_R.html"
     },
-    "synonyms": "VES006, aSP3",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/DNa01.html"
   },
@@ -62607,7 +62374,7 @@ const NEURON_DATA = [
       "left": "types/DNa04_L.html",
       "right": "types/DNa04_R.html"
     },
-    "synonyms": "PS015",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/DNa04.html"
   },
@@ -62618,7 +62385,7 @@ const NEURON_DATA = [
       "left": "types/DNa05_L.html",
       "right": "types/DNa05_R.html"
     },
-    "synonyms": "PS028",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/DNa05.html"
   },
@@ -62629,7 +62396,7 @@ const NEURON_DATA = [
       "left": "types/DNa06_L.html",
       "right": "types/DNa06_R.html"
     },
-    "synonyms": "PS039, aSP3",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/DNa06.html"
   },
@@ -62684,42 +62451,20 @@ const NEURON_DATA = [
       "left": "types/DNa11_L.html",
       "right": "types/DNa11_R.html"
     },
-    "synonyms": "VES008",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/DNa11.html"
   },
   {
-    "name": "DNa12",
+    "name": "DNa13",
     "urls": {
-      "combined": "types/DNa12.html",
-      "left": "types/DNa12_L.html",
-      "right": "types/DNa12_R.html"
+      "combined": "types/DNa13.html",
+      "left": "types/DNa13_L.html",
+      "right": "types/DNa13_R.html"
     },
-    "synonyms": "DNa08, aSP22",
+    "synonyms": null,
     "flywire_types": null,
-    "primary_url": "types/DNa12.html"
-  },
-  {
-    "name": "DNa13_a",
-    "urls": {
-      "combined": "types/DNa13_a.html",
-      "left": "types/DNa13_a_L.html",
-      "right": "types/DNa13_a_R.html"
-    },
-    "synonyms": "LAL041",
-    "flywire_types": null,
-    "primary_url": "types/DNa13_a.html"
-  },
-  {
-    "name": "DNa13_b",
-    "urls": {
-      "combined": "types/DNa13_b.html",
-      "left": "types/DNa13_b_L.html",
-      "right": "types/DNa13_b_R.html"
-    },
-    "synonyms": "LAL041",
-    "flywire_types": null,
-    "primary_url": "types/DNa13_b.html"
+    "primary_url": "types/DNa13.html"
   },
   {
     "name": "DNa14",
@@ -62728,7 +62473,7 @@ const NEURON_DATA = [
       "left": "types/DNa14_L.html",
       "right": "types/DNa14_R.html"
     },
-    "synonyms": "CL052",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/DNa14.html"
   },
@@ -62739,7 +62484,7 @@ const NEURON_DATA = [
       "left": "types/DNa15_L.html",
       "right": "types/DNa15_R.html"
     },
-    "synonyms": "PS017, aSP3",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/DNa15.html"
   },
@@ -62750,7 +62495,7 @@ const NEURON_DATA = [
       "left": "types/DNa16_L.html",
       "right": "types/DNa16_R.html"
     },
-    "synonyms": "PS014, aSP3",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/DNa16.html"
   },
@@ -62761,7 +62506,7 @@ const NEURON_DATA = [
       "left": "types/DNae001_L.html",
       "right": "types/DNae001_R.html"
     },
-    "synonyms": "DNa01",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/DNae001.html"
   },
@@ -62772,7 +62517,7 @@ const NEURON_DATA = [
       "left": "types/DNae002_L.html",
       "right": "types/DNae002_R.html"
     },
-    "synonyms": "DNa04",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/DNae002.html"
   },
@@ -62783,7 +62528,7 @@ const NEURON_DATA = [
       "left": "types/DNae003_L.html",
       "right": "types/DNae003_R.html"
     },
-    "synonyms": "PS040",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/DNae003.html"
   },
@@ -62794,7 +62539,7 @@ const NEURON_DATA = [
       "left": "types/DNae004_L.html",
       "right": "types/DNae004_R.html"
     },
-    "synonyms": "DNa05",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/DNae004.html"
   },
@@ -62805,7 +62550,7 @@ const NEURON_DATA = [
       "left": "types/DNae005_L.html",
       "right": "types/DNae005_R.html"
     },
-    "synonyms": "VES009",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/DNae005.html"
   },
@@ -62816,7 +62561,7 @@ const NEURON_DATA = [
       "left": "types/DNae006_L.html",
       "right": "types/DNae006_R.html"
     },
-    "synonyms": "PS045",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/DNae006.html"
   },
@@ -62827,7 +62572,7 @@ const NEURON_DATA = [
       "left": "types/DNae007_L.html",
       "right": "types/DNae007_R.html"
     },
-    "synonyms": "VES009",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/DNae007.html"
   },
@@ -62838,7 +62583,7 @@ const NEURON_DATA = [
       "left": "types/DNae008_L.html",
       "right": "types/DNae008_R.html"
     },
-    "synonyms": "PS012",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/DNae008.html"
   },
@@ -62849,7 +62594,7 @@ const NEURON_DATA = [
       "left": "types/DNae009_L.html",
       "right": "types/DNae009_R.html"
     },
-    "synonyms": "PS009",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/DNae009.html"
   },
@@ -62860,7 +62605,7 @@ const NEURON_DATA = [
       "left": "types/DNae010_L.html",
       "right": "types/DNae010_R.html"
     },
-    "synonyms": "PS016",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/DNae010.html"
   },
@@ -62882,7 +62627,7 @@ const NEURON_DATA = [
       "left": "types/DNb02_L.html",
       "right": "types/DNb02_R.html"
     },
-    "synonyms": null,
+    "synonyms": "fru-F-100073",
     "flywire_types": null,
     "primary_url": "types/DNb02.html"
   },
@@ -62937,31 +62682,20 @@ const NEURON_DATA = [
       "left": "types/DNb07_L.html",
       "right": "types/DNb07_R.html"
     },
-    "synonyms": "PS067",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/DNb07.html"
   },
   {
-    "name": "DNb08_a",
+    "name": "DNb08",
     "urls": {
-      "combined": "types/DNb08_a.html",
-      "left": "types/DNb08_a_L.html",
-      "right": "types/DNb08_a_R.html"
+      "combined": "types/DNb08.html",
+      "left": "types/DNb08_L.html",
+      "right": "types/DNb08_R.html"
     },
-    "synonyms": "VES082",
+    "synonyms": null,
     "flywire_types": null,
-    "primary_url": "types/DNb08_a.html"
-  },
-  {
-    "name": "DNb08_b",
-    "urls": {
-      "combined": "types/DNb08_b.html",
-      "left": "types/DNb08_b_L.html",
-      "right": "types/DNb08_b_R.html"
-    },
-    "synonyms": "VES083",
-    "flywire_types": null,
-    "primary_url": "types/DNb08_b.html"
+    "primary_url": "types/DNb08.html"
   },
   {
     "name": "DNb09",
@@ -62970,7 +62704,7 @@ const NEURON_DATA = [
       "left": "types/DNb09_L.html",
       "right": "types/DNb09_R.html"
     },
-    "synonyms": "DNb01",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/DNb09.html"
   },
@@ -62981,7 +62715,7 @@ const NEURON_DATA = [
       "left": "types/DNbe001_L.html",
       "right": "types/DNbe001_R.html"
     },
-    "synonyms": "PS103",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/DNbe001.html"
   },
@@ -63003,7 +62737,7 @@ const NEURON_DATA = [
       "left": "types/DNbe003_L.html",
       "right": "types/DNbe003_R.html"
     },
-    "synonyms": "hb-5813024933",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/DNbe003.html"
   },
@@ -63014,7 +62748,7 @@ const NEURON_DATA = [
       "left": "types/DNbe004_L.html",
       "right": "types/DNbe004_R.html"
     },
-    "synonyms": "PS066",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/DNbe004.html"
   },
@@ -63025,7 +62759,7 @@ const NEURON_DATA = [
       "left": "types/DNbe005_L.html",
       "right": "types/DNbe005_R.html"
     },
-    "synonyms": "PS069",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/DNbe005.html"
   },
@@ -63047,7 +62781,7 @@ const NEURON_DATA = [
       "left": "types/DNbe007_L.html",
       "right": "types/DNbe007_R.html"
     },
-    "synonyms": "VES042",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/DNbe007.html"
   },
@@ -63058,7 +62792,7 @@ const NEURON_DATA = [
       "left": "types/DNc01_L.html",
       "right": "types/DNc01_R.html"
     },
-    "synonyms": "SIFa",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/DNc01.html"
   },
@@ -63069,20 +62803,9 @@ const NEURON_DATA = [
       "left": "types/DNc02_L.html",
       "right": "types/DNc02_R.html"
     },
-    "synonyms": "SIFa",
-    "flywire_types": null,
-    "primary_url": "types/DNc02.html"
-  },
-  {
-    "name": "DNd01",
-    "urls": {
-      "combined": "types/DNd01.html",
-      "left": "types/DNd01_L.html",
-      "right": "types/DNd01_R.html"
-    },
     "synonyms": null,
     "flywire_types": null,
-    "primary_url": "types/DNd01.html"
+    "primary_url": "types/DNc02.html"
   },
   {
     "name": "DNd02",
@@ -63091,7 +62814,7 @@ const NEURON_DATA = [
       "left": "types/DNd02_L.html",
       "right": "types/DNd02_R.html"
     },
-    "synonyms": "SAD039",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/DNd02.html"
   },
@@ -63124,7 +62847,7 @@ const NEURON_DATA = [
       "left": "types/DNd05_L.html",
       "right": "types/DNd05_R.html"
     },
-    "synonyms": "CL124",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/DNd05.html"
   },
@@ -63135,7 +62858,7 @@ const NEURON_DATA = [
       "left": "types/DNde001_L.html",
       "right": "types/DNde001_R.html"
     },
-    "synonyms": "SAD041",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/DNde001.html"
   },
@@ -63146,7 +62869,7 @@ const NEURON_DATA = [
       "left": "types/DNde002_L.html",
       "right": "types/DNde002_R.html"
     },
-    "synonyms": "VES029",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/DNde002.html"
   },
@@ -63157,20 +62880,9 @@ const NEURON_DATA = [
       "left": "types/DNde003_L.html",
       "right": "types/DNde003_R.html"
     },
-    "synonyms": "LAL107",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/DNde003.html"
-  },
-  {
-    "name": "DNde004",
-    "urls": {
-      "combined": "types/DNde004.html",
-      "left": "types/DNde004_L.html",
-      "right": "types/DNde004_R.html"
-    },
-    "synonyms": "LAL106",
-    "flywire_types": null,
-    "primary_url": "types/DNde004.html"
   },
   {
     "name": "DNde005",
@@ -63179,7 +62891,7 @@ const NEURON_DATA = [
       "left": "types/DNde005_L.html",
       "right": "types/DNde005_R.html"
     },
-    "synonyms": "VES028",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/DNde005.html"
   },
@@ -63206,26 +62918,15 @@ const NEURON_DATA = [
     "primary_url": "types/DNde007.html"
   },
   {
-    "name": "DNg01_a",
+    "name": "DNg01",
     "urls": {
-      "combined": "types/DNg01_a.html",
-      "left": "types/DNg01_a_L.html",
-      "right": "types/DNg01_a_R.html"
+      "combined": "types/DNg01.html",
+      "left": "types/DNg01_L.html",
+      "right": "types/DNg01_R.html"
     },
-    "synonyms": null,
+    "synonyms": "Cachero 2010: pSG-b",
     "flywire_types": null,
-    "primary_url": "types/DNg01_a.html"
-  },
-  {
-    "name": "DNg01_b",
-    "urls": {
-      "combined": "types/DNg01_b.html",
-      "left": "types/DNg01_b_L.html",
-      "right": "types/DNg01_b_R.html"
-    },
-    "synonyms": null,
-    "flywire_types": null,
-    "primary_url": "types/DNg01_b.html"
+    "primary_url": "types/DNg01.html"
   },
   {
     "name": "DNg02_a",
@@ -63256,7 +62957,7 @@ const NEURON_DATA = [
       "left": "types/DNg02_c_L.html",
       "right": "types/DNg02_c_R.html"
     },
-    "synonyms": null,
+    "synonyms": "Cachero 2010: pSG-b",
     "flywire_types": null,
     "primary_url": "types/DNg02_c.html"
   },
@@ -63305,6 +63006,17 @@ const NEURON_DATA = [
     "primary_url": "types/DNg02_g.html"
   },
   {
+    "name": "DNg02_h",
+    "urls": {
+      "combined": "types/DNg02_h.html",
+      "left": "types/DNg02_h_L.html",
+      "right": "types/DNg02_h_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/DNg02_h.html"
+  },
+  {
     "name": "DNg03",
     "urls": {
       "combined": "types/DNg03.html",
@@ -63322,7 +63034,7 @@ const NEURON_DATA = [
       "left": "types/DNg04_L.html",
       "right": "types/DNg04_R.html"
     },
-    "synonyms": null,
+    "synonyms": "Cachero 2010: pSG-b",
     "flywire_types": null,
     "primary_url": "types/DNg04.html"
   },
@@ -63349,37 +63061,15 @@ const NEURON_DATA = [
     "primary_url": "types/DNg05_b.html"
   },
   {
-    "name": "DNg06_a",
+    "name": "DNg06",
     "urls": {
-      "combined": "types/DNg06_a.html",
-      "left": "types/DNg06_a_L.html",
-      "right": "types/DNg06_a_R.html"
+      "combined": "types/DNg06.html",
+      "left": "types/DNg06_L.html",
+      "right": "types/DNg06_R.html"
     },
-    "synonyms": null,
+    "synonyms": "Cachero 2010: pSG-b",
     "flywire_types": null,
-    "primary_url": "types/DNg06_a.html"
-  },
-  {
-    "name": "DNg06_b",
-    "urls": {
-      "combined": "types/DNg06_b.html",
-      "left": "types/DNg06_b_L.html",
-      "right": "types/DNg06_b_R.html"
-    },
-    "synonyms": null,
-    "flywire_types": null,
-    "primary_url": "types/DNg06_b.html"
-  },
-  {
-    "name": "DNg06_c",
-    "urls": {
-      "combined": "types/DNg06_c.html",
-      "left": "types/DNg06_c_L.html",
-      "right": "types/DNg06_c_R.html"
-    },
-    "synonyms": null,
-    "flywire_types": null,
-    "primary_url": "types/DNg06_c.html"
+    "primary_url": "types/DNg06.html"
   },
   {
     "name": "DNg07",
@@ -63459,26 +63149,15 @@ const NEURON_DATA = [
     "primary_url": "types/DNg101.html"
   },
   {
-    "name": "DNg102_a",
+    "name": "DNg102",
     "urls": {
-      "combined": "types/DNg102_a.html",
-      "left": "types/DNg102_a_L.html",
-      "right": "types/DNg102_a_R.html"
+      "combined": "types/DNg102.html",
+      "left": "types/DNg102_L.html",
+      "right": "types/DNg102_R.html"
     },
     "synonyms": null,
     "flywire_types": null,
-    "primary_url": "types/DNg102_a.html"
-  },
-  {
-    "name": "DNg102_b",
-    "urls": {
-      "combined": "types/DNg102_b.html",
-      "left": "types/DNg102_b_L.html",
-      "right": "types/DNg102_b_R.html"
-    },
-    "synonyms": null,
-    "flywire_types": null,
-    "primary_url": "types/DNg102_b.html"
+    "primary_url": "types/DNg102.html"
   },
   {
     "name": "DNg103",
@@ -63569,37 +63248,15 @@ const NEURON_DATA = [
     "primary_url": "types/DNg11.html"
   },
   {
-    "name": "DNg110_a",
+    "name": "DNg110",
     "urls": {
-      "combined": "types/DNg110_a.html",
-      "left": "types/DNg110_a_L.html",
-      "right": "types/DNg110_a_R.html"
+      "combined": "types/DNg110.html",
+      "left": "types/DNg110_L.html",
+      "right": "types/DNg110_R.html"
     },
     "synonyms": null,
     "flywire_types": null,
-    "primary_url": "types/DNg110_a.html"
-  },
-  {
-    "name": "DNg110_b",
-    "urls": {
-      "combined": "types/DNg110_b.html",
-      "left": "types/DNg110_b_L.html",
-      "right": "types/DNg110_b_R.html"
-    },
-    "synonyms": null,
-    "flywire_types": null,
-    "primary_url": "types/DNg110_b.html"
-  },
-  {
-    "name": "DNg110_c",
-    "urls": {
-      "combined": "types/DNg110_c.html",
-      "left": "types/DNg110_c_L.html",
-      "right": "types/DNg110_c_R.html"
-    },
-    "synonyms": null,
-    "flywire_types": null,
-    "primary_url": "types/DNg110_c.html"
+    "primary_url": "types/DNg110.html"
   },
   {
     "name": "DNg111",
@@ -63608,7 +63265,7 @@ const NEURON_DATA = [
       "left": "types/DNg111_L.html",
       "right": "types/DNg111_R.html"
     },
-    "synonyms": "hb-1573072464",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/DNg111.html"
   },
@@ -63674,7 +63331,7 @@ const NEURON_DATA = [
       "left": "types/DNg13_L.html",
       "right": "types/DNg13_R.html"
     },
-    "synonyms": "hb-1696530677",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/DNg13.html"
   },
@@ -63982,7 +63639,7 @@ const NEURON_DATA = [
       "left": "types/DNg40_L.html",
       "right": "types/DNg40_R.html"
     },
-    "synonyms": "hb-5813056435",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/DNg40.html"
   },
@@ -64108,26 +63765,15 @@ const NEURON_DATA = [
     "primary_url": "types/DNg51.html"
   },
   {
-    "name": "DNg52_a",
+    "name": "DNg52",
     "urls": {
-      "combined": "types/DNg52_a.html",
-      "left": "types/DNg52_a_L.html",
-      "right": "types/DNg52_a_R.html"
+      "combined": "types/DNg52.html",
+      "left": "types/DNg52_L.html",
+      "right": "types/DNg52_R.html"
     },
     "synonyms": null,
     "flywire_types": null,
-    "primary_url": "types/DNg52_a.html"
-  },
-  {
-    "name": "DNg52_b",
-    "urls": {
-      "combined": "types/DNg52_b.html",
-      "left": "types/DNg52_b_L.html",
-      "right": "types/DNg52_b_R.html"
-    },
-    "synonyms": null,
-    "flywire_types": null,
-    "primary_url": "types/DNg52_b.html"
+    "primary_url": "types/DNg52.html"
   },
   {
     "name": "DNg53",
@@ -64211,7 +63857,7 @@ const NEURON_DATA = [
       "left": "types/DNg60_L.html",
       "right": "types/DNg60_R.html"
     },
-    "synonyms": "bluebell",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/DNg60.html"
   },
@@ -64385,7 +64031,7 @@ const NEURON_DATA = [
       "left": "types/DNg75_L.html",
       "right": "types/DNg75_R.html"
     },
-    "synonyms": "hb-1874217622",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/DNg75.html"
   },
@@ -64561,7 +64207,7 @@ const NEURON_DATA = [
       "left": "types/DNg91_L.html",
       "right": "types/DNg91_R.html"
     },
-    "synonyms": "hb-1626948732",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/DNg91.html"
   },
@@ -64814,7 +64460,7 @@ const NEURON_DATA = [
       "left": "types/DNge014_L.html",
       "right": "types/DNge014_R.html"
     },
-    "synonyms": null,
+    "synonyms": "Cachero 2010: pSG-b",
     "flywire_types": null,
     "primary_url": "types/DNge014.html"
   },
@@ -64825,7 +64471,7 @@ const NEURON_DATA = [
       "left": "types/DNge015_L.html",
       "right": "types/DNge015_R.html"
     },
-    "synonyms": null,
+    "synonyms": "Cachero 2010: pSG-b",
     "flywire_types": null,
     "primary_url": "types/DNge015.html"
   },
@@ -64836,7 +64482,7 @@ const NEURON_DATA = [
       "left": "types/DNge016_L.html",
       "right": "types/DNge016_R.html"
     },
-    "synonyms": null,
+    "synonyms": "Cachero 2010: pSG-b",
     "flywire_types": null,
     "primary_url": "types/DNge016.html"
   },
@@ -64847,7 +64493,7 @@ const NEURON_DATA = [
       "left": "types/DNge017_L.html",
       "right": "types/DNge017_R.html"
     },
-    "synonyms": null,
+    "synonyms": "Cachero 2010: pSG-b",
     "flywire_types": null,
     "primary_url": "types/DNge017.html"
   },
@@ -65133,7 +64779,7 @@ const NEURON_DATA = [
       "left": "types/DNge043_L.html",
       "right": "types/DNge043_R.html"
     },
-    "synonyms": "hb-1499778528",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/DNge043.html"
   },
@@ -65419,7 +65065,7 @@ const NEURON_DATA = [
       "left": "types/DNge070_L.html",
       "right": "types/DNge070_R.html"
     },
-    "synonyms": "DNb06",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/DNge070.html"
   },
@@ -65540,7 +65186,7 @@ const NEURON_DATA = [
       "left": "types/DNge081_L.html",
       "right": "types/DNge081_R.html"
     },
-    "synonyms": null,
+    "synonyms": "fru-F-000087",
     "flywire_types": null,
     "primary_url": "types/DNge081.html"
   },
@@ -65650,7 +65296,7 @@ const NEURON_DATA = [
       "left": "types/DNge091_L.html",
       "right": "types/DNge091_R.html"
     },
-    "synonyms": null,
+    "synonyms": "Cachero 2010: aSG-a",
     "flywire_types": null,
     "primary_url": "types/DNge091.html"
   },
@@ -65892,7 +65538,7 @@ const NEURON_DATA = [
       "left": "types/DNge113_L.html",
       "right": "types/DNge113_R.html"
     },
-    "synonyms": null,
+    "synonyms": "Cachero 2010: aSG-a",
     "flywire_types": null,
     "primary_url": "types/DNge113.html"
   },
@@ -66376,13 +66022,24 @@ const NEURON_DATA = [
     "primary_url": "types/DNge174.html"
   },
   {
+    "name": "DNge175",
+    "urls": {
+      "combined": "types/DNge175.html",
+      "left": "types/DNge175_L.html",
+      "right": "types/DNge175_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/DNge175.html"
+  },
+  {
     "name": "DNp01",
     "urls": {
       "combined": "types/DNp01.html",
       "left": "types/DNp01_L.html",
       "right": "types/DNp01_R.html"
     },
-    "synonyms": "Giant_Fiber, GF",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/DNp01.html"
   },
@@ -66459,7 +66116,7 @@ const NEURON_DATA = [
       "left": "types/DNp08_L.html",
       "right": "types/DNp08_R.html"
     },
-    "synonyms": "PS271",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/DNp08.html"
   },
@@ -66492,7 +66149,7 @@ const NEURON_DATA = [
       "left": "types/DNp101_L.html",
       "right": "types/DNp101_R.html"
     },
-    "synonyms": "CL334",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/DNp101.html"
   },
@@ -66503,7 +66160,7 @@ const NEURON_DATA = [
       "left": "types/DNp102_L.html",
       "right": "types/DNp102_R.html"
     },
-    "synonyms": "PS212",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/DNp102.html"
   },
@@ -66514,7 +66171,7 @@ const NEURON_DATA = [
       "left": "types/DNp103_L.html",
       "right": "types/DNp103_R.html"
     },
-    "synonyms": "PVLP119",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/DNp103.html"
   },
@@ -66525,7 +66182,7 @@ const NEURON_DATA = [
       "left": "types/DNp104_L.html",
       "right": "types/DNp104_R.html"
     },
-    "synonyms": "CL324",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/DNp104.html"
   },
@@ -66547,7 +66204,7 @@ const NEURON_DATA = [
       "left": "types/DNp12_L.html",
       "right": "types/DNp12_R.html"
     },
-    "synonyms": "WED105",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/DNp12.html"
   },
@@ -66558,7 +66215,7 @@ const NEURON_DATA = [
       "left": "types/DNp13_L.html",
       "right": "types/DNp13_R.html"
     },
-    "synonyms": "pMN1/DNp13",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/DNp13.html"
   },
@@ -66569,7 +66226,7 @@ const NEURON_DATA = [
       "left": "types/DNp14_L.html",
       "right": "types/DNp14_R.html"
     },
-    "synonyms": "SMP585",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/DNp14.html"
   },
@@ -66624,7 +66281,7 @@ const NEURON_DATA = [
       "left": "types/DNp19_L.html",
       "right": "types/DNp19_R.html"
     },
-    "synonyms": null,
+    "synonyms": "Cachero 2010: pMP-g",
     "flywire_types": null,
     "primary_url": "types/DNp19.html"
   },
@@ -66723,7 +66380,7 @@ const NEURON_DATA = [
       "left": "types/DNp29_L.html",
       "right": "types/DNp29_R.html"
     },
-    "synonyms": "NPFP1",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/DNp29.html"
   },
@@ -66734,7 +66391,7 @@ const NEURON_DATA = [
       "left": "types/DNp30_L.html",
       "right": "types/DNp30_R.html"
     },
-    "synonyms": "DSKMP1A",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/DNp30.html"
   },
@@ -66767,7 +66424,7 @@ const NEURON_DATA = [
       "left": "types/DNp33_L.html",
       "right": "types/DNp33_R.html"
     },
-    "synonyms": "SAD095",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/DNp33.html"
   },
@@ -66789,7 +66446,7 @@ const NEURON_DATA = [
       "left": "types/DNp35_L.html",
       "right": "types/DNp35_R.html"
     },
-    "synonyms": "PVLP136",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/DNp35.html"
   },
@@ -66800,7 +66457,7 @@ const NEURON_DATA = [
       "left": "types/DNp36_L.html",
       "right": "types/DNp36_R.html"
     },
-    "synonyms": "CL342, pIP9",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/DNp36.html"
   },
@@ -66811,7 +66468,7 @@ const NEURON_DATA = [
       "left": "types/DNp37_L.html",
       "right": "types/DNp37_R.html"
     },
-    "synonyms": "vpoDN, pMN2, pMN2/vpoDN",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/DNp37.html"
   },
@@ -66833,7 +66490,7 @@ const NEURON_DATA = [
       "left": "types/DNp39_L.html",
       "right": "types/DNp39_R.html"
     },
-    "synonyms": "PS297",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/DNp39.html"
   },
@@ -66844,7 +66501,7 @@ const NEURON_DATA = [
       "left": "types/DNp40_L.html",
       "right": "types/DNp40_R.html"
     },
-    "synonyms": "PS236",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/DNp40.html"
   },
@@ -66855,7 +66512,7 @@ const NEURON_DATA = [
       "left": "types/DNp41_L.html",
       "right": "types/DNp41_R.html"
     },
-    "synonyms": "PS294, PS295, PS298",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/DNp41.html"
   },
@@ -66877,7 +66534,7 @@ const NEURON_DATA = [
       "left": "types/DNp43_L.html",
       "right": "types/DNp43_R.html"
     },
-    "synonyms": "CL332",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/DNp43.html"
   },
@@ -66899,7 +66556,7 @@ const NEURON_DATA = [
       "left": "types/DNp45_L.html",
       "right": "types/DNp45_R.html"
     },
-    "synonyms": "PVLP117",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/DNp45.html"
   },
@@ -66910,7 +66567,7 @@ const NEURON_DATA = [
       "left": "types/DNp46_L.html",
       "right": "types/DNp46_R.html"
     },
-    "synonyms": "CL206",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/DNp46.html"
   },
@@ -66921,7 +66578,7 @@ const NEURON_DATA = [
       "left": "types/DNp47_L.html",
       "right": "types/DNp47_R.html"
     },
-    "synonyms": "PS293",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/DNp47.html"
   },
@@ -66932,7 +66589,7 @@ const NEURON_DATA = [
       "left": "types/DNp48_L.html",
       "right": "types/DNp48_R.html"
     },
-    "synonyms": "SMP462, pMP9",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/DNp48.html"
   },
@@ -66943,20 +66600,9 @@ const NEURON_DATA = [
       "left": "types/DNp49_L.html",
       "right": "types/DNp49_R.html"
     },
-    "synonyms": "pIP18",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/DNp49.html"
-  },
-  {
-    "name": "DNp50",
-    "urls": {
-      "combined": "types/DNp50.html",
-      "left": "types/DNp50_L.html",
-      "right": "types/DNp50_R.html"
-    },
-    "synonyms": "MDN",
-    "flywire_types": null,
-    "primary_url": "types/DNp50.html"
   },
   {
     "name": "DNp51",
@@ -66965,7 +66611,7 @@ const NEURON_DATA = [
       "left": "types/DNp51_L.html",
       "right": "types/DNp51_R.html"
     },
-    "synonyms": "PS296",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/DNp51.html"
   },
@@ -66976,7 +66622,7 @@ const NEURON_DATA = [
       "left": "types/DNp52_L.html",
       "right": "types/DNp52_R.html"
     },
-    "synonyms": "CRE101",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/DNp52.html"
   },
@@ -66987,7 +66633,7 @@ const NEURON_DATA = [
       "left": "types/DNp53_L.html",
       "right": "types/DNp53_R.html"
     },
-    "synonyms": "PS169",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/DNp53.html"
   },
@@ -66998,7 +66644,7 @@ const NEURON_DATA = [
       "left": "types/DNp54_L.html",
       "right": "types/DNp54_R.html"
     },
-    "synonyms": "PS163",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/DNp54.html"
   },
@@ -67009,7 +66655,7 @@ const NEURON_DATA = [
       "left": "types/DNp55_L.html",
       "right": "types/DNp55_R.html"
     },
-    "synonyms": "WED180",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/DNp55.html"
   },
@@ -67020,7 +66666,7 @@ const NEURON_DATA = [
       "left": "types/DNp56_L.html",
       "right": "types/DNp56_R.html"
     },
-    "synonyms": "VES055",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/DNp56.html"
   },
@@ -67031,7 +66677,7 @@ const NEURON_DATA = [
       "left": "types/DNp57_L.html",
       "right": "types/DNp57_R.html"
     },
-    "synonyms": "PS195",
+    "synonyms": "fru-F-100015",
     "flywire_types": null,
     "primary_url": "types/DNp57.html"
   },
@@ -67042,7 +66688,7 @@ const NEURON_DATA = [
       "left": "types/DNp58_L.html",
       "right": "types/DNp58_R.html"
     },
-    "synonyms": "hb-1791391565",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/DNp58.html"
   },
@@ -67053,7 +66699,7 @@ const NEURON_DATA = [
       "left": "types/DNp59_L.html",
       "right": "types/DNp59_R.html"
     },
-    "synonyms": "CL247",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/DNp59.html"
   },
@@ -67064,7 +66710,7 @@ const NEURON_DATA = [
       "left": "types/DNp60_L.html",
       "right": "types/DNp60_R.html"
     },
-    "synonyms": "CL139, pMP12",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/DNp60.html"
   },
@@ -67075,7 +66721,7 @@ const NEURON_DATA = [
       "left": "types/DNp62_L.html",
       "right": "types/DNp62_R.html"
     },
-    "synonyms": "DSKMP1B",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/DNp62.html"
   },
@@ -67086,7 +66732,7 @@ const NEURON_DATA = [
       "left": "types/DNp63_L.html",
       "right": "types/DNp63_R.html"
     },
-    "synonyms": "PS113",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/DNp63.html"
   },
@@ -67097,7 +66743,7 @@ const NEURON_DATA = [
       "left": "types/DNp64_L.html",
       "right": "types/DNp64_R.html"
     },
-    "synonyms": "CL137",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/DNp64.html"
   },
@@ -67119,7 +66765,7 @@ const NEURON_DATA = [
       "left": "types/DNp66_L.html",
       "right": "types/DNp66_R.html"
     },
-    "synonyms": "AVLP499",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/DNp66.html"
   },
@@ -67130,7 +66776,7 @@ const NEURON_DATA = [
       "left": "types/DNp67_L.html",
       "right": "types/DNp67_R.html"
     },
-    "synonyms": "CL139, pMP12",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/DNp67.html"
   },
@@ -67141,7 +66787,7 @@ const NEURON_DATA = [
       "left": "types/DNp68_L.html",
       "right": "types/DNp68_R.html"
     },
-    "synonyms": "CL138",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/DNp68.html"
   },
@@ -67152,7 +66798,7 @@ const NEURON_DATA = [
       "left": "types/DNp69_L.html",
       "right": "types/DNp69_R.html"
     },
-    "synonyms": "CL304",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/DNp69.html"
   },
@@ -67163,7 +66809,7 @@ const NEURON_DATA = [
       "left": "types/DNp70_L.html",
       "right": "types/DNp70_R.html"
     },
-    "synonyms": "CL305",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/DNp70.html"
   },
@@ -67174,7 +66820,7 @@ const NEURON_DATA = [
       "left": "types/DNp71_L.html",
       "right": "types/DNp71_R.html"
     },
-    "synonyms": "DNp09",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/DNp71.html"
   },
@@ -67205,7 +66851,7 @@ const NEURON_DATA = [
       "left": "types/DNpe001_L.html",
       "right": "types/DNpe001_R.html"
     },
-    "synonyms": "IB111",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/DNpe001.html"
   },
@@ -67216,7 +66862,7 @@ const NEURON_DATA = [
       "left": "types/DNpe002_L.html",
       "right": "types/DNpe002_R.html"
     },
-    "synonyms": "VES068",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/DNpe002.html"
   },
@@ -67227,7 +66873,7 @@ const NEURON_DATA = [
       "left": "types/DNpe003_L.html",
       "right": "types/DNpe003_R.html"
     },
-    "synonyms": "VES081",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/DNpe003.html"
   },
@@ -67238,7 +66884,7 @@ const NEURON_DATA = [
       "left": "types/DNpe004_L.html",
       "right": "types/DNpe004_R.html"
     },
-    "synonyms": null,
+    "synonyms": "fru-F-400167",
     "flywire_types": null,
     "primary_url": "types/DNpe004.html"
   },
@@ -67249,7 +66895,7 @@ const NEURON_DATA = [
       "left": "types/DNpe005_L.html",
       "right": "types/DNpe005_R.html"
     },
-    "synonyms": "WED123",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/DNpe005.html"
   },
@@ -67260,7 +66906,7 @@ const NEURON_DATA = [
       "left": "types/DNpe006_L.html",
       "right": "types/DNpe006_R.html"
     },
-    "synonyms": "CL330",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/DNpe006.html"
   },
@@ -67271,7 +66917,7 @@ const NEURON_DATA = [
       "left": "types/DNpe007_L.html",
       "right": "types/DNpe007_R.html"
     },
-    "synonyms": "hb-1343489608",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/DNpe007.html"
   },
@@ -67282,7 +66928,7 @@ const NEURON_DATA = [
       "left": "types/DNpe008_L.html",
       "right": "types/DNpe008_R.html"
     },
-    "synonyms": "PS228",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/DNpe008.html"
   },
@@ -67293,7 +66939,7 @@ const NEURON_DATA = [
       "left": "types/DNpe009_L.html",
       "right": "types/DNpe009_R.html"
     },
-    "synonyms": "PS226",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/DNpe009.html"
   },
@@ -67304,7 +66950,7 @@ const NEURON_DATA = [
       "left": "types/DNpe010_L.html",
       "right": "types/DNpe010_R.html"
     },
-    "synonyms": "PS275",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/DNpe010.html"
   },
@@ -67315,7 +66961,7 @@ const NEURON_DATA = [
       "left": "types/DNpe011_L.html",
       "right": "types/DNpe011_R.html"
     },
-    "synonyms": "DNp16",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/DNpe011.html"
   },
@@ -67326,7 +66972,7 @@ const NEURON_DATA = [
       "left": "types/DNpe012_L.html",
       "right": "types/DNpe012_R.html"
     },
-    "synonyms": "PS221",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/DNpe012.html"
   },
@@ -67337,7 +66983,7 @@ const NEURON_DATA = [
       "left": "types/DNpe013_L.html",
       "right": "types/DNpe013_R.html"
     },
-    "synonyms": "PS168",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/DNpe013.html"
   },
@@ -67348,7 +66994,7 @@ const NEURON_DATA = [
       "left": "types/DNpe014_L.html",
       "right": "types/DNpe014_R.html"
     },
-    "synonyms": "PS294, PS295, PS298",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/DNpe014.html"
   },
@@ -67370,7 +67016,7 @@ const NEURON_DATA = [
       "left": "types/DNpe016_L.html",
       "right": "types/DNpe016_R.html"
     },
-    "synonyms": "PS211",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/DNpe016.html"
   },
@@ -67381,7 +67027,7 @@ const NEURON_DATA = [
       "left": "types/DNpe017_L.html",
       "right": "types/DNpe017_R.html"
     },
-    "synonyms": "hb-1406000196",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/DNpe017.html"
   },
@@ -67392,7 +67038,7 @@ const NEURON_DATA = [
       "left": "types/DNpe018_L.html",
       "right": "types/DNpe018_R.html"
     },
-    "synonyms": "hb-1436667616",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/DNpe018.html"
   },
@@ -67403,7 +67049,7 @@ const NEURON_DATA = [
       "left": "types/DNpe019_L.html",
       "right": "types/DNpe019_R.html"
     },
-    "synonyms": "PS296",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/DNpe019.html"
   },
@@ -67414,7 +67060,7 @@ const NEURON_DATA = [
       "left": "types/DNpe020_L.html",
       "right": "types/DNpe020_R.html"
     },
-    "synonyms": "PS133",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/DNpe020.html"
   },
@@ -67425,7 +67071,7 @@ const NEURON_DATA = [
       "left": "types/DNpe021_L.html",
       "right": "types/DNpe021_R.html"
     },
-    "synonyms": "CL307",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/DNpe021.html"
   },
@@ -67436,7 +67082,7 @@ const NEURON_DATA = [
       "left": "types/DNpe022_L.html",
       "right": "types/DNpe022_R.html"
     },
-    "synonyms": "PS271",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/DNpe022.html"
   },
@@ -67447,7 +67093,7 @@ const NEURON_DATA = [
       "left": "types/DNpe023_L.html",
       "right": "types/DNpe023_R.html"
     },
-    "synonyms": "LAL201",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/DNpe023.html"
   },
@@ -67458,7 +67104,7 @@ const NEURON_DATA = [
       "left": "types/DNpe024_L.html",
       "right": "types/DNpe024_R.html"
     },
-    "synonyms": "CL325",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/DNpe024.html"
   },
@@ -67469,7 +67115,7 @@ const NEURON_DATA = [
       "left": "types/DNpe025_L.html",
       "right": "types/DNpe025_R.html"
     },
-    "synonyms": "PVLP145",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/DNpe025.html"
   },
@@ -67480,7 +67126,7 @@ const NEURON_DATA = [
       "left": "types/DNpe026_L.html",
       "right": "types/DNpe026_R.html"
     },
-    "synonyms": "CL202",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/DNpe026.html"
   },
@@ -67491,7 +67137,7 @@ const NEURON_DATA = [
       "left": "types/DNpe027_L.html",
       "right": "types/DNpe027_R.html"
     },
-    "synonyms": "PS166",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/DNpe027.html"
   },
@@ -67502,7 +67148,7 @@ const NEURON_DATA = [
       "left": "types/DNpe028_L.html",
       "right": "types/DNpe028_R.html"
     },
-    "synonyms": "IB046",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/DNpe028.html"
   },
@@ -67535,7 +67181,7 @@ const NEURON_DATA = [
       "left": "types/DNpe031_L.html",
       "right": "types/DNpe031_R.html"
     },
-    "synonyms": "PVLP116",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/DNpe031.html"
   },
@@ -67546,7 +67192,7 @@ const NEURON_DATA = [
       "left": "types/DNpe032_L.html",
       "right": "types/DNpe032_R.html"
     },
-    "synonyms": "PS216",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/DNpe032.html"
   },
@@ -67557,7 +67203,7 @@ const NEURON_DATA = [
       "left": "types/DNpe033_L.html",
       "right": "types/DNpe033_R.html"
     },
-    "synonyms": "SMP289",
+    "synonyms": "Cachero 2010: pMP-b; Yu 2010: pMP5",
     "flywire_types": null,
     "primary_url": "types/DNpe033.html"
   },
@@ -67568,7 +67214,7 @@ const NEURON_DATA = [
       "left": "types/DNpe034_L.html",
       "right": "types/DNpe034_R.html"
     },
-    "synonyms": "SMP486_b",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/DNpe034.html"
   },
@@ -67579,7 +67225,7 @@ const NEURON_DATA = [
       "left": "types/DNpe035_L.html",
       "right": "types/DNpe035_R.html"
     },
-    "synonyms": "SMP601",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/DNpe035.html"
   },
@@ -67601,7 +67247,7 @@ const NEURON_DATA = [
       "left": "types/DNpe037_L.html",
       "right": "types/DNpe037_R.html"
     },
-    "synonyms": "CL338",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/DNpe037.html"
   },
@@ -67612,7 +67258,7 @@ const NEURON_DATA = [
       "left": "types/DNpe038_L.html",
       "right": "types/DNpe038_R.html"
     },
-    "synonyms": "SLP410, oviDNb",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/DNpe038.html"
   },
@@ -67623,7 +67269,7 @@ const NEURON_DATA = [
       "left": "types/DNpe039_L.html",
       "right": "types/DNpe039_R.html"
     },
-    "synonyms": "CL306",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/DNpe039.html"
   },
@@ -67634,7 +67280,7 @@ const NEURON_DATA = [
       "left": "types/DNpe040_L.html",
       "right": "types/DNpe040_R.html"
     },
-    "synonyms": "CL320",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/DNpe040.html"
   },
@@ -67645,7 +67291,7 @@ const NEURON_DATA = [
       "left": "types/DNpe041_L.html",
       "right": "types/DNpe041_R.html"
     },
-    "synonyms": "SMP290",
+    "synonyms": "Cachero 2010: pMP-b; Yu 2010: pMP5",
     "flywire_types": null,
     "primary_url": "types/DNpe041.html"
   },
@@ -67656,7 +67302,7 @@ const NEURON_DATA = [
       "left": "types/DNpe042_L.html",
       "right": "types/DNpe042_R.html"
     },
-    "synonyms": "CL262",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/DNpe042.html"
   },
@@ -67667,7 +67313,7 @@ const NEURON_DATA = [
       "left": "types/DNpe043_L.html",
       "right": "types/DNpe043_R.html"
     },
-    "synonyms": "CL207",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/DNpe043.html"
   },
@@ -67678,7 +67324,7 @@ const NEURON_DATA = [
       "left": "types/DNpe044_L.html",
       "right": "types/DNpe044_R.html"
     },
-    "synonyms": "SMP479, pMP1",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/DNpe044.html"
   },
@@ -67689,7 +67335,7 @@ const NEURON_DATA = [
       "left": "types/DNpe045_L.html",
       "right": "types/DNpe045_R.html"
     },
-    "synonyms": "DNp23",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/DNpe045.html"
   },
@@ -67700,7 +67346,7 @@ const NEURON_DATA = [
       "left": "types/DNpe046_L.html",
       "right": "types/DNpe046_R.html"
     },
-    "synonyms": "LHPV11a1",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/DNpe046.html"
   },
@@ -67711,7 +67357,7 @@ const NEURON_DATA = [
       "left": "types/DNpe047_L.html",
       "right": "types/DNpe047_R.html"
     },
-    "synonyms": "SMP478, pMP1",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/DNpe047.html"
   },
@@ -67722,7 +67368,7 @@ const NEURON_DATA = [
       "left": "types/DNpe048_L.html",
       "right": "types/DNpe048_R.html"
     },
-    "synonyms": "SMP367",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/DNpe048.html"
   },
@@ -67744,20 +67390,9 @@ const NEURON_DATA = [
       "left": "types/DNpe050_L.html",
       "right": "types/DNpe050_R.html"
     },
-    "synonyms": "CL341",
-    "flywire_types": null,
-    "primary_url": "types/DNpe050.html"
-  },
-  {
-    "name": "DNpe051",
-    "urls": {
-      "combined": "types/DNpe051.html",
-      "left": "types/DNpe051_L.html",
-      "right": "types/DNpe051_R.html"
-    },
     "synonyms": null,
     "flywire_types": null,
-    "primary_url": "types/DNpe051.html"
+    "primary_url": "types/DNpe050.html"
   },
   {
     "name": "DNpe052",
@@ -67766,7 +67401,7 @@ const NEURON_DATA = [
       "left": "types/DNpe052_L.html",
       "right": "types/DNpe052_R.html"
     },
-    "synonyms": "AVLP564",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/DNpe052.html"
   },
@@ -67777,7 +67412,7 @@ const NEURON_DATA = [
       "left": "types/DNpe053_L.html",
       "right": "types/DNpe053_R.html"
     },
-    "synonyms": "SMP454",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/DNpe053.html"
   },
@@ -67788,7 +67423,7 @@ const NEURON_DATA = [
       "left": "types/DNpe054_L.html",
       "right": "types/DNpe054_R.html"
     },
-    "synonyms": "DNp16/17",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/DNpe054.html"
   },
@@ -67799,7 +67434,7 @@ const NEURON_DATA = [
       "left": "types/DNpe055_L.html",
       "right": "types/DNpe055_R.html"
     },
-    "synonyms": "PS167",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/DNpe055.html"
   },
@@ -67810,7 +67445,7 @@ const NEURON_DATA = [
       "left": "types/DNpe056_L.html",
       "right": "types/DNpe056_R.html"
     },
-    "synonyms": "PVLP146, pIP16b",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/DNpe056.html"
   },
@@ -67835,6 +67470,15 @@ const NEURON_DATA = [
     "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/DNx02.html"
+  },
+  {
+    "name": "DNxl114",
+    "urls": {
+      "right": "types/DNxl114_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/DNxl114_R.html"
   },
   {
     "name": "DP1l_adPN",
@@ -67909,7 +67553,7 @@ const NEURON_DATA = [
       "left": "types/D_adPN_L.html",
       "right": "types/D_adPN_R.html"
     },
-    "synonyms": null,
+    "synonyms": "Cachero 2010: aDT-a;Yu 2010: aDT3",
     "flywire_types": null,
     "primary_url": "types/D_adPN.html"
   },
@@ -68008,7 +67652,7 @@ const NEURON_DATA = [
       "left": "types/Dm16_L.html",
       "right": "types/Dm16_R.html"
     },
-    "synonyms": "CB3849",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/Dm16.html"
   },
@@ -68068,35 +67712,13 @@ const NEURON_DATA = [
     "primary_url": "types/Dm20.html"
   },
   {
-    "name": "Dm21",
-    "urls": {
-      "combined": "types/Dm21.html",
-      "left": "types/Dm21_L.html",
-      "right": "types/Dm21_R.html"
-    },
-    "synonyms": null,
-    "flywire_types": null,
-    "primary_url": "types/Dm21.html"
-  },
-  {
-    "name": "Dm3",
-    "urls": {
-      "combined": "types/Dm3.html",
-      "left": "types/Dm3_L.html",
-      "right": "types/Dm3_R.html"
-    },
-    "synonyms": null,
-    "flywire_types": null,
-    "primary_url": "types/Dm3.html"
-  },
-  {
     "name": "Dm3p",
     "urls": {
       "combined": "types/Dm3p.html",
       "left": "types/Dm3p_L.html",
       "right": "types/Dm3p_R.html"
     },
-    "synonyms": "Dm3",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/Dm3p.html"
   },
@@ -68107,7 +67729,7 @@ const NEURON_DATA = [
       "left": "types/Dm3q_L.html",
       "right": "types/Dm3q_R.html"
     },
-    "synonyms": "Dm3",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/Dm3q.html"
   },
@@ -68118,7 +67740,7 @@ const NEURON_DATA = [
       "left": "types/Dm3v_L.html",
       "right": "types/Dm3v_R.html"
     },
-    "synonyms": "Dm3",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/Dm3v.html"
   },
@@ -68147,35 +67769,11 @@ const NEURON_DATA = [
   {
     "name": "Dm8",
     "urls": {
-      "combined": "types/Dm8.html",
-      "left": "types/Dm8_L.html",
-      "right": "types/Dm8_R.html"
+      "left": "types/Dm8_L.html"
     },
     "synonyms": null,
     "flywire_types": null,
-    "primary_url": "types/Dm8.html"
-  },
-  {
-    "name": "Dm8a",
-    "urls": {
-      "combined": "types/Dm8a.html",
-      "left": "types/Dm8a_L.html",
-      "right": "types/Dm8a_R.html"
-    },
-    "synonyms": "Dm8",
-    "flywire_types": null,
-    "primary_url": "types/Dm8a.html"
-  },
-  {
-    "name": "Dm8b",
-    "urls": {
-      "combined": "types/Dm8b.html",
-      "left": "types/Dm8b_L.html",
-      "right": "types/Dm8b_R.html"
-    },
-    "synonyms": "Dm8",
-    "flywire_types": null,
-    "primary_url": "types/Dm8b.html"
+    "primary_url": "types/Dm8_L.html"
   },
   {
     "name": "Dm9",
@@ -68206,7 +67804,7 @@ const NEURON_DATA = [
       "left": "types/DmDRA2_L.html",
       "right": "types/DmDRA2_R.html"
     },
-    "synonyms": "Dm11",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/DmDRA2.html"
   },
@@ -68220,6 +67818,61 @@ const NEURON_DATA = [
     "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/EL.html"
+  },
+  {
+    "name": "ENS1",
+    "urls": {
+      "combined": "types/ENS1.html",
+      "left": "types/ENS1_L.html",
+      "right": "types/ENS1_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/ENS1.html"
+  },
+  {
+    "name": "ENS2",
+    "urls": {
+      "combined": "types/ENS2.html",
+      "left": "types/ENS2_L.html",
+      "right": "types/ENS2_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/ENS2.html"
+  },
+  {
+    "name": "ENS3",
+    "urls": {
+      "combined": "types/ENS3.html",
+      "left": "types/ENS3_L.html",
+      "right": "types/ENS3_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/ENS3.html"
+  },
+  {
+    "name": "ENS4",
+    "urls": {
+      "combined": "types/ENS4.html",
+      "left": "types/ENS4_L.html",
+      "right": "types/ENS4_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/ENS4.html"
+  },
+  {
+    "name": "ENS5",
+    "urls": {
+      "combined": "types/ENS5.html",
+      "left": "types/ENS5_L.html",
+      "right": "types/ENS5_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/ENS5.html"
   },
   {
     "name": "EPG",
@@ -68266,15 +67919,26 @@ const NEURON_DATA = [
     "primary_url": "types/ER2.html"
   },
   {
-    "name": "ER3a",
+    "name": "ER3a_a,ER3a_d",
     "urls": {
-      "combined": "types/ER3a.html",
-      "left": "types/ER3a_L.html",
-      "right": "types/ER3a_R.html"
+      "combined": "types/ER3a_a,ER3a_d.html",
+      "left": "types/ER3a_a,ER3a_d_L.html",
+      "right": "types/ER3a_a,ER3a_d_R.html"
     },
     "synonyms": null,
     "flywire_types": null,
-    "primary_url": "types/ER3a.html"
+    "primary_url": "types/ER3a_a,ER3a_d.html"
+  },
+  {
+    "name": "ER3a_b,ER3a_c",
+    "urls": {
+      "combined": "types/ER3a_b,ER3a_c.html",
+      "left": "types/ER3a_b,ER3a_c_L.html",
+      "right": "types/ER3a_b,ER3a_c_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/ER3a_b,ER3a_c.html"
   },
   {
     "name": "ER3d",
@@ -68299,15 +67963,26 @@ const NEURON_DATA = [
     "primary_url": "types/ER3m.html"
   },
   {
-    "name": "ER3p",
+    "name": "ER3p_a",
     "urls": {
-      "combined": "types/ER3p.html",
-      "left": "types/ER3p_L.html",
-      "right": "types/ER3p_R.html"
+      "combined": "types/ER3p_a.html",
+      "left": "types/ER3p_a_L.html",
+      "right": "types/ER3p_a_R.html"
     },
     "synonyms": null,
     "flywire_types": null,
-    "primary_url": "types/ER3p.html"
+    "primary_url": "types/ER3p_a.html"
+  },
+  {
+    "name": "ER3p_b",
+    "urls": {
+      "combined": "types/ER3p_b.html",
+      "left": "types/ER3p_b_L.html",
+      "right": "types/ER3p_b_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/ER3p_b.html"
   },
   {
     "name": "ER3w",
@@ -68382,7 +68057,7 @@ const NEURON_DATA = [
       "left": "types/ExR2_1_L.html",
       "right": "types/ExR2_1_R.html"
     },
-    "synonyms": "ExR2",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/ExR2_1.html"
   },
@@ -68393,7 +68068,7 @@ const NEURON_DATA = [
       "left": "types/ExR2_2_L.html",
       "right": "types/ExR2_2_R.html"
     },
-    "synonyms": "ExR2",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/ExR2_2.html"
   },
@@ -68464,15 +68139,715 @@ const NEURON_DATA = [
     "primary_url": "types/ExR8.html"
   },
   {
+    "name": "FB1A",
+    "urls": {
+      "combined": "types/FB1A.html",
+      "left": "types/FB1A_L.html",
+      "right": "types/FB1A_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/FB1A.html"
+  },
+  {
+    "name": "FB1B",
+    "urls": {
+      "combined": "types/FB1B.html",
+      "left": "types/FB1B_L.html",
+      "right": "types/FB1B_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/FB1B.html"
+  },
+  {
+    "name": "FB1C",
+    "urls": {
+      "combined": "types/FB1C.html",
+      "left": "types/FB1C_L.html",
+      "right": "types/FB1C_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/FB1C.html"
+  },
+  {
+    "name": "FB1D",
+    "urls": {
+      "combined": "types/FB1D.html",
+      "left": "types/FB1D_L.html",
+      "right": "types/FB1D_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/FB1D.html"
+  },
+  {
+    "name": "FB1E",
+    "urls": {
+      "combined": "types/FB1E.html",
+      "left": "types/FB1E_L.html",
+      "right": "types/FB1E_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/FB1E.html"
+  },
+  {
+    "name": "FB1F",
+    "urls": {
+      "combined": "types/FB1F.html",
+      "left": "types/FB1F_L.html",
+      "right": "types/FB1F_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/FB1F.html"
+  },
+  {
+    "name": "FB1G",
+    "urls": {
+      "combined": "types/FB1G.html",
+      "left": "types/FB1G_L.html",
+      "right": "types/FB1G_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/FB1G.html"
+  },
+  {
+    "name": "FB1H",
+    "urls": {
+      "combined": "types/FB1H.html",
+      "left": "types/FB1H_L.html",
+      "right": "types/FB1H_R.html"
+    },
+    "synonyms": "Cachero 2010: aSP-c",
+    "flywire_types": null,
+    "primary_url": "types/FB1H.html"
+  },
+  {
+    "name": "FB1I,FB1J",
+    "urls": {
+      "combined": "types/FB1I,FB1J.html",
+      "left": "types/FB1I,FB1J_L.html",
+      "right": "types/FB1I,FB1J_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/FB1I,FB1J.html"
+  },
+  {
+    "name": "FB2A",
+    "urls": {
+      "combined": "types/FB2A.html",
+      "left": "types/FB2A_L.html",
+      "right": "types/FB2A_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/FB2A.html"
+  },
+  {
+    "name": "FB2B",
+    "urls": {
+      "combined": "types/FB2B.html",
+      "left": "types/FB2B_L.html",
+      "right": "types/FB2B_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/FB2B.html"
+  },
+  {
+    "name": "FB2B_b",
+    "urls": {
+      "combined": "types/FB2B_b.html",
+      "left": "types/FB2B_b_L.html",
+      "right": "types/FB2B_b_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/FB2B_b.html"
+  },
+  {
+    "name": "FB2C",
+    "urls": {
+      "combined": "types/FB2C.html",
+      "left": "types/FB2C_L.html",
+      "right": "types/FB2C_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/FB2C.html"
+  },
+  {
+    "name": "FB2D",
+    "urls": {
+      "combined": "types/FB2D.html",
+      "left": "types/FB2D_L.html",
+      "right": "types/FB2D_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/FB2D.html"
+  },
+  {
+    "name": "FB2E",
+    "urls": {
+      "combined": "types/FB2E.html",
+      "left": "types/FB2E_L.html",
+      "right": "types/FB2E_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/FB2E.html"
+  },
+  {
+    "name": "FB2F_b",
+    "urls": {
+      "combined": "types/FB2F_b.html",
+      "left": "types/FB2F_b_L.html",
+      "right": "types/FB2F_b_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/FB2F_b.html"
+  },
+  {
+    "name": "FB2F_c",
+    "urls": {
+      "combined": "types/FB2F_c.html",
+      "left": "types/FB2F_c_L.html",
+      "right": "types/FB2F_c_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/FB2F_c.html"
+  },
+  {
+    "name": "FB2F_d",
+    "urls": {
+      "combined": "types/FB2F_d.html",
+      "left": "types/FB2F_d_L.html",
+      "right": "types/FB2F_d_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/FB2F_d.html"
+  },
+  {
+    "name": "FB2G",
+    "urls": {
+      "combined": "types/FB2G.html",
+      "left": "types/FB2G_L.html",
+      "right": "types/FB2G_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/FB2G.html"
+  },
+  {
+    "name": "FB2G_a",
+    "urls": {
+      "combined": "types/FB2G_a.html",
+      "left": "types/FB2G_a_L.html",
+      "right": "types/FB2G_a_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/FB2G_a.html"
+  },
+  {
+    "name": "FB2H_a,FB2I_b",
+    "urls": {
+      "combined": "types/FB2H_a,FB2I_b.html",
+      "left": "types/FB2H_a,FB2I_b_L.html",
+      "right": "types/FB2H_a,FB2I_b_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/FB2H_a,FB2I_b.html"
+  },
+  {
+    "name": "FB2H_b",
+    "urls": {
+      "combined": "types/FB2H_b.html",
+      "left": "types/FB2H_b_L.html",
+      "right": "types/FB2H_b_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/FB2H_b.html"
+  },
+  {
+    "name": "FB2I_a",
+    "urls": {
+      "combined": "types/FB2I_a.html",
+      "left": "types/FB2I_a_L.html",
+      "right": "types/FB2I_a_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/FB2I_a.html"
+  },
+  {
+    "name": "FB2J_a,FB2J_c",
+    "urls": {
+      "combined": "types/FB2J_a,FB2J_c.html",
+      "left": "types/FB2J_a,FB2J_c_L.html",
+      "right": "types/FB2J_a,FB2J_c_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/FB2J_a,FB2J_c.html"
+  },
+  {
+    "name": "FB2J_b",
+    "urls": {
+      "combined": "types/FB2J_b.html",
+      "left": "types/FB2J_b_L.html",
+      "right": "types/FB2J_b_R.html"
+    },
+    "synonyms": "Cachero 2010: pIP-e;Yu 2010: pIP5",
+    "flywire_types": null,
+    "primary_url": "types/FB2J_b.html"
+  },
+  {
+    "name": "FB2K",
+    "urls": {
+      "combined": "types/FB2K.html",
+      "left": "types/FB2K_L.html",
+      "right": "types/FB2K_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/FB2K.html"
+  },
+  {
+    "name": "FB2L",
+    "urls": {
+      "combined": "types/FB2L.html",
+      "left": "types/FB2L_L.html",
+      "right": "types/FB2L_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/FB2L.html"
+  },
+  {
+    "name": "FB2M",
+    "urls": {
+      "combined": "types/FB2M.html",
+      "left": "types/FB2M_L.html",
+      "right": "types/FB2M_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/FB2M.html"
+  },
+  {
+    "name": "FB3A",
+    "urls": {
+      "combined": "types/FB3A.html",
+      "left": "types/FB3A_L.html",
+      "right": "types/FB3A_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/FB3A.html"
+  },
+  {
+    "name": "FB3B,FB3C,FB3E",
+    "urls": {
+      "combined": "types/FB3B,FB3C,FB3E.html",
+      "left": "types/FB3B,FB3C,FB3E_L.html",
+      "right": "types/FB3B,FB3C,FB3E_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/FB3B,FB3C,FB3E.html"
+  },
+  {
+    "name": "FB3D",
+    "urls": {
+      "combined": "types/FB3D.html",
+      "left": "types/FB3D_L.html",
+      "right": "types/FB3D_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/FB3D.html"
+  },
+  {
     "name": "FB4A",
     "urls": {
       "combined": "types/FB4A.html",
       "left": "types/FB4A_L.html",
       "right": "types/FB4A_R.html"
     },
-    "synonyms": "FB4D, FB4E, FB4F, FB4G, FB4H, FB4I, FB4J",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/FB4A.html"
+  },
+  {
+    "name": "FB4B",
+    "urls": {
+      "combined": "types/FB4B.html",
+      "left": "types/FB4B_L.html",
+      "right": "types/FB4B_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/FB4B.html"
+  },
+  {
+    "name": "FB4C",
+    "urls": {
+      "combined": "types/FB4C.html",
+      "left": "types/FB4C_L.html",
+      "right": "types/FB4C_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/FB4C.html"
+  },
+  {
+    "name": "FB4D",
+    "urls": {
+      "combined": "types/FB4D.html",
+      "left": "types/FB4D_L.html",
+      "right": "types/FB4D_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/FB4D.html"
+  },
+  {
+    "name": "FB4E",
+    "urls": {
+      "combined": "types/FB4E.html",
+      "left": "types/FB4E_L.html",
+      "right": "types/FB4E_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/FB4E.html"
+  },
+  {
+    "name": "FB4F",
+    "urls": {
+      "left": "types/FB4F_L.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/FB4F_L.html"
+  },
+  {
+    "name": "FB4F_a,FB4F_b,FB4F_c",
+    "urls": {
+      "combined": "types/FB4F_a,FB4F_b,FB4F_c.html",
+      "left": "types/FB4F_a,FB4F_b,FB4F_c_L.html",
+      "right": "types/FB4F_a,FB4F_b,FB4F_c_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/FB4F_a,FB4F_b,FB4F_c.html"
+  },
+  {
+    "name": "FB4G",
+    "urls": {
+      "combined": "types/FB4G.html",
+      "left": "types/FB4G_L.html",
+      "right": "types/FB4G_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/FB4G.html"
+  },
+  {
+    "name": "FB4H",
+    "urls": {
+      "combined": "types/FB4H.html",
+      "left": "types/FB4H_L.html",
+      "right": "types/FB4H_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/FB4H.html"
+  },
+  {
+    "name": "FB4I",
+    "urls": {
+      "combined": "types/FB4I.html",
+      "left": "types/FB4I_L.html",
+      "right": "types/FB4I_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/FB4I.html"
+  },
+  {
+    "name": "FB4J",
+    "urls": {
+      "combined": "types/FB4J.html",
+      "left": "types/FB4J_L.html",
+      "right": "types/FB4J_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/FB4J.html"
+  },
+  {
+    "name": "FB4K",
+    "urls": {
+      "combined": "types/FB4K.html",
+      "left": "types/FB4K_L.html",
+      "right": "types/FB4K_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/FB4K.html"
+  },
+  {
+    "name": "FB4L",
+    "urls": {
+      "combined": "types/FB4L.html",
+      "left": "types/FB4L_L.html",
+      "right": "types/FB4L_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/FB4L.html"
+  },
+  {
+    "name": "FB4M",
+    "urls": {
+      "combined": "types/FB4M.html",
+      "left": "types/FB4M_L.html",
+      "right": "types/FB4M_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/FB4M.html"
+  },
+  {
+    "name": "FB4N",
+    "urls": {
+      "combined": "types/FB4N.html",
+      "left": "types/FB4N_L.html",
+      "right": "types/FB4N_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/FB4N.html"
+  },
+  {
+    "name": "FB4O",
+    "urls": {
+      "combined": "types/FB4O.html",
+      "left": "types/FB4O_L.html",
+      "right": "types/FB4O_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/FB4O.html"
+  },
+  {
+    "name": "FB4P,FB4Q",
+    "urls": {
+      "combined": "types/FB4P,FB4Q.html",
+      "left": "types/FB4P,FB4Q_L.html",
+      "right": "types/FB4P,FB4Q_R.html"
+    },
+    "synonyms": "Cachero 2010: aSP-j;Yu 2010: aSP12",
+    "flywire_types": null,
+    "primary_url": "types/FB4P,FB4Q.html"
+  },
+  {
+    "name": "FB4P_a",
+    "urls": {
+      "combined": "types/FB4P_a.html",
+      "left": "types/FB4P_a_L.html",
+      "right": "types/FB4P_a_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/FB4P_a.html"
+  },
+  {
+    "name": "FB4Q_b",
+    "urls": {
+      "combined": "types/FB4Q_b.html",
+      "left": "types/FB4Q_b_L.html",
+      "right": "types/FB4Q_b_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/FB4Q_b.html"
+  },
+  {
+    "name": "FB4R",
+    "urls": {
+      "combined": "types/FB4R.html",
+      "left": "types/FB4R_L.html",
+      "right": "types/FB4R_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/FB4R.html"
+  },
+  {
+    "name": "FB4X",
+    "urls": {
+      "combined": "types/FB4X.html",
+      "left": "types/FB4X_L.html",
+      "right": "types/FB4X_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/FB4X.html"
+  },
+  {
+    "name": "FB4Y",
+    "urls": {
+      "combined": "types/FB4Y.html",
+      "left": "types/FB4Y_L.html",
+      "right": "types/FB4Y_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/FB4Y.html"
+  },
+  {
+    "name": "FB4Z",
+    "urls": {
+      "combined": "types/FB4Z.html",
+      "left": "types/FB4Z_L.html",
+      "right": "types/FB4Z_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/FB4Z.html"
+  },
+  {
+    "name": "FB4_unclear",
+    "urls": {
+      "right": "types/FB4_unclear_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/FB4_unclear_R.html"
+  },
+  {
+    "name": "FB5A",
+    "urls": {
+      "combined": "types/FB5A.html",
+      "left": "types/FB5A_L.html",
+      "right": "types/FB5A_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/FB5A.html"
+  },
+  {
+    "name": "FB5AA",
+    "urls": {
+      "combined": "types/FB5AA.html",
+      "left": "types/FB5AA_L.html",
+      "right": "types/FB5AA_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/FB5AA.html"
+  },
+  {
+    "name": "FB5AB",
+    "urls": {
+      "combined": "types/FB5AB.html",
+      "left": "types/FB5AB_L.html",
+      "right": "types/FB5AB_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/FB5AB.html"
+  },
+  {
+    "name": "FB5B",
+    "urls": {
+      "combined": "types/FB5B.html",
+      "left": "types/FB5B_L.html",
+      "right": "types/FB5B_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/FB5B.html"
+  },
+  {
+    "name": "FB5C",
+    "urls": {
+      "combined": "types/FB5C.html",
+      "left": "types/FB5C_L.html",
+      "right": "types/FB5C_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/FB5C.html"
+  },
+  {
+    "name": "FB5D,FB5E",
+    "urls": {
+      "combined": "types/FB5D,FB5E.html",
+      "left": "types/FB5D,FB5E_L.html",
+      "right": "types/FB5D,FB5E_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/FB5D,FB5E.html"
+  },
+  {
+    "name": "FB5F",
+    "urls": {
+      "combined": "types/FB5F.html",
+      "left": "types/FB5F_L.html",
+      "right": "types/FB5F_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/FB5F.html"
+  },
+  {
+    "name": "FB5G",
+    "urls": {
+      "combined": "types/FB5G.html",
+      "left": "types/FB5G_L.html",
+      "right": "types/FB5G_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/FB5G.html"
+  },
+  {
+    "name": "FB5H",
+    "urls": {
+      "combined": "types/FB5H.html",
+      "left": "types/FB5H_L.html",
+      "right": "types/FB5H_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/FB5H.html"
+  },
+  {
+    "name": "FB5I",
+    "urls": {
+      "combined": "types/FB5I.html",
+      "left": "types/FB5I_L.html",
+      "right": "types/FB5I_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/FB5I.html"
   },
   {
     "name": "FB5J",
@@ -68481,31 +68856,742 @@ const NEURON_DATA = [
       "left": "types/FB5J_L.html",
       "right": "types/FB5J_R.html"
     },
-    "synonyms": "FB5K, FB5L, FB5M, FB5N, FB5W",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/FB5J.html"
   },
   {
-    "name": "FC1A",
+    "name": "FB5K",
     "urls": {
-      "combined": "types/FC1A.html",
-      "left": "types/FC1A_L.html",
-      "right": "types/FC1A_R.html"
-    },
-    "synonyms": "FC1B, FC1F",
-    "flywire_types": null,
-    "primary_url": "types/FC1A.html"
-  },
-  {
-    "name": "FC1C",
-    "urls": {
-      "combined": "types/FC1C.html",
-      "left": "types/FC1C_L.html",
-      "right": "types/FC1C_R.html"
+      "combined": "types/FB5K.html",
+      "left": "types/FB5K_L.html",
+      "right": "types/FB5K_R.html"
     },
     "synonyms": null,
     "flywire_types": null,
-    "primary_url": "types/FC1C.html"
+    "primary_url": "types/FB5K.html"
+  },
+  {
+    "name": "FB5L",
+    "urls": {
+      "combined": "types/FB5L.html",
+      "left": "types/FB5L_L.html",
+      "right": "types/FB5L_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/FB5L.html"
+  },
+  {
+    "name": "FB5M",
+    "urls": {
+      "combined": "types/FB5M.html",
+      "left": "types/FB5M_L.html",
+      "right": "types/FB5M_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/FB5M.html"
+  },
+  {
+    "name": "FB5N",
+    "urls": {
+      "combined": "types/FB5N.html",
+      "left": "types/FB5N_L.html",
+      "right": "types/FB5N_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/FB5N.html"
+  },
+  {
+    "name": "FB5O",
+    "urls": {
+      "combined": "types/FB5O.html",
+      "left": "types/FB5O_L.html",
+      "right": "types/FB5O_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/FB5O.html"
+  },
+  {
+    "name": "FB5P,FB5T",
+    "urls": {
+      "combined": "types/FB5P,FB5T.html",
+      "left": "types/FB5P,FB5T_L.html",
+      "right": "types/FB5P,FB5T_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/FB5P,FB5T.html"
+  },
+  {
+    "name": "FB5Q",
+    "urls": {
+      "combined": "types/FB5Q.html",
+      "left": "types/FB5Q_L.html",
+      "right": "types/FB5Q_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/FB5Q.html"
+  },
+  {
+    "name": "FB5R,FB5U",
+    "urls": {
+      "combined": "types/FB5R,FB5U.html",
+      "left": "types/FB5R,FB5U_L.html",
+      "right": "types/FB5R,FB5U_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/FB5R,FB5U.html"
+  },
+  {
+    "name": "FB5S",
+    "urls": {
+      "combined": "types/FB5S.html",
+      "left": "types/FB5S_L.html",
+      "right": "types/FB5S_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/FB5S.html"
+  },
+  {
+    "name": "FB5V",
+    "urls": {
+      "combined": "types/FB5V.html",
+      "left": "types/FB5V_L.html",
+      "right": "types/FB5V_R.html"
+    },
+    "synonyms": "Cachero 2010: aSP-j;Yu 2010: aSP12",
+    "flywire_types": null,
+    "primary_url": "types/FB5V.html"
+  },
+  {
+    "name": "FB5W",
+    "urls": {
+      "combined": "types/FB5W.html",
+      "left": "types/FB5W_L.html",
+      "right": "types/FB5W_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/FB5W.html"
+  },
+  {
+    "name": "FB5X",
+    "urls": {
+      "combined": "types/FB5X.html",
+      "left": "types/FB5X_L.html",
+      "right": "types/FB5X_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/FB5X.html"
+  },
+  {
+    "name": "FB5Y",
+    "urls": {
+      "combined": "types/FB5Y.html",
+      "left": "types/FB5Y_L.html",
+      "right": "types/FB5Y_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/FB5Y.html"
+  },
+  {
+    "name": "FB5Z",
+    "urls": {
+      "combined": "types/FB5Z.html",
+      "left": "types/FB5Z_L.html",
+      "right": "types/FB5Z_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/FB5Z.html"
+  },
+  {
+    "name": "FB6,FB6J",
+    "urls": {
+      "combined": "types/FB6,FB6J.html",
+      "left": "types/FB6,FB6J_L.html",
+      "right": "types/FB6,FB6J_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/FB6,FB6J.html"
+  },
+  {
+    "name": "FB6A",
+    "urls": {
+      "combined": "types/FB6A.html",
+      "left": "types/FB6A_L.html",
+      "right": "types/FB6A_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/FB6A.html"
+  },
+  {
+    "name": "FB6A_c",
+    "urls": {
+      "combined": "types/FB6A_c.html",
+      "left": "types/FB6A_c_L.html",
+      "right": "types/FB6A_c_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/FB6A_c.html"
+  },
+  {
+    "name": "FB6B",
+    "urls": {
+      "combined": "types/FB6B.html",
+      "left": "types/FB6B_L.html",
+      "right": "types/FB6B_R.html"
+    },
+    "synonyms": "Cachero 2010: pIP-e;Yu 2010: pIP5",
+    "flywire_types": null,
+    "primary_url": "types/FB6B.html"
+  },
+  {
+    "name": "FB6C",
+    "urls": {
+      "combined": "types/FB6C.html",
+      "left": "types/FB6C_L.html",
+      "right": "types/FB6C_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/FB6C.html"
+  },
+  {
+    "name": "FB6D",
+    "urls": {
+      "combined": "types/FB6D.html",
+      "left": "types/FB6D_L.html",
+      "right": "types/FB6D_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/FB6D.html"
+  },
+  {
+    "name": "FB6E",
+    "urls": {
+      "combined": "types/FB6E.html",
+      "left": "types/FB6E_L.html",
+      "right": "types/FB6E_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/FB6E.html"
+  },
+  {
+    "name": "FB6F",
+    "urls": {
+      "combined": "types/FB6F.html",
+      "left": "types/FB6F_L.html",
+      "right": "types/FB6F_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/FB6F.html"
+  },
+  {
+    "name": "FB6G",
+    "urls": {
+      "combined": "types/FB6G.html",
+      "left": "types/FB6G_L.html",
+      "right": "types/FB6G_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/FB6G.html"
+  },
+  {
+    "name": "FB6H",
+    "urls": {
+      "combined": "types/FB6H.html",
+      "left": "types/FB6H_L.html",
+      "right": "types/FB6H_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/FB6H.html"
+  },
+  {
+    "name": "FB6I",
+    "urls": {
+      "combined": "types/FB6I.html",
+      "left": "types/FB6I_L.html",
+      "right": "types/FB6I_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/FB6I.html"
+  },
+  {
+    "name": "FB6K",
+    "urls": {
+      "combined": "types/FB6K.html",
+      "left": "types/FB6K_L.html",
+      "right": "types/FB6K_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/FB6K.html"
+  },
+  {
+    "name": "FB6L",
+    "urls": {
+      "right": "types/FB6L_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/FB6L_R.html"
+  },
+  {
+    "name": "FB6M",
+    "urls": {
+      "combined": "types/FB6M.html",
+      "left": "types/FB6M_L.html",
+      "right": "types/FB6M_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/FB6M.html"
+  },
+  {
+    "name": "FB6N",
+    "urls": {
+      "combined": "types/FB6N.html",
+      "left": "types/FB6N_L.html",
+      "right": "types/FB6N_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/FB6N.html"
+  },
+  {
+    "name": "FB6O",
+    "urls": {
+      "combined": "types/FB6O.html",
+      "left": "types/FB6O_L.html",
+      "right": "types/FB6O_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/FB6O.html"
+  },
+  {
+    "name": "FB6P",
+    "urls": {
+      "combined": "types/FB6P.html",
+      "left": "types/FB6P_L.html",
+      "right": "types/FB6P_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/FB6P.html"
+  },
+  {
+    "name": "FB6Q",
+    "urls": {
+      "combined": "types/FB6Q.html",
+      "left": "types/FB6Q_L.html",
+      "right": "types/FB6Q_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/FB6Q.html"
+  },
+  {
+    "name": "FB6R",
+    "urls": {
+      "combined": "types/FB6R.html",
+      "left": "types/FB6R_L.html",
+      "right": "types/FB6R_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/FB6R.html"
+  },
+  {
+    "name": "FB6S",
+    "urls": {
+      "combined": "types/FB6S.html",
+      "left": "types/FB6S_L.html",
+      "right": "types/FB6S_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/FB6S.html"
+  },
+  {
+    "name": "FB6T",
+    "urls": {
+      "combined": "types/FB6T.html",
+      "left": "types/FB6T_L.html",
+      "right": "types/FB6T_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/FB6T.html"
+  },
+  {
+    "name": "FB6U",
+    "urls": {
+      "combined": "types/FB6U.html",
+      "left": "types/FB6U_L.html",
+      "right": "types/FB6U_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/FB6U.html"
+  },
+  {
+    "name": "FB6V",
+    "urls": {
+      "combined": "types/FB6V.html",
+      "left": "types/FB6V_L.html",
+      "right": "types/FB6V_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/FB6V.html"
+  },
+  {
+    "name": "FB6W",
+    "urls": {
+      "left": "types/FB6W_L.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/FB6W_L.html"
+  },
+  {
+    "name": "FB6X",
+    "urls": {
+      "combined": "types/FB6X.html",
+      "left": "types/FB6X_L.html",
+      "right": "types/FB6X_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/FB6X.html"
+  },
+  {
+    "name": "FB6Y",
+    "urls": {
+      "combined": "types/FB6Y.html",
+      "left": "types/FB6Y_L.html",
+      "right": "types/FB6Y_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/FB6Y.html"
+  },
+  {
+    "name": "FB6Z",
+    "urls": {
+      "combined": "types/FB6Z.html",
+      "left": "types/FB6Z_L.html",
+      "right": "types/FB6Z_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/FB6Z.html"
+  },
+  {
+    "name": "FB7A",
+    "urls": {
+      "combined": "types/FB7A.html",
+      "left": "types/FB7A_L.html",
+      "right": "types/FB7A_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/FB7A.html"
+  },
+  {
+    "name": "FB7B",
+    "urls": {
+      "combined": "types/FB7B.html",
+      "left": "types/FB7B_L.html",
+      "right": "types/FB7B_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/FB7B.html"
+  },
+  {
+    "name": "FB7C",
+    "urls": {
+      "combined": "types/FB7C.html",
+      "left": "types/FB7C_L.html",
+      "right": "types/FB7C_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/FB7C.html"
+  },
+  {
+    "name": "FB7D",
+    "urls": {
+      "combined": "types/FB7D.html",
+      "left": "types/FB7D_L.html",
+      "right": "types/FB7D_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/FB7D.html"
+  },
+  {
+    "name": "FB7E",
+    "urls": {
+      "combined": "types/FB7E.html",
+      "left": "types/FB7E_L.html",
+      "right": "types/FB7E_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/FB7E.html"
+  },
+  {
+    "name": "FB7F",
+    "urls": {
+      "combined": "types/FB7F.html",
+      "left": "types/FB7F_L.html",
+      "right": "types/FB7F_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/FB7F.html"
+  },
+  {
+    "name": "FB7G,FB7I",
+    "urls": {
+      "combined": "types/FB7G,FB7I.html",
+      "left": "types/FB7G,FB7I_L.html",
+      "right": "types/FB7G,FB7I_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/FB7G,FB7I.html"
+  },
+  {
+    "name": "FB7H",
+    "urls": {
+      "combined": "types/FB7H.html",
+      "left": "types/FB7H_L.html",
+      "right": "types/FB7H_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/FB7H.html"
+  },
+  {
+    "name": "FB7J",
+    "urls": {
+      "combined": "types/FB7J.html",
+      "left": "types/FB7J_L.html",
+      "right": "types/FB7J_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/FB7J.html"
+  },
+  {
+    "name": "FB7K",
+    "urls": {
+      "combined": "types/FB7K.html",
+      "left": "types/FB7K_L.html",
+      "right": "types/FB7K_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/FB7K.html"
+  },
+  {
+    "name": "FB7L",
+    "urls": {
+      "combined": "types/FB7L.html",
+      "left": "types/FB7L_L.html",
+      "right": "types/FB7L_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/FB7L.html"
+  },
+  {
+    "name": "FB7M",
+    "urls": {
+      "combined": "types/FB7M.html",
+      "left": "types/FB7M_L.html",
+      "right": "types/FB7M_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/FB7M.html"
+  },
+  {
+    "name": "FB8A,FB8H",
+    "urls": {
+      "combined": "types/FB8A,FB8H.html",
+      "left": "types/FB8A,FB8H_L.html",
+      "right": "types/FB8A,FB8H_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/FB8A,FB8H.html"
+  },
+  {
+    "name": "FB8B",
+    "urls": {
+      "combined": "types/FB8B.html",
+      "left": "types/FB8B_L.html",
+      "right": "types/FB8B_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/FB8B.html"
+  },
+  {
+    "name": "FB8C",
+    "urls": {
+      "combined": "types/FB8C.html",
+      "left": "types/FB8C_L.html",
+      "right": "types/FB8C_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/FB8C.html"
+  },
+  {
+    "name": "FB8D",
+    "urls": {
+      "combined": "types/FB8D.html",
+      "left": "types/FB8D_L.html",
+      "right": "types/FB8D_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/FB8D.html"
+  },
+  {
+    "name": "FB8E",
+    "urls": {
+      "combined": "types/FB8E.html",
+      "left": "types/FB8E_L.html",
+      "right": "types/FB8E_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/FB8E.html"
+  },
+  {
+    "name": "FB8F_a",
+    "urls": {
+      "combined": "types/FB8F_a.html",
+      "left": "types/FB8F_a_L.html",
+      "right": "types/FB8F_a_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/FB8F_a.html"
+  },
+  {
+    "name": "FB8F_b",
+    "urls": {
+      "combined": "types/FB8F_b.html",
+      "left": "types/FB8F_b_L.html",
+      "right": "types/FB8F_b_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/FB8F_b.html"
+  },
+  {
+    "name": "FB8G",
+    "urls": {
+      "combined": "types/FB8G.html",
+      "left": "types/FB8G_L.html",
+      "right": "types/FB8G_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/FB8G.html"
+  },
+  {
+    "name": "FB8I",
+    "urls": {
+      "combined": "types/FB8I.html",
+      "left": "types/FB8I_L.html",
+      "right": "types/FB8I_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/FB8I.html"
+  },
+  {
+    "name": "FB9A",
+    "urls": {
+      "combined": "types/FB9A.html",
+      "left": "types/FB9A_L.html",
+      "right": "types/FB9A_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/FB9A.html"
+  },
+  {
+    "name": "FB9B",
+    "urls": {
+      "combined": "types/FB9B.html",
+      "left": "types/FB9B_L.html",
+      "right": "types/FB9B_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/FB9B.html"
+  },
+  {
+    "name": "FB9C",
+    "urls": {
+      "combined": "types/FB9C.html",
+      "left": "types/FB9C_L.html",
+      "right": "types/FB9C_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/FB9C.html"
+  },
+  {
+    "name": "FC1A,FC1B,FC1F",
+    "urls": {
+      "combined": "types/FC1A,FC1B,FC1F.html",
+      "left": "types/FC1A,FC1B,FC1F_L.html",
+      "right": "types/FC1A,FC1B,FC1F_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/FC1A,FC1B,FC1F.html"
+  },
+  {
+    "name": "FC1C,FC1E",
+    "urls": {
+      "combined": "types/FC1C,FC1E.html",
+      "left": "types/FC1C,FC1E_L.html",
+      "right": "types/FC1C,FC1E_R.html"
+    },
+    "synonyms": "Cachero 2010: pMP-a; Yu 2010: pMP5",
+    "flywire_types": null,
+    "primary_url": "types/FC1C,FC1E.html"
   },
   {
     "name": "FC1D",
@@ -68514,7 +69600,7 @@ const NEURON_DATA = [
       "left": "types/FC1D_L.html",
       "right": "types/FC1D_R.html"
     },
-    "synonyms": "FC1E",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/FC1D.html"
   },
@@ -68563,6 +69649,61 @@ const NEURON_DATA = [
     "primary_url": "types/FC3.html"
   },
   {
+    "name": "FLA100f",
+    "urls": {
+      "combined": "types/FLA100f.html",
+      "left": "types/FLA100f_L.html",
+      "right": "types/FLA100f_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/FLA100f.html"
+  },
+  {
+    "name": "FLA101f_a",
+    "urls": {
+      "combined": "types/FLA101f_a.html",
+      "left": "types/FLA101f_a_L.html",
+      "right": "types/FLA101f_a_R.html"
+    },
+    "synonyms": "Cachero 2010: aDT-h;Yu 2010: aDT6",
+    "flywire_types": null,
+    "primary_url": "types/FLA101f_a.html"
+  },
+  {
+    "name": "FLA101f_b",
+    "urls": {
+      "combined": "types/FLA101f_b.html",
+      "left": "types/FLA101f_b_L.html",
+      "right": "types/FLA101f_b_R.html"
+    },
+    "synonyms": "Cachero 2010: aDT-h;Yu 2010: aDT6",
+    "flywire_types": null,
+    "primary_url": "types/FLA101f_b.html"
+  },
+  {
+    "name": "FLA101f_c",
+    "urls": {
+      "combined": "types/FLA101f_c.html",
+      "left": "types/FLA101f_c_L.html",
+      "right": "types/FLA101f_c_R.html"
+    },
+    "synonyms": "Cachero 2010: aDT-h;Yu 2010: aDT6",
+    "flywire_types": null,
+    "primary_url": "types/FLA101f_c.html"
+  },
+  {
+    "name": "FLA101f_d",
+    "urls": {
+      "combined": "types/FLA101f_d.html",
+      "left": "types/FLA101f_d_L.html",
+      "right": "types/FLA101f_d_R.html"
+    },
+    "synonyms": "Cachero 2010: aDT-h;Yu 2010: aDT6",
+    "flywire_types": null,
+    "primary_url": "types/FLA101f_d.html"
+  },
+  {
     "name": "FR1",
     "urls": {
       "combined": "types/FR1.html",
@@ -68591,9 +69732,20 @@ const NEURON_DATA = [
       "left": "types/FS1A_L.html",
       "right": "types/FS1A_R.html"
     },
-    "synonyms": "FS1B",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/FS1A.html"
+  },
+  {
+    "name": "FS1B",
+    "urls": {
+      "combined": "types/FS1B.html",
+      "left": "types/FS1B_L.html",
+      "right": "types/FS1B_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/FS1B.html"
   },
   {
     "name": "FS2",
@@ -68624,20 +69776,31 @@ const NEURON_DATA = [
       "left": "types/FS4A_L.html",
       "right": "types/FS4A_R.html"
     },
-    "synonyms": "FS4B, FS4C",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/FS4A.html"
   },
   {
-    "name": "GF",
+    "name": "FS4B",
     "urls": {
-      "combined": "types/GF.html",
-      "left": "types/GF_L.html",
-      "middle": "types/GF_M.html"
+      "combined": "types/FS4B.html",
+      "left": "types/FS4B_L.html",
+      "right": "types/FS4B_R.html"
     },
     "synonyms": null,
     "flywire_types": null,
-    "primary_url": "types/GF.html"
+    "primary_url": "types/FS4B.html"
+  },
+  {
+    "name": "FS4C",
+    "urls": {
+      "combined": "types/FS4C.html",
+      "left": "types/FS4C_L.html",
+      "right": "types/FS4C_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/FS4C.html"
   },
   {
     "name": "GLNO",
@@ -68651,13 +69814,24 @@ const NEURON_DATA = [
     "primary_url": "types/GLNO.html"
   },
   {
+    "name": "GNG800f",
+    "urls": {
+      "combined": "types/GNG800f.html",
+      "left": "types/GNG800f_L.html",
+      "right": "types/GNG800f_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/GNG800f.html"
+  },
+  {
     "name": "H01",
     "urls": {
       "combined": "types/H01.html",
       "left": "types/H01_L.html",
       "right": "types/H01_R.html"
     },
-    "synonyms": "IB014",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/H01.html"
   },
@@ -68668,7 +69842,7 @@ const NEURON_DATA = [
       "left": "types/H03_L.html",
       "right": "types/H03_R.html"
     },
-    "synonyms": "PLP076",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/H03.html"
   },
@@ -69001,15 +70175,15 @@ const NEURON_DATA = [
     "primary_url": "types/IB032.html"
   },
   {
-    "name": "IB033",
+    "name": "IB033,IB039",
     "urls": {
-      "combined": "types/IB033.html",
-      "left": "types/IB033_L.html",
-      "right": "types/IB033_R.html"
+      "combined": "types/IB033,IB039.html",
+      "left": "types/IB033,IB039_L.html",
+      "right": "types/IB033,IB039_R.html"
     },
-    "synonyms": "IB039",
+    "synonyms": null,
     "flywire_types": null,
-    "primary_url": "types/IB033.html"
+    "primary_url": "types/IB033,IB039.html"
   },
   {
     "name": "IB038",
@@ -69100,6 +70274,24 @@ const NEURON_DATA = [
     "primary_url": "types/IB051.html"
   },
   {
+    "name": "IB054",
+    "urls": {
+      "right": "types/IB054_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/IB054_R.html"
+  },
+  {
+    "name": "IB057,IB087",
+    "urls": {
+      "right": "types/IB057,IB087_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/IB057,IB087_R.html"
+  },
+  {
     "name": "IB058",
     "urls": {
       "combined": "types/IB058.html",
@@ -69117,7 +70309,7 @@ const NEURON_DATA = [
       "left": "types/IB059a_L.html",
       "right": "types/IB059a_R.html"
     },
-    "synonyms": "IB059",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/IB059a.html"
   },
@@ -69128,7 +70320,7 @@ const NEURON_DATA = [
       "left": "types/IB059b_L.html",
       "right": "types/IB059b_R.html"
     },
-    "synonyms": "IB059",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/IB059b.html"
   },
@@ -69205,7 +70397,7 @@ const NEURON_DATA = [
       "left": "types/IB068_L.html",
       "right": "types/IB068_R.html"
     },
-    "synonyms": null,
+    "synonyms": "Cachero 2010: pIP-g",
     "flywire_types": null,
     "primary_url": "types/IB068.html"
   },
@@ -69216,7 +70408,7 @@ const NEURON_DATA = [
       "left": "types/IB069_L.html",
       "right": "types/IB069_R.html"
     },
-    "synonyms": null,
+    "synonyms": "Cachero 2010: pIP-g",
     "flywire_types": null,
     "primary_url": "types/IB069.html"
   },
@@ -69249,7 +70441,7 @@ const NEURON_DATA = [
       "left": "types/IB092_L.html",
       "right": "types/IB092_R.html"
     },
-    "synonyms": null,
+    "synonyms": "fru-F-300023, fru-F-000082, fru-F-200164",
     "flywire_types": null,
     "primary_url": "types/IB092.html"
   },
@@ -69362,6 +70554,17 @@ const NEURON_DATA = [
     "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/IB118.html"
+  },
+  {
+    "name": "IPC",
+    "urls": {
+      "combined": "types/IPC.html",
+      "left": "types/IPC_L.html",
+      "right": "types/IPC_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/IPC.html"
   },
   {
     "name": "ISN",
@@ -69627,13 +70830,22 @@ const NEURON_DATA = [
     "primary_url": "types/JO-mz.html"
   },
   {
+    "name": "KCa'b'-ap1",
+    "urls": {
+      "right": "types/KCa'b'-ap1_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/KCa'b'-ap1_R.html"
+  },
+  {
     "name": "KCab",
     "urls": {
       "combined": "types/KCab.html",
       "left": "types/KCab_L.html",
       "right": "types/KCab_R.html"
     },
-    "synonyms": "KCab-m",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/KCab.html"
   },
@@ -69655,7 +70867,7 @@ const NEURON_DATA = [
       "left": "types/KCapbp-ap1_L.html",
       "right": "types/KCapbp-ap1_R.html"
     },
-    "synonyms": "KCab-ap1",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/KCapbp-ap1.html"
   },
@@ -69666,7 +70878,7 @@ const NEURON_DATA = [
       "left": "types/KCapbp-ap2_L.html",
       "right": "types/KCapbp-ap2_R.html"
     },
-    "synonyms": "KCab-ap2",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/KCapbp-ap2.html"
   },
@@ -69677,7 +70889,7 @@ const NEURON_DATA = [
       "left": "types/KCapbp-m_L.html",
       "right": "types/KCapbp-m_R.html"
     },
-    "synonyms": "KCab-m",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/KCapbp-m.html"
   },
@@ -69746,24 +70958,13 @@ const NEURON_DATA = [
     "primary_url": "types/L1.html"
   },
   {
-    "name": "L1-3",
-    "urls": {
-      "combined": "types/L1-3.html",
-      "left": "types/L1-3_L.html",
-      "right": "types/L1-3_R.html"
-    },
-    "synonyms": null,
-    "flywire_types": null,
-    "primary_url": "types/L1-3.html"
-  },
-  {
     "name": "L2",
     "urls": {
       "combined": "types/L2.html",
       "left": "types/L2_L.html",
       "right": "types/L2_R.html"
     },
-    "synonyms": "L1-3",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/L2.html"
   },
@@ -69823,15 +71024,15 @@ const NEURON_DATA = [
     "primary_url": "types/LAL002.html"
   },
   {
-    "name": "LAL003",
+    "name": "LAL003,LAL044",
     "urls": {
-      "combined": "types/LAL003.html",
-      "left": "types/LAL003_L.html",
-      "right": "types/LAL003_R.html"
+      "combined": "types/LAL003,LAL044.html",
+      "left": "types/LAL003,LAL044_L.html",
+      "right": "types/LAL003,LAL044_R.html"
     },
-    "synonyms": "LAL044",
+    "synonyms": "Cachero 2010: aSP-j;Yu 2010: aSP12",
     "flywire_types": null,
-    "primary_url": "types/LAL003.html"
+    "primary_url": "types/LAL003,LAL044.html"
   },
   {
     "name": "LAL004",
@@ -69840,7 +71041,7 @@ const NEURON_DATA = [
       "left": "types/LAL004_L.html",
       "right": "types/LAL004_R.html"
     },
-    "synonyms": null,
+    "synonyms": "Cachero 2010: aSP-j;Yu 2010: aSP12",
     "flywire_types": null,
     "primary_url": "types/LAL004.html"
   },
@@ -70038,7 +71239,7 @@ const NEURON_DATA = [
       "left": "types/LAL023_L.html",
       "right": "types/LAL023_R.html"
     },
-    "synonyms": null,
+    "synonyms": "Cachero 2010: aSP-d; Yu 2010: aSP13",
     "flywire_types": null,
     "primary_url": "types/LAL023.html"
   },
@@ -70049,9 +71250,20 @@ const NEURON_DATA = [
       "left": "types/LAL024_L.html",
       "right": "types/LAL024_R.html"
     },
-    "synonyms": null,
+    "synonyms": "Cachero 2010: aSP-d;Yu 2010: aSP13",
     "flywire_types": null,
     "primary_url": "types/LAL024.html"
+  },
+  {
+    "name": "LAL025",
+    "urls": {
+      "combined": "types/LAL025.html",
+      "left": "types/LAL025_L.html",
+      "right": "types/LAL025_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/LAL025.html"
   },
   {
     "name": "LAL026",
@@ -70071,20 +71283,20 @@ const NEURON_DATA = [
       "left": "types/LAL027_L.html",
       "right": "types/LAL027_R.html"
     },
-    "synonyms": "aSP16",
+    "synonyms": "Cachero 2010: aSP-d; Yu 2010: aSP13",
     "flywire_types": null,
     "primary_url": "types/LAL027.html"
   },
   {
-    "name": "LAL028",
+    "name": "LAL028, LAL029",
     "urls": {
-      "combined": "types/LAL028.html",
-      "left": "types/LAL028_L.html",
-      "right": "types/LAL028_R.html"
+      "combined": "types/LAL028,_LAL029.html",
+      "left": "types/LAL028,_LAL029_L.html",
+      "right": "types/LAL028,_LAL029_R.html"
     },
-    "synonyms": "LAL029, aSP16",
+    "synonyms": "Cachero 2010: aSP-d;Yu 2010: aSP13",
     "flywire_types": null,
-    "primary_url": "types/LAL028.html"
+    "primary_url": "types/LAL028,_LAL029.html"
   },
   {
     "name": "LAL030a",
@@ -70093,7 +71305,7 @@ const NEURON_DATA = [
       "left": "types/LAL030a_L.html",
       "right": "types/LAL030a_R.html"
     },
-    "synonyms": "LAL030_a",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/LAL030a.html"
   },
@@ -70104,7 +71316,7 @@ const NEURON_DATA = [
       "left": "types/LAL030b_L.html",
       "right": "types/LAL030b_R.html"
     },
-    "synonyms": "LAL030_a",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/LAL030b.html"
   },
@@ -70115,7 +71327,7 @@ const NEURON_DATA = [
       "left": "types/LAL030c_L.html",
       "right": "types/LAL030c_R.html"
     },
-    "synonyms": "LAL030_a",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/LAL030c.html"
   },
@@ -70126,7 +71338,7 @@ const NEURON_DATA = [
       "left": "types/LAL030d_L.html",
       "right": "types/LAL030d_R.html"
     },
-    "synonyms": "LAL030_b",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/LAL030d.html"
   },
@@ -70159,7 +71371,7 @@ const NEURON_DATA = [
       "left": "types/LAL035_L.html",
       "right": "types/LAL035_R.html"
     },
-    "synonyms": null,
+    "synonyms": "Cachero 2010: aSP-d; Yu 2010: aSP13",
     "flywire_types": null,
     "primary_url": "types/LAL035.html"
   },
@@ -70170,7 +71382,7 @@ const NEURON_DATA = [
       "left": "types/LAL037_L.html",
       "right": "types/LAL037_R.html"
     },
-    "synonyms": null,
+    "synonyms": "Cachero 2010: aSP-d; Yu 2010: aSP13",
     "flywire_types": null,
     "primary_url": "types/LAL037.html"
   },
@@ -70214,7 +71426,7 @@ const NEURON_DATA = [
       "left": "types/LAL043a_L.html",
       "right": "types/LAL043a_R.html"
     },
-    "synonyms": "LAL043",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/LAL043a.html"
   },
@@ -70225,7 +71437,7 @@ const NEURON_DATA = [
       "left": "types/LAL043b_L.html",
       "right": "types/LAL043b_R.html"
     },
-    "synonyms": "LAL043",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/LAL043b.html"
   },
@@ -70236,7 +71448,7 @@ const NEURON_DATA = [
       "left": "types/LAL043c_L.html",
       "right": "types/LAL043c_R.html"
     },
-    "synonyms": "LAL043",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/LAL043c.html"
   },
@@ -70272,6 +71484,17 @@ const NEURON_DATA = [
     "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/LAL047.html"
+  },
+  {
+    "name": "LAL048",
+    "urls": {
+      "combined": "types/LAL048.html",
+      "left": "types/LAL048_L.html",
+      "right": "types/LAL048_R.html"
+    },
+    "synonyms": "fru-F-500227, fru-F-600091, fru-F-700130",
+    "flywire_types": null,
+    "primary_url": "types/LAL048.html"
   },
   {
     "name": "LAL049",
@@ -70357,20 +71580,9 @@ const NEURON_DATA = [
       "left": "types/LAL059_L.html",
       "right": "types/LAL059_R.html"
     },
-    "synonyms": null,
+    "synonyms": "Cachero 2010: aIP-h",
     "flywire_types": null,
     "primary_url": "types/LAL059.html"
-  },
-  {
-    "name": "LAL064",
-    "urls": {
-      "combined": "types/LAL064.html",
-      "left": "types/LAL064_L.html",
-      "right": "types/LAL064_R.html"
-    },
-    "synonyms": null,
-    "flywire_types": null,
-    "primary_url": "types/LAL064.html"
   },
   {
     "name": "LAL072",
@@ -70395,15 +71607,15 @@ const NEURON_DATA = [
     "primary_url": "types/LAL073.html"
   },
   {
-    "name": "LAL074",
+    "name": "LAL074,LAL084",
     "urls": {
-      "combined": "types/LAL074.html",
-      "left": "types/LAL074_L.html",
-      "right": "types/LAL074_R.html"
+      "combined": "types/LAL074,LAL084.html",
+      "left": "types/LAL074,LAL084_L.html",
+      "right": "types/LAL074,LAL084_R.html"
     },
-    "synonyms": "LAL084",
+    "synonyms": null,
     "flywire_types": null,
-    "primary_url": "types/LAL074.html"
+    "primary_url": "types/LAL074,LAL084.html"
   },
   {
     "name": "LAL075",
@@ -70489,7 +71701,7 @@ const NEURON_DATA = [
       "left": "types/LAL088_L.html",
       "right": "types/LAL088_R.html"
     },
-    "synonyms": null,
+    "synonyms": "Cachero 2010: aSPi; Yu 2010: aSP11",
     "flywire_types": null,
     "primary_url": "types/LAL088.html"
   },
@@ -70516,13 +71728,24 @@ const NEURON_DATA = [
     "primary_url": "types/LAL090.html"
   },
   {
+    "name": "LAL091",
+    "urls": {
+      "combined": "types/LAL091.html",
+      "left": "types/LAL091_L.html",
+      "right": "types/LAL091_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/LAL091.html"
+  },
+  {
     "name": "LAL093",
     "urls": {
       "combined": "types/LAL093.html",
       "left": "types/LAL093_L.html",
       "right": "types/LAL093_R.html"
     },
-    "synonyms": null,
+    "synonyms": "Cachero 2010: aSPi; Yu 2010: aSP11",
     "flywire_types": null,
     "primary_url": "types/LAL093.html"
   },
@@ -70538,15 +71761,15 @@ const NEURON_DATA = [
     "primary_url": "types/LAL094.html"
   },
   {
-    "name": "LAL096",
+    "name": "LAL096,LAL097",
     "urls": {
-      "combined": "types/LAL096.html",
-      "left": "types/LAL096_L.html",
-      "right": "types/LAL096_R.html"
+      "combined": "types/LAL096,LAL097.html",
+      "left": "types/LAL096,LAL097_L.html",
+      "right": "types/LAL096,LAL097_R.html"
     },
-    "synonyms": "LAL097",
+    "synonyms": "Cachero 2010: aSPi; Yu 2010: aSP11",
     "flywire_types": null,
-    "primary_url": "types/LAL096.html"
+    "primary_url": "types/LAL096,LAL097.html"
   },
   {
     "name": "LAL098",
@@ -70604,37 +71827,26 @@ const NEURON_DATA = [
     "primary_url": "types/LAL102.html"
   },
   {
-    "name": "LAL103",
+    "name": "LAL103,LAL109",
     "urls": {
-      "combined": "types/LAL103.html",
-      "left": "types/LAL103_L.html",
-      "right": "types/LAL103_R.html"
+      "combined": "types/LAL103,LAL109.html",
+      "left": "types/LAL103,LAL109_L.html",
+      "right": "types/LAL103,LAL109_R.html"
     },
-    "synonyms": "LAL109",
+    "synonyms": null,
     "flywire_types": null,
-    "primary_url": "types/LAL103.html"
+    "primary_url": "types/LAL103,LAL109.html"
   },
   {
-    "name": "LAL104",
+    "name": "LAL104,LAL105",
     "urls": {
-      "combined": "types/LAL104.html",
-      "left": "types/LAL104_L.html",
-      "right": "types/LAL104_R.html"
+      "combined": "types/LAL104,LAL105.html",
+      "left": "types/LAL104,LAL105_L.html",
+      "right": "types/LAL104,LAL105_R.html"
     },
-    "synonyms": "LAL105",
+    "synonyms": null,
     "flywire_types": null,
-    "primary_url": "types/LAL104.html"
-  },
-  {
-    "name": "LAL108",
-    "urls": {
-      "combined": "types/LAL108.html",
-      "left": "types/LAL108_L.html",
-      "right": "types/LAL108_R.html"
-    },
-    "synonyms": "LAL125",
-    "flywire_types": null,
-    "primary_url": "types/LAL108.html"
+    "primary_url": "types/LAL104,LAL105.html"
   },
   {
     "name": "LAL110",
@@ -70648,15 +71860,15 @@ const NEURON_DATA = [
     "primary_url": "types/LAL110.html"
   },
   {
-    "name": "LAL111",
+    "name": "LAL111,PS060",
     "urls": {
-      "combined": "types/LAL111.html",
-      "left": "types/LAL111_L.html",
-      "right": "types/LAL111_R.html"
+      "combined": "types/LAL111,PS060.html",
+      "left": "types/LAL111,PS060_L.html",
+      "right": "types/LAL111,PS060_R.html"
     },
-    "synonyms": "PS060",
+    "synonyms": null,
     "flywire_types": null,
-    "primary_url": "types/LAL111.html"
+    "primary_url": "types/LAL111,PS060.html"
   },
   {
     "name": "LAL112",
@@ -70720,7 +71932,7 @@ const NEURON_DATA = [
       "left": "types/LAL117a_L.html",
       "right": "types/LAL117a_R.html"
     },
-    "synonyms": "LAL117",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/LAL117a.html"
   },
@@ -70731,7 +71943,7 @@ const NEURON_DATA = [
       "left": "types/LAL117b_L.html",
       "right": "types/LAL117b_R.html"
     },
-    "synonyms": "LAL117",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/LAL117b.html"
   },
@@ -70753,7 +71965,7 @@ const NEURON_DATA = [
       "left": "types/LAL120a_L.html",
       "right": "types/LAL120a_R.html"
     },
-    "synonyms": "LAL120",
+    "synonyms": "fru-F-100075, fru-F-200149",
     "flywire_types": null,
     "primary_url": "types/LAL120a.html"
   },
@@ -70764,7 +71976,7 @@ const NEURON_DATA = [
       "left": "types/LAL120b_L.html",
       "right": "types/LAL120b_R.html"
     },
-    "synonyms": "LAL120",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/LAL120b.html"
   },
@@ -70811,6 +72023,17 @@ const NEURON_DATA = [
     "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/LAL124.html"
+  },
+  {
+    "name": "LAL125,LAL108",
+    "urls": {
+      "combined": "types/LAL125,LAL108.html",
+      "left": "types/LAL125,LAL108_L.html",
+      "right": "types/LAL125,LAL108_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/LAL125,LAL108.html"
   },
   {
     "name": "LAL126",
@@ -70863,7 +72086,7 @@ const NEURON_DATA = [
       "left": "types/LAL130_L.html",
       "right": "types/LAL130_R.html"
     },
-    "synonyms": "pMP17",
+    "synonyms": "Cachero 2010: pMP-a;Yu 2010: pMP5",
     "flywire_types": null,
     "primary_url": "types/LAL130.html"
   },
@@ -70874,7 +72097,7 @@ const NEURON_DATA = [
       "left": "types/LAL131a_L.html",
       "right": "types/LAL131a_R.html"
     },
-    "synonyms": "LAL131",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/LAL131a.html"
   },
@@ -70885,7 +72108,7 @@ const NEURON_DATA = [
       "left": "types/LAL131b_L.html",
       "right": "types/LAL131b_R.html"
     },
-    "synonyms": "LAL131",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/LAL131b.html"
   },
@@ -70896,7 +72119,7 @@ const NEURON_DATA = [
       "left": "types/LAL132a_L.html",
       "right": "types/LAL132a_R.html"
     },
-    "synonyms": "LAL132",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/LAL132a.html"
   },
@@ -70907,7 +72130,7 @@ const NEURON_DATA = [
       "left": "types/LAL132b_L.html",
       "right": "types/LAL132b_R.html"
     },
-    "synonyms": "LAL132",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/LAL132b.html"
   },
@@ -70918,7 +72141,7 @@ const NEURON_DATA = [
       "left": "types/LAL133a_L.html",
       "right": "types/LAL133a_R.html"
     },
-    "synonyms": "LAL133",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/LAL133a.html"
   },
@@ -70929,7 +72152,7 @@ const NEURON_DATA = [
       "left": "types/LAL133b_L.html",
       "right": "types/LAL133b_R.html"
     },
-    "synonyms": "LAL133",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/LAL133b.html"
   },
@@ -71028,7 +72251,7 @@ const NEURON_DATA = [
       "left": "types/LAL144a_L.html",
       "right": "types/LAL144a_R.html"
     },
-    "synonyms": "LAL144",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/LAL144a.html"
   },
@@ -71039,7 +72262,7 @@ const NEURON_DATA = [
       "left": "types/LAL144b_L.html",
       "right": "types/LAL144b_R.html"
     },
-    "synonyms": "LAL144",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/LAL144b.html"
   },
@@ -71072,7 +72295,7 @@ const NEURON_DATA = [
       "left": "types/LAL147a_L.html",
       "right": "types/LAL147a_R.html"
     },
-    "synonyms": "LAL147",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/LAL147a.html"
   },
@@ -71083,7 +72306,7 @@ const NEURON_DATA = [
       "left": "types/LAL147b_L.html",
       "right": "types/LAL147b_R.html"
     },
-    "synonyms": "LAL147",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/LAL147b.html"
   },
@@ -71094,7 +72317,7 @@ const NEURON_DATA = [
       "left": "types/LAL147c_L.html",
       "right": "types/LAL147c_R.html"
     },
-    "synonyms": "LAL147",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/LAL147c.html"
   },
@@ -71127,7 +72350,7 @@ const NEURON_DATA = [
       "left": "types/LAL150a_L.html",
       "right": "types/LAL150a_R.html"
     },
-    "synonyms": "LAL150",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/LAL150a.html"
   },
@@ -71138,7 +72361,7 @@ const NEURON_DATA = [
       "left": "types/LAL150b_L.html",
       "right": "types/LAL150b_R.html"
     },
-    "synonyms": "LAL150",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/LAL150b.html"
   },
@@ -71204,7 +72427,7 @@ const NEURON_DATA = [
       "left": "types/LAL156a_L.html",
       "right": "types/LAL156a_R.html"
     },
-    "synonyms": "LAL156",
+    "synonyms": "fru-F-200019",
     "flywire_types": null,
     "primary_url": "types/LAL156a.html"
   },
@@ -71215,7 +72438,7 @@ const NEURON_DATA = [
       "left": "types/LAL156b_L.html",
       "right": "types/LAL156b_R.html"
     },
-    "synonyms": "LAL156",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/LAL156b.html"
   },
@@ -71253,15 +72476,15 @@ const NEURON_DATA = [
     "primary_url": "types/LAL159.html"
   },
   {
-    "name": "LAL160",
+    "name": "LAL160,LAL161",
     "urls": {
-      "combined": "types/LAL160.html",
-      "left": "types/LAL160_L.html",
-      "right": "types/LAL160_R.html"
+      "combined": "types/LAL160,LAL161.html",
+      "left": "types/LAL160,LAL161_L.html",
+      "right": "types/LAL160,LAL161_R.html"
     },
-    "synonyms": "LAL161",
+    "synonyms": null,
     "flywire_types": null,
-    "primary_url": "types/LAL160.html"
+    "primary_url": "types/LAL160,LAL161.html"
   },
   {
     "name": "LAL162",
@@ -71275,15 +72498,15 @@ const NEURON_DATA = [
     "primary_url": "types/LAL162.html"
   },
   {
-    "name": "LAL163",
+    "name": "LAL163,LAL164",
     "urls": {
-      "combined": "types/LAL163.html",
-      "left": "types/LAL163_L.html",
-      "right": "types/LAL163_R.html"
+      "combined": "types/LAL163,LAL164.html",
+      "left": "types/LAL163,LAL164_L.html",
+      "right": "types/LAL163,LAL164_R.html"
     },
-    "synonyms": "LAL164",
+    "synonyms": null,
     "flywire_types": null,
-    "primary_url": "types/LAL163.html"
+    "primary_url": "types/LAL163,LAL164.html"
   },
   {
     "name": "LAL165",
@@ -71303,7 +72526,7 @@ const NEURON_DATA = [
       "left": "types/LAL167a_L.html",
       "right": "types/LAL167a_R.html"
     },
-    "synonyms": "LAL167",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/LAL167a.html"
   },
@@ -71314,7 +72537,7 @@ const NEURON_DATA = [
       "left": "types/LAL167b_L.html",
       "right": "types/LAL167b_R.html"
     },
-    "synonyms": "LAL167",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/LAL167b.html"
   },
@@ -71325,7 +72548,7 @@ const NEURON_DATA = [
       "left": "types/LAL168a_L.html",
       "right": "types/LAL168a_R.html"
     },
-    "synonyms": "LAL168",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/LAL168a.html"
   },
@@ -71336,7 +72559,7 @@ const NEURON_DATA = [
       "left": "types/LAL168b_L.html",
       "right": "types/LAL168b_R.html"
     },
-    "synonyms": "LAL168",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/LAL168b.html"
   },
@@ -71347,7 +72570,7 @@ const NEURON_DATA = [
       "left": "types/LAL169_L.html",
       "right": "types/LAL169_R.html"
     },
-    "synonyms": null,
+    "synonyms": "fru-F-200140, fru-F-100032, fru-F-300075",
     "flywire_types": null,
     "primary_url": "types/LAL169.html"
   },
@@ -71363,26 +72586,26 @@ const NEURON_DATA = [
     "primary_url": "types/LAL170.html"
   },
   {
-    "name": "LAL171",
+    "name": "LAL171,LAL172",
     "urls": {
-      "combined": "types/LAL171.html",
-      "left": "types/LAL171_L.html",
-      "right": "types/LAL171_R.html"
+      "combined": "types/LAL171,LAL172.html",
+      "left": "types/LAL171,LAL172_L.html",
+      "right": "types/LAL171,LAL172_R.html"
     },
-    "synonyms": "LAL172",
+    "synonyms": null,
     "flywire_types": null,
-    "primary_url": "types/LAL171.html"
+    "primary_url": "types/LAL171,LAL172.html"
   },
   {
-    "name": "LAL173",
+    "name": "LAL173,LAL174",
     "urls": {
-      "combined": "types/LAL173.html",
-      "left": "types/LAL173_L.html",
-      "right": "types/LAL173_R.html"
+      "combined": "types/LAL173,LAL174.html",
+      "left": "types/LAL173,LAL174_L.html",
+      "right": "types/LAL173,LAL174_R.html"
     },
-    "synonyms": "LAL174",
+    "synonyms": null,
     "flywire_types": null,
-    "primary_url": "types/LAL173.html"
+    "primary_url": "types/LAL173,LAL174.html"
   },
   {
     "name": "LAL175",
@@ -71396,15 +72619,15 @@ const NEURON_DATA = [
     "primary_url": "types/LAL175.html"
   },
   {
-    "name": "LAL176",
+    "name": "LAL176,LAL177",
     "urls": {
-      "combined": "types/LAL176.html",
-      "left": "types/LAL176_L.html",
-      "right": "types/LAL176_R.html"
+      "combined": "types/LAL176,LAL177.html",
+      "left": "types/LAL176,LAL177_L.html",
+      "right": "types/LAL176,LAL177_R.html"
     },
-    "synonyms": "LAL177",
+    "synonyms": null,
     "flywire_types": null,
-    "primary_url": "types/LAL176.html"
+    "primary_url": "types/LAL176,LAL177.html"
   },
   {
     "name": "LAL179a",
@@ -71413,7 +72636,7 @@ const NEURON_DATA = [
       "left": "types/LAL179a_L.html",
       "right": "types/LAL179a_R.html"
     },
-    "synonyms": "LAL179",
+    "synonyms": "Cachero 2010: pIP-g",
     "flywire_types": null,
     "primary_url": "types/LAL179a.html"
   },
@@ -71424,7 +72647,7 @@ const NEURON_DATA = [
       "left": "types/LAL179b_L.html",
       "right": "types/LAL179b_R.html"
     },
-    "synonyms": "LAL179",
+    "synonyms": "Cachero 2010: pIP-g",
     "flywire_types": null,
     "primary_url": "types/LAL179b.html"
   },
@@ -71435,7 +72658,7 @@ const NEURON_DATA = [
       "left": "types/LAL180_L.html",
       "right": "types/LAL180_R.html"
     },
-    "synonyms": null,
+    "synonyms": "Cachero 2010: pIP-g",
     "flywire_types": null,
     "primary_url": "types/LAL180.html"
   },
@@ -71490,7 +72713,7 @@ const NEURON_DATA = [
       "left": "types/LAL185_L.html",
       "right": "types/LAL185_R.html"
     },
-    "synonyms": "pIP11",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/LAL185.html"
   },
@@ -71501,7 +72724,7 @@ const NEURON_DATA = [
       "left": "types/LAL186_L.html",
       "right": "types/LAL186_R.html"
     },
-    "synonyms": "pIP11",
+    "synonyms": "Cachero 2010: pIP-i",
     "flywire_types": null,
     "primary_url": "types/LAL186.html"
   },
@@ -71534,7 +72757,7 @@ const NEURON_DATA = [
       "left": "types/LAL190_L.html",
       "right": "types/LAL190_R.html"
     },
-    "synonyms": "pMP19",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/LAL190.html"
   },
@@ -71545,9 +72768,20 @@ const NEURON_DATA = [
       "left": "types/LAL191_L.html",
       "right": "types/LAL191_R.html"
     },
-    "synonyms": "LAL192",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/LAL191.html"
+  },
+  {
+    "name": "LAL192",
+    "urls": {
+      "combined": "types/LAL192.html",
+      "left": "types/LAL192_L.html",
+      "right": "types/LAL192_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/LAL192.html"
   },
   {
     "name": "LAL193",
@@ -71649,15 +72883,15 @@ const NEURON_DATA = [
     "primary_url": "types/LAL203.html"
   },
   {
-    "name": "LB1a",
+    "name": "LB1a,LB1d",
     "urls": {
-      "combined": "types/LB1a.html",
-      "left": "types/LB1a_L.html",
-      "right": "types/LB1a_R.html"
+      "combined": "types/LB1a,LB1d.html",
+      "left": "types/LB1a,LB1d_L.html",
+      "right": "types/LB1a,LB1d_R.html"
     },
     "synonyms": null,
     "flywire_types": null,
-    "primary_url": "types/LB1a.html"
+    "primary_url": "types/LB1a,LB1d.html"
   },
   {
     "name": "LB1b",
@@ -71671,15 +72905,59 @@ const NEURON_DATA = [
     "primary_url": "types/LB1b.html"
   },
   {
-    "name": "LB2",
+    "name": "LB1c",
     "urls": {
-      "combined": "types/LB2.html",
-      "left": "types/LB2_L.html",
-      "right": "types/LB2_R.html"
+      "combined": "types/LB1c.html",
+      "left": "types/LB1c_L.html",
+      "right": "types/LB1c_R.html"
     },
     "synonyms": null,
     "flywire_types": null,
-    "primary_url": "types/LB2.html"
+    "primary_url": "types/LB1c.html"
+  },
+  {
+    "name": "LB1e",
+    "urls": {
+      "combined": "types/LB1e.html",
+      "left": "types/LB1e_L.html",
+      "right": "types/LB1e_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/LB1e.html"
+  },
+  {
+    "name": "LB2a-b",
+    "urls": {
+      "combined": "types/LB2a-b.html",
+      "left": "types/LB2a-b_L.html",
+      "right": "types/LB2a-b_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/LB2a-b.html"
+  },
+  {
+    "name": "LB2c",
+    "urls": {
+      "combined": "types/LB2c.html",
+      "left": "types/LB2c_L.html",
+      "right": "types/LB2c_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/LB2c.html"
+  },
+  {
+    "name": "LB2d",
+    "urls": {
+      "combined": "types/LB2d.html",
+      "left": "types/LB2d_L.html",
+      "right": "types/LB2d_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/LB2d.html"
   },
   {
     "name": "LB3",
@@ -71693,13 +72971,24 @@ const NEURON_DATA = [
     "primary_url": "types/LB3.html"
   },
   {
+    "name": "LB4a",
+    "urls": {
+      "combined": "types/LB4a.html",
+      "left": "types/LB4a_L.html",
+      "right": "types/LB4a_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/LB4a.html"
+  },
+  {
     "name": "LC10a",
     "urls": {
       "combined": "types/LC10a.html",
       "left": "types/LC10a_L.html",
       "right": "types/LC10a_R.html"
     },
-    "synonyms": "LC10",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/LC10a.html"
   },
@@ -71710,7 +72999,7 @@ const NEURON_DATA = [
       "left": "types/LC10b_L.html",
       "right": "types/LC10b_R.html"
     },
-    "synonyms": "LC10",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/LC10b.html"
   },
@@ -71721,7 +73010,7 @@ const NEURON_DATA = [
       "left": "types/LC10c_L.html",
       "right": "types/LC10c_R.html"
     },
-    "synonyms": "LC10",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/LC10c.html"
   },
@@ -71732,7 +73021,7 @@ const NEURON_DATA = [
       "left": "types/LC10d_L.html",
       "right": "types/LC10d_R.html"
     },
-    "synonyms": "LC10",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/LC10d.html"
   },
@@ -71743,7 +73032,7 @@ const NEURON_DATA = [
       "left": "types/LC10e_L.html",
       "right": "types/LC10e_R.html"
     },
-    "synonyms": "LC10",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/LC10e.html"
   },
@@ -71754,7 +73043,7 @@ const NEURON_DATA = [
       "left": "types/LC10f_L.html",
       "right": "types/LC10f_R.html"
     },
-    "synonyms": "LC10",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/LC10f.html"
   },
@@ -71798,7 +73087,7 @@ const NEURON_DATA = [
       "left": "types/LC14a1_L.html",
       "right": "types/LC14a1_R.html"
     },
-    "synonyms": "LC14, pIP8a",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/LC14a1.html"
   },
@@ -71809,7 +73098,7 @@ const NEURON_DATA = [
       "left": "types/LC14a2_L.html",
       "right": "types/LC14a2_R.html"
     },
-    "synonyms": "LC14, pIP8a",
+    "synonyms": "Cachero 2010: pIP-b;Yu 2010: pIP8",
     "flywire_types": null,
     "primary_url": "types/LC14a2.html"
   },
@@ -71820,7 +73109,7 @@ const NEURON_DATA = [
       "left": "types/LC14b_L.html",
       "right": "types/LC14b_R.html"
     },
-    "synonyms": "LC14",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/LC14b.html"
   },
@@ -71875,7 +73164,7 @@ const NEURON_DATA = [
       "left": "types/LC19_L.html",
       "right": "types/LC19_R.html"
     },
-    "synonyms": "pIP8b",
+    "synonyms": "Cachero 2010: pIP-b;Yu 2010: pIP8",
     "flywire_types": null,
     "primary_url": "types/LC19.html"
   },
@@ -71886,7 +73175,7 @@ const NEURON_DATA = [
       "left": "types/LC20a_L.html",
       "right": "types/LC20a_R.html"
     },
-    "synonyms": "LC20",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/LC20a.html"
   },
@@ -71930,7 +73219,7 @@ const NEURON_DATA = [
       "left": "types/LC24_L.html",
       "right": "types/LC24_R.html"
     },
-    "synonyms": "CB3848",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/LC24.html"
   },
@@ -71974,9 +73263,20 @@ const NEURON_DATA = [
       "left": "types/LC28a_L.html",
       "right": "types/LC28a_R.html"
     },
-    "synonyms": "LC28b",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/LC28a.html"
+  },
+  {
+    "name": "LC28b",
+    "urls": {
+      "combined": "types/LC28b.html",
+      "left": "types/LC28b_L.html",
+      "right": "types/LC28b_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/LC28b.html"
   },
   {
     "name": "LC29",
@@ -71996,7 +73296,7 @@ const NEURON_DATA = [
       "left": "types/LC31a_L.html",
       "right": "types/LC31a_R.html"
     },
-    "synonyms": "LC31",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/LC31a.html"
   },
@@ -72007,7 +73307,7 @@ const NEURON_DATA = [
       "left": "types/LC31b_L.html",
       "right": "types/LC31b_R.html"
     },
-    "synonyms": "LC31",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/LC31b.html"
   },
@@ -72018,20 +73318,20 @@ const NEURON_DATA = [
       "left": "types/LC31c_L.html",
       "right": "types/LC31c_R.html"
     },
-    "synonyms": "LC31",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/LC31c.html"
   },
   {
-    "name": "LC33a",
+    "name": "LC33",
     "urls": {
-      "combined": "types/LC33a.html",
-      "left": "types/LC33a_L.html",
-      "right": "types/LC33a_R.html"
+      "combined": "types/LC33.html",
+      "left": "types/LC33_L.html",
+      "right": "types/LC33_R.html"
     },
-    "synonyms": "LC33b",
+    "synonyms": null,
     "flywire_types": null,
-    "primary_url": "types/LC33a.html"
+    "primary_url": "types/LC33.html"
   },
   {
     "name": "LC34",
@@ -72067,15 +73367,15 @@ const NEURON_DATA = [
     "primary_url": "types/LC36.html"
   },
   {
-    "name": "LC37a",
+    "name": "LC37",
     "urls": {
-      "combined": "types/LC37a.html",
-      "left": "types/LC37a_L.html",
-      "right": "types/LC37a_R.html"
+      "combined": "types/LC37.html",
+      "left": "types/LC37_L.html",
+      "right": "types/LC37_R.html"
     },
-    "synonyms": "LC37b",
+    "synonyms": null,
     "flywire_types": null,
-    "primary_url": "types/LC37a.html"
+    "primary_url": "types/LC37.html"
   },
   {
     "name": "LC39",
@@ -72106,7 +73406,7 @@ const NEURON_DATA = [
       "left": "types/LC40_L.html",
       "right": "types/LC40_R.html"
     },
-    "synonyms": "LC40a, LC40b",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/LC40.html"
   },
@@ -72150,7 +73450,7 @@ const NEURON_DATA = [
       "left": "types/LC45_L.html",
       "right": "types/LC45_R.html"
     },
-    "synonyms": "LC45a, LC45b",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/LC45.html"
   },
@@ -72161,7 +73461,7 @@ const NEURON_DATA = [
       "left": "types/LC46_L.html",
       "right": "types/LC46_R.html"
     },
-    "synonyms": "LC46a, LC46b",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/LC46.html"
   },
@@ -72210,24 +73510,13 @@ const NEURON_DATA = [
     "primary_url": "types/LCNOpm.html"
   },
   {
-    "name": "LCe01",
-    "urls": {
-      "combined": "types/LCe01.html",
-      "left": "types/LCe01_L.html",
-      "right": "types/LCe01_R.html"
-    },
-    "synonyms": null,
-    "flywire_types": null,
-    "primary_url": "types/LCe01.html"
-  },
-  {
     "name": "LCe01a",
     "urls": {
       "combined": "types/LCe01a.html",
       "left": "types/LCe01a_L.html",
       "right": "types/LCe01a_R.html"
     },
-    "synonyms": "LC24",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/LCe01a.html"
   },
@@ -72238,7 +73527,7 @@ const NEURON_DATA = [
       "left": "types/LCe01b_L.html",
       "right": "types/LCe01b_R.html"
     },
-    "synonyms": "LC25, LC26",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/LCe01b.html"
   },
@@ -72249,7 +73538,7 @@ const NEURON_DATA = [
       "left": "types/LCe02_L.html",
       "right": "types/LCe02_R.html"
     },
-    "synonyms": "LC26",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/LCe02.html"
   },
@@ -72271,7 +73560,7 @@ const NEURON_DATA = [
       "left": "types/LCe04_L.html",
       "right": "types/LCe04_R.html"
     },
-    "synonyms": "LC9",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/LCe04.html"
   },
@@ -72293,7 +73582,7 @@ const NEURON_DATA = [
       "left": "types/LCe06_L.html",
       "right": "types/LCe06_R.html"
     },
-    "synonyms": "pIP8b",
+    "synonyms": "Cachero 2010: pIP-b;Yu 2010: pIP8",
     "flywire_types": null,
     "primary_url": "types/LCe06.html"
   },
@@ -72304,7 +73593,7 @@ const NEURON_DATA = [
       "left": "types/LCe07_L.html",
       "right": "types/LCe07_R.html"
     },
-    "synonyms": null,
+    "synonyms": "Cachero 2010: pIP-b;Yu 2010: pIP8",
     "flywire_types": null,
     "primary_url": "types/LCe07.html"
   },
@@ -72315,7 +73604,7 @@ const NEURON_DATA = [
       "left": "types/LCe08_L.html",
       "right": "types/LCe08_R.html"
     },
-    "synonyms": "hb-1006199303, hb-1190707430, hb-852055612, hb-914139161, hb-945156049",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/LCe08.html"
   },
@@ -72353,15 +73642,15 @@ const NEURON_DATA = [
     "primary_url": "types/LHAD1a2.html"
   },
   {
-    "name": "LHAD1a3",
+    "name": "LHAD1a3,LHAD1f5",
     "urls": {
-      "combined": "types/LHAD1a3.html",
-      "left": "types/LHAD1a3_L.html",
-      "right": "types/LHAD1a3_R.html"
+      "combined": "types/LHAD1a3,LHAD1f5.html",
+      "left": "types/LHAD1a3,LHAD1f5_L.html",
+      "right": "types/LHAD1a3,LHAD1f5_R.html"
     },
-    "synonyms": "LHAD1f5",
+    "synonyms": null,
     "flywire_types": null,
-    "primary_url": "types/LHAD1a3.html"
+    "primary_url": "types/LHAD1a3,LHAD1f5.html"
   },
   {
     "name": "LHAD1a4a",
@@ -72370,7 +73659,7 @@ const NEURON_DATA = [
       "left": "types/LHAD1a4a_L.html",
       "right": "types/LHAD1a4a_R.html"
     },
-    "synonyms": "LHAD1a4",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/LHAD1a4a.html"
   },
@@ -72381,7 +73670,7 @@ const NEURON_DATA = [
       "left": "types/LHAD1a4b_L.html",
       "right": "types/LHAD1a4b_R.html"
     },
-    "synonyms": "LHAD1a4",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/LHAD1a4b.html"
   },
@@ -72392,7 +73681,7 @@ const NEURON_DATA = [
       "left": "types/LHAD1a4c_L.html",
       "right": "types/LHAD1a4c_R.html"
     },
-    "synonyms": "LHAD1a4",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/LHAD1a4c.html"
   },
@@ -72408,15 +73697,15 @@ const NEURON_DATA = [
     "primary_url": "types/LHAD1b1_b.html"
   },
   {
-    "name": "LHAD1b2_a",
+    "name": "LHAD1b2_a,LHAD1b2_c",
     "urls": {
-      "combined": "types/LHAD1b2_a.html",
-      "left": "types/LHAD1b2_a_L.html",
-      "right": "types/LHAD1b2_a_R.html"
+      "combined": "types/LHAD1b2_a,LHAD1b2_c.html",
+      "left": "types/LHAD1b2_a,LHAD1b2_c_L.html",
+      "right": "types/LHAD1b2_a,LHAD1b2_c_R.html"
     },
-    "synonyms": "LHAD1b2_c",
+    "synonyms": null,
     "flywire_types": null,
-    "primary_url": "types/LHAD1b2_a.html"
+    "primary_url": "types/LHAD1b2_a,LHAD1b2_c.html"
   },
   {
     "name": "LHAD1b3",
@@ -72458,7 +73747,7 @@ const NEURON_DATA = [
       "left": "types/LHAD1c2a_L.html",
       "right": "types/LHAD1c2a_R.html"
     },
-    "synonyms": "LHAD1c2",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/LHAD1c2a.html"
   },
@@ -72469,7 +73758,7 @@ const NEURON_DATA = [
       "left": "types/LHAD1c2b_L.html",
       "right": "types/LHAD1c2b_R.html"
     },
-    "synonyms": "LHAD1c2",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/LHAD1c2b.html"
   },
@@ -72480,7 +73769,7 @@ const NEURON_DATA = [
       "left": "types/LHAD1c2c_L.html",
       "right": "types/LHAD1c2c_R.html"
     },
-    "synonyms": "LHAD1c2",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/LHAD1c2c.html"
   },
@@ -72524,7 +73813,7 @@ const NEURON_DATA = [
       "left": "types/LHAD1f1a_L.html",
       "right": "types/LHAD1f1a_R.html"
     },
-    "synonyms": "LHAD1f1",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/LHAD1f1a.html"
   },
@@ -72535,7 +73824,7 @@ const NEURON_DATA = [
       "left": "types/LHAD1f1b_L.html",
       "right": "types/LHAD1f1b_R.html"
     },
-    "synonyms": "LHAD1f1",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/LHAD1f1b.html"
   },
@@ -72557,7 +73846,7 @@ const NEURON_DATA = [
       "left": "types/LHAD1f3a_L.html",
       "right": "types/LHAD1f3a_R.html"
     },
-    "synonyms": "LHAD1f3_a",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/LHAD1f3a.html"
   },
@@ -72568,7 +73857,7 @@ const NEURON_DATA = [
       "left": "types/LHAD1f3b_L.html",
       "right": "types/LHAD1f3b_R.html"
     },
-    "synonyms": "LHAD1f3_a",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/LHAD1f3b.html"
   },
@@ -72579,7 +73868,7 @@ const NEURON_DATA = [
       "left": "types/LHAD1f3c_L.html",
       "right": "types/LHAD1f3c_R.html"
     },
-    "synonyms": "LHAD1f3_b",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/LHAD1f3c.html"
   },
@@ -72590,7 +73879,7 @@ const NEURON_DATA = [
       "left": "types/LHAD1f3d_L.html",
       "right": "types/LHAD1f3d_R.html"
     },
-    "synonyms": "LHAD1f3_b",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/LHAD1f3d.html"
   },
@@ -72601,7 +73890,7 @@ const NEURON_DATA = [
       "left": "types/LHAD1f4a_L.html",
       "right": "types/LHAD1f4a_R.html"
     },
-    "synonyms": "LHAD1f4, pSP3",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/LHAD1f4a.html"
   },
@@ -72612,7 +73901,7 @@ const NEURON_DATA = [
       "left": "types/LHAD1f4b_L.html",
       "right": "types/LHAD1f4b_R.html"
     },
-    "synonyms": "LHAD1f4, pSP3",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/LHAD1f4b.html"
   },
@@ -72623,7 +73912,7 @@ const NEURON_DATA = [
       "left": "types/LHAD1f4c_L.html",
       "right": "types/LHAD1f4c_R.html"
     },
-    "synonyms": "LHAD1f4, pSP3",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/LHAD1f4c.html"
   },
@@ -72711,7 +74000,7 @@ const NEURON_DATA = [
       "left": "types/LHAD2c3a_L.html",
       "right": "types/LHAD2c3a_R.html"
     },
-    "synonyms": "LHAD2c3",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/LHAD2c3a.html"
   },
@@ -72722,7 +74011,7 @@ const NEURON_DATA = [
       "left": "types/LHAD2c3b_L.html",
       "right": "types/LHAD2c3b_R.html"
     },
-    "synonyms": "LHAD2c3",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/LHAD2c3b.html"
   },
@@ -72733,7 +74022,7 @@ const NEURON_DATA = [
       "left": "types/LHAD2c3c_L.html",
       "right": "types/LHAD2c3c_R.html"
     },
-    "synonyms": "LHAD2c3",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/LHAD2c3c.html"
   },
@@ -72773,13 +74062,11 @@ const NEURON_DATA = [
   {
     "name": "LHAD3a10",
     "urls": {
-      "combined": "types/LHAD3a10.html",
-      "left": "types/LHAD3a10_L.html",
-      "right": "types/LHAD3a10_R.html"
+      "left": "types/LHAD3a10_L.html"
     },
     "synonyms": null,
     "flywire_types": null,
-    "primary_url": "types/LHAD3a10.html"
+    "primary_url": "types/LHAD3a10_L.html"
   },
   {
     "name": "LHAD3a8",
@@ -72848,6 +74135,15 @@ const NEURON_DATA = [
     "primary_url": "types/LHAV1a3.html"
   },
   {
+    "name": "LHAV1a4",
+    "urls": {
+      "left": "types/LHAV1a4_L.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/LHAV1a4_L.html"
+  },
+  {
     "name": "LHAV1b1",
     "urls": {
       "combined": "types/LHAV1b1.html",
@@ -72909,7 +74205,7 @@ const NEURON_DATA = [
       "left": "types/LHAV2a3a_L.html",
       "right": "types/LHAV2a3a_R.html"
     },
-    "synonyms": "LHAV2a3",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/LHAV2a3a.html"
   },
@@ -72920,7 +74216,7 @@ const NEURON_DATA = [
       "left": "types/LHAV2a3b_L.html",
       "right": "types/LHAV2a3b_R.html"
     },
-    "synonyms": "LHAV2a3",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/LHAV2a3b.html"
   },
@@ -72931,7 +74227,7 @@ const NEURON_DATA = [
       "left": "types/LHAV2a3c_L.html",
       "right": "types/LHAV2a3c_R.html"
     },
-    "synonyms": "LHAV2a3",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/LHAV2a3c.html"
   },
@@ -72942,7 +74238,7 @@ const NEURON_DATA = [
       "left": "types/LHAV2b1_L.html",
       "right": "types/LHAV2b1_R.html"
     },
-    "synonyms": "aSP9",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/LHAV2b1.html"
   },
@@ -72975,7 +74271,7 @@ const NEURON_DATA = [
       "left": "types/LHAV2b2a_L.html",
       "right": "types/LHAV2b2a_R.html"
     },
-    "synonyms": "LHAV2b2, aSP9",
+    "synonyms": "Cachero 2010: aIP-e;Yu 2010: aSP9",
     "flywire_types": null,
     "primary_url": "types/LHAV2b2a.html"
   },
@@ -72986,7 +74282,7 @@ const NEURON_DATA = [
       "left": "types/LHAV2b2b_L.html",
       "right": "types/LHAV2b2b_R.html"
     },
-    "synonyms": "LHAV2b2, aSP9",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/LHAV2b2b.html"
   },
@@ -73019,7 +74315,7 @@ const NEURON_DATA = [
       "left": "types/LHAV2b7_b_L.html",
       "right": "types/LHAV2b7_b_R.html"
     },
-    "synonyms": "aSP9",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/LHAV2b7_b.html"
   },
@@ -73074,7 +74370,7 @@ const NEURON_DATA = [
       "left": "types/LHAV2g1a_L.html",
       "right": "types/LHAV2g1a_R.html"
     },
-    "synonyms": "LHAV2g1",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/LHAV2g1a.html"
   },
@@ -73085,20 +74381,31 @@ const NEURON_DATA = [
       "left": "types/LHAV2g1b_L.html",
       "right": "types/LHAV2g1b_R.html"
     },
-    "synonyms": "LHAV2g1",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/LHAV2g1b.html"
   },
   {
-    "name": "LHAV2g2",
+    "name": "LHAV2g2_a",
     "urls": {
-      "combined": "types/LHAV2g2.html",
-      "left": "types/LHAV2g2_L.html",
-      "right": "types/LHAV2g2_R.html"
+      "combined": "types/LHAV2g2_a.html",
+      "left": "types/LHAV2g2_a_L.html",
+      "right": "types/LHAV2g2_a_R.html"
     },
     "synonyms": null,
     "flywire_types": null,
-    "primary_url": "types/LHAV2g2.html"
+    "primary_url": "types/LHAV2g2_a.html"
+  },
+  {
+    "name": "LHAV2g2_b",
+    "urls": {
+      "combined": "types/LHAV2g2_b.html",
+      "left": "types/LHAV2g2_b_L.html",
+      "right": "types/LHAV2g2_b_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/LHAV2g2_b.html"
   },
   {
     "name": "LHAV2g3",
@@ -73173,7 +74480,7 @@ const NEURON_DATA = [
       "left": "types/LHAV2m1_L.html",
       "right": "types/LHAV2m1_R.html"
     },
-    "synonyms": null,
+    "synonyms": "Cachero 2010: pSP-f",
     "flywire_types": null,
     "primary_url": "types/LHAV2m1.html"
   },
@@ -73283,7 +74590,7 @@ const NEURON_DATA = [
       "left": "types/LHAV3e3a_L.html",
       "right": "types/LHAV3e3a_R.html"
     },
-    "synonyms": "LHAV3e3",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/LHAV3e3a.html"
   },
@@ -73294,7 +74601,7 @@ const NEURON_DATA = [
       "left": "types/LHAV3e3b_L.html",
       "right": "types/LHAV3e3b_R.html"
     },
-    "synonyms": "LHAV3e3",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/LHAV3e3b.html"
   },
@@ -73514,7 +74821,7 @@ const NEURON_DATA = [
       "left": "types/LHAV4a4_L.html",
       "right": "types/LHAV4a4_R.html"
     },
-    "synonyms": "pSP9",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/LHAV4a4.html"
   },
@@ -73558,7 +74865,7 @@ const NEURON_DATA = [
       "left": "types/LHAV4c1_L.html",
       "right": "types/LHAV4c1_R.html"
     },
-    "synonyms": "pSP9",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/LHAV4c1.html"
   },
@@ -73569,7 +74876,7 @@ const NEURON_DATA = [
       "left": "types/LHAV4c2_L.html",
       "right": "types/LHAV4c2_R.html"
     },
-    "synonyms": null,
+    "synonyms": "Cachero 2010: aSP-k;Yu 2010: aSP8",
     "flywire_types": null,
     "primary_url": "types/LHAV4c2.html"
   },
@@ -73585,15 +74892,15 @@ const NEURON_DATA = [
     "primary_url": "types/LHAV4d1.html"
   },
   {
-    "name": "LHAV4e1",
+    "name": "LHAV4e1_a",
     "urls": {
-      "combined": "types/LHAV4e1.html",
-      "left": "types/LHAV4e1_L.html",
-      "right": "types/LHAV4e1_R.html"
+      "combined": "types/LHAV4e1_a.html",
+      "left": "types/LHAV4e1_a_L.html",
+      "right": "types/LHAV4e1_a_R.html"
     },
     "synonyms": null,
     "flywire_types": null,
-    "primary_url": "types/LHAV4e1.html"
+    "primary_url": "types/LHAV4e1_a.html"
   },
   {
     "name": "LHAV4e4",
@@ -73624,7 +74931,7 @@ const NEURON_DATA = [
       "left": "types/LHAV4g1a_L.html",
       "right": "types/LHAV4g1a_R.html"
     },
-    "synonyms": "LHAV4g1_a",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/LHAV4g1a.html"
   },
@@ -73635,7 +74942,7 @@ const NEURON_DATA = [
       "left": "types/LHAV4g1b_L.html",
       "right": "types/LHAV4g1b_R.html"
     },
-    "synonyms": "LHAV4g1_a",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/LHAV4g1b.html"
   },
@@ -73646,7 +74953,7 @@ const NEURON_DATA = [
       "left": "types/LHAV4g1c_L.html",
       "right": "types/LHAV4g1c_R.html"
     },
-    "synonyms": "LHAV4g1_b",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/LHAV4g1c.html"
   },
@@ -73668,7 +74975,7 @@ const NEURON_DATA = [
       "left": "types/LHAV4i2_L.html",
       "right": "types/LHAV4i2_R.html"
     },
-    "synonyms": "PLP003",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/LHAV4i2.html"
   },
@@ -73715,6 +75022,70 @@ const NEURON_DATA = [
     "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/LHAV5a10_b.html"
+  },
+  {
+    "name": "LHAV5a2_a1",
+    "urls": {
+      "combined": "types/LHAV5a2_a1.html",
+      "left": "types/LHAV5a2_a1_L.html",
+      "right": "types/LHAV5a2_a1_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/LHAV5a2_a1.html"
+  },
+  {
+    "name": "LHAV5a2_a2",
+    "urls": {
+      "combined": "types/LHAV5a2_a2.html",
+      "left": "types/LHAV5a2_a2_L.html",
+      "right": "types/LHAV5a2_a2_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/LHAV5a2_a2.html"
+  },
+  {
+    "name": "LHAV5a2_a3",
+    "urls": {
+      "combined": "types/LHAV5a2_a3.html",
+      "left": "types/LHAV5a2_a3_L.html",
+      "right": "types/LHAV5a2_a3_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/LHAV5a2_a3.html"
+  },
+  {
+    "name": "LHAV5a2_a4",
+    "urls": {
+      "combined": "types/LHAV5a2_a4.html",
+      "left": "types/LHAV5a2_a4_L.html",
+      "right": "types/LHAV5a2_a4_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/LHAV5a2_a4.html"
+  },
+  {
+    "name": "LHAV5a2_b",
+    "urls": {
+      "combined": "types/LHAV5a2_b.html",
+      "left": "types/LHAV5a2_b_L.html",
+      "right": "types/LHAV5a2_b_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/LHAV5a2_b.html"
+  },
+  {
+    "name": "LHAV5a2_d",
+    "urls": {
+      "right": "types/LHAV5a2_d_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/LHAV5a2_d_R.html"
   },
   {
     "name": "LHAV5d1",
@@ -73789,7 +75160,7 @@ const NEURON_DATA = [
       "left": "types/LHAV6c1a_L.html",
       "right": "types/LHAV6c1a_R.html"
     },
-    "synonyms": "LHAV6c1",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/LHAV6c1a.html"
   },
@@ -73800,7 +75171,7 @@ const NEURON_DATA = [
       "left": "types/LHAV6c1b_L.html",
       "right": "types/LHAV6c1b_R.html"
     },
-    "synonyms": "LHAV6c1",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/LHAV6c1b.html"
   },
@@ -73844,7 +75215,7 @@ const NEURON_DATA = [
       "left": "types/LHAV7a1a_L.html",
       "right": "types/LHAV7a1a_R.html"
     },
-    "synonyms": "LHAV7a1_a",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/LHAV7a1a.html"
   },
@@ -73855,7 +75226,7 @@ const NEURON_DATA = [
       "left": "types/LHAV7a1b_L.html",
       "right": "types/LHAV7a1b_R.html"
     },
-    "synonyms": "LHAV7a1_b",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/LHAV7a1b.html"
   },
@@ -73866,7 +75237,7 @@ const NEURON_DATA = [
       "left": "types/LHAV7a1c_L.html",
       "right": "types/LHAV7a1c_R.html"
     },
-    "synonyms": "LHAV7a1_b",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/LHAV7a1c.html"
   },
@@ -73897,7 +75268,7 @@ const NEURON_DATA = [
       "left": "types/LHAV7a4a_L.html",
       "right": "types/LHAV7a4a_R.html"
     },
-    "synonyms": "LHAV7a4",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/LHAV7a4a.html"
   },
@@ -73908,7 +75279,7 @@ const NEURON_DATA = [
       "left": "types/LHAV7a4b_L.html",
       "right": "types/LHAV7a4b_R.html"
     },
-    "synonyms": "LHAV7a4",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/LHAV7a4b.html"
   },
@@ -73942,6 +75313,15 @@ const NEURON_DATA = [
     "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/LHAV7a7.html"
+  },
+  {
+    "name": "LHAV7b1",
+    "urls": {
+      "left": "types/LHAV7b1_L.html"
+    },
+    "synonyms": "Cachero 2010: aIP-c;Yu 2010: aIP1/aIP4/aSP10",
+    "flywire_types": null,
+    "primary_url": "types/LHAV7b1_L.html"
   },
   {
     "name": "LHAV8a1",
@@ -74027,7 +75407,7 @@ const NEURON_DATA = [
       "left": "types/LHCENT12a_L.html",
       "right": "types/LHCENT12a_R.html"
     },
-    "synonyms": "LHCENT12",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/LHCENT12a.html"
   },
@@ -74038,20 +75418,53 @@ const NEURON_DATA = [
       "left": "types/LHCENT12b_L.html",
       "right": "types/LHCENT12b_R.html"
     },
-    "synonyms": "LHCENT12",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/LHCENT12b.html"
   },
   {
-    "name": "LHCENT13",
+    "name": "LHCENT13_a",
     "urls": {
-      "combined": "types/LHCENT13.html",
-      "left": "types/LHCENT13_L.html",
-      "right": "types/LHCENT13_R.html"
+      "combined": "types/LHCENT13_a.html",
+      "left": "types/LHCENT13_a_L.html",
+      "right": "types/LHCENT13_a_R.html"
     },
     "synonyms": null,
     "flywire_types": null,
-    "primary_url": "types/LHCENT13.html"
+    "primary_url": "types/LHCENT13_a.html"
+  },
+  {
+    "name": "LHCENT13_b",
+    "urls": {
+      "combined": "types/LHCENT13_b.html",
+      "left": "types/LHCENT13_b_L.html",
+      "right": "types/LHCENT13_b_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/LHCENT13_b.html"
+  },
+  {
+    "name": "LHCENT13_c",
+    "urls": {
+      "combined": "types/LHCENT13_c.html",
+      "left": "types/LHCENT13_c_L.html",
+      "right": "types/LHCENT13_c_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/LHCENT13_c.html"
+  },
+  {
+    "name": "LHCENT13_d",
+    "urls": {
+      "combined": "types/LHCENT13_d.html",
+      "left": "types/LHCENT13_d_L.html",
+      "right": "types/LHCENT13_d_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/LHCENT13_d.html"
   },
   {
     "name": "LHCENT14",
@@ -74164,6 +75577,15 @@ const NEURON_DATA = [
     "primary_url": "types/LHPD1b1.html"
   },
   {
+    "name": "LHPD2a4_a,SIP049",
+    "urls": {
+      "left": "types/LHPD2a4_a,SIP049_L.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/LHPD2a4_a,SIP049_L.html"
+  },
+  {
     "name": "LHPD2c1",
     "urls": {
       "combined": "types/LHPD2c1.html",
@@ -74219,17 +75641,6 @@ const NEURON_DATA = [
     "primary_url": "types/LHPD3a2.html"
   },
   {
-    "name": "LHPD3a4",
-    "urls": {
-      "combined": "types/LHPD3a4.html",
-      "left": "types/LHPD3a4_L.html",
-      "right": "types/LHPD3a4_R.html"
-    },
-    "synonyms": null,
-    "flywire_types": null,
-    "primary_url": "types/LHPD3a4.html"
-  },
-  {
     "name": "LHPD3a5",
     "urls": {
       "combined": "types/LHPD3a5.html",
@@ -74269,7 +75680,7 @@ const NEURON_DATA = [
       "left": "types/LHPD4b1a_L.html",
       "right": "types/LHPD4b1a_R.html"
     },
-    "synonyms": "LHPD4b1",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/LHPD4b1a.html"
   },
@@ -74280,7 +75691,7 @@ const NEURON_DATA = [
       "left": "types/LHPD4b1b_L.html",
       "right": "types/LHPD4b1b_R.html"
     },
-    "synonyms": "LHPD4b1",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/LHPD4b1b.html"
   },
@@ -74346,7 +75757,7 @@ const NEURON_DATA = [
       "left": "types/LHPV10a1a_L.html",
       "right": "types/LHPV10a1a_R.html"
     },
-    "synonyms": "LHPV10a1",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/LHPV10a1a.html"
   },
@@ -74357,7 +75768,7 @@ const NEURON_DATA = [
       "left": "types/LHPV10a1b_L.html",
       "right": "types/LHPV10a1b_R.html"
     },
-    "synonyms": "LHPV10a1",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/LHPV10a1b.html"
   },
@@ -74461,37 +75872,48 @@ const NEURON_DATA = [
     "primary_url": "types/LHPV2a1_a.html"
   },
   {
-    "name": "LHPV2a1_b",
-    "urls": {
-      "combined": "types/LHPV2a1_b.html",
-      "left": "types/LHPV2a1_b_L.html",
-      "right": "types/LHPV2a1_b_R.html"
-    },
-    "synonyms": "LHPV2a1",
-    "flywire_types": null,
-    "primary_url": "types/LHPV2a1_b.html"
-  },
-  {
     "name": "LHPV2a1_c",
     "urls": {
       "combined": "types/LHPV2a1_c.html",
       "left": "types/LHPV2a1_c_L.html",
       "right": "types/LHPV2a1_c_R.html"
     },
-    "synonyms": "LHPV2a1",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/LHPV2a1_c.html"
   },
   {
-    "name": "LHPV2a2",
+    "name": "LHPV2a1_d",
     "urls": {
-      "combined": "types/LHPV2a2.html",
-      "left": "types/LHPV2a2_L.html",
-      "right": "types/LHPV2a2_R.html"
+      "combined": "types/LHPV2a1_d.html",
+      "left": "types/LHPV2a1_d_L.html",
+      "right": "types/LHPV2a1_d_R.html"
     },
     "synonyms": null,
     "flywire_types": null,
-    "primary_url": "types/LHPV2a2.html"
+    "primary_url": "types/LHPV2a1_d.html"
+  },
+  {
+    "name": "LHPV2a4",
+    "urls": {
+      "combined": "types/LHPV2a4.html",
+      "left": "types/LHPV2a4_L.html",
+      "right": "types/LHPV2a4_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/LHPV2a4.html"
+  },
+  {
+    "name": "LHPV2a5",
+    "urls": {
+      "combined": "types/LHPV2a5.html",
+      "left": "types/LHPV2a5_L.html",
+      "right": "types/LHPV2a5_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/LHPV2a5.html"
   },
   {
     "name": "LHPV2b5",
@@ -74511,7 +75933,7 @@ const NEURON_DATA = [
       "left": "types/LHPV2c2a_L.html",
       "right": "types/LHPV2c2a_R.html"
     },
-    "synonyms": "LHPV2c2",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/LHPV2c2a.html"
   },
@@ -74522,9 +75944,20 @@ const NEURON_DATA = [
       "left": "types/LHPV2c2b_L.html",
       "right": "types/LHPV2c2b_R.html"
     },
-    "synonyms": "LHPV2c2",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/LHPV2c2b.html"
+  },
+  {
+    "name": "LHPV2c4",
+    "urls": {
+      "combined": "types/LHPV2c4.html",
+      "left": "types/LHPV2c4_L.html",
+      "right": "types/LHPV2c4_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/LHPV2c4.html"
   },
   {
     "name": "LHPV2d1",
@@ -74588,7 +76021,7 @@ const NEURON_DATA = [
       "left": "types/LHPV2i1a_L.html",
       "right": "types/LHPV2i1a_R.html"
     },
-    "synonyms": "LHPV2i1",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/LHPV2i1a.html"
   },
@@ -74599,7 +76032,7 @@ const NEURON_DATA = [
       "left": "types/LHPV2i1b_L.html",
       "right": "types/LHPV2i1b_R.html"
     },
-    "synonyms": "LHPV2i1",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/LHPV2i1b.html"
   },
@@ -74610,7 +76043,7 @@ const NEURON_DATA = [
       "left": "types/LHPV2i2a_L.html",
       "right": "types/LHPV2i2a_R.html"
     },
-    "synonyms": "LHPV2i2",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/LHPV2i2a.html"
   },
@@ -74621,7 +76054,7 @@ const NEURON_DATA = [
       "left": "types/LHPV2i2b_L.html",
       "right": "types/LHPV2i2b_R.html"
     },
-    "synonyms": "LHPV2i2",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/LHPV2i2b.html"
   },
@@ -74646,6 +76079,15 @@ const NEURON_DATA = [
     "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/LHPV3a2.html"
+  },
+  {
+    "name": "LHPV3a3_c",
+    "urls": {
+      "right": "types/LHPV3a3_c_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/LHPV3a3_c_R.html"
   },
   {
     "name": "LHPV3b1_b",
@@ -74676,9 +76118,20 @@ const NEURON_DATA = [
       "left": "types/LHPV4a1_L.html",
       "right": "types/LHPV4a1_R.html"
     },
-    "synonyms": "LHPV4a2",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/LHPV4a1.html"
+  },
+  {
+    "name": "LHPV4a1,LHPV4a2",
+    "urls": {
+      "combined": "types/LHPV4a1,LHPV4a2.html",
+      "left": "types/LHPV4a1,LHPV4a2_L.html",
+      "right": "types/LHPV4a1,LHPV4a2_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/LHPV4a1,LHPV4a2.html"
   },
   {
     "name": "LHPV4a10",
@@ -74709,20 +76162,20 @@ const NEURON_DATA = [
       "left": "types/LHPV4a2_L.html",
       "right": "types/LHPV4a2_R.html"
     },
-    "synonyms": "LHPV4a3",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/LHPV4a2.html"
   },
   {
-    "name": "LHPV4a5",
+    "name": "LHPV4a5, LHPV4k1",
     "urls": {
-      "combined": "types/LHPV4a5.html",
-      "left": "types/LHPV4a5_L.html",
-      "right": "types/LHPV4a5_R.html"
+      "combined": "types/LHPV4a5,_LHPV4k1.html",
+      "left": "types/LHPV4a5,_LHPV4k1_L.html",
+      "right": "types/LHPV4a5,_LHPV4k1_R.html"
     },
-    "synonyms": "LHPV4k1",
+    "synonyms": null,
     "flywire_types": null,
-    "primary_url": "types/LHPV4a5.html"
+    "primary_url": "types/LHPV4a5,_LHPV4k1.html"
   },
   {
     "name": "LHPV4a7a",
@@ -74782,13 +76235,11 @@ const NEURON_DATA = [
   {
     "name": "LHPV4b2",
     "urls": {
-      "combined": "types/LHPV4b2.html",
-      "left": "types/LHPV4b2_L.html",
-      "right": "types/LHPV4b2_R.html"
+      "left": "types/LHPV4b2_L.html"
     },
     "synonyms": null,
     "flywire_types": null,
-    "primary_url": "types/LHPV4b2.html"
+    "primary_url": "types/LHPV4b2_L.html"
   },
   {
     "name": "LHPV4b3",
@@ -74813,15 +76264,15 @@ const NEURON_DATA = [
     "primary_url": "types/LHPV4b9.html"
   },
   {
-    "name": "LHPV4c3",
+    "name": "LHPV4c3, LHPV4c4",
     "urls": {
-      "combined": "types/LHPV4c3.html",
-      "left": "types/LHPV4c3_L.html",
-      "right": "types/LHPV4c3_R.html"
+      "combined": "types/LHPV4c3,_LHPV4c4.html",
+      "left": "types/LHPV4c3,_LHPV4c4_L.html",
+      "right": "types/LHPV4c3,_LHPV4c4_R.html"
     },
-    "synonyms": "LHPV4c4",
+    "synonyms": null,
     "flywire_types": null,
-    "primary_url": "types/LHPV4c3.html"
+    "primary_url": "types/LHPV4c3,_LHPV4c4.html"
   },
   {
     "name": "LHPV4c4",
@@ -74857,6 +76308,17 @@ const NEURON_DATA = [
     "primary_url": "types/LHPV4e1.html"
   },
   {
+    "name": "LHPV4g1",
+    "urls": {
+      "combined": "types/LHPV4g1.html",
+      "left": "types/LHPV4g1_L.html",
+      "right": "types/LHPV4g1_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/LHPV4g1.html"
+  },
+  {
     "name": "LHPV4h1",
     "urls": {
       "combined": "types/LHPV4h1.html",
@@ -74879,6 +76341,15 @@ const NEURON_DATA = [
     "primary_url": "types/LHPV4h3.html"
   },
   {
+    "name": "LHPV4i3",
+    "urls": {
+      "left": "types/LHPV4i3_L.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/LHPV4i3_L.html"
+  },
+  {
     "name": "LHPV4j3",
     "urls": {
       "combined": "types/LHPV4j3.html",
@@ -74888,6 +76359,17 @@ const NEURON_DATA = [
     "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/LHPV4j3.html"
+  },
+  {
+    "name": "LHPV4j4",
+    "urls": {
+      "combined": "types/LHPV4j4.html",
+      "left": "types/LHPV4j4_L.html",
+      "right": "types/LHPV4j4_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/LHPV4j4.html"
   },
   {
     "name": "LHPV4l1",
@@ -74978,17 +76460,6 @@ const NEURON_DATA = [
     "primary_url": "types/LHPV5b4.html"
   },
   {
-    "name": "LHPV5b5",
-    "urls": {
-      "combined": "types/LHPV5b5.html",
-      "left": "types/LHPV5b5_L.html",
-      "right": "types/LHPV5b5_R.html"
-    },
-    "synonyms": null,
-    "flywire_types": null,
-    "primary_url": "types/LHPV5b5.html"
-  },
-  {
     "name": "LHPV5b6",
     "urls": {
       "combined": "types/LHPV5b6.html",
@@ -75077,15 +76548,15 @@ const NEURON_DATA = [
     "primary_url": "types/LHPV5e3.html"
   },
   {
-    "name": "LHPV5g1_a",
+    "name": "LHPV5g1_a,SMP270",
     "urls": {
-      "combined": "types/LHPV5g1_a.html",
-      "left": "types/LHPV5g1_a_L.html",
-      "right": "types/LHPV5g1_a_R.html"
+      "combined": "types/LHPV5g1_a,SMP270.html",
+      "left": "types/LHPV5g1_a,SMP270_L.html",
+      "right": "types/LHPV5g1_a,SMP270_R.html"
     },
-    "synonyms": "SMP270",
+    "synonyms": null,
     "flywire_types": null,
-    "primary_url": "types/LHPV5g1_a.html"
+    "primary_url": "types/LHPV5g1_a,SMP270.html"
   },
   {
     "name": "LHPV5g1_b",
@@ -75242,6 +76713,15 @@ const NEURON_DATA = [
     "primary_url": "types/LHPV6h2.html"
   },
   {
+    "name": "LHPV6h3,SLP276",
+    "urls": {
+      "right": "types/LHPV6h3,SLP276_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/LHPV6h3,SLP276_R.html"
+  },
+  {
     "name": "LHPV6j1",
     "urls": {
       "combined": "types/LHPV6j1.html",
@@ -75251,6 +76731,15 @@ const NEURON_DATA = [
     "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/LHPV6j1.html"
+  },
+  {
+    "name": "LHPV6k1",
+    "urls": {
+      "right": "types/LHPV6k1_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/LHPV6k1_R.html"
   },
   {
     "name": "LHPV6k2",
@@ -75325,7 +76814,7 @@ const NEURON_DATA = [
       "left": "types/LHPV6q1_L.html",
       "right": "types/LHPV6q1_R.html"
     },
-    "synonyms": "pSP8",
+    "synonyms": "Cachero 2010: pSP-e",
     "flywire_types": null,
     "primary_url": "types/LHPV6q1.html"
   },
@@ -75347,7 +76836,7 @@ const NEURON_DATA = [
       "left": "types/LHPV7a1a_L.html",
       "right": "types/LHPV7a1a_R.html"
     },
-    "synonyms": "LHPV7a1",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/LHPV7a1a.html"
   },
@@ -75358,7 +76847,7 @@ const NEURON_DATA = [
       "left": "types/LHPV7a1b_L.html",
       "right": "types/LHPV7a1b_R.html"
     },
-    "synonyms": "LHPV7a1",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/LHPV7a1b.html"
   },
@@ -75446,7 +76935,7 @@ const NEURON_DATA = [
       "left": "types/LLPC2_L.html",
       "right": "types/LLPC2_R.html"
     },
-    "synonyms": "LLPC2a, LLPC2b, LLPC2c, LLPC2d",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/LLPC2.html"
   },
@@ -75479,7 +76968,7 @@ const NEURON_DATA = [
       "left": "types/LLPt_L.html",
       "right": "types/LLPt_R.html"
     },
-    "synonyms": "CB3822",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/LLPt.html"
   },
@@ -75499,7 +76988,7 @@ const NEURON_DATA = [
       "left": "types/LMTe01_L.html",
       "right": "types/LMTe01_R.html"
     },
-    "synonyms": "CL125",
+    "synonyms": "Cachero 2010: pSP-b;Yu 2010: pSP2/3",
     "flywire_types": null,
     "primary_url": "types/LMTe01.html"
   },
@@ -75510,7 +76999,7 @@ const NEURON_DATA = [
       "left": "types/LMa1_L.html",
       "right": "types/LMa1_R.html"
     },
-    "synonyms": "CB3820",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/LMa1.html"
   },
@@ -75521,7 +77010,7 @@ const NEURON_DATA = [
       "left": "types/LMa2_L.html",
       "right": "types/LMa2_R.html"
     },
-    "synonyms": "CB3824",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/LMa2.html"
   },
@@ -75532,7 +77021,7 @@ const NEURON_DATA = [
       "left": "types/LMa3_L.html",
       "right": "types/LMa3_R.html"
     },
-    "synonyms": "CB3824",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/LMa3.html"
   },
@@ -75554,7 +77043,7 @@ const NEURON_DATA = [
       "left": "types/LMa5_L.html",
       "right": "types/LMa5_R.html"
     },
-    "synonyms": "CB3818",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/LMa5.html"
   },
@@ -75565,7 +77054,7 @@ const NEURON_DATA = [
       "left": "types/LMt1_L.html",
       "right": "types/LMt1_R.html"
     },
-    "synonyms": "CB3820",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/LMt1.html"
   },
@@ -75576,7 +77065,7 @@ const NEURON_DATA = [
       "left": "types/LMt2_L.html",
       "right": "types/LMt2_R.html"
     },
-    "synonyms": "CB3834",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/LMt2.html"
   },
@@ -75587,7 +77076,7 @@ const NEURON_DATA = [
       "left": "types/LMt3_L.html",
       "right": "types/LMt3_R.html"
     },
-    "synonyms": "CB3821",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/LMt3.html"
   },
@@ -75598,9 +77087,31 @@ const NEURON_DATA = [
       "left": "types/LMt4_L.html",
       "right": "types/LMt4_R.html"
     },
-    "synonyms": "CB3820",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/LMt4.html"
+  },
+  {
+    "name": "LN-DN1",
+    "urls": {
+      "combined": "types/LN-DN1.html",
+      "left": "types/LN-DN1_L.html",
+      "right": "types/LN-DN1_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/LN-DN1.html"
+  },
+  {
+    "name": "LN-DN2",
+    "urls": {
+      "combined": "types/LN-DN2.html",
+      "left": "types/LN-DN2_L.html",
+      "right": "types/LN-DN2_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/LN-DN2.html"
   },
   {
     "name": "LN60a",
@@ -75658,13 +77169,24 @@ const NEURON_DATA = [
     "primary_url": "types/LNOa.html"
   },
   {
+    "name": "LNd_a",
+    "urls": {
+      "combined": "types/LNd_a.html",
+      "left": "types/LNd_a_L.html",
+      "right": "types/LNd_a_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/LNd_a.html"
+  },
+  {
     "name": "LNd_b",
     "urls": {
       "combined": "types/LNd_b.html",
       "left": "types/LNd_b_L.html",
       "right": "types/LNd_b_R.html"
     },
-    "synonyms": "LNd",
+    "synonyms": "Cachero 2010: aSP-l",
     "flywire_types": null,
     "primary_url": "types/LNd_b.html"
   },
@@ -75675,20 +77197,9 @@ const NEURON_DATA = [
       "left": "types/LNd_c_L.html",
       "right": "types/LNd_c_R.html"
     },
-    "synonyms": "LNd, aSP7",
+    "synonyms": "Cachero 2010: aSP-l",
     "flywire_types": null,
     "primary_url": "types/LNd_c.html"
-  },
-  {
-    "name": "LNda",
-    "urls": {
-      "combined": "types/LNda.html",
-      "left": "types/LNda_L.html",
-      "right": "types/LNda_R.html"
-    },
-    "synonyms": "LNd_a, LNd",
-    "flywire_types": null,
-    "primary_url": "types/LNda.html"
   },
   {
     "name": "LPC1",
@@ -75829,7 +77340,7 @@ const NEURON_DATA = [
       "left": "types/LPT29_L.html",
       "right": "types/LPT29_R.html"
     },
-    "synonyms": null,
+    "synonyms": "fru-F-300018",
     "flywire_types": null,
     "primary_url": "types/LPT29.html"
   },
@@ -75851,7 +77362,7 @@ const NEURON_DATA = [
       "left": "types/LPT31_L.html",
       "right": "types/LPT31_R.html"
     },
-    "synonyms": "WED068",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/LPT31.html"
   },
@@ -75873,7 +77384,7 @@ const NEURON_DATA = [
       "left": "types/LPT45_dCal1_L.html",
       "right": "types/LPT45_dCal1_R.html"
     },
-    "synonyms": null,
+    "synonyms": "fru-F-100023",
     "flywire_types": null,
     "primary_url": "types/LPT45_dCal1.html"
   },
@@ -75961,7 +77472,7 @@ const NEURON_DATA = [
       "left": "types/LPT54_L.html",
       "right": "types/LPT54_R.html"
     },
-    "synonyms": "PLP179",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/LPT54.html"
   },
@@ -75983,7 +77494,7 @@ const NEURON_DATA = [
       "left": "types/LPT58_L.html",
       "right": "types/LPT58_R.html"
     },
-    "synonyms": "PS135",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/LPT58.html"
   },
@@ -76005,7 +77516,7 @@ const NEURON_DATA = [
       "left": "types/LPTe02_L.html",
       "right": "types/LPTe02_R.html"
     },
-    "synonyms": "PLP207",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/LPTe02.html"
   },
@@ -76082,7 +77593,7 @@ const NEURON_DATA = [
       "left": "types/LPi07_L.html",
       "right": "types/LPi07_R.html"
     },
-    "synonyms": "CB3845",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/LPi07.html"
   },
@@ -76104,7 +77615,7 @@ const NEURON_DATA = [
       "left": "types/LPi09_L.html",
       "right": "types/LPi09_R.html"
     },
-    "synonyms": "CB3857",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/LPi09.html"
   },
@@ -76126,7 +77637,7 @@ const NEURON_DATA = [
       "left": "types/LPi11_L.html",
       "right": "types/LPi11_R.html"
     },
-    "synonyms": "CB3826",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/LPi11.html"
   },
@@ -76159,7 +77670,7 @@ const NEURON_DATA = [
       "left": "types/LPi14_L.html",
       "right": "types/LPi14_R.html"
     },
-    "synonyms": "LPi12",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/LPi14.html"
   },
@@ -76170,7 +77681,7 @@ const NEURON_DATA = [
       "left": "types/LPi15_L.html",
       "right": "types/LPi15_R.html"
     },
-    "synonyms": "LPi21",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/LPi15.html"
   },
@@ -76203,7 +77714,7 @@ const NEURON_DATA = [
       "left": "types/LT1a_L.html",
       "right": "types/LT1a_R.html"
     },
-    "synonyms": "LT1",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/LT1a.html"
   },
@@ -76214,7 +77725,7 @@ const NEURON_DATA = [
       "left": "types/LT1b_L.html",
       "right": "types/LT1b_R.html"
     },
-    "synonyms": "LT1",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/LT1b.html"
   },
@@ -76225,7 +77736,7 @@ const NEURON_DATA = [
       "left": "types/LT1c_L.html",
       "right": "types/LT1c_R.html"
     },
-    "synonyms": "LT1",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/LT1c.html"
   },
@@ -76236,7 +77747,7 @@ const NEURON_DATA = [
       "left": "types/LT1d_L.html",
       "right": "types/LT1d_R.html"
     },
-    "synonyms": "LT1",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/LT1d.html"
   },
@@ -76269,7 +77780,7 @@ const NEURON_DATA = [
       "left": "types/LT36_L.html",
       "right": "types/LT36_R.html"
     },
-    "synonyms": null,
+    "synonyms": "fru-F-400081",
     "flywire_types": null,
     "primary_url": "types/LT36.html"
   },
@@ -76368,7 +77879,7 @@ const NEURON_DATA = [
       "left": "types/LT51_L.html",
       "right": "types/LT51_R.html"
     },
-    "synonyms": "aSP29",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/LT51.html"
   },
@@ -76384,15 +77895,26 @@ const NEURON_DATA = [
     "primary_url": "types/LT52.html"
   },
   {
-    "name": "LT53",
+    "name": "LT53,PLP098",
     "urls": {
-      "combined": "types/LT53.html",
-      "left": "types/LT53_L.html",
-      "right": "types/LT53_R.html"
+      "combined": "types/LT53,PLP098.html",
+      "left": "types/LT53,PLP098_L.html",
+      "right": "types/LT53,PLP098_R.html"
     },
-    "synonyms": "PLP098",
+    "synonyms": null,
     "flywire_types": null,
-    "primary_url": "types/LT53.html"
+    "primary_url": "types/LT53,PLP098.html"
+  },
+  {
+    "name": "LT54",
+    "urls": {
+      "combined": "types/LT54.html",
+      "left": "types/LT54_L.html",
+      "right": "types/LT54_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/LT54.html"
   },
   {
     "name": "LT55",
@@ -76467,7 +77989,7 @@ const NEURON_DATA = [
       "left": "types/LT61a_L.html",
       "right": "types/LT61a_R.html"
     },
-    "synonyms": "LT61",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/LT61a.html"
   },
@@ -76478,7 +78000,7 @@ const NEURON_DATA = [
       "left": "types/LT61b_L.html",
       "right": "types/LT61b_R.html"
     },
-    "synonyms": "LT61",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/LT61b.html"
   },
@@ -76692,15 +78214,15 @@ const NEURON_DATA = [
     "primary_url": "types/LT81.html"
   },
   {
-    "name": "LT82a",
+    "name": "LT82",
     "urls": {
-      "combined": "types/LT82a.html",
-      "left": "types/LT82a_L.html",
-      "right": "types/LT82a_R.html"
+      "combined": "types/LT82.html",
+      "left": "types/LT82_L.html",
+      "right": "types/LT82_R.html"
     },
-    "synonyms": "LT82b",
+    "synonyms": null,
     "flywire_types": null,
-    "primary_url": "types/LT82a.html"
+    "primary_url": "types/LT82.html"
   },
   {
     "name": "LT83",
@@ -76764,7 +78286,7 @@ const NEURON_DATA = [
       "left": "types/LTe01_L.html",
       "right": "types/LTe01_R.html"
     },
-    "synonyms": "hb-1261220527, hb-1261220600",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/LTe01.html"
   },
@@ -76775,7 +78297,7 @@ const NEURON_DATA = [
       "left": "types/LTe02_L.html",
       "right": "types/LTe02_R.html"
     },
-    "synonyms": "hb-545389295, hb-575409523",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/LTe02.html"
   },
@@ -76786,7 +78308,7 @@ const NEURON_DATA = [
       "left": "types/LTe03_L.html",
       "right": "types/LTe03_R.html"
     },
-    "synonyms": "hb-1379187792, hb-1408207343",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/LTe03.html"
   },
@@ -76797,7 +78319,7 @@ const NEURON_DATA = [
       "left": "types/LTe04_L.html",
       "right": "types/LTe04_R.html"
     },
-    "synonyms": "hb-1596811105",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/LTe04.html"
   },
@@ -76808,7 +78330,7 @@ const NEURON_DATA = [
       "left": "types/LTe05_L.html",
       "right": "types/LTe05_R.html"
     },
-    "synonyms": "hb-944836835",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/LTe05.html"
   },
@@ -76819,7 +78341,7 @@ const NEURON_DATA = [
       "left": "types/LTe06_L.html",
       "right": "types/LTe06_R.html"
     },
-    "synonyms": "hb-666843305",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/LTe06.html"
   },
@@ -76830,7 +78352,7 @@ const NEURON_DATA = [
       "left": "types/LTe07_L.html",
       "right": "types/LTe07_R.html"
     },
-    "synonyms": "hb-1313879738",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/LTe07.html"
   },
@@ -76841,7 +78363,7 @@ const NEURON_DATA = [
       "left": "types/LTe08_L.html",
       "right": "types/LTe08_R.html"
     },
-    "synonyms": "hb-884464419",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/LTe08.html"
   },
@@ -76907,7 +78429,7 @@ const NEURON_DATA = [
       "left": "types/LTe14_L.html",
       "right": "types/LTe14_R.html"
     },
-    "synonyms": null,
+    "synonyms": "fru-F-000071, fru-F-200012, fru-F-100031",
     "flywire_types": null,
     "primary_url": "types/LTe14.html"
   },
@@ -76929,7 +78451,7 @@ const NEURON_DATA = [
       "left": "types/LTe16_L.html",
       "right": "types/LTe16_R.html"
     },
-    "synonyms": "hb-1069607310",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/LTe16.html"
   },
@@ -76940,7 +78462,7 @@ const NEURON_DATA = [
       "left": "types/LTe17_L.html",
       "right": "types/LTe17_R.html"
     },
-    "synonyms": "hb-1252116913",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/LTe17.html"
   },
@@ -76995,7 +78517,7 @@ const NEURON_DATA = [
       "left": "types/LTe22_L.html",
       "right": "types/LTe22_R.html"
     },
-    "synonyms": "hb-1159944202",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/LTe22.html"
   },
@@ -77006,7 +78528,7 @@ const NEURON_DATA = [
       "left": "types/LTe23_L.html",
       "right": "types/LTe23_R.html"
     },
-    "synonyms": "hb-575063620",
+    "synonyms": "fru-F-000074",
     "flywire_types": null,
     "primary_url": "types/LTe23.html"
   },
@@ -77017,7 +78539,7 @@ const NEURON_DATA = [
       "left": "types/LTe24_L.html",
       "right": "types/LTe24_R.html"
     },
-    "synonyms": "hb-543702551",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/LTe24.html"
   },
@@ -77028,7 +78550,7 @@ const NEURON_DATA = [
       "left": "types/LTe25_L.html",
       "right": "types/LTe25_R.html"
     },
-    "synonyms": "hb-697882667",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/LTe25.html"
   },
@@ -77039,7 +78561,7 @@ const NEURON_DATA = [
       "left": "types/LTe26_L.html",
       "right": "types/LTe26_R.html"
     },
-    "synonyms": "hb-1222778569",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/LTe26.html"
   },
@@ -77050,7 +78572,7 @@ const NEURON_DATA = [
       "left": "types/LTe27_L.html",
       "right": "types/LTe27_R.html"
     },
-    "synonyms": "hb-1561351296",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/LTe27.html"
   },
@@ -77061,7 +78583,7 @@ const NEURON_DATA = [
       "left": "types/LTe28_L.html",
       "right": "types/LTe28_R.html"
     },
-    "synonyms": "hb-883418989",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/LTe28.html"
   },
@@ -77094,7 +78616,7 @@ const NEURON_DATA = [
       "left": "types/LTe31_L.html",
       "right": "types/LTe31_R.html"
     },
-    "synonyms": "hb-5813133355",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/LTe31.html"
   },
@@ -77116,7 +78638,7 @@ const NEURON_DATA = [
       "left": "types/LTe33_L.html",
       "right": "types/LTe33_R.html"
     },
-    "synonyms": "hb-852392901, hb-852738302",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/LTe33.html"
   },
@@ -77127,7 +78649,7 @@ const NEURON_DATA = [
       "left": "types/LTe35_L.html",
       "right": "types/LTe35_R.html"
     },
-    "synonyms": "hb-852751415",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/LTe35.html"
   },
@@ -77138,7 +78660,7 @@ const NEURON_DATA = [
       "left": "types/LTe36_L.html",
       "right": "types/LTe36_R.html"
     },
-    "synonyms": "hb-574058475",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/LTe36.html"
   },
@@ -77149,7 +78671,7 @@ const NEURON_DATA = [
       "left": "types/LTe37_L.html",
       "right": "types/LTe37_R.html"
     },
-    "synonyms": "PLP011, SLP339",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/LTe37.html"
   },
@@ -77160,7 +78682,7 @@ const NEURON_DATA = [
       "left": "types/LTe38a_L.html",
       "right": "types/LTe38a_R.html"
     },
-    "synonyms": "PLP152",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/LTe38a.html"
   },
@@ -77171,20 +78693,9 @@ const NEURON_DATA = [
       "left": "types/LTe38b_L.html",
       "right": "types/LTe38b_R.html"
     },
-    "synonyms": "PLP152",
-    "flywire_types": null,
-    "primary_url": "types/LTe38b.html"
-  },
-  {
-    "name": "LTe38c",
-    "urls": {
-      "combined": "types/LTe38c.html",
-      "left": "types/LTe38c_L.html",
-      "right": "types/LTe38c_R.html"
-    },
     "synonyms": null,
     "flywire_types": null,
-    "primary_url": "types/LTe38c.html"
+    "primary_url": "types/LTe38b.html"
   },
   {
     "name": "LTe40",
@@ -77193,7 +78704,7 @@ const NEURON_DATA = [
       "left": "types/LTe40_L.html",
       "right": "types/LTe40_R.html"
     },
-    "synonyms": "SLP357",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/LTe40.html"
   },
@@ -77204,7 +78715,7 @@ const NEURON_DATA = [
       "left": "types/LTe41_L.html",
       "right": "types/LTe41_R.html"
     },
-    "synonyms": "SLP357",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/LTe41.html"
   },
@@ -77215,7 +78726,7 @@ const NEURON_DATA = [
       "left": "types/LTe42a_L.html",
       "right": "types/LTe42a_R.html"
     },
-    "synonyms": "VES044",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/LTe42a.html"
   },
@@ -77226,7 +78737,7 @@ const NEURON_DATA = [
       "left": "types/LTe42b_L.html",
       "right": "types/LTe42b_R.html"
     },
-    "synonyms": "VES044",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/LTe42b.html"
   },
@@ -77237,7 +78748,7 @@ const NEURON_DATA = [
       "left": "types/LTe42c_L.html",
       "right": "types/LTe42c_R.html"
     },
-    "synonyms": "VES044",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/LTe42c.html"
   },
@@ -77248,7 +78759,7 @@ const NEURON_DATA = [
       "left": "types/LTe43_L.html",
       "right": "types/LTe43_R.html"
     },
-    "synonyms": "AOTU044",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/LTe43.html"
   },
@@ -77259,7 +78770,7 @@ const NEURON_DATA = [
       "left": "types/LTe44_L.html",
       "right": "types/LTe44_R.html"
     },
-    "synonyms": "AOTU045",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/LTe44.html"
   },
@@ -77270,7 +78781,7 @@ const NEURON_DATA = [
       "left": "types/LTe45_L.html",
       "right": "types/LTe45_R.html"
     },
-    "synonyms": "CL281",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/LTe45.html"
   },
@@ -77281,7 +78792,7 @@ const NEURON_DATA = [
       "left": "types/LTe46_L.html",
       "right": "types/LTe46_R.html"
     },
-    "synonyms": "CL284",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/LTe46.html"
   },
@@ -77292,7 +78803,7 @@ const NEURON_DATA = [
       "left": "types/LTe47_L.html",
       "right": "types/LTe47_R.html"
     },
-    "synonyms": "CL285",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/LTe47.html"
   },
@@ -77303,7 +78814,7 @@ const NEURON_DATA = [
       "left": "types/LTe48_L.html",
       "right": "types/LTe48_R.html"
     },
-    "synonyms": "IB019",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/LTe48.html"
   },
@@ -77314,7 +78825,7 @@ const NEURON_DATA = [
       "left": "types/LTe49a_L.html",
       "right": "types/LTe49a_R.html"
     },
-    "synonyms": "IB085",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/LTe49a.html"
   },
@@ -77325,7 +78836,7 @@ const NEURON_DATA = [
       "left": "types/LTe49b_L.html",
       "right": "types/LTe49b_R.html"
     },
-    "synonyms": "IB088",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/LTe49b.html"
   },
@@ -77336,7 +78847,7 @@ const NEURON_DATA = [
       "left": "types/LTe49c_L.html",
       "right": "types/LTe49c_R.html"
     },
-    "synonyms": "IB089",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/LTe49c.html"
   },
@@ -77347,7 +78858,7 @@ const NEURON_DATA = [
       "left": "types/LTe49d_L.html",
       "right": "types/LTe49d_R.html"
     },
-    "synonyms": "IB090",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/LTe49d.html"
   },
@@ -77358,7 +78869,7 @@ const NEURON_DATA = [
       "left": "types/LTe49e_L.html",
       "right": "types/LTe49e_R.html"
     },
-    "synonyms": "IB091",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/LTe49e.html"
   },
@@ -77380,7 +78891,7 @@ const NEURON_DATA = [
       "left": "types/LTe50_L.html",
       "right": "types/LTe50_R.html"
     },
-    "synonyms": "PLP070",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/LTe50.html"
   },
@@ -77391,20 +78902,9 @@ const NEURON_DATA = [
       "left": "types/LTe51_L.html",
       "right": "types/LTe51_R.html"
     },
-    "synonyms": "PLP091",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/LTe51.html"
-  },
-  {
-    "name": "LTe52",
-    "urls": {
-      "combined": "types/LTe52.html",
-      "left": "types/LTe52_L.html",
-      "right": "types/LTe52_R.html"
-    },
-    "synonyms": "LTe52a, PLP105",
-    "flywire_types": null,
-    "primary_url": "types/LTe52.html"
   },
   {
     "name": "LTe53",
@@ -77413,7 +78913,7 @@ const NEURON_DATA = [
       "left": "types/LTe53_L.html",
       "right": "types/LTe53_R.html"
     },
-    "synonyms": "PLP118",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/LTe53.html"
   },
@@ -77424,7 +78924,7 @@ const NEURON_DATA = [
       "left": "types/LTe54_L.html",
       "right": "types/LTe54_R.html"
     },
-    "synonyms": "PLP125",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/LTe54.html"
   },
@@ -77435,7 +78935,7 @@ const NEURON_DATA = [
       "left": "types/LTe55_L.html",
       "right": "types/LTe55_R.html"
     },
-    "synonyms": "PLP126",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/LTe55.html"
   },
@@ -77446,7 +78946,7 @@ const NEURON_DATA = [
       "left": "types/LTe56_L.html",
       "right": "types/LTe56_R.html"
     },
-    "synonyms": "PLP146",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/LTe56.html"
   },
@@ -77457,7 +78957,7 @@ const NEURON_DATA = [
       "left": "types/LTe57_L.html",
       "right": "types/LTe57_R.html"
     },
-    "synonyms": "PLP147",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/LTe57.html"
   },
@@ -77468,20 +78968,31 @@ const NEURON_DATA = [
       "left": "types/LTe58_L.html",
       "right": "types/LTe58_R.html"
     },
-    "synonyms": "PLP153",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/LTe58.html"
   },
   {
-    "name": "LTe59",
+    "name": "LTe59a",
     "urls": {
-      "combined": "types/LTe59.html",
-      "left": "types/LTe59_L.html",
-      "right": "types/LTe59_R.html"
+      "combined": "types/LTe59a.html",
+      "left": "types/LTe59a_L.html",
+      "right": "types/LTe59a_R.html"
     },
-    "synonyms": "PLP183",
+    "synonyms": null,
     "flywire_types": null,
-    "primary_url": "types/LTe59.html"
+    "primary_url": "types/LTe59a.html"
+  },
+  {
+    "name": "LTe59b",
+    "urls": {
+      "combined": "types/LTe59b.html",
+      "left": "types/LTe59b_L.html",
+      "right": "types/LTe59b_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/LTe59b.html"
   },
   {
     "name": "LTe60",
@@ -77490,7 +79001,7 @@ const NEURON_DATA = [
       "left": "types/LTe60_L.html",
       "right": "types/LTe60_R.html"
     },
-    "synonyms": "PLP212",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/LTe60.html"
   },
@@ -77501,7 +79012,7 @@ const NEURON_DATA = [
       "left": "types/LTe61_L.html",
       "right": "types/LTe61_R.html"
     },
-    "synonyms": "PLP240",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/LTe61.html"
   },
@@ -77512,7 +79023,7 @@ const NEURON_DATA = [
       "left": "types/LTe62_L.html",
       "right": "types/LTe62_R.html"
     },
-    "synonyms": "PLP255",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/LTe62.html"
   },
@@ -77523,7 +79034,7 @@ const NEURON_DATA = [
       "left": "types/LTe63_L.html",
       "right": "types/LTe63_R.html"
     },
-    "synonyms": "PS104",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/LTe63.html"
   },
@@ -77534,7 +79045,7 @@ const NEURON_DATA = [
       "left": "types/LTe64_L.html",
       "right": "types/LTe64_R.html"
     },
-    "synonyms": "PS105",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/LTe64.html"
   },
@@ -77545,7 +79056,7 @@ const NEURON_DATA = [
       "left": "types/LTe65_L.html",
       "right": "types/LTe65_R.html"
     },
-    "synonyms": "PS179",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/LTe65.html"
   },
@@ -77556,7 +79067,7 @@ const NEURON_DATA = [
       "left": "types/LTe66_L.html",
       "right": "types/LTe66_R.html"
     },
-    "synonyms": "PS273",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/LTe66.html"
   },
@@ -77567,7 +79078,7 @@ const NEURON_DATA = [
       "left": "types/LTe67_L.html",
       "right": "types/LTe67_R.html"
     },
-    "synonyms": "SIP058",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/LTe67.html"
   },
@@ -77578,7 +79089,7 @@ const NEURON_DATA = [
       "left": "types/LTe68_L.html",
       "right": "types/LTe68_R.html"
     },
-    "synonyms": "SIP062, SIP063",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/LTe68.html"
   },
@@ -77589,7 +79100,7 @@ const NEURON_DATA = [
       "left": "types/LTe69_L.html",
       "right": "types/LTe69_R.html"
     },
-    "synonyms": "SLP219",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/LTe69.html"
   },
@@ -77600,7 +79111,7 @@ const NEURON_DATA = [
       "left": "types/LTe70_L.html",
       "right": "types/LTe70_R.html"
     },
-    "synonyms": "SLP233",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/LTe70.html"
   },
@@ -77611,7 +79122,7 @@ const NEURON_DATA = [
       "left": "types/LTe71_L.html",
       "right": "types/LTe71_R.html"
     },
-    "synonyms": "SLP250",
+    "synonyms": "Cachero 2010: pSP-b;Yu 2010: pSP2/3",
     "flywire_types": null,
     "primary_url": "types/LTe71.html"
   },
@@ -77622,7 +79133,7 @@ const NEURON_DATA = [
       "left": "types/LTe72_L.html",
       "right": "types/LTe72_R.html"
     },
-    "synonyms": "SLP448",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/LTe72.html"
   },
@@ -77633,7 +79144,7 @@ const NEURON_DATA = [
       "left": "types/LTe73_L.html",
       "right": "types/LTe73_R.html"
     },
-    "synonyms": "SLP449",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/LTe73.html"
   },
@@ -77644,7 +79155,7 @@ const NEURON_DATA = [
       "left": "types/LTe74_L.html",
       "right": "types/LTe74_R.html"
     },
-    "synonyms": "SLP453",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/LTe74.html"
   },
@@ -77655,7 +79166,7 @@ const NEURON_DATA = [
       "left": "types/LTe75_L.html",
       "right": "types/LTe75_R.html"
     },
-    "synonyms": "SMP241",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/LTe75.html"
   },
@@ -77666,7 +79177,7 @@ const NEURON_DATA = [
       "left": "types/LTe76_L.html",
       "right": "types/LTe76_R.html"
     },
-    "synonyms": "VES080",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/LTe76.html"
   },
@@ -77677,7 +79188,7 @@ const NEURON_DATA = [
       "left": "types/Lai_L.html",
       "right": "types/Lai_R.html"
     },
-    "synonyms": "Am",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/Lai.html"
   },
@@ -77688,20 +79199,9 @@ const NEURON_DATA = [
       "left": "types/Lat_L.html",
       "right": "types/Lat_R.html"
     },
-    "synonyms": "5-HT-IR_Tan",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/Lat.html"
-  },
-  {
-    "name": "LatB",
-    "urls": {
-      "combined": "types/LatB.html",
-      "left": "types/LatB_L.html",
-      "right": "types/LatB_R.html"
-    },
-    "synonyms": "Lat",
-    "flywire_types": null,
-    "primary_url": "types/LatB.html"
   },
   {
     "name": "Lawf1",
@@ -77743,7 +79243,7 @@ const NEURON_DATA = [
       "left": "types/Li02_L.html",
       "right": "types/Li02_R.html"
     },
-    "synonyms": "CB3823",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/Li02.html"
   },
@@ -77776,7 +79276,7 @@ const NEURON_DATA = [
       "left": "types/Li05_L.html",
       "right": "types/Li05_R.html"
     },
-    "synonyms": "CB3848",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/Li05.html"
   },
@@ -77809,7 +79309,7 @@ const NEURON_DATA = [
       "left": "types/Li08_L.html",
       "right": "types/Li08_R.html"
     },
-    "synonyms": "CB3837",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/Li08.html"
   },
@@ -77820,7 +79320,7 @@ const NEURON_DATA = [
       "left": "types/Li09_L.html",
       "right": "types/Li09_R.html"
     },
-    "synonyms": "CB3828",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/Li09.html"
   },
@@ -77831,7 +79331,7 @@ const NEURON_DATA = [
       "left": "types/Li10_L.html",
       "right": "types/Li10_R.html"
     },
-    "synonyms": "CB3819",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/Li10.html"
   },
@@ -77842,7 +79342,7 @@ const NEURON_DATA = [
       "left": "types/Li11_L.html",
       "right": "types/Li11_R.html"
     },
-    "synonyms": "CB3828",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/Li11.html"
   },
@@ -77853,7 +79353,7 @@ const NEURON_DATA = [
       "left": "types/Li12_L.html",
       "right": "types/Li12_R.html"
     },
-    "synonyms": "CB3815",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/Li12.html"
   },
@@ -77895,7 +79395,7 @@ const NEURON_DATA = [
       "left": "types/Li15_L.html",
       "right": "types/Li15_R.html"
     },
-    "synonyms": "CB3829",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/Li15.html"
   },
@@ -77906,7 +79406,7 @@ const NEURON_DATA = [
       "left": "types/Li16_L.html",
       "right": "types/Li16_R.html"
     },
-    "synonyms": "CB3831",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/Li16.html"
   },
@@ -77917,7 +79417,7 @@ const NEURON_DATA = [
       "left": "types/Li17_L.html",
       "right": "types/Li17_R.html"
     },
-    "synonyms": "CB3830",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/Li17.html"
   },
@@ -77928,7 +79428,7 @@ const NEURON_DATA = [
       "left": "types/Li18_L.html",
       "right": "types/Li18_R.html"
     },
-    "synonyms": "Li19",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/Li18.html"
   },
@@ -77939,7 +79439,7 @@ const NEURON_DATA = [
       "left": "types/Li19_L.html",
       "right": "types/Li19_R.html"
     },
-    "synonyms": "Li11",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/Li19.html"
   },
@@ -77950,7 +79450,7 @@ const NEURON_DATA = [
       "left": "types/Li20_L.html",
       "right": "types/Li20_R.html"
     },
-    "synonyms": "CB3839",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/Li20.html"
   },
@@ -77961,7 +79461,7 @@ const NEURON_DATA = [
       "left": "types/Li21_L.html",
       "right": "types/Li21_R.html"
     },
-    "synonyms": "CB3840",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/Li21.html"
   },
@@ -77972,7 +79472,7 @@ const NEURON_DATA = [
       "left": "types/Li22_L.html",
       "right": "types/Li22_R.html"
     },
-    "synonyms": "Li2",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/Li22.html"
   },
@@ -78005,7 +79505,7 @@ const NEURON_DATA = [
       "left": "types/Li25_L.html",
       "right": "types/Li25_R.html"
     },
-    "synonyms": "Li11",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/Li25.html"
   },
@@ -78016,7 +79516,7 @@ const NEURON_DATA = [
       "left": "types/Li26_L.html",
       "right": "types/Li26_R.html"
     },
-    "synonyms": "CB3835",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/Li26.html"
   },
@@ -78027,7 +79527,7 @@ const NEURON_DATA = [
       "left": "types/Li27_L.html",
       "right": "types/Li27_R.html"
     },
-    "synonyms": "Li12",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/Li27.html"
   },
@@ -78038,7 +79538,7 @@ const NEURON_DATA = [
       "left": "types/Li28_L.html",
       "right": "types/Li28_R.html"
     },
-    "synonyms": "Li16",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/Li28.html"
   },
@@ -78060,7 +79560,7 @@ const NEURON_DATA = [
       "left": "types/Li30_L.html",
       "right": "types/Li30_R.html"
     },
-    "synonyms": "hb-1343403608",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/Li30.html"
   },
@@ -78071,7 +79571,7 @@ const NEURON_DATA = [
       "left": "types/Li31_L.html",
       "right": "types/Li31_R.html"
     },
-    "synonyms": "mALC1",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/Li31.html"
   },
@@ -78093,7 +79593,7 @@ const NEURON_DATA = [
       "left": "types/Li33_L.html",
       "right": "types/Li33_R.html"
     },
-    "synonyms": "mALC2",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/Li33.html"
   },
@@ -78384,15 +79884,15 @@ const NEURON_DATA = [
     "primary_url": "types/MBON24.html"
   },
   {
-    "name": "MBON25",
+    "name": "MBON25,MBON34",
     "urls": {
-      "combined": "types/MBON25.html",
-      "left": "types/MBON25_L.html",
-      "right": "types/MBON25_R.html"
+      "combined": "types/MBON25,MBON34.html",
+      "left": "types/MBON25,MBON34_L.html",
+      "right": "types/MBON25,MBON34_R.html"
     },
-    "synonyms": "MBON34",
+    "synonyms": null,
     "flywire_types": null,
-    "primary_url": "types/MBON25.html"
+    "primary_url": "types/MBON25,MBON34.html"
   },
   {
     "name": "MBON26",
@@ -78505,13 +80005,24 @@ const NEURON_DATA = [
     "primary_url": "types/MC65.html"
   },
   {
+    "name": "MDN",
+    "urls": {
+      "combined": "types/MDN.html",
+      "left": "types/MDN_L.html",
+      "right": "types/MDN_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/MDN.html"
+  },
+  {
     "name": "MLt1",
     "urls": {
       "combined": "types/MLt1.html",
       "left": "types/MLt1_L.html",
       "right": "types/MLt1_R.html"
     },
-    "synonyms": "CB3833",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/MLt1.html"
   },
@@ -78533,7 +80044,7 @@ const NEURON_DATA = [
       "left": "types/MLt3_L.html",
       "right": "types/MLt3_R.html"
     },
-    "synonyms": "CB3836",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/MLt3.html"
   },
@@ -78593,6 +80104,35 @@ const NEURON_DATA = [
     "primary_url": "types/MLt8.html"
   },
   {
+    "name": "MN10",
+    "urls": {
+      "combined": "types/MN10.html",
+      "left": "types/MN10_L.html",
+      "right": "types/MN10_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/MN10.html"
+  },
+  {
+    "name": "MNx01",
+    "urls": {
+      "right": "types/MNx01_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/MNx01_R.html"
+  },
+  {
+    "name": "MNx03",
+    "urls": {
+      "left": "types/MNx03_L.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/MNx03_L.html"
+  },
+  {
     "name": "MTe01a",
     "urls": {
       "combined": "types/MTe01a.html",
@@ -78610,7 +80150,7 @@ const NEURON_DATA = [
       "left": "types/MTe01b_L.html",
       "right": "types/MTe01b_R.html"
     },
-    "synonyms": "MC66",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/MTe01b.html"
   },
@@ -78665,7 +80205,7 @@ const NEURON_DATA = [
       "left": "types/MTe06_L.html",
       "right": "types/MTe06_R.html"
     },
-    "synonyms": "hb-5812981715, hb-5813012053, hb-601712813, hb-601716965, hb-695132361",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/MTe06.html"
   },
@@ -78676,7 +80216,7 @@ const NEURON_DATA = [
       "left": "types/MTe07_L.html",
       "right": "types/MTe07_R.html"
     },
-    "synonyms": "hb-1036546847, hb-1190339995, hb-5812983942, hb-5813016743, hb-974498428",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/MTe07.html"
   },
@@ -78709,7 +80249,7 @@ const NEURON_DATA = [
       "left": "types/MTe10_L.html",
       "right": "types/MTe10_R.html"
     },
-    "synonyms": null,
+    "synonyms": "Cachero 2010: aIP-f;Yu 2010: pMP7",
     "flywire_types": null,
     "primary_url": "types/MTe10.html"
   },
@@ -78720,7 +80260,7 @@ const NEURON_DATA = [
       "left": "types/MTe11_L.html",
       "right": "types/MTe11_R.html"
     },
-    "synonyms": "hb-1685555902, hb-1747664643, hb-5812995553, aIP6",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/MTe11.html"
   },
@@ -78753,7 +80293,7 @@ const NEURON_DATA = [
       "left": "types/MTe14_L.html",
       "right": "types/MTe14_R.html"
     },
-    "synonyms": "hb-1131340051",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/MTe14.html"
   },
@@ -78764,7 +80304,7 @@ const NEURON_DATA = [
       "left": "types/MTe15_L.html",
       "right": "types/MTe15_R.html"
     },
-    "synonyms": "hb-479969687, hb-787882939",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/MTe15.html"
   },
@@ -78775,7 +80315,7 @@ const NEURON_DATA = [
       "left": "types/MTe16_L.html",
       "right": "types/MTe16_R.html"
     },
-    "synonyms": "hb-1096963197, hb-1158333658",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/MTe16.html"
   },
@@ -78786,7 +80326,7 @@ const NEURON_DATA = [
       "left": "types/MTe17_L.html",
       "right": "types/MTe17_R.html"
     },
-    "synonyms": "hb-577503616, hb-671285134",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/MTe17.html"
   },
@@ -78808,7 +80348,7 @@ const NEURON_DATA = [
       "left": "types/MTe19_L.html",
       "right": "types/MTe19_R.html"
     },
-    "synonyms": "hb-1746373639",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/MTe19.html"
   },
@@ -78819,7 +80359,7 @@ const NEURON_DATA = [
       "left": "types/MTe20_L.html",
       "right": "types/MTe20_R.html"
     },
-    "synonyms": "hb-602382052",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/MTe20.html"
   },
@@ -78830,7 +80370,7 @@ const NEURON_DATA = [
       "left": "types/MTe21_L.html",
       "right": "types/MTe21_R.html"
     },
-    "synonyms": "hb-479969687, hb-787882939",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/MTe21.html"
   },
@@ -78841,7 +80381,7 @@ const NEURON_DATA = [
       "left": "types/MTe22_L.html",
       "right": "types/MTe22_R.html"
     },
-    "synonyms": "hb-945483923",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/MTe22.html"
   },
@@ -78852,7 +80392,7 @@ const NEURON_DATA = [
       "left": "types/MTe23_L.html",
       "right": "types/MTe23_R.html"
     },
-    "synonyms": "hb-976506780",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/MTe23.html"
   },
@@ -78863,7 +80403,7 @@ const NEURON_DATA = [
       "left": "types/MTe24_L.html",
       "right": "types/MTe24_R.html"
     },
-    "synonyms": "hb-511681569",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/MTe24.html"
   },
@@ -78874,7 +80414,7 @@ const NEURON_DATA = [
       "left": "types/MTe25_L.html",
       "right": "types/MTe25_R.html"
     },
-    "synonyms": "hb-5813022839",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/MTe25.html"
   },
@@ -78885,7 +80425,7 @@ const NEURON_DATA = [
       "left": "types/MTe26_L.html",
       "right": "types/MTe26_R.html"
     },
-    "synonyms": null,
+    "synonyms": "fru-F-000077",
     "flywire_types": null,
     "primary_url": "types/MTe26.html"
   },
@@ -79083,7 +80623,7 @@ const NEURON_DATA = [
       "left": "types/MTe44_L.html",
       "right": "types/MTe44_R.html"
     },
-    "synonyms": "hb-1347638401",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/MTe44.html"
   },
@@ -79094,7 +80634,7 @@ const NEURON_DATA = [
       "left": "types/MTe45_L.html",
       "right": "types/MTe45_R.html"
     },
-    "synonyms": "hb-759632919",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/MTe45.html"
   },
@@ -79127,7 +80667,7 @@ const NEURON_DATA = [
       "left": "types/MTe48_L.html",
       "right": "types/MTe48_R.html"
     },
-    "synonyms": "hb-540674783",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/MTe48.html"
   },
@@ -79138,7 +80678,7 @@ const NEURON_DATA = [
       "left": "types/MTe49_L.html",
       "right": "types/MTe49_R.html"
     },
-    "synonyms": "hb-1190668746",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/MTe49.html"
   },
@@ -79160,7 +80700,7 @@ const NEURON_DATA = [
       "left": "types/MTe51_L.html",
       "right": "types/MTe51_R.html"
     },
-    "synonyms": "MC62",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/MTe51.html"
   },
@@ -79171,7 +80711,7 @@ const NEURON_DATA = [
       "left": "types/MTe52_L.html",
       "right": "types/MTe52_R.html"
     },
-    "synonyms": "MC62",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/MTe52.html"
   },
@@ -79182,7 +80722,7 @@ const NEURON_DATA = [
       "left": "types/MTe53_L.html",
       "right": "types/MTe53_R.html"
     },
-    "synonyms": "MC62",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/MTe53.html"
   },
@@ -79193,7 +80733,7 @@ const NEURON_DATA = [
       "left": "types/MTe54_L.html",
       "right": "types/MTe54_R.html"
     },
-    "synonyms": "MC62",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/MTe54.html"
   },
@@ -79209,15 +80749,15 @@ const NEURON_DATA = [
     "primary_url": "types/MZ_lv2PN.html"
   },
   {
-    "name": "MZ_lvPN",
+    "name": "M_VPNml66",
     "urls": {
-      "combined": "types/MZ_lvPN.html",
-      "left": "types/MZ_lvPN_L.html",
-      "right": "types/MZ_lvPN_R.html"
+      "combined": "types/M_VPNml66.html",
+      "left": "types/M_VPNml66_L.html",
+      "right": "types/M_VPNml66_R.html"
     },
-    "synonyms": null,
+    "synonyms": "Cachero 2010: aDT-f",
     "flywire_types": null,
-    "primary_url": "types/MZ_lvPN.html"
+    "primary_url": "types/M_VPNml66.html"
   },
   {
     "name": "M_adPNm3",
@@ -79231,46 +80771,26 @@ const NEURON_DATA = [
     "primary_url": "types/M_adPNm3.html"
   },
   {
-    "name": "M_adPNm4a",
+    "name": "M_adPNm4",
     "urls": {
-      "combined": "types/M_adPNm4a.html",
-      "left": "types/M_adPNm4a_L.html",
-      "right": "types/M_adPNm4a_R.html"
+      "combined": "types/M_adPNm4.html",
+      "left": "types/M_adPNm4_L.html",
+      "right": "types/M_adPNm4_R.html"
     },
-    "synonyms": "M_adPNm5a, M_adPNm4, M_adPNm5",
+    "synonyms": null,
     "flywire_types": null,
-    "primary_url": "types/M_adPNm4a.html"
+    "primary_url": "types/M_adPNm4.html"
   },
   {
-    "name": "M_adPNm4b",
+    "name": "M_adPNm5",
     "urls": {
-      "combined": "types/M_adPNm4b.html",
-      "left": "types/M_adPNm4b_L.html",
-      "right": "types/M_adPNm4b_R.html"
+      "combined": "types/M_adPNm5.html",
+      "left": "types/M_adPNm5_L.html",
+      "right": "types/M_adPNm5_R.html"
     },
-    "synonyms": "M_adPNm5b, M_adPNm4, M_adPNm5",
+    "synonyms": null,
     "flywire_types": null,
-    "primary_url": "types/M_adPNm4b.html"
-  },
-  {
-    "name": "M_adPNm4c",
-    "urls": {
-      "left": "types/M_adPNm4c_L.html"
-    },
-    "synonyms": "M_adPNm5c, M_adPNm4, M_adPNm5",
-    "flywire_types": null,
-    "primary_url": "types/M_adPNm4c_L.html"
-  },
-  {
-    "name": "M_adPNm4d",
-    "urls": {
-      "combined": "types/M_adPNm4d.html",
-      "left": "types/M_adPNm4d_L.html",
-      "right": "types/M_adPNm4d_R.html"
-    },
-    "synonyms": "M_adPNm5d, M_adPNm4, M_adPNm5",
-    "flywire_types": null,
-    "primary_url": "types/M_adPNm4d.html"
+    "primary_url": "types/M_adPNm5.html"
   },
   {
     "name": "M_adPNm6",
@@ -79306,15 +80826,15 @@ const NEURON_DATA = [
     "primary_url": "types/M_adPNm8.html"
   },
   {
-    "name": "M_ilPN8t91",
+    "name": "M_ilPNm90,M_ilPN8t91",
     "urls": {
-      "combined": "types/M_ilPN8t91.html",
-      "left": "types/M_ilPN8t91_L.html",
-      "right": "types/M_ilPN8t91_R.html"
+      "combined": "types/M_ilPNm90,M_ilPN8t91.html",
+      "left": "types/M_ilPNm90,M_ilPN8t91_L.html",
+      "right": "types/M_ilPNm90,M_ilPN8t91_R.html"
     },
-    "synonyms": "M_ilPNm90",
+    "synonyms": null,
     "flywire_types": null,
-    "primary_url": "types/M_ilPN8t91.html"
+    "primary_url": "types/M_ilPNm90,M_ilPN8t91.html"
   },
   {
     "name": "M_imPNl92",
@@ -79334,7 +80854,7 @@ const NEURON_DATA = [
       "left": "types/M_l2PN10t19a_L.html",
       "right": "types/M_l2PN10t19a_R.html"
     },
-    "synonyms": "M_l2PN10t19",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/M_l2PN10t19a.html"
   },
@@ -79345,7 +80865,7 @@ const NEURON_DATA = [
       "left": "types/M_l2PN10t19b_L.html",
       "right": "types/M_l2PN10t19b_R.html"
     },
-    "synonyms": "M_l2PN10t19",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/M_l2PN10t19b.html"
   },
@@ -79493,35 +81013,13 @@ const NEURON_DATA = [
     "primary_url": "types/M_lPNm11D.html"
   },
   {
-    "name": "M_lPNm12a",
-    "urls": {
-      "combined": "types/M_lPNm12a.html",
-      "left": "types/M_lPNm12a_L.html",
-      "right": "types/M_lPNm12a_R.html"
-    },
-    "synonyms": "M_lPNm13a, M_lPNm12, M_lPNm13",
-    "flywire_types": null,
-    "primary_url": "types/M_lPNm12a.html"
-  },
-  {
-    "name": "M_lPNm12b",
-    "urls": {
-      "combined": "types/M_lPNm12b.html",
-      "left": "types/M_lPNm12b_L.html",
-      "right": "types/M_lPNm12b_R.html"
-    },
-    "synonyms": "M_lPNm13b, M_lPNm12, M_lPNm13",
-    "flywire_types": null,
-    "primary_url": "types/M_lPNm12b.html"
-  },
-  {
     "name": "M_lv2PN9t49a",
     "urls": {
       "combined": "types/M_lv2PN9t49a.html",
       "left": "types/M_lv2PN9t49a_L.html",
       "right": "types/M_lv2PN9t49a_R.html"
     },
-    "synonyms": "M_lv2PN9t49",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/M_lv2PN9t49a.html"
   },
@@ -79532,7 +81030,7 @@ const NEURON_DATA = [
       "left": "types/M_lv2PN9t49b_L.html",
       "right": "types/M_lv2PN9t49b_R.html"
     },
-    "synonyms": "M_lv2PN9t49",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/M_lv2PN9t49b.html"
   },
@@ -79686,7 +81184,7 @@ const NEURON_DATA = [
       "left": "types/M_lvPNm43_L.html",
       "right": "types/M_lvPNm43_R.html"
     },
-    "synonyms": null,
+    "synonyms": "Taisz 2023: DA1 lvPN",
     "flywire_types": null,
     "primary_url": "types/M_lvPNm43.html"
   },
@@ -79708,7 +81206,7 @@ const NEURON_DATA = [
       "left": "types/M_lvPNm45_L.html",
       "right": "types/M_lvPNm45_R.html"
     },
-    "synonyms": null,
+    "synonyms": "Taisz 2023: DA1 lvPN",
     "flywire_types": null,
     "primary_url": "types/M_lvPNm45.html"
   },
@@ -79812,6 +81310,17 @@ const NEURON_DATA = [
     "primary_url": "types/M_vPNml51.html"
   },
   {
+    "name": "M_vPNml52",
+    "urls": {
+      "combined": "types/M_vPNml52.html",
+      "left": "types/M_vPNml52_L.html",
+      "right": "types/M_vPNml52_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/M_vPNml52.html"
+  },
+  {
     "name": "M_vPNml53",
     "urls": {
       "combined": "types/M_vPNml53.html",
@@ -79840,7 +81349,7 @@ const NEURON_DATA = [
       "left": "types/M_vPNml55_L.html",
       "right": "types/M_vPNml55_R.html"
     },
-    "synonyms": "aDT11",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/M_vPNml55.html"
   },
@@ -79862,20 +81371,9 @@ const NEURON_DATA = [
       "left": "types/M_vPNml60_L.html",
       "right": "types/M_vPNml60_R.html"
     },
-    "synonyms": null,
+    "synonyms": "Cachero 2010: aDT-f",
     "flywire_types": null,
     "primary_url": "types/M_vPNml60.html"
-  },
-  {
-    "name": "M_vPNml62",
-    "urls": {
-      "combined": "types/M_vPNml62.html",
-      "left": "types/M_vPNml62_L.html",
-      "right": "types/M_vPNml62_R.html"
-    },
-    "synonyms": null,
-    "flywire_types": null,
-    "primary_url": "types/M_vPNml62.html"
   },
   {
     "name": "M_vPNml63",
@@ -79884,7 +81382,7 @@ const NEURON_DATA = [
       "left": "types/M_vPNml63_L.html",
       "right": "types/M_vPNml63_R.html"
     },
-    "synonyms": "aDT11",
+    "synonyms": "Cachero 2010: aDT-f",
     "flywire_types": null,
     "primary_url": "types/M_vPNml63.html"
   },
@@ -79895,7 +81393,7 @@ const NEURON_DATA = [
       "left": "types/M_vPNml64_L.html",
       "right": "types/M_vPNml64_R.html"
     },
-    "synonyms": null,
+    "synonyms": "Cachero 2010: aDT-f",
     "flywire_types": null,
     "primary_url": "types/M_vPNml64.html"
   },
@@ -79906,7 +81404,7 @@ const NEURON_DATA = [
       "left": "types/M_vPNml65_L.html",
       "right": "types/M_vPNml65_R.html"
     },
-    "synonyms": null,
+    "synonyms": "Cachero 2010: aDT-f",
     "flywire_types": null,
     "primary_url": "types/M_vPNml65.html"
   },
@@ -79917,20 +81415,9 @@ const NEURON_DATA = [
       "left": "types/M_vPNml67_L.html",
       "right": "types/M_vPNml67_R.html"
     },
-    "synonyms": null,
+    "synonyms": "Cachero 2010: aDT-f",
     "flywire_types": null,
     "primary_url": "types/M_vPNml67.html"
-  },
-  {
-    "name": "M_vPNml68",
-    "urls": {
-      "combined": "types/M_vPNml68.html",
-      "left": "types/M_vPNml68_L.html",
-      "right": "types/M_vPNml68_R.html"
-    },
-    "synonyms": "aDT11",
-    "flywire_types": null,
-    "primary_url": "types/M_vPNml68.html"
   },
   {
     "name": "M_vPNml69",
@@ -79955,6 +81442,39 @@ const NEURON_DATA = [
     "primary_url": "types/M_vPNml72.html"
   },
   {
+    "name": "M_vPNml75",
+    "urls": {
+      "combined": "types/M_vPNml75.html",
+      "left": "types/M_vPNml75_L.html",
+      "right": "types/M_vPNml75_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/M_vPNml75.html"
+  },
+  {
+    "name": "M_vPNml77",
+    "urls": {
+      "combined": "types/M_vPNml77.html",
+      "left": "types/M_vPNml77_L.html",
+      "right": "types/M_vPNml77_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/M_vPNml77.html"
+  },
+  {
+    "name": "M_vPNml79",
+    "urls": {
+      "combined": "types/M_vPNml79.html",
+      "left": "types/M_vPNml79_L.html",
+      "right": "types/M_vPNml79_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/M_vPNml79.html"
+  },
+  {
     "name": "M_vPNml80",
     "urls": {
       "combined": "types/M_vPNml80.html",
@@ -79964,6 +81484,17 @@ const NEURON_DATA = [
     "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/M_vPNml80.html"
+  },
+  {
+    "name": "M_vPNml83",
+    "urls": {
+      "combined": "types/M_vPNml83.html",
+      "left": "types/M_vPNml83_L.html",
+      "right": "types/M_vPNml83_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/M_vPNml83.html"
   },
   {
     "name": "M_vPNml84",
@@ -79977,13 +81508,35 @@ const NEURON_DATA = [
     "primary_url": "types/M_vPNml84.html"
   },
   {
+    "name": "M_vPNml86",
+    "urls": {
+      "combined": "types/M_vPNml86.html",
+      "left": "types/M_vPNml86_L.html",
+      "right": "types/M_vPNml86_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/M_vPNml86.html"
+  },
+  {
+    "name": "M_vPNml87",
+    "urls": {
+      "combined": "types/M_vPNml87.html",
+      "left": "types/M_vPNml87_L.html",
+      "right": "types/M_vPNml87_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/M_vPNml87.html"
+  },
+  {
     "name": "MeLp1",
     "urls": {
       "combined": "types/MeLp1.html",
       "left": "types/MeLp1_L.html",
       "right": "types/MeLp1_R.html"
     },
-    "synonyms": "hb-5813068976",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/MeLp1.html"
   },
@@ -80016,7 +81569,7 @@ const NEURON_DATA = [
       "left": "types/MeMe_e02_L.html",
       "right": "types/MeMe_e02_R.html"
     },
-    "synonyms": null,
+    "synonyms": "Cachero 2010: aIP-f;Yu 2010: pMP7",
     "flywire_types": null,
     "primary_url": "types/MeMe_e02.html"
   },
@@ -80027,7 +81580,7 @@ const NEURON_DATA = [
       "left": "types/MeMe_e03_L.html",
       "right": "types/MeMe_e03_R.html"
     },
-    "synonyms": "hb-1592874539",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/MeMe_e03.html"
   },
@@ -80038,7 +81591,7 @@ const NEURON_DATA = [
       "left": "types/MeMe_e04_L.html",
       "right": "types/MeMe_e04_R.html"
     },
-    "synonyms": null,
+    "synonyms": "Cachero 2010: aIP-f;Yu 2010: pMP7",
     "flywire_types": null,
     "primary_url": "types/MeMe_e04.html"
   },
@@ -80071,7 +81624,7 @@ const NEURON_DATA = [
       "left": "types/MeMe_e07_L.html",
       "right": "types/MeMe_e07_R.html"
     },
-    "synonyms": null,
+    "synonyms": "Cachero 2010: aIP-f;Yu 2010: pMP7",
     "flywire_types": null,
     "primary_url": "types/MeMe_e07.html"
   },
@@ -80082,7 +81635,7 @@ const NEURON_DATA = [
       "left": "types/MeMe_e08_L.html",
       "right": "types/MeMe_e08_R.html"
     },
-    "synonyms": null,
+    "synonyms": "Cachero 2010: aIP-f;Yu 2010: pMP7",
     "flywire_types": null,
     "primary_url": "types/MeMe_e08.html"
   },
@@ -80104,9 +81657,42 @@ const NEURON_DATA = [
       "left": "types/MeMe_e10_L.html",
       "right": "types/MeMe_e10_R.html"
     },
-    "synonyms": null,
+    "synonyms": "Cachero 2010: aIP-f;Yu 2010: pMP7",
     "flywire_types": null,
     "primary_url": "types/MeMe_e10.html"
+  },
+  {
+    "name": "MeMe_e11",
+    "urls": {
+      "combined": "types/MeMe_e11.html",
+      "left": "types/MeMe_e11_L.html",
+      "right": "types/MeMe_e11_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/MeMe_e11.html"
+  },
+  {
+    "name": "MeMe_e12",
+    "urls": {
+      "combined": "types/MeMe_e12.html",
+      "left": "types/MeMe_e12_L.html",
+      "right": "types/MeMe_e12_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/MeMe_e12.html"
+  },
+  {
+    "name": "MeMe_e13",
+    "urls": {
+      "combined": "types/MeMe_e13.html",
+      "left": "types/MeMe_e13_L.html",
+      "right": "types/MeMe_e13_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/MeMe_e13.html"
   },
   {
     "name": "MeTu1",
@@ -80115,7 +81701,7 @@ const NEURON_DATA = [
       "left": "types/MeTu1_L.html",
       "right": "types/MeTu1_R.html"
     },
-    "synonyms": "MC61, MC64",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/MeTu1.html"
   },
@@ -80126,7 +81712,7 @@ const NEURON_DATA = [
       "left": "types/MeTu2a_L.html",
       "right": "types/MeTu2a_R.html"
     },
-    "synonyms": "MeTu2, MC61, MC64",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/MeTu2a.html"
   },
@@ -80137,7 +81723,7 @@ const NEURON_DATA = [
       "left": "types/MeTu2b_L.html",
       "right": "types/MeTu2b_R.html"
     },
-    "synonyms": "MeTu2, MC61, MC64",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/MeTu2b.html"
   },
@@ -80148,7 +81734,7 @@ const NEURON_DATA = [
       "left": "types/MeTu3a_L.html",
       "right": "types/MeTu3a_R.html"
     },
-    "synonyms": "MeTu3, MC61, MC64",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/MeTu3a.html"
   },
@@ -80159,7 +81745,7 @@ const NEURON_DATA = [
       "left": "types/MeTu3b_L.html",
       "right": "types/MeTu3b_R.html"
     },
-    "synonyms": "MeTu3, MC61, MC64",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/MeTu3b.html"
   },
@@ -80170,18 +81756,9 @@ const NEURON_DATA = [
       "left": "types/MeTu3c_L.html",
       "right": "types/MeTu3c_R.html"
     },
-    "synonyms": "MeTu3, MC61, MC64",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/MeTu3c.html"
-  },
-  {
-    "name": "MeTu4_unknown",
-    "urls": {
-      "left": "types/MeTu4_unknown_L.html"
-    },
-    "synonyms": "MeTu4, MC61, MC64",
-    "flywire_types": null,
-    "primary_url": "types/MeTu4_unknown_L.html"
   },
   {
     "name": "MeTu4a",
@@ -80190,7 +81767,7 @@ const NEURON_DATA = [
       "left": "types/MeTu4a_L.html",
       "right": "types/MeTu4a_R.html"
     },
-    "synonyms": "MeTu4, MC61, MC64",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/MeTu4a.html"
   },
@@ -80201,7 +81778,7 @@ const NEURON_DATA = [
       "left": "types/MeTu4b_L.html",
       "right": "types/MeTu4b_R.html"
     },
-    "synonyms": "MeTu4, MC61, MC64",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/MeTu4b.html"
   },
@@ -80212,7 +81789,7 @@ const NEURON_DATA = [
       "left": "types/MeTu4c_L.html",
       "right": "types/MeTu4c_R.html"
     },
-    "synonyms": "MeTu4, MC61, MC64",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/MeTu4c.html"
   },
@@ -80223,7 +81800,7 @@ const NEURON_DATA = [
       "left": "types/MeTu4d_L.html",
       "right": "types/MeTu4d_R.html"
     },
-    "synonyms": "MeTu4, MC61, MC64",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/MeTu4d.html"
   },
@@ -80344,7 +81921,7 @@ const NEURON_DATA = [
       "left": "types/NPFL1-I_L.html",
       "right": "types/NPFL1-I_R.html"
     },
-    "synonyms": null,
+    "synonyms": "fru-F-800063",
     "flywire_types": null,
     "primary_url": "types/NPFL1-I.html"
   },
@@ -80366,7 +81943,7 @@ const NEURON_DATA = [
       "left": "types/Nod2_L.html",
       "right": "types/Nod2_R.html"
     },
-    "synonyms": "hb-1315529069",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/Nod2.html"
   },
@@ -80377,7 +81954,7 @@ const NEURON_DATA = [
       "left": "types/Nod3_L.html",
       "right": "types/Nod3_R.html"
     },
-    "synonyms": "hb-1352706891",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/Nod3.html"
   },
@@ -80399,7 +81976,7 @@ const NEURON_DATA = [
       "left": "types/OA-AL2b1_L.html",
       "right": "types/OA-AL2b1_R.html"
     },
-    "synonyms": "PLP244",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/OA-AL2b1.html"
   },
@@ -80410,7 +81987,7 @@ const NEURON_DATA = [
       "left": "types/OA-AL2b2_L.html",
       "right": "types/OA-AL2b2_R.html"
     },
-    "synonyms": "aMe14b",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/OA-AL2b2.html"
   },
@@ -80421,7 +81998,7 @@ const NEURON_DATA = [
       "left": "types/OA-AL2i1_L.html",
       "right": "types/OA-AL2i1_R.html"
     },
-    "synonyms": "hb-5813069570",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/OA-AL2i1.html"
   },
@@ -80432,7 +82009,7 @@ const NEURON_DATA = [
       "left": "types/OA-AL2i2_L.html",
       "right": "types/OA-AL2i2_R.html"
     },
-    "synonyms": "hb-1535212969",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/OA-AL2i2.html"
   },
@@ -80568,49 +82145,13 @@ const NEURON_DATA = [
     "primary_url": "types/OA-VUMa6_M.html"
   },
   {
-    "name": "OA-VUMa7",
-    "urls": {
-      "middle": "types/OA-VUMa7_M.html"
-    },
-    "synonyms": null,
-    "flywire_types": null,
-    "primary_url": "types/OA-VUMa7_M.html"
-  },
-  {
     "name": "OA-VUMa8",
     "urls": {
       "middle": "types/OA-VUMa8_M.html"
     },
-    "synonyms": "hb-1041666949",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/OA-VUMa8_M.html"
-  },
-  {
-    "name": "OA-VUMx1",
-    "urls": {
-      "middle": "types/OA-VUMx1_M.html"
-    },
-    "synonyms": null,
-    "flywire_types": null,
-    "primary_url": "types/OA-VUMx1_M.html"
-  },
-  {
-    "name": "OA-VUMx2",
-    "urls": {
-      "middle": "types/OA-VUMx2_M.html"
-    },
-    "synonyms": null,
-    "flywire_types": null,
-    "primary_url": "types/OA-VUMx2_M.html"
-  },
-  {
-    "name": "OA-VUMx3",
-    "urls": {
-      "middle": "types/OA-VUMx3_M.html"
-    },
-    "synonyms": null,
-    "flywire_types": null,
-    "primary_url": "types/OA-VUMx3_M.html"
   },
   {
     "name": "OCC01a",
@@ -80619,7 +82160,7 @@ const NEURON_DATA = [
       "left": "types/OCC01a_L.html",
       "right": "types/OCC01a_R.html"
     },
-    "synonyms": "OCG06",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/OCC01a.html"
   },
@@ -80630,7 +82171,7 @@ const NEURON_DATA = [
       "left": "types/OCC01b_L.html",
       "right": "types/OCC01b_R.html"
     },
-    "synonyms": "OCG05",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/OCC01b.html"
   },
@@ -80641,7 +82182,7 @@ const NEURON_DATA = [
       "left": "types/OCC02a_L.html",
       "right": "types/OCC02a_R.html"
     },
-    "synonyms": "OCG07",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/OCC02a.html"
   },
@@ -80652,7 +82193,7 @@ const NEURON_DATA = [
       "left": "types/OCC02b_L.html",
       "right": "types/OCC02b_R.html"
     },
-    "synonyms": "OCG08",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/OCC02b.html"
   },
@@ -80663,7 +82204,7 @@ const NEURON_DATA = [
       "left": "types/OCG01a_L.html",
       "right": "types/OCG01a_R.html"
     },
-    "synonyms": "OCG01",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/OCG01a.html"
   },
@@ -80674,7 +82215,7 @@ const NEURON_DATA = [
       "left": "types/OCG01b_L.html",
       "right": "types/OCG01b_R.html"
     },
-    "synonyms": "OCG01",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/OCG01b.html"
   },
@@ -80685,7 +82226,7 @@ const NEURON_DATA = [
       "left": "types/OCG01c_L.html",
       "right": "types/OCG01c_R.html"
     },
-    "synonyms": "OCG01",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/OCG01c.html"
   },
@@ -80696,7 +82237,7 @@ const NEURON_DATA = [
       "left": "types/OCG01d_L.html",
       "right": "types/OCG01d_R.html"
     },
-    "synonyms": "OCG01",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/OCG01d.html"
   },
@@ -80707,7 +82248,7 @@ const NEURON_DATA = [
       "left": "types/OCG01e_L.html",
       "right": "types/OCG01e_R.html"
     },
-    "synonyms": "OCG01",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/OCG01e.html"
   },
@@ -80718,7 +82259,7 @@ const NEURON_DATA = [
       "left": "types/OCG01f_L.html",
       "right": "types/OCG01f_R.html"
     },
-    "synonyms": "OCG01",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/OCG01f.html"
   },
@@ -80729,7 +82270,7 @@ const NEURON_DATA = [
       "left": "types/OCG02a_L.html",
       "right": "types/OCG02a_R.html"
     },
-    "synonyms": "OCG03",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/OCG02a.html"
   },
@@ -80740,7 +82281,7 @@ const NEURON_DATA = [
       "left": "types/OCG02b_L.html",
       "right": "types/OCG02b_R.html"
     },
-    "synonyms": "OCG02",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/OCG02b.html"
   },
@@ -80751,9 +82292,20 @@ const NEURON_DATA = [
       "left": "types/OCG02c_L.html",
       "right": "types/OCG02c_R.html"
     },
-    "synonyms": "OCG04",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/OCG02c.html"
+  },
+  {
+    "name": "OLVC7",
+    "urls": {
+      "combined": "types/OLVC7.html",
+      "left": "types/OLVC7_L.html",
+      "right": "types/OLVC7_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/OLVC7.html"
   },
   {
     "name": "ORN_D",
@@ -81158,7 +82710,7 @@ const NEURON_DATA = [
       "left": "types/ORN_VC3_L.html",
       "right": "types/ORN_VC3_R.html"
     },
-    "synonyms": "ORN_VC3l",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/ORN_VC3.html"
   },
@@ -81180,7 +82732,7 @@ const NEURON_DATA = [
       "left": "types/ORN_VC5_L.html",
       "right": "types/ORN_VC5_R.html"
     },
-    "synonyms": "ORN_VC3m",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/ORN_VC5.html"
   },
@@ -81290,7 +82842,7 @@ const NEURON_DATA = [
       "left": "types/ORN_VM6l_L.html",
       "right": "types/ORN_VM6l_R.html"
     },
-    "synonyms": "ORN_VC5",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/ORN_VM6l.html"
   },
@@ -81301,7 +82853,7 @@ const NEURON_DATA = [
       "left": "types/ORN_VM6m_L.html",
       "right": "types/ORN_VM6m_R.html"
     },
-    "synonyms": "ORN_VC5",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/ORN_VM6m.html"
   },
@@ -81312,7 +82864,7 @@ const NEURON_DATA = [
       "left": "types/ORN_VM6v_L.html",
       "right": "types/ORN_VM6v_R.html"
     },
-    "synonyms": "ORN_VC5",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/ORN_VM6v.html"
   },
@@ -81337,17 +82889,6 @@ const NEURON_DATA = [
     "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/ORN_VM7v.html"
-  },
-  {
-    "name": "P1-9",
-    "urls": {
-      "combined": "types/P1-9.html",
-      "left": "types/P1-9_L.html",
-      "right": "types/P1-9_R.html"
-    },
-    "synonyms": null,
-    "flywire_types": null,
-    "primary_url": "types/P1-9.html"
   },
   {
     "name": "P6-8P9",
@@ -81411,7 +82952,7 @@ const NEURON_DATA = [
       "left": "types/PAM02_L.html",
       "right": "types/PAM02_R.html"
     },
-    "synonyms": null,
+    "synonyms": "Cachero 2010: aSP-d;Yu 2010: aSP13",
     "flywire_types": null,
     "primary_url": "types/PAM02.html"
   },
@@ -81444,7 +82985,7 @@ const NEURON_DATA = [
       "left": "types/PAM05_L.html",
       "right": "types/PAM05_R.html"
     },
-    "synonyms": null,
+    "synonyms": "Cachero 2010: aSP-d;Yu 2010: aSP13",
     "flywire_types": null,
     "primary_url": "types/PAM05.html"
   },
@@ -81466,7 +83007,7 @@ const NEURON_DATA = [
       "left": "types/PAM07_L.html",
       "right": "types/PAM07_R.html"
     },
-    "synonyms": null,
+    "synonyms": "Cachero 2010: aDT-b;Yu 2010: aDT2",
     "flywire_types": null,
     "primary_url": "types/PAM07.html"
   },
@@ -81477,7 +83018,7 @@ const NEURON_DATA = [
       "left": "types/PAM08_L.html",
       "right": "types/PAM08_R.html"
     },
-    "synonyms": null,
+    "synonyms": "Cachero 2010: aSP-d;Yu 2010: aSP13",
     "flywire_types": null,
     "primary_url": "types/PAM08.html"
   },
@@ -81521,7 +83062,7 @@ const NEURON_DATA = [
       "left": "types/PAM12_L.html",
       "right": "types/PAM12_R.html"
     },
-    "synonyms": null,
+    "synonyms": "Cachero 2010: aDT-b;Yu 2010: aDT2",
     "flywire_types": null,
     "primary_url": "types/PAM12.html"
   },
@@ -81550,22 +83091,24 @@ const NEURON_DATA = [
   {
     "name": "PAM15",
     "urls": {
-      "left": "types/PAM15_L.html"
+      "combined": "types/PAM15.html",
+      "left": "types/PAM15_L.html",
+      "right": "types/PAM15_R.html"
     },
     "synonyms": null,
     "flywire_types": null,
-    "primary_url": "types/PAM15_L.html"
+    "primary_url": "types/PAM15.html"
   },
   {
-    "name": "PDt",
+    "name": "PDt1",
     "urls": {
-      "combined": "types/PDt.html",
-      "left": "types/PDt_L.html",
-      "right": "types/PDt_R.html"
+      "combined": "types/PDt1.html",
+      "left": "types/PDt1_L.html",
+      "right": "types/PDt1_R.html"
     },
-    "synonyms": "CB3842",
+    "synonyms": null,
     "flywire_types": null,
-    "primary_url": "types/PDt.html"
+    "primary_url": "types/PDt1.html"
   },
   {
     "name": "PEG",
@@ -81673,9 +83216,20 @@ const NEURON_DATA = [
       "left": "types/PFNm_L.html",
       "right": "types/PFNm_R.html"
     },
-    "synonyms": "PFNp",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/PFNm.html"
+  },
+  {
+    "name": "PFNp",
+    "urls": {
+      "combined": "types/PFNp.html",
+      "left": "types/PFNp_L.html",
+      "right": "types/PFNp_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/PFNp.html"
   },
   {
     "name": "PFNv",
@@ -81700,15 +83254,13 @@ const NEURON_DATA = [
     "primary_url": "types/PFR.html"
   },
   {
-    "name": "PI",
+    "name": "PFR_a",
     "urls": {
-      "combined": "types/PI.html",
-      "left": "types/PI_L.html",
-      "right": "types/PI_R.html"
+      "left": "types/PFR_a_L.html"
     },
-    "synonyms": "PI1, PI2, PI3, IPC",
+    "synonyms": null,
     "flywire_types": null,
-    "primary_url": "types/PI.html"
+    "primary_url": "types/PFR_a_L.html"
   },
   {
     "name": "PLP001",
@@ -81720,6 +83272,17 @@ const NEURON_DATA = [
     "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/PLP001.html"
+  },
+  {
+    "name": "PLP003",
+    "urls": {
+      "combined": "types/PLP003.html",
+      "left": "types/PLP003_L.html",
+      "right": "types/PLP003_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/PLP003.html"
   },
   {
     "name": "PLP004",
@@ -81935,7 +83498,7 @@ const NEURON_DATA = [
       "left": "types/PLP025a_L.html",
       "right": "types/PLP025a_R.html"
     },
-    "synonyms": "PLP025",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/PLP025a.html"
   },
@@ -81946,20 +83509,20 @@ const NEURON_DATA = [
       "left": "types/PLP025b_L.html",
       "right": "types/PLP025b_R.html"
     },
-    "synonyms": "PLP025",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/PLP025b.html"
   },
   {
-    "name": "PLP026",
+    "name": "PLP026,PLP027",
     "urls": {
-      "combined": "types/PLP026.html",
-      "left": "types/PLP026_L.html",
-      "right": "types/PLP026_R.html"
+      "combined": "types/PLP026,PLP027.html",
+      "left": "types/PLP026,PLP027_L.html",
+      "right": "types/PLP026,PLP027_R.html"
     },
-    "synonyms": "PLP027",
+    "synonyms": null,
     "flywire_types": null,
-    "primary_url": "types/PLP026.html"
+    "primary_url": "types/PLP026,PLP027.html"
   },
   {
     "name": "PLP028",
@@ -82034,7 +83597,7 @@ const NEURON_DATA = [
       "left": "types/PLP037a_L.html",
       "right": "types/PLP037a_R.html"
     },
-    "synonyms": "PLP037",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/PLP037a.html"
   },
@@ -82045,7 +83608,7 @@ const NEURON_DATA = [
       "left": "types/PLP037b_L.html",
       "right": "types/PLP037b_R.html"
     },
-    "synonyms": "PLP037",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/PLP037b.html"
   },
@@ -82072,15 +83635,15 @@ const NEURON_DATA = [
     "primary_url": "types/PLP039.html"
   },
   {
-    "name": "PLP041",
+    "name": "PLP041,PLP043",
     "urls": {
-      "combined": "types/PLP041.html",
-      "left": "types/PLP041_L.html",
-      "right": "types/PLP041_R.html"
+      "combined": "types/PLP041,PLP043.html",
+      "left": "types/PLP041,PLP043_L.html",
+      "right": "types/PLP041,PLP043_R.html"
     },
-    "synonyms": "PLP043",
+    "synonyms": null,
     "flywire_types": null,
-    "primary_url": "types/PLP041.html"
+    "primary_url": "types/PLP041,PLP043.html"
   },
   {
     "name": "PLP042a",
@@ -82089,7 +83652,7 @@ const NEURON_DATA = [
       "left": "types/PLP042a_L.html",
       "right": "types/PLP042a_R.html"
     },
-    "synonyms": "PLP042",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/PLP042a.html"
   },
@@ -82100,7 +83663,7 @@ const NEURON_DATA = [
       "left": "types/PLP042b_L.html",
       "right": "types/PLP042b_R.html"
     },
-    "synonyms": "PLP042",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/PLP042b.html"
   },
@@ -82111,7 +83674,7 @@ const NEURON_DATA = [
       "left": "types/PLP042c_L.html",
       "right": "types/PLP042c_R.html"
     },
-    "synonyms": "PLP042",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/PLP042c.html"
   },
@@ -82133,7 +83696,7 @@ const NEURON_DATA = [
       "left": "types/PLP046a_L.html",
       "right": "types/PLP046a_R.html"
     },
-    "synonyms": "PLP046",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/PLP046a.html"
   },
@@ -82144,7 +83707,7 @@ const NEURON_DATA = [
       "left": "types/PLP046b_L.html",
       "right": "types/PLP046b_R.html"
     },
-    "synonyms": "PLP046",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/PLP046b.html"
   },
@@ -82155,7 +83718,7 @@ const NEURON_DATA = [
       "left": "types/PLP046c_L.html",
       "right": "types/PLP046c_R.html"
     },
-    "synonyms": "PLP046",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/PLP046c.html"
   },
@@ -82195,13 +83758,11 @@ const NEURON_DATA = [
   {
     "name": "PLP053a",
     "urls": {
-      "combined": "types/PLP053a.html",
-      "left": "types/PLP053a_L.html",
       "right": "types/PLP053a_R.html"
     },
-    "synonyms": "PLP053",
+    "synonyms": null,
     "flywire_types": null,
-    "primary_url": "types/PLP053a.html"
+    "primary_url": "types/PLP053a_R.html"
   },
   {
     "name": "PLP053b",
@@ -82210,7 +83771,7 @@ const NEURON_DATA = [
       "left": "types/PLP053b_L.html",
       "right": "types/PLP053b_R.html"
     },
-    "synonyms": "PLP053",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/PLP053b.html"
   },
@@ -82243,7 +83804,7 @@ const NEURON_DATA = [
       "left": "types/PLP057a_L.html",
       "right": "types/PLP057a_R.html"
     },
-    "synonyms": "PLP057",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/PLP057a.html"
   },
@@ -82254,7 +83815,7 @@ const NEURON_DATA = [
       "left": "types/PLP057b_L.html",
       "right": "types/PLP057b_R.html"
     },
-    "synonyms": "PLP057",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/PLP057b.html"
   },
@@ -82268,6 +83829,28 @@ const NEURON_DATA = [
     "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/PLP058.html"
+  },
+  {
+    "name": "PLP059a",
+    "urls": {
+      "combined": "types/PLP059a.html",
+      "left": "types/PLP059a_L.html",
+      "right": "types/PLP059a_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/PLP059a.html"
+  },
+  {
+    "name": "PLP059b",
+    "urls": {
+      "combined": "types/PLP059b.html",
+      "left": "types/PLP059b_L.html",
+      "right": "types/PLP059b_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/PLP059b.html"
   },
   {
     "name": "PLP060",
@@ -82309,7 +83892,7 @@ const NEURON_DATA = [
       "left": "types/PLP065a_L.html",
       "right": "types/PLP065a_R.html"
     },
-    "synonyms": "PLP065",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/PLP065a.html"
   },
@@ -82320,7 +83903,7 @@ const NEURON_DATA = [
       "left": "types/PLP065b_L.html",
       "right": "types/PLP065b_R.html"
     },
-    "synonyms": "PLP065",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/PLP065b.html"
   },
@@ -82331,7 +83914,7 @@ const NEURON_DATA = [
       "left": "types/PLP067a_L.html",
       "right": "types/PLP067a_R.html"
     },
-    "synonyms": "PLP067",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/PLP067a.html"
   },
@@ -82342,7 +83925,7 @@ const NEURON_DATA = [
       "left": "types/PLP067b_L.html",
       "right": "types/PLP067b_R.html"
     },
-    "synonyms": "PLP067",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/PLP067b.html"
   },
@@ -82435,15 +84018,15 @@ const NEURON_DATA = [
     "primary_url": "types/PLP081.html"
   },
   {
-    "name": "PLP084",
+    "name": "PLP084,PLP085",
     "urls": {
-      "combined": "types/PLP084.html",
-      "left": "types/PLP084_L.html",
-      "right": "types/PLP084_R.html"
+      "combined": "types/PLP084,PLP085.html",
+      "left": "types/PLP084,PLP085_L.html",
+      "right": "types/PLP084,PLP085_R.html"
     },
-    "synonyms": "PLP085",
+    "synonyms": null,
     "flywire_types": null,
-    "primary_url": "types/PLP084.html"
+    "primary_url": "types/PLP084,PLP085.html"
   },
   {
     "name": "PLP086a",
@@ -82452,7 +84035,7 @@ const NEURON_DATA = [
       "left": "types/PLP086a_L.html",
       "right": "types/PLP086a_R.html"
     },
-    "synonyms": "PLP086",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/PLP086a.html"
   },
@@ -82463,7 +84046,7 @@ const NEURON_DATA = [
       "left": "types/PLP086b_L.html",
       "right": "types/PLP086b_R.html"
     },
-    "synonyms": "PLP086",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/PLP086b.html"
   },
@@ -82474,7 +84057,7 @@ const NEURON_DATA = [
       "left": "types/PLP087a_L.html",
       "right": "types/PLP087a_R.html"
     },
-    "synonyms": "PLP087",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/PLP087a.html"
   },
@@ -82485,7 +84068,7 @@ const NEURON_DATA = [
       "left": "types/PLP087b_L.html",
       "right": "types/PLP087b_R.html"
     },
-    "synonyms": "PLP087",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/PLP087b.html"
   },
@@ -82496,7 +84079,7 @@ const NEURON_DATA = [
       "left": "types/PLP089b_L.html",
       "right": "types/PLP089b_R.html"
     },
-    "synonyms": "PLP089",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/PLP089b.html"
   },
@@ -82589,15 +84172,15 @@ const NEURON_DATA = [
     "primary_url": "types/PLP100.html"
   },
   {
-    "name": "PLP101",
+    "name": "PLP101,PLP102",
     "urls": {
-      "combined": "types/PLP101.html",
-      "left": "types/PLP101_L.html",
-      "right": "types/PLP101_R.html"
+      "combined": "types/PLP101,PLP102.html",
+      "left": "types/PLP101,PLP102_L.html",
+      "right": "types/PLP101,PLP102_R.html"
     },
-    "synonyms": "PLP102",
+    "synonyms": null,
     "flywire_types": null,
-    "primary_url": "types/PLP101.html"
+    "primary_url": "types/PLP101,PLP102.html"
   },
   {
     "name": "PLP103a",
@@ -82606,7 +84189,7 @@ const NEURON_DATA = [
       "left": "types/PLP103a_L.html",
       "right": "types/PLP103a_R.html"
     },
-    "synonyms": "PLP103",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/PLP103a.html"
   },
@@ -82617,7 +84200,7 @@ const NEURON_DATA = [
       "left": "types/PLP103b_L.html",
       "right": "types/PLP103b_R.html"
     },
-    "synonyms": "PLP103",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/PLP103b.html"
   },
@@ -82628,7 +84211,7 @@ const NEURON_DATA = [
       "left": "types/PLP103c_L.html",
       "right": "types/PLP103c_R.html"
     },
-    "synonyms": "PLP103",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/PLP103c.html"
   },
@@ -82664,15 +84247,15 @@ const NEURON_DATA = [
     "primary_url": "types/PLP108.html"
   },
   {
-    "name": "PLP109",
+    "name": "PLP109,PLP112",
     "urls": {
-      "combined": "types/PLP109.html",
-      "left": "types/PLP109_L.html",
-      "right": "types/PLP109_R.html"
+      "combined": "types/PLP109,PLP112.html",
+      "left": "types/PLP109,PLP112_L.html",
+      "right": "types/PLP109,PLP112_R.html"
     },
-    "synonyms": "PLP112",
+    "synonyms": null,
     "flywire_types": null,
-    "primary_url": "types/PLP109.html"
+    "primary_url": "types/PLP109,PLP112.html"
   },
   {
     "name": "PLP113",
@@ -82741,15 +84324,15 @@ const NEURON_DATA = [
     "primary_url": "types/PLP119.html"
   },
   {
-    "name": "PLP120",
+    "name": "PLP120,PLP145",
     "urls": {
-      "combined": "types/PLP120.html",
-      "left": "types/PLP120_L.html",
-      "right": "types/PLP120_R.html"
+      "combined": "types/PLP120,PLP145.html",
+      "left": "types/PLP120,PLP145_L.html",
+      "right": "types/PLP120,PLP145_R.html"
     },
-    "synonyms": "PLP145",
+    "synonyms": null,
     "flywire_types": null,
-    "primary_url": "types/PLP120.html"
+    "primary_url": "types/PLP120,PLP145.html"
   },
   {
     "name": "PLP121",
@@ -82851,15 +84434,15 @@ const NEURON_DATA = [
     "primary_url": "types/PLP132.html"
   },
   {
-    "name": "PLP139",
+    "name": "PLP139,PLP140",
     "urls": {
-      "combined": "types/PLP139.html",
-      "left": "types/PLP139_L.html",
-      "right": "types/PLP139_R.html"
+      "combined": "types/PLP139,PLP140.html",
+      "left": "types/PLP139,PLP140_L.html",
+      "right": "types/PLP139,PLP140_R.html"
     },
-    "synonyms": "PLP140",
+    "synonyms": null,
     "flywire_types": null,
-    "primary_url": "types/PLP139.html"
+    "primary_url": "types/PLP139,PLP140.html"
   },
   {
     "name": "PLP141",
@@ -82934,7 +84517,7 @@ const NEURON_DATA = [
       "left": "types/PLP150a_L.html",
       "right": "types/PLP150a_R.html"
     },
-    "synonyms": "PLP150",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/PLP150a.html"
   },
@@ -82945,7 +84528,7 @@ const NEURON_DATA = [
       "left": "types/PLP150b_L.html",
       "right": "types/PLP150b_R.html"
     },
-    "synonyms": "PLP150",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/PLP150b.html"
   },
@@ -82956,7 +84539,7 @@ const NEURON_DATA = [
       "left": "types/PLP150c_L.html",
       "right": "types/PLP150c_R.html"
     },
-    "synonyms": "PLP150",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/PLP150c.html"
   },
@@ -83214,15 +84797,15 @@ const NEURON_DATA = [
     "primary_url": "types/PLP182.html"
   },
   {
-    "name": "PLP185",
+    "name": "PLP185,PLP186",
     "urls": {
-      "combined": "types/PLP185.html",
-      "left": "types/PLP185_L.html",
-      "right": "types/PLP185_R.html"
+      "combined": "types/PLP185,PLP186.html",
+      "left": "types/PLP185,PLP186_L.html",
+      "right": "types/PLP185,PLP186_R.html"
     },
-    "synonyms": "PLP186",
+    "synonyms": null,
     "flywire_types": null,
-    "primary_url": "types/PLP185.html"
+    "primary_url": "types/PLP185,PLP186.html"
   },
   {
     "name": "PLP187",
@@ -83236,15 +84819,15 @@ const NEURON_DATA = [
     "primary_url": "types/PLP187.html"
   },
   {
-    "name": "PLP188",
+    "name": "PLP188,PLP189",
     "urls": {
-      "combined": "types/PLP188.html",
-      "left": "types/PLP188_L.html",
-      "right": "types/PLP188_R.html"
+      "combined": "types/PLP188,PLP189.html",
+      "left": "types/PLP188,PLP189_L.html",
+      "right": "types/PLP188,PLP189_R.html"
     },
-    "synonyms": "PLP189",
+    "synonyms": null,
     "flywire_types": null,
-    "primary_url": "types/PLP188.html"
+    "primary_url": "types/PLP188,PLP189.html"
   },
   {
     "name": "PLP190",
@@ -83256,28 +84839,6 @@ const NEURON_DATA = [
     "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/PLP190.html"
-  },
-  {
-    "name": "PLP191a",
-    "urls": {
-      "combined": "types/PLP191a.html",
-      "left": "types/PLP191a_L.html",
-      "right": "types/PLP191a_R.html"
-    },
-    "synonyms": "PLP192a, PLP191, PLP192",
-    "flywire_types": null,
-    "primary_url": "types/PLP191a.html"
-  },
-  {
-    "name": "PLP191b",
-    "urls": {
-      "combined": "types/PLP191b.html",
-      "left": "types/PLP191b_L.html",
-      "right": "types/PLP191b_R.html"
-    },
-    "synonyms": "PLP192b, PLP191, PLP192",
-    "flywire_types": null,
-    "primary_url": "types/PLP191b.html"
   },
   {
     "name": "PLP196",
@@ -83302,15 +84863,15 @@ const NEURON_DATA = [
     "primary_url": "types/PLP197.html"
   },
   {
-    "name": "PLP198",
+    "name": "PLP198,SLP361",
     "urls": {
-      "combined": "types/PLP198.html",
-      "left": "types/PLP198_L.html",
-      "right": "types/PLP198_R.html"
+      "combined": "types/PLP198,SLP361.html",
+      "left": "types/PLP198,SLP361_L.html",
+      "right": "types/PLP198,SLP361_R.html"
     },
-    "synonyms": "SLP361",
+    "synonyms": null,
     "flywire_types": null,
-    "primary_url": "types/PLP198.html"
+    "primary_url": "types/PLP198,SLP361.html"
   },
   {
     "name": "PLP199",
@@ -83553,17 +85114,6 @@ const NEURON_DATA = [
     "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/PLP241.html"
-  },
-  {
-    "name": "PLP242",
-    "urls": {
-      "combined": "types/PLP242.html",
-      "left": "types/PLP242_L.html",
-      "right": "types/PLP242_R.html"
-    },
-    "synonyms": "PS230",
-    "flywire_types": null,
-    "primary_url": "types/PLP242.html"
   },
   {
     "name": "PLP243",
@@ -83834,20 +85384,20 @@ const NEURON_DATA = [
       "left": "types/PPM1203_L.html",
       "right": "types/PPM1203_R.html"
     },
-    "synonyms": "pMP20",
+    "synonyms": "Cachero 2010: pMP-d",
     "flywire_types": null,
     "primary_url": "types/PPM1203.html"
   },
   {
-    "name": "PPM1204",
+    "name": "PPM1204,PS139",
     "urls": {
-      "combined": "types/PPM1204.html",
-      "left": "types/PPM1204_L.html",
-      "right": "types/PPM1204_R.html"
+      "combined": "types/PPM1204,PS139.html",
+      "left": "types/PPM1204,PS139_L.html",
+      "right": "types/PPM1204,PS139_R.html"
     },
-    "synonyms": "PS139",
+    "synonyms": null,
     "flywire_types": null,
-    "primary_url": "types/PPM1204.html"
+    "primary_url": "types/PPM1204,PS139.html"
   },
   {
     "name": "PPM1205",
@@ -83883,13 +85433,24 @@ const NEURON_DATA = [
     "primary_url": "types/PS002.html"
   },
   {
+    "name": "PS003,PS006",
+    "urls": {
+      "combined": "types/PS003,PS006.html",
+      "left": "types/PS003,PS006_L.html",
+      "right": "types/PS003,PS006_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/PS003,PS006.html"
+  },
+  {
     "name": "PS004a",
     "urls": {
       "combined": "types/PS004a.html",
       "left": "types/PS004a_L.html",
       "right": "types/PS004a_R.html"
     },
-    "synonyms": "PS004",
+    "synonyms": "Cachero 2010: aSP-b;Yu 2010: aSP1",
     "flywire_types": null,
     "primary_url": "types/PS004a.html"
   },
@@ -83900,7 +85461,7 @@ const NEURON_DATA = [
       "left": "types/PS004b_L.html",
       "right": "types/PS004b_R.html"
     },
-    "synonyms": "PS004",
+    "synonyms": "Cachero 2010: aSP-b;Yu 2010: aSP1",
     "flywire_types": null,
     "primary_url": "types/PS004b.html"
   },
@@ -83914,6 +85475,28 @@ const NEURON_DATA = [
     "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/PS005.html"
+  },
+  {
+    "name": "PS005_a",
+    "urls": {
+      "combined": "types/PS005_a.html",
+      "left": "types/PS005_a_L.html",
+      "right": "types/PS005_a_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/PS005_a.html"
+  },
+  {
+    "name": "PS005_f",
+    "urls": {
+      "combined": "types/PS005_f.html",
+      "left": "types/PS005_f_L.html",
+      "right": "types/PS005_f_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/PS005_f.html"
   },
   {
     "name": "PS007",
@@ -83977,7 +85560,7 @@ const NEURON_DATA = [
       "left": "types/PS018a_L.html",
       "right": "types/PS018a_R.html"
     },
-    "synonyms": "PS018",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/PS018a.html"
   },
@@ -83988,7 +85571,7 @@ const NEURON_DATA = [
       "left": "types/PS018b_L.html",
       "right": "types/PS018b_R.html"
     },
-    "synonyms": "PS018",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/PS018b.html"
   },
@@ -84035,28 +85618,6 @@ const NEURON_DATA = [
     "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/PS022.html"
-  },
-  {
-    "name": "PS023a",
-    "urls": {
-      "combined": "types/PS023a.html",
-      "left": "types/PS023a_L.html",
-      "right": "types/PS023a_R.html"
-    },
-    "synonyms": "PS024a, PS023, PS024",
-    "flywire_types": null,
-    "primary_url": "types/PS023a.html"
-  },
-  {
-    "name": "PS023b",
-    "urls": {
-      "combined": "types/PS023b.html",
-      "left": "types/PS023b_L.html",
-      "right": "types/PS023b_R.html"
-    },
-    "synonyms": "PS024b, PS023, PS024",
-    "flywire_types": null,
-    "primary_url": "types/PS023b.html"
   },
   {
     "name": "PS025",
@@ -84153,7 +85714,7 @@ const NEURON_DATA = [
       "left": "types/PS038a_L.html",
       "right": "types/PS038a_R.html"
     },
-    "synonyms": "PS038",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/PS038a.html"
   },
@@ -84164,7 +85725,7 @@ const NEURON_DATA = [
       "left": "types/PS038b_L.html",
       "right": "types/PS038b_R.html"
     },
-    "synonyms": "PS038",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/PS038b.html"
   },
@@ -84178,6 +85739,15 @@ const NEURON_DATA = [
     "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/PS041.html"
+  },
+  {
+    "name": "PS043,PS044",
+    "urls": {
+      "right": "types/PS043,PS044_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/PS043,PS044_R.html"
   },
   {
     "name": "PS046",
@@ -84197,7 +85767,7 @@ const NEURON_DATA = [
       "left": "types/PS047a_L.html",
       "right": "types/PS047a_R.html"
     },
-    "synonyms": "PS047",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/PS047a.html"
   },
@@ -84208,7 +85778,7 @@ const NEURON_DATA = [
       "left": "types/PS047b_L.html",
       "right": "types/PS047b_R.html"
     },
-    "synonyms": "PS047",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/PS047b.html"
   },
@@ -84219,7 +85789,7 @@ const NEURON_DATA = [
       "left": "types/PS048a_L.html",
       "right": "types/PS048a_R.html"
     },
-    "synonyms": "PS048",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/PS048a.html"
   },
@@ -84230,7 +85800,7 @@ const NEURON_DATA = [
       "left": "types/PS048b_L.html",
       "right": "types/PS048b_R.html"
     },
-    "synonyms": "PS048",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/PS048b.html"
   },
@@ -84444,37 +86014,26 @@ const NEURON_DATA = [
     "primary_url": "types/PS080.html"
   },
   {
-    "name": "PS081",
+    "name": "PS081,PS085",
     "urls": {
-      "combined": "types/PS081.html",
-      "left": "types/PS081_L.html",
-      "right": "types/PS081_R.html"
+      "combined": "types/PS081,PS085.html",
+      "left": "types/PS081,PS085_L.html",
+      "right": "types/PS081,PS085_R.html"
     },
-    "synonyms": "PS085",
+    "synonyms": null,
     "flywire_types": null,
-    "primary_url": "types/PS081.html"
+    "primary_url": "types/PS081,PS085.html"
   },
   {
-    "name": "PS082a",
+    "name": "PS082",
     "urls": {
-      "combined": "types/PS082a.html",
-      "left": "types/PS082a_L.html",
-      "right": "types/PS082a_R.html"
+      "combined": "types/PS082.html",
+      "left": "types/PS082_L.html",
+      "right": "types/PS082_R.html"
     },
-    "synonyms": "PS084a, PS082, PS084",
+    "synonyms": "Cachero 2010: aSPi; Yu 2010: aSP11",
     "flywire_types": null,
-    "primary_url": "types/PS082a.html"
-  },
-  {
-    "name": "PS082b",
-    "urls": {
-      "combined": "types/PS082b.html",
-      "left": "types/PS082b_L.html",
-      "right": "types/PS082b_R.html"
-    },
-    "synonyms": "PS084b, PS082, PS084",
-    "flywire_types": null,
-    "primary_url": "types/PS082b.html"
+    "primary_url": "types/PS082.html"
   },
   {
     "name": "PS083a",
@@ -84483,7 +86042,7 @@ const NEURON_DATA = [
       "left": "types/PS083a_L.html",
       "right": "types/PS083a_R.html"
     },
-    "synonyms": "PS083",
+    "synonyms": "Cachero 2010: aSPi; Yu 2010: aSP11",
     "flywire_types": null,
     "primary_url": "types/PS083a.html"
   },
@@ -84494,9 +86053,20 @@ const NEURON_DATA = [
       "left": "types/PS083b_L.html",
       "right": "types/PS083b_R.html"
     },
-    "synonyms": "PS083",
+    "synonyms": "Cachero 2010: aSPi; Yu 2010: aSP11",
     "flywire_types": null,
     "primary_url": "types/PS083b.html"
+  },
+  {
+    "name": "PS084",
+    "urls": {
+      "combined": "types/PS084.html",
+      "left": "types/PS084_L.html",
+      "right": "types/PS084_R.html"
+    },
+    "synonyms": "Cachero 2010: aSPi; Yu 2010: aSP11",
+    "flywire_types": null,
+    "primary_url": "types/PS084.html"
   },
   {
     "name": "PS086",
@@ -84516,7 +86086,7 @@ const NEURON_DATA = [
       "left": "types/PS087_L.html",
       "right": "types/PS087_R.html"
     },
-    "synonyms": null,
+    "synonyms": "Cachero 2010: aSPi; Yu 2010: aSP11",
     "flywire_types": null,
     "primary_url": "types/PS087.html"
   },
@@ -84549,7 +86119,7 @@ const NEURON_DATA = [
       "left": "types/PS090a_L.html",
       "right": "types/PS090a_R.html"
     },
-    "synonyms": "PS090",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/PS090a.html"
   },
@@ -84560,7 +86130,7 @@ const NEURON_DATA = [
       "left": "types/PS090b_L.html",
       "right": "types/PS090b_R.html"
     },
-    "synonyms": "PS090",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/PS090b.html"
   },
@@ -84604,7 +86174,7 @@ const NEURON_DATA = [
       "left": "types/PS094a_L.html",
       "right": "types/PS094a_R.html"
     },
-    "synonyms": "PS094",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/PS094a.html"
   },
@@ -84615,7 +86185,7 @@ const NEURON_DATA = [
       "left": "types/PS094b_L.html",
       "right": "types/PS094b_R.html"
     },
-    "synonyms": "PS094",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/PS094b.html"
   },
@@ -84670,7 +86240,7 @@ const NEURON_DATA = [
       "left": "types/PS099a_L.html",
       "right": "types/PS099a_R.html"
     },
-    "synonyms": "PS099",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/PS099a.html"
   },
@@ -84681,7 +86251,7 @@ const NEURON_DATA = [
       "left": "types/PS099b_L.html",
       "right": "types/PS099b_R.html"
     },
-    "synonyms": "PS099",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/PS099b.html"
   },
@@ -84791,7 +86361,7 @@ const NEURON_DATA = [
       "left": "types/PS117a_L.html",
       "right": "types/PS117a_R.html"
     },
-    "synonyms": "PS117",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/PS117a.html"
   },
@@ -84802,7 +86372,7 @@ const NEURON_DATA = [
       "left": "types/PS117b_L.html",
       "right": "types/PS117b_R.html"
     },
-    "synonyms": "PS117",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/PS117b.html"
   },
@@ -84884,48 +86454,26 @@ const NEURON_DATA = [
     "primary_url": "types/PS140.html"
   },
   {
-    "name": "PS141",
+    "name": "PS141,PS147",
     "urls": {
-      "combined": "types/PS141.html",
-      "left": "types/PS141_L.html",
-      "right": "types/PS141_R.html"
+      "combined": "types/PS141,PS147.html",
+      "left": "types/PS141,PS147_L.html",
+      "right": "types/PS141,PS147_R.html"
     },
-    "synonyms": "PS147",
+    "synonyms": null,
     "flywire_types": null,
-    "primary_url": "types/PS141.html"
+    "primary_url": "types/PS141,PS147.html"
   },
   {
-    "name": "PS142a",
+    "name": "PS143,PS149",
     "urls": {
-      "combined": "types/PS142a.html",
-      "left": "types/PS142a_L.html",
-      "right": "types/PS142a_R.html"
+      "combined": "types/PS143,PS149.html",
+      "left": "types/PS143,PS149_L.html",
+      "right": "types/PS143,PS149_R.html"
     },
-    "synonyms": "PS148a, PS142, PS148",
+    "synonyms": null,
     "flywire_types": null,
-    "primary_url": "types/PS142a.html"
-  },
-  {
-    "name": "PS142b",
-    "urls": {
-      "combined": "types/PS142b.html",
-      "left": "types/PS142b_L.html",
-      "right": "types/PS142b_R.html"
-    },
-    "synonyms": "PS148b, PS142, PS148",
-    "flywire_types": null,
-    "primary_url": "types/PS142b.html"
-  },
-  {
-    "name": "PS143",
-    "urls": {
-      "combined": "types/PS143.html",
-      "left": "types/PS143_L.html",
-      "right": "types/PS143_R.html"
-    },
-    "synonyms": "PS149",
-    "flywire_types": null,
-    "primary_url": "types/PS143.html"
+    "primary_url": "types/PS143,PS149.html"
   },
   {
     "name": "PS146",
@@ -84948,6 +86496,26 @@ const NEURON_DATA = [
     "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/PS150.html"
+  },
+  {
+    "name": "PS150a",
+    "urls": {
+      "combined": "types/PS150a.html",
+      "left": "types/PS150a_L.html",
+      "right": "types/PS150a_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/PS150a.html"
+  },
+  {
+    "name": "PS150b",
+    "urls": {
+      "left": "types/PS150b_L.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/PS150b_L.html"
   },
   {
     "name": "PS153",
@@ -85022,20 +86590,20 @@ const NEURON_DATA = [
       "left": "types/PS161_L.html",
       "right": "types/PS161_R.html"
     },
-    "synonyms": null,
+    "synonyms": "Cachero 2010: pMP-a;Yu 2010: pMP5",
     "flywire_types": null,
     "primary_url": "types/PS161.html"
   },
   {
-    "name": "PS164",
+    "name": "PS164,PS165",
     "urls": {
-      "combined": "types/PS164.html",
-      "left": "types/PS164_L.html",
-      "right": "types/PS164_R.html"
+      "combined": "types/PS164,PS165.html",
+      "left": "types/PS164,PS165_L.html",
+      "right": "types/PS164,PS165_R.html"
     },
-    "synonyms": "PS165",
+    "synonyms": null,
     "flywire_types": null,
-    "primary_url": "types/PS164.html"
+    "primary_url": "types/PS164,PS165.html"
   },
   {
     "name": "PS170",
@@ -85181,15 +86749,15 @@ const NEURON_DATA = [
     "primary_url": "types/PS183.html"
   },
   {
-    "name": "PS184",
+    "name": "PS184,PS272",
     "urls": {
-      "combined": "types/PS184.html",
-      "left": "types/PS184_L.html",
-      "right": "types/PS184_R.html"
+      "combined": "types/PS184,PS272.html",
+      "left": "types/PS184,PS272_L.html",
+      "right": "types/PS184,PS272_R.html"
     },
-    "synonyms": "PS272, pIP20",
+    "synonyms": null,
     "flywire_types": null,
-    "primary_url": "types/PS184.html"
+    "primary_url": "types/PS184,PS272.html"
   },
   {
     "name": "PS185a",
@@ -85198,7 +86766,7 @@ const NEURON_DATA = [
       "left": "types/PS185a_L.html",
       "right": "types/PS185a_R.html"
     },
-    "synonyms": "PS185",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/PS185a.html"
   },
@@ -85209,7 +86777,7 @@ const NEURON_DATA = [
       "left": "types/PS185b_L.html",
       "right": "types/PS185b_R.html"
     },
-    "synonyms": "PS185",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/PS185b.html"
   },
@@ -85242,7 +86810,7 @@ const NEURON_DATA = [
       "left": "types/PS188a_L.html",
       "right": "types/PS188a_R.html"
     },
-    "synonyms": "PS188",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/PS188a.html"
   },
@@ -85253,7 +86821,7 @@ const NEURON_DATA = [
       "left": "types/PS188b_L.html",
       "right": "types/PS188b_R.html"
     },
-    "synonyms": "PS188",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/PS188b.html"
   },
@@ -85264,7 +86832,7 @@ const NEURON_DATA = [
       "left": "types/PS188c_L.html",
       "right": "types/PS188c_R.html"
     },
-    "synonyms": "PS188",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/PS188c.html"
   },
@@ -85275,7 +86843,7 @@ const NEURON_DATA = [
       "left": "types/PS191a_L.html",
       "right": "types/PS191a_R.html"
     },
-    "synonyms": "PS191",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/PS191a.html"
   },
@@ -85286,7 +86854,7 @@ const NEURON_DATA = [
       "left": "types/PS191b_L.html",
       "right": "types/PS191b_R.html"
     },
-    "synonyms": "PS191",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/PS191b.html"
   },
@@ -85308,7 +86876,7 @@ const NEURON_DATA = [
       "left": "types/PS193a_L.html",
       "right": "types/PS193a_R.html"
     },
-    "synonyms": "PS193",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/PS193a.html"
   },
@@ -85319,7 +86887,7 @@ const NEURON_DATA = [
       "left": "types/PS193b_L.html",
       "right": "types/PS193b_R.html"
     },
-    "synonyms": "PS193",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/PS193b.html"
   },
@@ -85330,7 +86898,7 @@ const NEURON_DATA = [
       "left": "types/PS193c_L.html",
       "right": "types/PS193c_R.html"
     },
-    "synonyms": "PS193",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/PS193c.html"
   },
@@ -85352,7 +86920,7 @@ const NEURON_DATA = [
       "left": "types/PS196a_L.html",
       "right": "types/PS196a_R.html"
     },
-    "synonyms": "PS196",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/PS196a.html"
   },
@@ -85363,20 +86931,20 @@ const NEURON_DATA = [
       "left": "types/PS196b_L.html",
       "right": "types/PS196b_R.html"
     },
-    "synonyms": "PS196",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/PS196b.html"
   },
   {
-    "name": "PS198",
+    "name": "PS197,PS198",
     "urls": {
-      "combined": "types/PS198.html",
-      "left": "types/PS198_L.html",
-      "right": "types/PS198_R.html"
+      "combined": "types/PS197,PS198.html",
+      "left": "types/PS197,PS198_L.html",
+      "right": "types/PS197,PS198_R.html"
     },
     "synonyms": null,
     "flywire_types": null,
-    "primary_url": "types/PS198.html"
+    "primary_url": "types/PS197,PS198.html"
   },
   {
     "name": "PS199",
@@ -85418,7 +86986,7 @@ const NEURON_DATA = [
       "left": "types/PS203a_L.html",
       "right": "types/PS203a_R.html"
     },
-    "synonyms": "PS203",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/PS203a.html"
   },
@@ -85429,7 +86997,7 @@ const NEURON_DATA = [
       "left": "types/PS203b_L.html",
       "right": "types/PS203b_R.html"
     },
-    "synonyms": "PS203",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/PS203b.html"
   },
@@ -85440,7 +87008,7 @@ const NEURON_DATA = [
       "left": "types/PS208a_L.html",
       "right": "types/PS208a_R.html"
     },
-    "synonyms": "PS208",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/PS208a.html"
   },
@@ -85451,7 +87019,7 @@ const NEURON_DATA = [
       "left": "types/PS208b_L.html",
       "right": "types/PS208b_R.html"
     },
-    "synonyms": "PS208",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/PS208b.html"
   },
@@ -85555,6 +87123,17 @@ const NEURON_DATA = [
     "primary_url": "types/PS224.html"
   },
   {
+    "name": "PS230,PLP242",
+    "urls": {
+      "combined": "types/PS230,PLP242.html",
+      "left": "types/PS230,PLP242_L.html",
+      "right": "types/PS230,PLP242_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/PS230,PLP242.html"
+  },
+  {
     "name": "PS231",
     "urls": {
       "combined": "types/PS231.html",
@@ -85599,6 +87178,17 @@ const NEURON_DATA = [
     "primary_url": "types/PS234.html"
   },
   {
+    "name": "PS235,PS261",
+    "urls": {
+      "combined": "types/PS235,PS261.html",
+      "left": "types/PS235,PS261_L.html",
+      "right": "types/PS235,PS261_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/PS235,PS261.html"
+  },
+  {
     "name": "PS237",
     "urls": {
       "combined": "types/PS237.html",
@@ -85632,15 +87222,15 @@ const NEURON_DATA = [
     "primary_url": "types/PS239.html"
   },
   {
-    "name": "PS240",
+    "name": "PS240,PS264",
     "urls": {
-      "combined": "types/PS240.html",
-      "left": "types/PS240_L.html",
-      "right": "types/PS240_R.html"
+      "combined": "types/PS240,PS264.html",
+      "left": "types/PS240,PS264_L.html",
+      "right": "types/PS240,PS264_R.html"
     },
-    "synonyms": "PS264",
+    "synonyms": "Cachero 2010: pIP-j",
     "flywire_types": null,
-    "primary_url": "types/PS240.html"
+    "primary_url": "types/PS240,PS264.html"
   },
   {
     "name": "PS241a",
@@ -85649,7 +87239,7 @@ const NEURON_DATA = [
       "left": "types/PS241a_L.html",
       "right": "types/PS241a_R.html"
     },
-    "synonyms": "PS241",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/PS241a.html"
   },
@@ -85660,7 +87250,7 @@ const NEURON_DATA = [
       "left": "types/PS241b_L.html",
       "right": "types/PS241b_R.html"
     },
-    "synonyms": "PS241",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/PS241b.html"
   },
@@ -85753,17 +87343,6 @@ const NEURON_DATA = [
     "primary_url": "types/PS260.html"
   },
   {
-    "name": "PS261",
-    "urls": {
-      "combined": "types/PS261.html",
-      "left": "types/PS261_L.html",
-      "right": "types/PS261_R.html"
-    },
-    "synonyms": null,
-    "flywire_types": null,
-    "primary_url": "types/PS261.html"
-  },
-  {
     "name": "PS262",
     "urls": {
       "combined": "types/PS262.html",
@@ -85803,9 +87382,31 @@ const NEURON_DATA = [
       "left": "types/PS267_L.html",
       "right": "types/PS267_R.html"
     },
-    "synonyms": "PS268, PS269",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/PS267.html"
+  },
+  {
+    "name": "PS268",
+    "urls": {
+      "combined": "types/PS268.html",
+      "left": "types/PS268_L.html",
+      "right": "types/PS268_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/PS268.html"
+  },
+  {
+    "name": "PS269",
+    "urls": {
+      "combined": "types/PS269.html",
+      "left": "types/PS269_L.html",
+      "right": "types/PS269_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/PS269.html"
   },
   {
     "name": "PS274",
@@ -85836,7 +87437,7 @@ const NEURON_DATA = [
       "left": "types/PS279_L.html",
       "right": "types/PS279_R.html"
     },
-    "synonyms": null,
+    "synonyms": "fru-F-200038",
     "flywire_types": null,
     "primary_url": "types/PS279.html"
   },
@@ -85850,6 +87451,15 @@ const NEURON_DATA = [
     "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/PS280.html"
+  },
+  {
+    "name": "PS289",
+    "urls": {
+      "right": "types/PS289_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/PS289_R.html"
   },
   {
     "name": "PS291",
@@ -85880,7 +87490,7 @@ const NEURON_DATA = [
       "left": "types/PS300_L.html",
       "right": "types/PS300_R.html"
     },
-    "synonyms": null,
+    "synonyms": "fru-F-200125",
     "flywire_types": null,
     "primary_url": "types/PS300.html"
   },
@@ -85940,15 +87550,15 @@ const NEURON_DATA = [
     "primary_url": "types/PVLP003.html"
   },
   {
-    "name": "PVLP004",
+    "name": "PVLP004,PVLP005",
     "urls": {
-      "combined": "types/PVLP004.html",
-      "left": "types/PVLP004_L.html",
-      "right": "types/PVLP004_R.html"
+      "combined": "types/PVLP004,PVLP005.html",
+      "left": "types/PVLP004,PVLP005_L.html",
+      "right": "types/PVLP004,PVLP005_R.html"
     },
-    "synonyms": "PVLP005",
+    "synonyms": null,
     "flywire_types": null,
-    "primary_url": "types/PVLP004.html"
+    "primary_url": "types/PVLP004,PVLP005.html"
   },
   {
     "name": "PVLP006",
@@ -86160,13 +87770,24 @@ const NEURON_DATA = [
     "primary_url": "types/PVLP025.html"
   },
   {
+    "name": "PVLP026",
+    "urls": {
+      "combined": "types/PVLP026.html",
+      "left": "types/PVLP026_L.html",
+      "right": "types/PVLP026_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/PVLP026.html"
+  },
+  {
     "name": "PVLP027",
     "urls": {
       "combined": "types/PVLP027.html",
       "left": "types/PVLP027_L.html",
       "right": "types/PVLP027_R.html"
     },
-    "synonyms": null,
+    "synonyms": "Cachero 2010: aIP-a",
     "flywire_types": null,
     "primary_url": "types/PVLP027.html"
   },
@@ -86199,7 +87820,7 @@ const NEURON_DATA = [
       "left": "types/PVLP033_L.html",
       "right": "types/PVLP033_R.html"
     },
-    "synonyms": null,
+    "synonyms": "Cachero 2010: aIP-a",
     "flywire_types": null,
     "primary_url": "types/PVLP033.html"
   },
@@ -86232,7 +87853,7 @@ const NEURON_DATA = [
       "left": "types/PVLP048_L.html",
       "right": "types/PVLP048_R.html"
     },
-    "synonyms": null,
+    "synonyms": "Cachero 2010: aIP-a",
     "flywire_types": null,
     "primary_url": "types/PVLP048.html"
   },
@@ -86342,7 +87963,7 @@ const NEURON_DATA = [
       "left": "types/PVLP080a_L.html",
       "right": "types/PVLP080a_R.html"
     },
-    "synonyms": "PVLP080",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/PVLP080a.html"
   },
@@ -86353,7 +87974,7 @@ const NEURON_DATA = [
       "left": "types/PVLP080b_L.html",
       "right": "types/PVLP080b_R.html"
     },
-    "synonyms": "PVLP080",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/PVLP080b.html"
   },
@@ -86375,7 +87996,7 @@ const NEURON_DATA = [
       "left": "types/PVLP082a_L.html",
       "right": "types/PVLP082a_R.html"
     },
-    "synonyms": "PVLP082",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/PVLP082a.html"
   },
@@ -86386,7 +88007,7 @@ const NEURON_DATA = [
       "left": "types/PVLP082b_L.html",
       "right": "types/PVLP082b_R.html"
     },
-    "synonyms": "PVLP082",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/PVLP082b.html"
   },
@@ -86400,6 +88021,28 @@ const NEURON_DATA = [
     "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/PVLP084.html"
+  },
+  {
+    "name": "PVLP086",
+    "urls": {
+      "combined": "types/PVLP086.html",
+      "left": "types/PVLP086_L.html",
+      "right": "types/PVLP086_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/PVLP086.html"
+  },
+  {
+    "name": "PVLP086,PVLP087",
+    "urls": {
+      "combined": "types/PVLP086,PVLP087.html",
+      "left": "types/PVLP086,PVLP087_L.html",
+      "right": "types/PVLP086,PVLP087_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/PVLP086,PVLP087.html"
   },
   {
     "name": "PVLP088",
@@ -86507,7 +88150,7 @@ const NEURON_DATA = [
       "left": "types/PVLP101a_L.html",
       "right": "types/PVLP101a_R.html"
     },
-    "synonyms": "PVLP101",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/PVLP101a.html"
   },
@@ -86518,7 +88161,7 @@ const NEURON_DATA = [
       "left": "types/PVLP101b_L.html",
       "right": "types/PVLP101b_R.html"
     },
-    "synonyms": "PVLP101",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/PVLP101b.html"
   },
@@ -86529,7 +88172,7 @@ const NEURON_DATA = [
       "left": "types/PVLP101c_L.html",
       "right": "types/PVLP101c_R.html"
     },
-    "synonyms": "PVLP101",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/PVLP101c.html"
   },
@@ -86628,7 +88271,7 @@ const NEURON_DATA = [
       "left": "types/PVLP111_L.html",
       "right": "types/PVLP111_R.html"
     },
-    "synonyms": "pIP7",
+    "synonyms": "Cachero 2010: pIP-c;Yu 2010: pIP7",
     "flywire_types": null,
     "primary_url": "types/PVLP111.html"
   },
@@ -86639,7 +88282,7 @@ const NEURON_DATA = [
       "left": "types/PVLP112a_L.html",
       "right": "types/PVLP112a_R.html"
     },
-    "synonyms": "PVLP112, pIP7",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/PVLP112a.html"
   },
@@ -86650,7 +88293,7 @@ const NEURON_DATA = [
       "left": "types/PVLP112b_L.html",
       "right": "types/PVLP112b_R.html"
     },
-    "synonyms": "PVLP112, pIP7",
+    "synonyms": "fru-F-500033, fru-F-700128, fru-F-600011, fru-F-400130, fru-F-100067, fru-F-500198",
     "flywire_types": null,
     "primary_url": "types/PVLP112b.html"
   },
@@ -86661,7 +88304,7 @@ const NEURON_DATA = [
       "left": "types/PVLP113_L.html",
       "right": "types/PVLP113_R.html"
     },
-    "synonyms": "pIP7",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/PVLP113.html"
   },
@@ -86672,7 +88315,7 @@ const NEURON_DATA = [
       "left": "types/PVLP114_L.html",
       "right": "types/PVLP114_R.html"
     },
-    "synonyms": null,
+    "synonyms": "fru-F-100043",
     "flywire_types": null,
     "primary_url": "types/PVLP114.html"
   },
@@ -86727,7 +88370,7 @@ const NEURON_DATA = [
       "left": "types/PVLP122a_L.html",
       "right": "types/PVLP122a_R.html"
     },
-    "synonyms": "PVLP122",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/PVLP122a.html"
   },
@@ -86738,7 +88381,7 @@ const NEURON_DATA = [
       "left": "types/PVLP122b_L.html",
       "right": "types/PVLP122b_R.html"
     },
-    "synonyms": "PVLP122",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/PVLP122b.html"
   },
@@ -86749,7 +88392,7 @@ const NEURON_DATA = [
       "left": "types/PVLP123a_L.html",
       "right": "types/PVLP123a_R.html"
     },
-    "synonyms": "PVLP123",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/PVLP123a.html"
   },
@@ -86760,7 +88403,7 @@ const NEURON_DATA = [
       "left": "types/PVLP123b_L.html",
       "right": "types/PVLP123b_R.html"
     },
-    "synonyms": "PVLP123",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/PVLP123b.html"
   },
@@ -86771,7 +88414,7 @@ const NEURON_DATA = [
       "left": "types/PVLP123c_L.html",
       "right": "types/PVLP123c_R.html"
     },
-    "synonyms": "PVLP123",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/PVLP123c.html"
   },
@@ -86815,7 +88458,7 @@ const NEURON_DATA = [
       "left": "types/PVLP133_L.html",
       "right": "types/PVLP133_R.html"
     },
-    "synonyms": null,
+    "synonyms": "fru-F-500024, fru-F-700155, fru-F-800067",
     "flywire_types": null,
     "primary_url": "types/PVLP133.html"
   },
@@ -86881,7 +88524,7 @@ const NEURON_DATA = [
       "left": "types/PVLP140_L.html",
       "right": "types/PVLP140_R.html"
     },
-    "synonyms": "pIP15",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/PVLP140.html"
   },
@@ -86936,7 +88579,7 @@ const NEURON_DATA = [
       "left": "types/PVLP149_L.html",
       "right": "types/PVLP149_R.html"
     },
-    "synonyms": "pIP12",
+    "synonyms": "fru-F-200016",
     "flywire_types": null,
     "primary_url": "types/PVLP149.html"
   },
@@ -86963,13 +88606,211 @@ const NEURON_DATA = [
     "primary_url": "types/PVLP151.html"
   },
   {
+    "name": "PhG10",
+    "urls": {
+      "combined": "types/PhG10.html",
+      "left": "types/PhG10_L.html",
+      "right": "types/PhG10_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/PhG10.html"
+  },
+  {
+    "name": "PhG11",
+    "urls": {
+      "combined": "types/PhG11.html",
+      "left": "types/PhG11_L.html",
+      "right": "types/PhG11_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/PhG11.html"
+  },
+  {
+    "name": "PhG12",
+    "urls": {
+      "combined": "types/PhG12.html",
+      "left": "types/PhG12_L.html",
+      "right": "types/PhG12_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/PhG12.html"
+  },
+  {
+    "name": "PhG13",
+    "urls": {
+      "combined": "types/PhG13.html",
+      "left": "types/PhG13_L.html",
+      "right": "types/PhG13_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/PhG13.html"
+  },
+  {
+    "name": "PhG14",
+    "urls": {
+      "combined": "types/PhG14.html",
+      "left": "types/PhG14_L.html",
+      "right": "types/PhG14_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/PhG14.html"
+  },
+  {
+    "name": "PhG15",
+    "urls": {
+      "combined": "types/PhG15.html",
+      "left": "types/PhG15_L.html",
+      "right": "types/PhG15_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/PhG15.html"
+  },
+  {
+    "name": "PhG16",
+    "urls": {
+      "combined": "types/PhG16.html",
+      "left": "types/PhG16_L.html",
+      "right": "types/PhG16_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/PhG16.html"
+  },
+  {
+    "name": "PhG1a",
+    "urls": {
+      "combined": "types/PhG1a.html",
+      "left": "types/PhG1a_L.html",
+      "right": "types/PhG1a_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/PhG1a.html"
+  },
+  {
+    "name": "PhG1b",
+    "urls": {
+      "combined": "types/PhG1b.html",
+      "left": "types/PhG1b_L.html",
+      "right": "types/PhG1b_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/PhG1b.html"
+  },
+  {
+    "name": "PhG1c",
+    "urls": {
+      "combined": "types/PhG1c.html",
+      "left": "types/PhG1c_L.html",
+      "right": "types/PhG1c_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/PhG1c.html"
+  },
+  {
+    "name": "PhG2",
+    "urls": {
+      "combined": "types/PhG2.html",
+      "left": "types/PhG2_L.html",
+      "right": "types/PhG2_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/PhG2.html"
+  },
+  {
+    "name": "PhG3",
+    "urls": {
+      "combined": "types/PhG3.html",
+      "left": "types/PhG3_L.html",
+      "right": "types/PhG3_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/PhG3.html"
+  },
+  {
+    "name": "PhG4",
+    "urls": {
+      "combined": "types/PhG4.html",
+      "left": "types/PhG4_L.html",
+      "right": "types/PhG4_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/PhG4.html"
+  },
+  {
+    "name": "PhG5",
+    "urls": {
+      "combined": "types/PhG5.html",
+      "left": "types/PhG5_L.html",
+      "right": "types/PhG5_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/PhG5.html"
+  },
+  {
+    "name": "PhG6",
+    "urls": {
+      "combined": "types/PhG6.html",
+      "left": "types/PhG6_L.html",
+      "right": "types/PhG6_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/PhG6.html"
+  },
+  {
+    "name": "PhG7",
+    "urls": {
+      "combined": "types/PhG7.html",
+      "left": "types/PhG7_L.html",
+      "right": "types/PhG7_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/PhG7.html"
+  },
+  {
+    "name": "PhG8",
+    "urls": {
+      "combined": "types/PhG8.html",
+      "left": "types/PhG8_L.html",
+      "right": "types/PhG8_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/PhG8.html"
+  },
+  {
+    "name": "PhG9",
+    "urls": {
+      "combined": "types/PhG9.html",
+      "left": "types/PhG9_L.html",
+      "right": "types/PhG9_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/PhG9.html"
+  },
+  {
     "name": "Pm01",
     "urls": {
       "combined": "types/Pm01.html",
       "left": "types/Pm01_L.html",
       "right": "types/Pm01_R.html"
     },
-    "synonyms": "Pm1",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/Pm01.html"
   },
@@ -86980,7 +88821,7 @@ const NEURON_DATA = [
       "left": "types/Pm02_L.html",
       "right": "types/Pm02_R.html"
     },
-    "synonyms": "Pm1",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/Pm02.html"
   },
@@ -86991,7 +88832,7 @@ const NEURON_DATA = [
       "left": "types/Pm03_L.html",
       "right": "types/Pm03_R.html"
     },
-    "synonyms": "Pm2",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/Pm03.html"
   },
@@ -87002,7 +88843,7 @@ const NEURON_DATA = [
       "left": "types/Pm04_L.html",
       "right": "types/Pm04_R.html"
     },
-    "synonyms": "CB3847",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/Pm04.html"
   },
@@ -87013,7 +88854,7 @@ const NEURON_DATA = [
       "left": "types/Pm05_L.html",
       "right": "types/Pm05_R.html"
     },
-    "synonyms": "Pm4",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/Pm05.html"
   },
@@ -87024,7 +88865,7 @@ const NEURON_DATA = [
       "left": "types/Pm06_L.html",
       "right": "types/Pm06_R.html"
     },
-    "synonyms": "Pm1",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/Pm06.html"
   },
@@ -87035,7 +88876,7 @@ const NEURON_DATA = [
       "left": "types/Pm07_L.html",
       "right": "types/Pm07_R.html"
     },
-    "synonyms": "Pm1a",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/Pm07.html"
   },
@@ -87046,7 +88887,7 @@ const NEURON_DATA = [
       "left": "types/Pm08_L.html",
       "right": "types/Pm08_R.html"
     },
-    "synonyms": "Pm2",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/Pm08.html"
   },
@@ -87057,18 +88898,9 @@ const NEURON_DATA = [
       "left": "types/Pm09_L.html",
       "right": "types/Pm09_R.html"
     },
-    "synonyms": "CB3856",
-    "flywire_types": null,
-    "primary_url": "types/Pm09.html"
-  },
-  {
-    "name": "Pm1",
-    "urls": {
-      "left": "types/Pm1_L.html"
-    },
     "synonyms": null,
     "flywire_types": null,
-    "primary_url": "types/Pm1_L.html"
+    "primary_url": "types/Pm09.html"
   },
   {
     "name": "Pm10",
@@ -87077,7 +88909,7 @@ const NEURON_DATA = [
       "left": "types/Pm10_L.html",
       "right": "types/Pm10_R.html"
     },
-    "synonyms": "Mt4",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/Pm10.html"
   },
@@ -87088,7 +88920,7 @@ const NEURON_DATA = [
       "left": "types/Pm11_L.html",
       "right": "types/Pm11_R.html"
     },
-    "synonyms": "CB3850",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/Pm11.html"
   },
@@ -87099,7 +88931,7 @@ const NEURON_DATA = [
       "left": "types/Pm12_L.html",
       "right": "types/Pm12_R.html"
     },
-    "synonyms": "CB3827",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/Pm12.html"
   },
@@ -87188,15 +89020,26 @@ const NEURON_DATA = [
     "primary_url": "types/SA3.html"
   },
   {
-    "name": "SAD005",
+    "name": "SAD003",
     "urls": {
-      "combined": "types/SAD005.html",
-      "left": "types/SAD005_L.html",
-      "right": "types/SAD005_R.html"
+      "combined": "types/SAD003.html",
+      "left": "types/SAD003_L.html",
+      "right": "types/SAD003_R.html"
     },
-    "synonyms": "SAD006",
+    "synonyms": null,
     "flywire_types": null,
-    "primary_url": "types/SAD005.html"
+    "primary_url": "types/SAD003.html"
+  },
+  {
+    "name": "SAD005,SAD006",
+    "urls": {
+      "combined": "types/SAD005,SAD006.html",
+      "left": "types/SAD005,SAD006_L.html",
+      "right": "types/SAD005,SAD006_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/SAD005,SAD006.html"
   },
   {
     "name": "SAD007",
@@ -87243,15 +89086,15 @@ const NEURON_DATA = [
     "primary_url": "types/SAD010.html"
   },
   {
-    "name": "SAD011",
+    "name": "SAD011,SAD019",
     "urls": {
-      "combined": "types/SAD011.html",
-      "left": "types/SAD011_L.html",
-      "right": "types/SAD011_R.html"
+      "combined": "types/SAD011,SAD019.html",
+      "left": "types/SAD011,SAD019_L.html",
+      "right": "types/SAD011,SAD019_R.html"
     },
-    "synonyms": "SAD019",
+    "synonyms": null,
     "flywire_types": null,
-    "primary_url": "types/SAD011.html"
+    "primary_url": "types/SAD011,SAD019.html"
   },
   {
     "name": "SAD012",
@@ -87287,15 +89130,15 @@ const NEURON_DATA = [
     "primary_url": "types/SAD014.html"
   },
   {
-    "name": "SAD015",
+    "name": "SAD015,SAD018",
     "urls": {
-      "combined": "types/SAD015.html",
-      "left": "types/SAD015_L.html",
-      "right": "types/SAD015_R.html"
+      "combined": "types/SAD015,SAD018.html",
+      "left": "types/SAD015,SAD018_L.html",
+      "right": "types/SAD015,SAD018_R.html"
     },
-    "synonyms": "SAD018",
+    "synonyms": null,
     "flywire_types": null,
-    "primary_url": "types/SAD015.html"
+    "primary_url": "types/SAD015,SAD018.html"
   },
   {
     "name": "SAD016",
@@ -87304,7 +89147,7 @@ const NEURON_DATA = [
       "left": "types/SAD016_L.html",
       "right": "types/SAD016_R.html"
     },
-    "synonyms": null,
+    "synonyms": "Cachero 2010: aIP-a",
     "flywire_types": null,
     "primary_url": "types/SAD016.html"
   },
@@ -87430,15 +89273,15 @@ const NEURON_DATA = [
     "primary_url": "types/SAD044.html"
   },
   {
-    "name": "SAD045",
+    "name": "SAD045,SAD046",
     "urls": {
-      "combined": "types/SAD045.html",
-      "left": "types/SAD045_L.html",
-      "right": "types/SAD045_R.html"
+      "combined": "types/SAD045,SAD046.html",
+      "left": "types/SAD045,SAD046_L.html",
+      "right": "types/SAD045,SAD046_R.html"
     },
-    "synonyms": "SAD046",
+    "synonyms": null,
     "flywire_types": null,
-    "primary_url": "types/SAD045.html"
+    "primary_url": "types/SAD045,SAD046.html"
   },
   {
     "name": "SAD047",
@@ -87461,6 +89304,39 @@ const NEURON_DATA = [
     "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/SAD049.html"
+  },
+  {
+    "name": "SAD052",
+    "urls": {
+      "combined": "types/SAD052.html",
+      "left": "types/SAD052_L.html",
+      "right": "types/SAD052_R.html"
+    },
+    "synonyms": "Cachero 2010: aDT-e",
+    "flywire_types": null,
+    "primary_url": "types/SAD052.html"
+  },
+  {
+    "name": "SAD053",
+    "urls": {
+      "combined": "types/SAD053.html",
+      "left": "types/SAD053_L.html",
+      "right": "types/SAD053_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/SAD053.html"
+  },
+  {
+    "name": "SAD064",
+    "urls": {
+      "combined": "types/SAD064.html",
+      "left": "types/SAD064_L.html",
+      "right": "types/SAD064_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/SAD064.html"
   },
   {
     "name": "SAD070",
@@ -87516,6 +89392,17 @@ const NEURON_DATA = [
     "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/SAD076.html"
+  },
+  {
+    "name": "SAD077",
+    "urls": {
+      "combined": "types/SAD077.html",
+      "left": "types/SAD077_L.html",
+      "right": "types/SAD077_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/SAD077.html"
   },
   {
     "name": "SAD080",
@@ -87582,6 +89469,28 @@ const NEURON_DATA = [
     "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/SAD094.html"
+  },
+  {
+    "name": "SAD301f",
+    "urls": {
+      "combined": "types/SAD301f.html",
+      "left": "types/SAD301f_L.html",
+      "right": "types/SAD301f_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/SAD301f.html"
+  },
+  {
+    "name": "SAF",
+    "urls": {
+      "combined": "types/SAF.html",
+      "left": "types/SAF_L.html",
+      "right": "types/SAF_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/SAF.html"
   },
   {
     "name": "SA_DLV",
@@ -88074,7 +89983,7 @@ const NEURON_DATA = [
       "left": "types/SIP013a_L.html",
       "right": "types/SIP013a_R.html"
     },
-    "synonyms": "SIP013",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/SIP013a.html"
   },
@@ -88085,20 +89994,20 @@ const NEURON_DATA = [
       "left": "types/SIP013b_L.html",
       "right": "types/SIP013b_R.html"
     },
-    "synonyms": "SIP013",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/SIP013b.html"
   },
   {
-    "name": "SIP014",
+    "name": "SIP014,SIP016",
     "urls": {
-      "combined": "types/SIP014.html",
-      "left": "types/SIP014_L.html",
-      "right": "types/SIP014_R.html"
+      "combined": "types/SIP014,SIP016.html",
+      "left": "types/SIP014,SIP016_L.html",
+      "right": "types/SIP014,SIP016_R.html"
     },
-    "synonyms": "SIP016",
+    "synonyms": null,
     "flywire_types": null,
-    "primary_url": "types/SIP014.html"
+    "primary_url": "types/SIP014,SIP016.html"
   },
   {
     "name": "SIP015",
@@ -88162,7 +90071,7 @@ const NEURON_DATA = [
       "left": "types/SIP022_L.html",
       "right": "types/SIP022_R.html"
     },
-    "synonyms": null,
+    "synonyms": "Cachero 2010: aSP-d;Yu 2010: aSP13",
     "flywire_types": null,
     "primary_url": "types/SIP022.html"
   },
@@ -88200,13 +90109,22 @@ const NEURON_DATA = [
     "primary_url": "types/SIP027.html"
   },
   {
+    "name": "SIP028",
+    "urls": {
+      "left": "types/SIP028_L.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/SIP028_L.html"
+  },
+  {
     "name": "SIP028a",
     "urls": {
       "combined": "types/SIP028a.html",
       "left": "types/SIP028a_L.html",
       "right": "types/SIP028a_R.html"
     },
-    "synonyms": "SIP028",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/SIP028a.html"
   },
@@ -88217,7 +90135,7 @@ const NEURON_DATA = [
       "left": "types/SIP028b_L.html",
       "right": "types/SIP028b_R.html"
     },
-    "synonyms": "SIP028",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/SIP028b.html"
   },
@@ -88244,15 +90162,15 @@ const NEURON_DATA = [
     "primary_url": "types/SIP031.html"
   },
   {
-    "name": "SIP032",
+    "name": "SIP032,SIP059",
     "urls": {
-      "combined": "types/SIP032.html",
-      "left": "types/SIP032_L.html",
-      "right": "types/SIP032_R.html"
+      "combined": "types/SIP032,SIP059.html",
+      "left": "types/SIP032,SIP059_L.html",
+      "right": "types/SIP032,SIP059_R.html"
     },
-    "synonyms": "SIP059",
+    "synonyms": null,
     "flywire_types": null,
-    "primary_url": "types/SIP032.html"
+    "primary_url": "types/SIP032,SIP059.html"
   },
   {
     "name": "SIP033",
@@ -88305,7 +90223,7 @@ const NEURON_DATA = [
       "left": "types/SIP047a_L.html",
       "right": "types/SIP047a_R.html"
     },
-    "synonyms": "SIP047",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/SIP047a.html"
   },
@@ -88316,9 +90234,20 @@ const NEURON_DATA = [
       "left": "types/SIP047b_L.html",
       "right": "types/SIP047b_R.html"
     },
-    "synonyms": "SIP047",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/SIP047b.html"
+  },
+  {
+    "name": "SIP048",
+    "urls": {
+      "combined": "types/SIP048.html",
+      "left": "types/SIP048_L.html",
+      "right": "types/SIP048_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/SIP048.html"
   },
   {
     "name": "SIP052",
@@ -88338,7 +90267,7 @@ const NEURON_DATA = [
       "left": "types/SIP053a_L.html",
       "right": "types/SIP053a_R.html"
     },
-    "synonyms": "SIP053",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/SIP053a.html"
   },
@@ -88349,20 +90278,31 @@ const NEURON_DATA = [
       "left": "types/SIP053b_L.html",
       "right": "types/SIP053b_R.html"
     },
-    "synonyms": "SIP053",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/SIP053b.html"
   },
   {
-    "name": "SIP055",
+    "name": "SIP055,SLP245",
     "urls": {
-      "combined": "types/SIP055.html",
-      "left": "types/SIP055_L.html",
-      "right": "types/SIP055_R.html"
+      "combined": "types/SIP055,SLP245.html",
+      "left": "types/SIP055,SLP245_L.html",
+      "right": "types/SIP055,SLP245_R.html"
     },
-    "synonyms": "SLP245",
+    "synonyms": null,
     "flywire_types": null,
-    "primary_url": "types/SIP055.html"
+    "primary_url": "types/SIP055,SLP245.html"
+  },
+  {
+    "name": "SIP057",
+    "urls": {
+      "combined": "types/SIP057.html",
+      "left": "types/SIP057_L.html",
+      "right": "types/SIP057_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/SIP057.html"
   },
   {
     "name": "SIP061",
@@ -88453,15 +90393,15 @@ const NEURON_DATA = [
     "primary_url": "types/SIP076.html"
   },
   {
-    "name": "SIP078",
+    "name": "SIP078,SIP080",
     "urls": {
-      "combined": "types/SIP078.html",
-      "left": "types/SIP078_L.html",
-      "right": "types/SIP078_R.html"
+      "combined": "types/SIP078,SIP080.html",
+      "left": "types/SIP078,SIP080_L.html",
+      "right": "types/SIP078,SIP080_R.html"
     },
-    "synonyms": "SIP080",
+    "synonyms": null,
     "flywire_types": null,
-    "primary_url": "types/SIP078.html"
+    "primary_url": "types/SIP078,SIP080.html"
   },
   {
     "name": "SIP081",
@@ -88530,6 +90470,28 @@ const NEURON_DATA = [
     "primary_url": "types/SIP090.html"
   },
   {
+    "name": "SIP200f",
+    "urls": {
+      "combined": "types/SIP200f.html",
+      "left": "types/SIP200f_L.html",
+      "right": "types/SIP200f_R.html"
+    },
+    "synonyms": "Nojima 2021: pC2l",
+    "flywire_types": null,
+    "primary_url": "types/SIP200f.html"
+  },
+  {
+    "name": "SIP201f",
+    "urls": {
+      "combined": "types/SIP201f.html",
+      "left": "types/SIP201f_L.html",
+      "right": "types/SIP201f_R.html"
+    },
+    "synonyms": "Nojima 2021: pC2l",
+    "flywire_types": null,
+    "primary_url": "types/SIP201f.html"
+  },
+  {
     "name": "SLP001",
     "urls": {
       "combined": "types/SLP001.html",
@@ -88569,7 +90531,7 @@ const NEURON_DATA = [
       "left": "types/SLP005_L.html",
       "right": "types/SLP005_R.html"
     },
-    "synonyms": null,
+    "synonyms": "fru-F-000105, fru-F-600045",
     "flywire_types": null,
     "primary_url": "types/SLP005.html"
   },
@@ -88591,7 +90553,7 @@ const NEURON_DATA = [
       "left": "types/SLP007a_L.html",
       "right": "types/SLP007a_R.html"
     },
-    "synonyms": "SLP007",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/SLP007a.html"
   },
@@ -88602,7 +90564,7 @@ const NEURON_DATA = [
       "left": "types/SLP007b_L.html",
       "right": "types/SLP007b_R.html"
     },
-    "synonyms": "SLP007",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/SLP007b.html"
   },
@@ -88638,6 +90600,15 @@ const NEURON_DATA = [
     "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/SLP012.html"
+  },
+  {
+    "name": "SLP012b",
+    "urls": {
+      "left": "types/SLP012b_L.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/SLP012b_L.html"
   },
   {
     "name": "SLP016",
@@ -88679,7 +90650,7 @@ const NEURON_DATA = [
       "left": "types/SLP024a_L.html",
       "right": "types/SLP024a_R.html"
     },
-    "synonyms": "SLP024",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/SLP024a.html"
   },
@@ -88690,7 +90661,7 @@ const NEURON_DATA = [
       "left": "types/SLP024b_L.html",
       "right": "types/SLP024b_R.html"
     },
-    "synonyms": "SLP024",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/SLP024b.html"
   },
@@ -88701,7 +90672,7 @@ const NEURON_DATA = [
       "left": "types/SLP024c_L.html",
       "right": "types/SLP024c_R.html"
     },
-    "synonyms": "SLP024",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/SLP024c.html"
   },
@@ -88712,7 +90683,7 @@ const NEURON_DATA = [
       "left": "types/SLP024d_L.html",
       "right": "types/SLP024d_R.html"
     },
-    "synonyms": "SLP024",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/SLP024d.html"
   },
@@ -88723,7 +90694,7 @@ const NEURON_DATA = [
       "left": "types/SLP025a_L.html",
       "right": "types/SLP025a_R.html"
     },
-    "synonyms": "SLP025",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/SLP025a.html"
   },
@@ -88734,7 +90705,7 @@ const NEURON_DATA = [
       "left": "types/SLP025b_L.html",
       "right": "types/SLP025b_R.html"
     },
-    "synonyms": "SLP025",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/SLP025b.html"
   },
@@ -88745,7 +90716,7 @@ const NEURON_DATA = [
       "left": "types/SLP026_L.html",
       "right": "types/SLP026_R.html"
     },
-    "synonyms": "pSP3",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/SLP026.html"
   },
@@ -88767,7 +90738,7 @@ const NEURON_DATA = [
       "left": "types/SLP028a_L.html",
       "right": "types/SLP028a_R.html"
     },
-    "synonyms": "SLP028",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/SLP028a.html"
   },
@@ -88778,7 +90749,7 @@ const NEURON_DATA = [
       "left": "types/SLP028b_L.html",
       "right": "types/SLP028b_R.html"
     },
-    "synonyms": "SLP028",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/SLP028b.html"
   },
@@ -88789,7 +90760,7 @@ const NEURON_DATA = [
       "left": "types/SLP028c_L.html",
       "right": "types/SLP028c_R.html"
     },
-    "synonyms": "SLP028",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/SLP028c.html"
   },
@@ -88847,6 +90818,39 @@ const NEURON_DATA = [
     "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/SLP034.html"
+  },
+  {
+    "name": "SLP035",
+    "urls": {
+      "combined": "types/SLP035.html",
+      "left": "types/SLP035_L.html",
+      "right": "types/SLP035_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/SLP035.html"
+  },
+  {
+    "name": "SLP036",
+    "urls": {
+      "combined": "types/SLP036.html",
+      "left": "types/SLP036_L.html",
+      "right": "types/SLP036_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/SLP036.html"
+  },
+  {
+    "name": "SLP041",
+    "urls": {
+      "combined": "types/SLP041.html",
+      "left": "types/SLP041_L.html",
+      "right": "types/SLP041_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/SLP041.html"
   },
   {
     "name": "SLP044_d",
@@ -89124,6 +91128,17 @@ const NEURON_DATA = [
     "primary_url": "types/SLP080.html"
   },
   {
+    "name": "SLP082",
+    "urls": {
+      "combined": "types/SLP082.html",
+      "left": "types/SLP082_L.html",
+      "right": "types/SLP082_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/SLP082.html"
+  },
+  {
     "name": "SLP083",
     "urls": {
       "combined": "types/SLP083.html",
@@ -89135,15 +91150,24 @@ const NEURON_DATA = [
     "primary_url": "types/SLP083.html"
   },
   {
-    "name": "SLP098",
+    "name": "SLP088,SLP095",
     "urls": {
-      "combined": "types/SLP098.html",
-      "left": "types/SLP098_L.html",
-      "right": "types/SLP098_R.html"
+      "left": "types/SLP088,SLP095_L.html"
     },
-    "synonyms": "SLP133",
+    "synonyms": null,
     "flywire_types": null,
-    "primary_url": "types/SLP098.html"
+    "primary_url": "types/SLP088,SLP095_L.html"
+  },
+  {
+    "name": "SLP098,SLP133",
+    "urls": {
+      "combined": "types/SLP098,SLP133.html",
+      "left": "types/SLP098,SLP133_L.html",
+      "right": "types/SLP098,SLP133_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/SLP098,SLP133.html"
   },
   {
     "name": "SLP101",
@@ -89179,15 +91203,15 @@ const NEURON_DATA = [
     "primary_url": "types/SLP103.html"
   },
   {
-    "name": "SLP104",
+    "name": "SLP104,SLP205",
     "urls": {
-      "combined": "types/SLP104.html",
-      "left": "types/SLP104_L.html",
-      "right": "types/SLP104_R.html"
+      "combined": "types/SLP104,SLP205.html",
+      "left": "types/SLP104,SLP205_L.html",
+      "right": "types/SLP104,SLP205_R.html"
     },
-    "synonyms": "SLP205",
+    "synonyms": null,
     "flywire_types": null,
-    "primary_url": "types/SLP104.html"
+    "primary_url": "types/SLP104,SLP205.html"
   },
   {
     "name": "SLP106",
@@ -89201,26 +91225,26 @@ const NEURON_DATA = [
     "primary_url": "types/SLP106.html"
   },
   {
-    "name": "SLP109",
+    "name": "SLP109,SLP143",
     "urls": {
-      "combined": "types/SLP109.html",
-      "left": "types/SLP109_L.html",
-      "right": "types/SLP109_R.html"
+      "combined": "types/SLP109,SLP143.html",
+      "left": "types/SLP109,SLP143_L.html",
+      "right": "types/SLP109,SLP143_R.html"
     },
-    "synonyms": "SLP143",
+    "synonyms": null,
     "flywire_types": null,
-    "primary_url": "types/SLP109.html"
+    "primary_url": "types/SLP109,SLP143.html"
   },
   {
-    "name": "SLP114",
+    "name": "SLP114,SLP115",
     "urls": {
-      "combined": "types/SLP114.html",
-      "left": "types/SLP114_L.html",
-      "right": "types/SLP114_R.html"
+      "combined": "types/SLP114,SLP115.html",
+      "left": "types/SLP114,SLP115_L.html",
+      "right": "types/SLP114,SLP115_R.html"
     },
-    "synonyms": "SLP115",
+    "synonyms": null,
     "flywire_types": null,
-    "primary_url": "types/SLP114.html"
+    "primary_url": "types/SLP114,SLP115.html"
   },
   {
     "name": "SLP118",
@@ -89265,17 +91289,6 @@ const NEURON_DATA = [
     "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/SLP122.html"
-  },
-  {
-    "name": "SLP125",
-    "urls": {
-      "combined": "types/SLP125.html",
-      "left": "types/SLP125_L.html",
-      "right": "types/SLP125_R.html"
-    },
-    "synonyms": "SLP168",
-    "flywire_types": null,
-    "primary_url": "types/SLP125.html"
   },
   {
     "name": "SLP126",
@@ -89377,15 +91390,15 @@ const NEURON_DATA = [
     "primary_url": "types/SLP137.html"
   },
   {
-    "name": "SLP141",
+    "name": "SLP141,SLP142",
     "urls": {
-      "combined": "types/SLP141.html",
-      "left": "types/SLP141_L.html",
-      "right": "types/SLP141_R.html"
+      "combined": "types/SLP141,SLP142.html",
+      "left": "types/SLP141,SLP142_L.html",
+      "right": "types/SLP141,SLP142_R.html"
     },
-    "synonyms": "SLP142",
+    "synonyms": null,
     "flywire_types": null,
-    "primary_url": "types/SLP141.html"
+    "primary_url": "types/SLP141,SLP142.html"
   },
   {
     "name": "SLP149",
@@ -89460,7 +91473,7 @@ const NEURON_DATA = [
       "left": "types/SLP157_L.html",
       "right": "types/SLP157_R.html"
     },
-    "synonyms": null,
+    "synonyms": "Cachero 2010: aSP-f;Yu 2010: aSP5",
     "flywire_types": null,
     "primary_url": "types/SLP157.html"
   },
@@ -89476,22 +91489,13 @@ const NEURON_DATA = [
     "primary_url": "types/SLP158.html"
   },
   {
-    "name": "SLP159",
-    "urls": {
-      "left": "types/SLP159_L.html"
-    },
-    "synonyms": null,
-    "flywire_types": null,
-    "primary_url": "types/SLP159_L.html"
-  },
-  {
     "name": "SLP160",
     "urls": {
       "combined": "types/SLP160.html",
       "left": "types/SLP160_L.html",
       "right": "types/SLP160_R.html"
     },
-    "synonyms": null,
+    "synonyms": "Cachero 2010: aSP-f; Yu 2010: aSP5; Ruta 2010: DC1",
     "flywire_types": null,
     "primary_url": "types/SLP160.html"
   },
@@ -89502,7 +91506,7 @@ const NEURON_DATA = [
       "left": "types/SLP162a_L.html",
       "right": "types/SLP162a_R.html"
     },
-    "synonyms": "SLP162",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/SLP162a.html"
   },
@@ -89513,7 +91517,7 @@ const NEURON_DATA = [
       "left": "types/SLP162b_L.html",
       "right": "types/SLP162b_R.html"
     },
-    "synonyms": "SLP162",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/SLP162b.html"
   },
@@ -89524,18 +91528,9 @@ const NEURON_DATA = [
       "left": "types/SLP162c_L.html",
       "right": "types/SLP162c_R.html"
     },
-    "synonyms": "SLP162",
-    "flywire_types": null,
-    "primary_url": "types/SLP162c.html"
-  },
-  {
-    "name": "SLP169",
-    "urls": {
-      "right": "types/SLP169_R.html"
-    },
     "synonyms": null,
     "flywire_types": null,
-    "primary_url": "types/SLP169_R.html"
+    "primary_url": "types/SLP162c.html"
   },
   {
     "name": "SLP170",
@@ -89676,7 +91671,7 @@ const NEURON_DATA = [
       "left": "types/SLP212a_L.html",
       "right": "types/SLP212a_R.html"
     },
-    "synonyms": "SLP212, aSP4",
+    "synonyms": "Yu 2010: aSP4",
     "flywire_types": null,
     "primary_url": "types/SLP212a.html"
   },
@@ -89687,7 +91682,7 @@ const NEURON_DATA = [
       "left": "types/SLP212b_L.html",
       "right": "types/SLP212b_R.html"
     },
-    "synonyms": "SLP212, aSP4",
+    "synonyms": "Yu 2010: aSP4",
     "flywire_types": null,
     "primary_url": "types/SLP212b.html"
   },
@@ -89698,7 +91693,7 @@ const NEURON_DATA = [
       "left": "types/SLP212c_L.html",
       "right": "types/SLP212c_R.html"
     },
-    "synonyms": "SLP212, aSP4",
+    "synonyms": "Yu 2010: aSP4",
     "flywire_types": null,
     "primary_url": "types/SLP212c.html"
   },
@@ -90044,13 +92039,22 @@ const NEURON_DATA = [
     "primary_url": "types/SLP258.html"
   },
   {
+    "name": "SLP261,SLP262",
+    "urls": {
+      "right": "types/SLP261,SLP262_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/SLP261,SLP262_R.html"
+  },
+  {
     "name": "SLP265a",
     "urls": {
       "combined": "types/SLP265a.html",
       "left": "types/SLP265a_L.html",
       "right": "types/SLP265a_R.html"
     },
-    "synonyms": "SLP265",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/SLP265a.html"
   },
@@ -90061,7 +92065,7 @@ const NEURON_DATA = [
       "left": "types/SLP265b_L.html",
       "right": "types/SLP265b_R.html"
     },
-    "synonyms": "SLP265",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/SLP265b.html"
   },
@@ -90083,7 +92087,7 @@ const NEURON_DATA = [
       "left": "types/SLP270_L.html",
       "right": "types/SLP270_R.html"
     },
-    "synonyms": null,
+    "synonyms": "fru-F-100052",
     "flywire_types": null,
     "primary_url": "types/SLP270.html"
   },
@@ -90165,26 +92169,15 @@ const NEURON_DATA = [
     "primary_url": "types/SLP285.html"
   },
   {
-    "name": "SLP286a",
+    "name": "SLP286",
     "urls": {
-      "combined": "types/SLP286a.html",
-      "left": "types/SLP286a_L.html",
-      "right": "types/SLP286a_R.html"
+      "combined": "types/SLP286.html",
+      "left": "types/SLP286_L.html",
+      "right": "types/SLP286_R.html"
     },
-    "synonyms": "SLP286",
+    "synonyms": null,
     "flywire_types": null,
-    "primary_url": "types/SLP286a.html"
-  },
-  {
-    "name": "SLP286b",
-    "urls": {
-      "combined": "types/SLP286b.html",
-      "left": "types/SLP286b_L.html",
-      "right": "types/SLP286b_R.html"
-    },
-    "synonyms": "SLP286",
-    "flywire_types": null,
-    "primary_url": "types/SLP286b.html"
+    "primary_url": "types/SLP286.html"
   },
   {
     "name": "SLP287",
@@ -90204,7 +92197,7 @@ const NEURON_DATA = [
       "left": "types/SLP288a_L.html",
       "right": "types/SLP288a_R.html"
     },
-    "synonyms": "SLP288",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/SLP288a.html"
   },
@@ -90215,7 +92208,7 @@ const NEURON_DATA = [
       "left": "types/SLP288b_L.html",
       "right": "types/SLP288b_R.html"
     },
-    "synonyms": "SLP288",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/SLP288b.html"
   },
@@ -90226,7 +92219,7 @@ const NEURON_DATA = [
       "left": "types/SLP288c_L.html",
       "right": "types/SLP288c_R.html"
     },
-    "synonyms": "SLP288",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/SLP288c.html"
   },
@@ -90270,7 +92263,7 @@ const NEURON_DATA = [
       "left": "types/SLP295a_L.html",
       "right": "types/SLP295a_R.html"
     },
-    "synonyms": "SLP295",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/SLP295a.html"
   },
@@ -90281,7 +92274,7 @@ const NEURON_DATA = [
       "left": "types/SLP295b_L.html",
       "right": "types/SLP295b_R.html"
     },
-    "synonyms": "SLP295",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/SLP295b.html"
   },
@@ -90303,7 +92296,7 @@ const NEURON_DATA = [
       "left": "types/SLP300a_L.html",
       "right": "types/SLP300a_R.html"
     },
-    "synonyms": "SLP300",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/SLP300a.html"
   },
@@ -90314,7 +92307,7 @@ const NEURON_DATA = [
       "left": "types/SLP300b_L.html",
       "right": "types/SLP300b_R.html"
     },
-    "synonyms": "SLP300",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/SLP300b.html"
   },
@@ -90325,7 +92318,7 @@ const NEURON_DATA = [
       "left": "types/SLP302a_L.html",
       "right": "types/SLP302a_R.html"
     },
-    "synonyms": "SLP302",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/SLP302a.html"
   },
@@ -90336,7 +92329,7 @@ const NEURON_DATA = [
       "left": "types/SLP302b_L.html",
       "right": "types/SLP302b_R.html"
     },
-    "synonyms": "SLP302",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/SLP302b.html"
   },
@@ -90347,7 +92340,7 @@ const NEURON_DATA = [
       "left": "types/SLP304a_L.html",
       "right": "types/SLP304a_R.html"
     },
-    "synonyms": "SLP304",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/SLP304a.html"
   },
@@ -90358,7 +92351,7 @@ const NEURON_DATA = [
       "left": "types/SLP304b_L.html",
       "right": "types/SLP304b_R.html"
     },
-    "synonyms": "SLP304",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/SLP304b.html"
   },
@@ -90391,7 +92384,7 @@ const NEURON_DATA = [
       "left": "types/SLP308a_L.html",
       "right": "types/SLP308a_R.html"
     },
-    "synonyms": "SLP308",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/SLP308a.html"
   },
@@ -90402,7 +92395,7 @@ const NEURON_DATA = [
       "left": "types/SLP308b_L.html",
       "right": "types/SLP308b_R.html"
     },
-    "synonyms": "SLP308",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/SLP308b.html"
   },
@@ -90440,6 +92433,15 @@ const NEURON_DATA = [
     "primary_url": "types/SLP314.html"
   },
   {
+    "name": "SLP317,SLP318",
+    "urls": {
+      "left": "types/SLP317,SLP318_L.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/SLP317,SLP318_L.html"
+  },
+  {
     "name": "SLP319",
     "urls": {
       "combined": "types/SLP319.html",
@@ -90462,26 +92464,15 @@ const NEURON_DATA = [
     "primary_url": "types/SLP321.html"
   },
   {
-    "name": "SLP327a",
+    "name": "SLP327",
     "urls": {
-      "combined": "types/SLP327a.html",
-      "left": "types/SLP327a_L.html",
-      "right": "types/SLP327a_R.html"
+      "combined": "types/SLP327.html",
+      "left": "types/SLP327_L.html",
+      "right": "types/SLP327_R.html"
     },
-    "synonyms": "SMP206a, SLP327, SMP206",
+    "synonyms": null,
     "flywire_types": null,
-    "primary_url": "types/SLP327a.html"
-  },
-  {
-    "name": "SLP327b",
-    "urls": {
-      "combined": "types/SLP327b.html",
-      "left": "types/SLP327b_L.html",
-      "right": "types/SLP327b_R.html"
-    },
-    "synonyms": "SMP206b, SLP327, SMP206",
-    "flywire_types": null,
-    "primary_url": "types/SLP327b.html"
+    "primary_url": "types/SLP327.html"
   },
   {
     "name": "SLP340",
@@ -90517,6 +92508,15 @@ const NEURON_DATA = [
     "primary_url": "types/SLP345.html"
   },
   {
+    "name": "SLP345b",
+    "urls": {
+      "left": "types/SLP345b_L.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/SLP345b_L.html"
+  },
+  {
     "name": "SLP355",
     "urls": {
       "combined": "types/SLP355.html",
@@ -90534,7 +92534,7 @@ const NEURON_DATA = [
       "left": "types/SLP356a_L.html",
       "right": "types/SLP356a_R.html"
     },
-    "synonyms": "SLP356",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/SLP356a.html"
   },
@@ -90545,7 +92545,7 @@ const NEURON_DATA = [
       "left": "types/SLP356b_L.html",
       "right": "types/SLP356b_R.html"
     },
-    "synonyms": "SLP356",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/SLP356b.html"
   },
@@ -90627,15 +92627,15 @@ const NEURON_DATA = [
     "primary_url": "types/SLP368.html"
   },
   {
-    "name": "SLP369",
+    "name": "SLP369,SLP370",
     "urls": {
-      "combined": "types/SLP369.html",
-      "left": "types/SLP369_L.html",
-      "right": "types/SLP369_R.html"
+      "combined": "types/SLP369,SLP370.html",
+      "left": "types/SLP369,SLP370_L.html",
+      "right": "types/SLP369,SLP370_R.html"
     },
-    "synonyms": "SLP370",
+    "synonyms": null,
     "flywire_types": null,
-    "primary_url": "types/SLP369.html"
+    "primary_url": "types/SLP369,SLP370.html"
   },
   {
     "name": "SLP373",
@@ -90809,7 +92809,7 @@ const NEURON_DATA = [
       "left": "types/SLP388_L.html",
       "right": "types/SLP388_R.html"
     },
-    "synonyms": null,
+    "synonyms": "fru-F-100030",
     "flywire_types": null,
     "primary_url": "types/SLP388.html"
   },
@@ -90831,7 +92831,7 @@ const NEURON_DATA = [
       "left": "types/SLP390_L.html",
       "right": "types/SLP390_R.html"
     },
-    "synonyms": null,
+    "synonyms": "Cachero 2010: pSP-a",
     "flywire_types": null,
     "primary_url": "types/SLP390.html"
   },
@@ -90842,7 +92842,7 @@ const NEURON_DATA = [
       "left": "types/SLP391_L.html",
       "right": "types/SLP391_R.html"
     },
-    "synonyms": null,
+    "synonyms": "Cachero 2010: pSP-a",
     "flywire_types": null,
     "primary_url": "types/SLP391.html"
   },
@@ -90886,7 +92886,7 @@ const NEURON_DATA = [
       "left": "types/SLP396_L.html",
       "right": "types/SLP396_R.html"
     },
-    "synonyms": null,
+    "synonyms": "Cachero 2010: pSP-a",
     "flywire_types": null,
     "primary_url": "types/SLP396.html"
   },
@@ -90904,13 +92904,11 @@ const NEURON_DATA = [
   {
     "name": "SLP398a",
     "urls": {
-      "combined": "types/SLP398a.html",
-      "left": "types/SLP398a_L.html",
       "right": "types/SLP398a_R.html"
     },
-    "synonyms": "SLP398",
+    "synonyms": null,
     "flywire_types": null,
-    "primary_url": "types/SLP398a.html"
+    "primary_url": "types/SLP398a_R.html"
   },
   {
     "name": "SLP398b",
@@ -90919,7 +92917,7 @@ const NEURON_DATA = [
       "left": "types/SLP398b_L.html",
       "right": "types/SLP398b_R.html"
     },
-    "synonyms": "SLP398",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/SLP398b.html"
   },
@@ -90930,7 +92928,7 @@ const NEURON_DATA = [
       "left": "types/SLP400a_L.html",
       "right": "types/SLP400a_R.html"
     },
-    "synonyms": "SLP400",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/SLP400a.html"
   },
@@ -90941,42 +92939,31 @@ const NEURON_DATA = [
       "left": "types/SLP400b_L.html",
       "right": "types/SLP400b_R.html"
     },
-    "synonyms": "SLP400",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/SLP400b.html"
   },
   {
-    "name": "SLP402a",
+    "name": "SLP402_a",
     "urls": {
-      "combined": "types/SLP402a.html",
-      "left": "types/SLP402a_L.html",
-      "right": "types/SLP402a_R.html"
+      "combined": "types/SLP402_a.html",
+      "left": "types/SLP402_a_L.html",
+      "right": "types/SLP402_a_R.html"
     },
-    "synonyms": "SMP426a, SLP402, SMP426",
+    "synonyms": null,
     "flywire_types": null,
-    "primary_url": "types/SLP402a.html"
+    "primary_url": "types/SLP402_a.html"
   },
   {
-    "name": "SLP402b",
+    "name": "SLP402_b",
     "urls": {
-      "combined": "types/SLP402b.html",
-      "left": "types/SLP402b_L.html",
-      "right": "types/SLP402b_R.html"
+      "combined": "types/SLP402_b.html",
+      "left": "types/SLP402_b_L.html",
+      "right": "types/SLP402_b_R.html"
     },
-    "synonyms": "SMP426b, SLP402, SMP426",
+    "synonyms": null,
     "flywire_types": null,
-    "primary_url": "types/SLP402b.html"
-  },
-  {
-    "name": "SLP402c",
-    "urls": {
-      "combined": "types/SLP402c.html",
-      "left": "types/SLP402c_L.html",
-      "right": "types/SLP402c_R.html"
-    },
-    "synonyms": "SMP426c, SLP402, SMP426",
-    "flywire_types": null,
-    "primary_url": "types/SLP402c.html"
+    "primary_url": "types/SLP402_b.html"
   },
   {
     "name": "SLP403",
@@ -91034,15 +93021,26 @@ const NEURON_DATA = [
     "primary_url": "types/SLP411.html"
   },
   {
-    "name": "SLP412",
+    "name": "SLP412_a",
     "urls": {
-      "combined": "types/SLP412.html",
-      "left": "types/SLP412_L.html",
-      "right": "types/SLP412_R.html"
+      "combined": "types/SLP412_a.html",
+      "left": "types/SLP412_a_L.html",
+      "right": "types/SLP412_a_R.html"
     },
     "synonyms": null,
     "flywire_types": null,
-    "primary_url": "types/SLP412.html"
+    "primary_url": "types/SLP412_a.html"
+  },
+  {
+    "name": "SLP412_b",
+    "urls": {
+      "combined": "types/SLP412_b.html",
+      "left": "types/SLP412_b_L.html",
+      "right": "types/SLP412_b_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/SLP412_b.html"
   },
   {
     "name": "SLP421",
@@ -91073,7 +93071,7 @@ const NEURON_DATA = [
       "left": "types/SLP435_L.html",
       "right": "types/SLP435_R.html"
     },
-    "synonyms": null,
+    "synonyms": "fru-F-200151",
     "flywire_types": null,
     "primary_url": "types/SLP435.html"
   },
@@ -91150,7 +93148,7 @@ const NEURON_DATA = [
       "left": "types/SLP451a_L.html",
       "right": "types/SLP451a_R.html"
     },
-    "synonyms": "SLP451",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/SLP451a.html"
   },
@@ -91161,7 +93159,7 @@ const NEURON_DATA = [
       "left": "types/SLP451b_L.html",
       "right": "types/SLP451b_R.html"
     },
-    "synonyms": "SLP451",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/SLP451b.html"
   },
@@ -91260,7 +93258,7 @@ const NEURON_DATA = [
       "left": "types/SLP465a_L.html",
       "right": "types/SLP465a_R.html"
     },
-    "synonyms": "SLP465",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/SLP465a.html"
   },
@@ -91271,7 +93269,7 @@ const NEURON_DATA = [
       "left": "types/SLP465b_L.html",
       "right": "types/SLP465b_R.html"
     },
-    "synonyms": "SLP465",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/SLP465b.html"
   },
@@ -91282,7 +93280,7 @@ const NEURON_DATA = [
       "left": "types/SLP467a_L.html",
       "right": "types/SLP467a_R.html"
     },
-    "synonyms": "SLP467",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/SLP467a.html"
   },
@@ -91293,7 +93291,7 @@ const NEURON_DATA = [
       "left": "types/SLP467b_L.html",
       "right": "types/SLP467b_R.html"
     },
-    "synonyms": "SLP467",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/SLP467b.html"
   },
@@ -91304,7 +93302,7 @@ const NEURON_DATA = [
       "left": "types/SLPpm3_H01_L.html",
       "right": "types/SLPpm3_H01_R.html"
     },
-    "synonyms": "SMP551, pSP7",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/SLPpm3_H01.html"
   },
@@ -91315,7 +93313,7 @@ const NEURON_DATA = [
       "left": "types/SLPpm3_H02_L.html",
       "right": "types/SLPpm3_H02_R.html"
     },
-    "synonyms": "SLP440",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/SLPpm3_H02.html"
   },
@@ -91326,7 +93324,7 @@ const NEURON_DATA = [
       "left": "types/SLPpm3_P01_L.html",
       "right": "types/SLPpm3_P01_R.html"
     },
-    "synonyms": "LHPD5b1",
+    "synonyms": "fru-F-000098",
     "flywire_types": null,
     "primary_url": "types/SLPpm3_P01.html"
   },
@@ -91337,7 +93335,7 @@ const NEURON_DATA = [
       "left": "types/SLPpm3_P02_L.html",
       "right": "types/SLPpm3_P02_R.html"
     },
-    "synonyms": "SLP442",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/SLPpm3_P02.html"
   },
@@ -91348,7 +93346,7 @@ const NEURON_DATA = [
       "left": "types/SLPpm3_P03_L.html",
       "right": "types/SLPpm3_P03_R.html"
     },
-    "synonyms": "SLP439",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/SLPpm3_P03.html"
   },
@@ -91359,7 +93357,7 @@ const NEURON_DATA = [
       "left": "types/SLPpm3_P04_L.html",
       "right": "types/SLPpm3_P04_R.html"
     },
-    "synonyms": "SMP548",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/SLPpm3_P04.html"
   },
@@ -91370,7 +93368,7 @@ const NEURON_DATA = [
       "left": "types/SLPpm3_S01_L.html",
       "right": "types/SLPpm3_S01_R.html"
     },
-    "synonyms": "SLP441",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/SLPpm3_S01.html"
   },
@@ -91386,15 +93384,15 @@ const NEURON_DATA = [
     "primary_url": "types/SMP001.html"
   },
   {
-    "name": "SMP003",
+    "name": "SMP003,SMP005",
     "urls": {
-      "combined": "types/SMP003.html",
-      "left": "types/SMP003_L.html",
-      "right": "types/SMP003_R.html"
+      "combined": "types/SMP003,SMP005.html",
+      "left": "types/SMP003,SMP005_L.html",
+      "right": "types/SMP003,SMP005_R.html"
     },
-    "synonyms": "SMP005",
+    "synonyms": "Cachero 2010: aSP-h; Ruta 2010: DC2",
     "flywire_types": null,
-    "primary_url": "types/SMP003.html"
+    "primary_url": "types/SMP003,SMP005.html"
   },
   {
     "name": "SMP006",
@@ -91414,7 +93412,7 @@ const NEURON_DATA = [
       "left": "types/SMP008_L.html",
       "right": "types/SMP008_R.html"
     },
-    "synonyms": "aSP14",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/SMP008.html"
   },
@@ -91436,7 +93434,7 @@ const NEURON_DATA = [
       "left": "types/SMP011a_L.html",
       "right": "types/SMP011a_R.html"
     },
-    "synonyms": "SMP011",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/SMP011a.html"
   },
@@ -91447,7 +93445,7 @@ const NEURON_DATA = [
       "left": "types/SMP011b_L.html",
       "right": "types/SMP011b_R.html"
     },
-    "synonyms": "SMP011",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/SMP011b.html"
   },
@@ -91485,15 +93483,37 @@ const NEURON_DATA = [
     "primary_url": "types/SMP015.html"
   },
   {
-    "name": "SMP016",
+    "name": "SMP016_a",
     "urls": {
-      "combined": "types/SMP016.html",
-      "left": "types/SMP016_L.html",
-      "right": "types/SMP016_R.html"
+      "combined": "types/SMP016_a.html",
+      "left": "types/SMP016_a_L.html",
+      "right": "types/SMP016_a_R.html"
     },
     "synonyms": null,
     "flywire_types": null,
-    "primary_url": "types/SMP016.html"
+    "primary_url": "types/SMP016_a.html"
+  },
+  {
+    "name": "SMP016_b",
+    "urls": {
+      "combined": "types/SMP016_b.html",
+      "left": "types/SMP016_b_L.html",
+      "right": "types/SMP016_b_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/SMP016_b.html"
+  },
+  {
+    "name": "SMP017",
+    "urls": {
+      "combined": "types/SMP017.html",
+      "left": "types/SMP017_L.html",
+      "right": "types/SMP017_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/SMP017.html"
   },
   {
     "name": "SMP018",
@@ -91507,26 +93527,15 @@ const NEURON_DATA = [
     "primary_url": "types/SMP018.html"
   },
   {
-    "name": "SMP019a",
+    "name": "SMP019",
     "urls": {
-      "combined": "types/SMP019a.html",
-      "left": "types/SMP019a_L.html",
-      "right": "types/SMP019a_R.html"
+      "combined": "types/SMP019.html",
+      "left": "types/SMP019_L.html",
+      "right": "types/SMP019_R.html"
     },
-    "synonyms": "SMP019",
+    "synonyms": null,
     "flywire_types": null,
-    "primary_url": "types/SMP019a.html"
-  },
-  {
-    "name": "SMP019b",
-    "urls": {
-      "combined": "types/SMP019b.html",
-      "left": "types/SMP019b_L.html",
-      "right": "types/SMP019b_R.html"
-    },
-    "synonyms": "SMP019",
-    "flywire_types": null,
-    "primary_url": "types/SMP019b.html"
+    "primary_url": "types/SMP019.html"
   },
   {
     "name": "SMP020",
@@ -91557,7 +93566,7 @@ const NEURON_DATA = [
       "left": "types/SMP022a_L.html",
       "right": "types/SMP022a_R.html"
     },
-    "synonyms": "SMP022",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/SMP022a.html"
   },
@@ -91568,7 +93577,7 @@ const NEURON_DATA = [
       "left": "types/SMP022b_L.html",
       "right": "types/SMP022b_R.html"
     },
-    "synonyms": "SMP022",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/SMP022b.html"
   },
@@ -91579,7 +93588,7 @@ const NEURON_DATA = [
       "left": "types/SMP025a_L.html",
       "right": "types/SMP025a_R.html"
     },
-    "synonyms": "SMP025",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/SMP025a.html"
   },
@@ -91590,7 +93599,7 @@ const NEURON_DATA = [
       "left": "types/SMP025b_L.html",
       "right": "types/SMP025b_R.html"
     },
-    "synonyms": "SMP025",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/SMP025b.html"
   },
@@ -91601,7 +93610,7 @@ const NEURON_DATA = [
       "left": "types/SMP025c_L.html",
       "right": "types/SMP025c_R.html"
     },
-    "synonyms": "SMP025",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/SMP025c.html"
   },
@@ -91634,7 +93643,7 @@ const NEURON_DATA = [
       "left": "types/SMP028_L.html",
       "right": "types/SMP028_R.html"
     },
-    "synonyms": "aSP26",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/SMP028.html"
   },
@@ -91645,7 +93654,7 @@ const NEURON_DATA = [
       "left": "types/SMP029_L.html",
       "right": "types/SMP029_R.html"
     },
-    "synonyms": "aDN",
+    "synonyms": "Nojima 2021: aDN; Cachero 2010: aSP-h",
     "flywire_types": null,
     "primary_url": "types/SMP029.html"
   },
@@ -91656,7 +93665,7 @@ const NEURON_DATA = [
       "left": "types/SMP030_L.html",
       "right": "types/SMP030_R.html"
     },
-    "synonyms": null,
+    "synonyms": "Cachero 2010: aSP-h; Ruta 2010: DC2",
     "flywire_types": null,
     "primary_url": "types/SMP030.html"
   },
@@ -91848,15 +93857,15 @@ const NEURON_DATA = [
     "primary_url": "types/SMP048.html"
   },
   {
-    "name": "SMP049",
+    "name": "SMP049,SMP076",
     "urls": {
-      "combined": "types/SMP049.html",
-      "left": "types/SMP049_L.html",
-      "right": "types/SMP049_R.html"
+      "combined": "types/SMP049,SMP076.html",
+      "left": "types/SMP049,SMP076_L.html",
+      "right": "types/SMP049,SMP076_R.html"
     },
-    "synonyms": "SMP076",
+    "synonyms": null,
     "flywire_types": null,
-    "primary_url": "types/SMP049.html"
+    "primary_url": "types/SMP049,SMP076.html"
   },
   {
     "name": "SMP050",
@@ -91887,7 +93896,7 @@ const NEURON_DATA = [
       "left": "types/SMP053_L.html",
       "right": "types/SMP053_R.html"
     },
-    "synonyms": null,
+    "synonyms": "fru-F-500250",
     "flywire_types": null,
     "primary_url": "types/SMP053.html"
   },
@@ -91958,37 +93967,37 @@ const NEURON_DATA = [
     "primary_url": "types/SMP059.html"
   },
   {
-    "name": "SMP060",
+    "name": "SMP060,SMP374",
     "urls": {
-      "combined": "types/SMP060.html",
-      "left": "types/SMP060_L.html",
-      "right": "types/SMP060_R.html"
+      "combined": "types/SMP060,SMP374.html",
+      "left": "types/SMP060,SMP374_L.html",
+      "right": "types/SMP060,SMP374_R.html"
     },
-    "synonyms": "SMP374",
+    "synonyms": null,
     "flywire_types": null,
-    "primary_url": "types/SMP060.html"
+    "primary_url": "types/SMP060,SMP374.html"
   },
   {
-    "name": "SMP061",
+    "name": "SMP061,SMP062",
     "urls": {
-      "combined": "types/SMP061.html",
-      "left": "types/SMP061_L.html",
-      "right": "types/SMP061_R.html"
+      "combined": "types/SMP061,SMP062.html",
+      "left": "types/SMP061,SMP062_L.html",
+      "right": "types/SMP061,SMP062_R.html"
     },
-    "synonyms": "SMP062",
+    "synonyms": null,
     "flywire_types": null,
-    "primary_url": "types/SMP061.html"
+    "primary_url": "types/SMP061,SMP062.html"
   },
   {
-    "name": "SMP063",
+    "name": "SMP063,SMP064",
     "urls": {
-      "combined": "types/SMP063.html",
-      "left": "types/SMP063_L.html",
-      "right": "types/SMP063_R.html"
+      "combined": "types/SMP063,SMP064.html",
+      "left": "types/SMP063,SMP064_L.html",
+      "right": "types/SMP063,SMP064_R.html"
     },
-    "synonyms": "SMP064",
+    "synonyms": null,
     "flywire_types": null,
-    "primary_url": "types/SMP063.html"
+    "primary_url": "types/SMP063,SMP064.html"
   },
   {
     "name": "SMP065",
@@ -92046,13 +94055,24 @@ const NEURON_DATA = [
     "primary_url": "types/SMP069.html"
   },
   {
+    "name": "SMP074,CL040",
+    "urls": {
+      "combined": "types/SMP074,CL040.html",
+      "left": "types/SMP074,CL040_L.html",
+      "right": "types/SMP074,CL040_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/SMP074,CL040.html"
+  },
+  {
     "name": "SMP075a",
     "urls": {
       "combined": "types/SMP075a.html",
       "left": "types/SMP075a_L.html",
       "right": "types/SMP075a_R.html"
     },
-    "synonyms": "SMP075",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/SMP075a.html"
   },
@@ -92063,7 +94083,7 @@ const NEURON_DATA = [
       "left": "types/SMP075b_L.html",
       "right": "types/SMP075b_R.html"
     },
-    "synonyms": "SMP075",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/SMP075b.html"
   },
@@ -92151,7 +94171,7 @@ const NEURON_DATA = [
       "left": "types/SMP087_L.html",
       "right": "types/SMP087_R.html"
     },
-    "synonyms": null,
+    "synonyms": "Cachero 2010: aSP-a;Yu 2010: aSP2",
     "flywire_types": null,
     "primary_url": "types/SMP087.html"
   },
@@ -92211,17 +94231,6 @@ const NEURON_DATA = [
     "primary_url": "types/SMP093.html"
   },
   {
-    "name": "SMP094",
-    "urls": {
-      "combined": "types/SMP094.html",
-      "left": "types/SMP094_L.html",
-      "right": "types/SMP094_R.html"
-    },
-    "synonyms": "SMP602, aSP17",
-    "flywire_types": null,
-    "primary_url": "types/SMP094.html"
-  },
-  {
     "name": "SMP095",
     "urls": {
       "combined": "types/SMP095.html",
@@ -92244,13 +94253,24 @@ const NEURON_DATA = [
     "primary_url": "types/SMP096.html"
   },
   {
+    "name": "SMP098_a",
+    "urls": {
+      "combined": "types/SMP098_a.html",
+      "left": "types/SMP098_a_L.html",
+      "right": "types/SMP098_a_R.html"
+    },
+    "synonyms": "Cachero 2010: aSP-a;Yu 2010: aSP2",
+    "flywire_types": null,
+    "primary_url": "types/SMP098_a.html"
+  },
+  {
     "name": "SMP102",
     "urls": {
       "combined": "types/SMP102.html",
       "left": "types/SMP102_L.html",
       "right": "types/SMP102_R.html"
     },
-    "synonyms": null,
+    "synonyms": "Cachero 2010: aSP-a;Yu 2010: aSP2",
     "flywire_types": null,
     "primary_url": "types/SMP102.html"
   },
@@ -92261,42 +94281,53 @@ const NEURON_DATA = [
       "left": "types/SMP103_L.html",
       "right": "types/SMP103_R.html"
     },
-    "synonyms": null,
+    "synonyms": "Cachero 2010: aSP-a;Yu 2010: aSP2",
     "flywire_types": null,
     "primary_url": "types/SMP103.html"
   },
   {
-    "name": "SMP104",
+    "name": "SMP105_a",
     "urls": {
-      "combined": "types/SMP104.html",
-      "left": "types/SMP104_L.html",
-      "right": "types/SMP104_R.html"
+      "combined": "types/SMP105_a.html",
+      "left": "types/SMP105_a_L.html",
+      "right": "types/SMP105_a_R.html"
     },
-    "synonyms": "SMP105, SMP107",
+    "synonyms": "Cachero 2010: aSP-a;Yu 2010: aSP2",
     "flywire_types": null,
-    "primary_url": "types/SMP104.html"
+    "primary_url": "types/SMP105_a.html"
   },
   {
-    "name": "SMP106a",
+    "name": "SMP105_b",
     "urls": {
-      "combined": "types/SMP106a.html",
-      "left": "types/SMP106a_L.html",
-      "right": "types/SMP106a_R.html"
+      "combined": "types/SMP105_b.html",
+      "left": "types/SMP105_b_L.html",
+      "right": "types/SMP105_b_R.html"
     },
-    "synonyms": "SMP106, aSP25",
+    "synonyms": "Cachero 2010: aSP-a;Yu 2010: aSP2",
     "flywire_types": null,
-    "primary_url": "types/SMP106a.html"
+    "primary_url": "types/SMP105_b.html"
   },
   {
-    "name": "SMP106b",
+    "name": "SMP106",
     "urls": {
-      "combined": "types/SMP106b.html",
-      "left": "types/SMP106b_L.html",
-      "right": "types/SMP106b_R.html"
+      "combined": "types/SMP106.html",
+      "left": "types/SMP106_L.html",
+      "right": "types/SMP106_R.html"
     },
-    "synonyms": "SMP106, aSP25",
+    "synonyms": "Cachero 2010: aSP-a;Yu 2010: aSP2",
     "flywire_types": null,
-    "primary_url": "types/SMP106b.html"
+    "primary_url": "types/SMP106.html"
+  },
+  {
+    "name": "SMP107",
+    "urls": {
+      "combined": "types/SMP107.html",
+      "left": "types/SMP107_L.html",
+      "right": "types/SMP107_R.html"
+    },
+    "synonyms": "Cachero 2010: aSP-a;Yu 2010: aSP2",
+    "flywire_types": null,
+    "primary_url": "types/SMP107.html"
   },
   {
     "name": "SMP108",
@@ -92393,7 +94424,7 @@ const NEURON_DATA = [
       "left": "types/SMP120a_L.html",
       "right": "types/SMP120a_R.html"
     },
-    "synonyms": "SMP120",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/SMP120a.html"
   },
@@ -92404,7 +94435,7 @@ const NEURON_DATA = [
       "left": "types/SMP120b_L.html",
       "right": "types/SMP120b_R.html"
     },
-    "synonyms": "SMP120",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/SMP120b.html"
   },
@@ -92437,7 +94468,7 @@ const NEURON_DATA = [
       "left": "types/SMP123a_L.html",
       "right": "types/SMP123a_R.html"
     },
-    "synonyms": "SMP123",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/SMP123a.html"
   },
@@ -92448,7 +94479,7 @@ const NEURON_DATA = [
       "left": "types/SMP123b_L.html",
       "right": "types/SMP123b_R.html"
     },
-    "synonyms": "SMP123",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/SMP123b.html"
   },
@@ -92475,37 +94506,48 @@ const NEURON_DATA = [
     "primary_url": "types/SMP128.html"
   },
   {
-    "name": "SMP143",
+    "name": "SMP138",
     "urls": {
-      "combined": "types/SMP143.html",
-      "left": "types/SMP143_L.html",
-      "right": "types/SMP143_R.html"
+      "combined": "types/SMP138.html",
+      "left": "types/SMP138_L.html",
+      "right": "types/SMP138_R.html"
     },
     "synonyms": null,
     "flywire_types": null,
-    "primary_url": "types/SMP143.html"
+    "primary_url": "types/SMP138.html"
   },
   {
-    "name": "SMP144",
+    "name": "SMP142,SMP145",
     "urls": {
-      "combined": "types/SMP144.html",
-      "left": "types/SMP144_L.html",
-      "right": "types/SMP144_R.html"
-    },
-    "synonyms": "SMP150",
-    "flywire_types": null,
-    "primary_url": "types/SMP144.html"
-  },
-  {
-    "name": "SMP145",
-    "urls": {
-      "combined": "types/SMP145.html",
-      "left": "types/SMP145_L.html",
-      "right": "types/SMP145_R.html"
+      "combined": "types/SMP142,SMP145.html",
+      "left": "types/SMP142,SMP145_L.html",
+      "right": "types/SMP142,SMP145_R.html"
     },
     "synonyms": null,
     "flywire_types": null,
-    "primary_url": "types/SMP145.html"
+    "primary_url": "types/SMP142,SMP145.html"
+  },
+  {
+    "name": "SMP143,SMP149",
+    "urls": {
+      "combined": "types/SMP143,SMP149.html",
+      "left": "types/SMP143,SMP149_L.html",
+      "right": "types/SMP143,SMP149_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/SMP143,SMP149.html"
+  },
+  {
+    "name": "SMP144,SMP150",
+    "urls": {
+      "combined": "types/SMP144,SMP150.html",
+      "left": "types/SMP144,SMP150_L.html",
+      "right": "types/SMP144,SMP150_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/SMP144,SMP150.html"
   },
   {
     "name": "SMP146",
@@ -92558,7 +94600,7 @@ const NEURON_DATA = [
       "left": "types/SMP153a_L.html",
       "right": "types/SMP153a_R.html"
     },
-    "synonyms": "SMP153",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/SMP153a.html"
   },
@@ -92569,7 +94611,7 @@ const NEURON_DATA = [
       "left": "types/SMP153b_L.html",
       "right": "types/SMP153b_R.html"
     },
-    "synonyms": "SMP153",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/SMP153b.html"
   },
@@ -92602,7 +94644,7 @@ const NEURON_DATA = [
       "left": "types/SMP157_L.html",
       "right": "types/SMP157_R.html"
     },
-    "synonyms": null,
+    "synonyms": "Cachero 2010: aSP-b;Yu 2010: aSP1",
     "flywire_types": null,
     "primary_url": "types/SMP157.html"
   },
@@ -92635,7 +94677,7 @@ const NEURON_DATA = [
       "left": "types/SMP160_L.html",
       "right": "types/SMP160_R.html"
     },
-    "synonyms": null,
+    "synonyms": "Cachero 2010: aIP-b",
     "flywire_types": null,
     "primary_url": "types/SMP160.html"
   },
@@ -92657,7 +94699,7 @@ const NEURON_DATA = [
       "left": "types/SMP162a_L.html",
       "right": "types/SMP162a_R.html"
     },
-    "synonyms": "SMP162",
+    "synonyms": "Cachero 2010: aIP-b",
     "flywire_types": null,
     "primary_url": "types/SMP162a.html"
   },
@@ -92668,7 +94710,7 @@ const NEURON_DATA = [
       "left": "types/SMP162b_L.html",
       "right": "types/SMP162b_R.html"
     },
-    "synonyms": "SMP162",
+    "synonyms": "Cachero 2010: aIP-b",
     "flywire_types": null,
     "primary_url": "types/SMP162b.html"
   },
@@ -92679,7 +94721,7 @@ const NEURON_DATA = [
       "left": "types/SMP162c_L.html",
       "right": "types/SMP162c_R.html"
     },
-    "synonyms": "SMP162",
+    "synonyms": "Cachero 2010: aIP-b",
     "flywire_types": null,
     "primary_url": "types/SMP162c.html"
   },
@@ -92719,13 +94761,22 @@ const NEURON_DATA = [
   {
     "name": "SMP166",
     "urls": {
-      "combined": "types/SMP166.html",
-      "left": "types/SMP166_L.html",
       "right": "types/SMP166_R.html"
     },
-    "synonyms": "SMP167",
+    "synonyms": null,
     "flywire_types": null,
-    "primary_url": "types/SMP166.html"
+    "primary_url": "types/SMP166_R.html"
+  },
+  {
+    "name": "SMP167",
+    "urls": {
+      "combined": "types/SMP167.html",
+      "left": "types/SMP167_L.html",
+      "right": "types/SMP167_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/SMP167.html"
   },
   {
     "name": "SMP168",
@@ -92789,20 +94840,18 @@ const NEURON_DATA = [
       "left": "types/SMP173_L.html",
       "right": "types/SMP173_R.html"
     },
-    "synonyms": null,
+    "synonyms": "Cachero 2010: aDT-d",
     "flywire_types": null,
     "primary_url": "types/SMP173.html"
   },
   {
     "name": "SMP174",
     "urls": {
-      "combined": "types/SMP174.html",
-      "left": "types/SMP174_L.html",
-      "right": "types/SMP174_R.html"
+      "left": "types/SMP174_L.html"
     },
     "synonyms": null,
     "flywire_types": null,
-    "primary_url": "types/SMP174.html"
+    "primary_url": "types/SMP174_L.html"
   },
   {
     "name": "SMP175",
@@ -93009,7 +95058,7 @@ const NEURON_DATA = [
       "left": "types/SMP193a_L.html",
       "right": "types/SMP193a_R.html"
     },
-    "synonyms": "SMP193",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/SMP193a.html"
   },
@@ -93020,7 +95069,7 @@ const NEURON_DATA = [
       "left": "types/SMP193b_L.html",
       "right": "types/SMP193b_R.html"
     },
-    "synonyms": "SMP193",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/SMP193b.html"
   },
@@ -93113,6 +95162,17 @@ const NEURON_DATA = [
     "primary_url": "types/SMP204.html"
   },
   {
+    "name": "SMP206",
+    "urls": {
+      "combined": "types/SMP206.html",
+      "left": "types/SMP206_L.html",
+      "right": "types/SMP206_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/SMP206.html"
+  },
+  {
     "name": "SMP207",
     "urls": {
       "combined": "types/SMP207.html",
@@ -93152,9 +95212,20 @@ const NEURON_DATA = [
       "left": "types/SMP213_L.html",
       "right": "types/SMP213_R.html"
     },
-    "synonyms": "SMP214",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/SMP213.html"
+  },
+  {
+    "name": "SMP213,SMP214",
+    "urls": {
+      "combined": "types/SMP213,SMP214.html",
+      "left": "types/SMP213,SMP214_L.html",
+      "right": "types/SMP213,SMP214_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/SMP213,SMP214.html"
   },
   {
     "name": "SMP215a",
@@ -93163,7 +95234,7 @@ const NEURON_DATA = [
       "left": "types/SMP215a_L.html",
       "right": "types/SMP215a_R.html"
     },
-    "synonyms": "SMP215",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/SMP215a.html"
   },
@@ -93174,7 +95245,7 @@ const NEURON_DATA = [
       "left": "types/SMP215b_L.html",
       "right": "types/SMP215b_R.html"
     },
-    "synonyms": "SMP215",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/SMP215b.html"
   },
@@ -93185,9 +95256,20 @@ const NEURON_DATA = [
       "left": "types/SMP215c_L.html",
       "right": "types/SMP215c_R.html"
     },
-    "synonyms": "SMP215",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/SMP215c.html"
+  },
+  {
+    "name": "SMP217",
+    "urls": {
+      "combined": "types/SMP217.html",
+      "left": "types/SMP217_L.html",
+      "right": "types/SMP217_R.html"
+    },
+    "synonyms": "Cachero 2010: pSP-b;Yu 2010: pSP2/3",
+    "flywire_types": null,
+    "primary_url": "types/SMP217.html"
   },
   {
     "name": "SMP229",
@@ -93196,7 +95278,7 @@ const NEURON_DATA = [
       "left": "types/SMP229_L.html",
       "right": "types/SMP229_R.html"
     },
-    "synonyms": null,
+    "synonyms": "Cachero 2010: pSP-b;Yu 2010: pSP2/3",
     "flywire_types": null,
     "primary_url": "types/SMP229.html"
   },
@@ -93295,7 +95377,7 @@ const NEURON_DATA = [
       "left": "types/SMP248a_L.html",
       "right": "types/SMP248a_R.html"
     },
-    "synonyms": "SMP248",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/SMP248a.html"
   },
@@ -93306,7 +95388,7 @@ const NEURON_DATA = [
       "left": "types/SMP248b_L.html",
       "right": "types/SMP248b_R.html"
     },
-    "synonyms": "SMP248, pSP5",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/SMP248b.html"
   },
@@ -93317,7 +95399,7 @@ const NEURON_DATA = [
       "left": "types/SMP248c_L.html",
       "right": "types/SMP248c_R.html"
     },
-    "synonyms": "SMP248",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/SMP248c.html"
   },
@@ -93427,7 +95509,7 @@ const NEURON_DATA = [
       "left": "types/SMP258_L.html",
       "right": "types/SMP258_R.html"
     },
-    "synonyms": "SMP259, SMP260, SMP263, SMP264, SMP265",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/SMP258.html"
   },
@@ -93537,7 +95619,7 @@ const NEURON_DATA = [
       "left": "types/SMP278a_L.html",
       "right": "types/SMP278a_R.html"
     },
-    "synonyms": "SMP278",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/SMP278a.html"
   },
@@ -93548,7 +95630,7 @@ const NEURON_DATA = [
       "left": "types/SMP278b_L.html",
       "right": "types/SMP278b_R.html"
     },
-    "synonyms": "SMP278",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/SMP278b.html"
   },
@@ -93614,7 +95696,7 @@ const NEURON_DATA = [
       "left": "types/SMP283_L.html",
       "right": "types/SMP283_R.html"
     },
-    "synonyms": "pSP5",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/SMP283.html"
   },
@@ -93625,7 +95707,7 @@ const NEURON_DATA = [
       "left": "types/SMP284a_L.html",
       "right": "types/SMP284a_R.html"
     },
-    "synonyms": "SMP284",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/SMP284a.html"
   },
@@ -93636,7 +95718,7 @@ const NEURON_DATA = [
       "left": "types/SMP284b_L.html",
       "right": "types/SMP284b_R.html"
     },
-    "synonyms": "SMP284",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/SMP284b.html"
   },
@@ -93647,7 +95729,7 @@ const NEURON_DATA = [
       "left": "types/SMP285_L.html",
       "right": "types/SMP285_R.html"
     },
-    "synonyms": "pCd2",
+    "synonyms": "Cachero 2010: pMP-b; Yu 2010: pMP5; Rideout 2010: pC3; Zhou 2014: pCd; Nojima 2021: pCd-2",
     "flywire_types": null,
     "primary_url": "types/SMP285.html"
   },
@@ -93658,7 +95740,7 @@ const NEURON_DATA = [
       "left": "types/SMP286_L.html",
       "right": "types/SMP286_R.html"
     },
-    "synonyms": "pCd2",
+    "synonyms": "Cachero 2010: pMP-b; Yu 2010: pMP5; Rideout 2010: pC3; Zhou 2014: pCd; Nojima 2021: pCd-2",
     "flywire_types": null,
     "primary_url": "types/SMP286.html"
   },
@@ -93674,26 +95756,15 @@ const NEURON_DATA = [
     "primary_url": "types/SMP291.html"
   },
   {
-    "name": "SMP292",
+    "name": "SMP292,SMP293,SMP584",
     "urls": {
-      "combined": "types/SMP292.html",
-      "left": "types/SMP292_L.html",
-      "right": "types/SMP292_R.html"
-    },
-    "synonyms": "SMP584",
-    "flywire_types": null,
-    "primary_url": "types/SMP292.html"
-  },
-  {
-    "name": "SMP293",
-    "urls": {
-      "combined": "types/SMP293.html",
-      "left": "types/SMP293_L.html",
-      "right": "types/SMP293_R.html"
+      "combined": "types/SMP292,SMP293,SMP584.html",
+      "left": "types/SMP292,SMP293,SMP584_L.html",
+      "right": "types/SMP292,SMP293,SMP584_R.html"
     },
     "synonyms": null,
     "flywire_types": null,
-    "primary_url": "types/SMP293.html"
+    "primary_url": "types/SMP292,SMP293,SMP584.html"
   },
   {
     "name": "SMP298",
@@ -93757,7 +95828,7 @@ const NEURON_DATA = [
       "left": "types/SMP314a_L.html",
       "right": "types/SMP314a_R.html"
     },
-    "synonyms": "SMP314",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/SMP314a.html"
   },
@@ -93768,7 +95839,7 @@ const NEURON_DATA = [
       "left": "types/SMP314b_L.html",
       "right": "types/SMP314b_R.html"
     },
-    "synonyms": "SMP314",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/SMP314b.html"
   },
@@ -93790,7 +95861,7 @@ const NEURON_DATA = [
       "left": "types/SMP317a_L.html",
       "right": "types/SMP317a_R.html"
     },
-    "synonyms": "SMP317",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/SMP317a.html"
   },
@@ -93801,7 +95872,7 @@ const NEURON_DATA = [
       "left": "types/SMP317b_L.html",
       "right": "types/SMP317b_R.html"
     },
-    "synonyms": "SMP317",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/SMP317b.html"
   },
@@ -93812,7 +95883,7 @@ const NEURON_DATA = [
       "left": "types/SMP317c_L.html",
       "right": "types/SMP317c_R.html"
     },
-    "synonyms": "SMP317",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/SMP317c.html"
   },
@@ -93845,7 +95916,7 @@ const NEURON_DATA = [
       "left": "types/SMP320a_L.html",
       "right": "types/SMP320a_R.html"
     },
-    "synonyms": "SMP320",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/SMP320a.html"
   },
@@ -93856,9 +95927,20 @@ const NEURON_DATA = [
       "left": "types/SMP320b_L.html",
       "right": "types/SMP320b_R.html"
     },
-    "synonyms": "SMP320",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/SMP320b.html"
+  },
+  {
+    "name": "SMP321_b",
+    "urls": {
+      "combined": "types/SMP321_b.html",
+      "left": "types/SMP321_b_L.html",
+      "right": "types/SMP321_b_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/SMP321_b.html"
   },
   {
     "name": "SMP323",
@@ -93878,7 +95960,7 @@ const NEURON_DATA = [
       "left": "types/SMP326a_L.html",
       "right": "types/SMP326a_R.html"
     },
-    "synonyms": "SMP326",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/SMP326a.html"
   },
@@ -93889,7 +95971,7 @@ const NEURON_DATA = [
       "left": "types/SMP326b_L.html",
       "right": "types/SMP326b_R.html"
     },
-    "synonyms": "SMP326",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/SMP326b.html"
   },
@@ -93900,7 +95982,7 @@ const NEURON_DATA = [
       "left": "types/SMP328a_L.html",
       "right": "types/SMP328a_R.html"
     },
-    "synonyms": "SMP328",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/SMP328a.html"
   },
@@ -93911,7 +95993,7 @@ const NEURON_DATA = [
       "left": "types/SMP328b_L.html",
       "right": "types/SMP328b_R.html"
     },
-    "synonyms": "SMP328",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/SMP328b.html"
   },
@@ -93933,7 +96015,7 @@ const NEURON_DATA = [
       "left": "types/SMP330a_L.html",
       "right": "types/SMP330a_R.html"
     },
-    "synonyms": "SMP330",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/SMP330a.html"
   },
@@ -93944,7 +96026,7 @@ const NEURON_DATA = [
       "left": "types/SMP330b_L.html",
       "right": "types/SMP330b_R.html"
     },
-    "synonyms": "SMP330",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/SMP330b.html"
   },
@@ -93955,7 +96037,7 @@ const NEURON_DATA = [
       "left": "types/SMP331a_L.html",
       "right": "types/SMP331a_R.html"
     },
-    "synonyms": "SMP331",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/SMP331a.html"
   },
@@ -93966,7 +96048,7 @@ const NEURON_DATA = [
       "left": "types/SMP331b_L.html",
       "right": "types/SMP331b_R.html"
     },
-    "synonyms": "SMP331",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/SMP331b.html"
   },
@@ -93977,7 +96059,7 @@ const NEURON_DATA = [
       "left": "types/SMP331c_L.html",
       "right": "types/SMP331c_R.html"
     },
-    "synonyms": "SMP331",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/SMP331c.html"
   },
@@ -93988,7 +96070,7 @@ const NEURON_DATA = [
       "left": "types/SMP332a_L.html",
       "right": "types/SMP332a_R.html"
     },
-    "synonyms": "SMP332",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/SMP332a.html"
   },
@@ -93999,7 +96081,7 @@ const NEURON_DATA = [
       "left": "types/SMP332b_L.html",
       "right": "types/SMP332b_R.html"
     },
-    "synonyms": "SMP332",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/SMP332b.html"
   },
@@ -94010,7 +96092,7 @@ const NEURON_DATA = [
       "left": "types/SMP333_L.html",
       "right": "types/SMP333_R.html"
     },
-    "synonyms": null,
+    "synonyms": "Cachero 2010: pSP-a",
     "flywire_types": null,
     "primary_url": "types/SMP333.html"
   },
@@ -94021,7 +96103,7 @@ const NEURON_DATA = [
       "left": "types/SMP334_L.html",
       "right": "types/SMP334_R.html"
     },
-    "synonyms": null,
+    "synonyms": "Cachero 2010: pSP-a",
     "flywire_types": null,
     "primary_url": "types/SMP334.html"
   },
@@ -94046,6 +96128,17 @@ const NEURON_DATA = [
     "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/SMP337.html"
+  },
+  {
+    "name": "SMP338,SMP534",
+    "urls": {
+      "combined": "types/SMP338,SMP534.html",
+      "left": "types/SMP338,SMP534_L.html",
+      "right": "types/SMP338,SMP534_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/SMP338,SMP534.html"
   },
   {
     "name": "SMP339",
@@ -94098,7 +96191,7 @@ const NEURON_DATA = [
       "left": "types/SMP344a_L.html",
       "right": "types/SMP344a_R.html"
     },
-    "synonyms": "SMP344",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/SMP344a.html"
   },
@@ -94109,7 +96202,7 @@ const NEURON_DATA = [
       "left": "types/SMP344b_L.html",
       "right": "types/SMP344b_R.html"
     },
-    "synonyms": "SMP344",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/SMP344b.html"
   },
@@ -94142,7 +96235,7 @@ const NEURON_DATA = [
       "left": "types/SMP348a_L.html",
       "right": "types/SMP348a_R.html"
     },
-    "synonyms": "SMP348",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/SMP348a.html"
   },
@@ -94153,7 +96246,7 @@ const NEURON_DATA = [
       "left": "types/SMP348b_L.html",
       "right": "types/SMP348b_R.html"
     },
-    "synonyms": "SMP348",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/SMP348b.html"
   },
@@ -94178,6 +96271,17 @@ const NEURON_DATA = [
     "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/SMP355.html"
+  },
+  {
+    "name": "SMP356",
+    "urls": {
+      "combined": "types/SMP356.html",
+      "left": "types/SMP356_L.html",
+      "right": "types/SMP356_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/SMP356.html"
   },
   {
     "name": "SMP357",
@@ -94219,7 +96323,7 @@ const NEURON_DATA = [
       "left": "types/SMP361a_L.html",
       "right": "types/SMP361a_R.html"
     },
-    "synonyms": "SMP361",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/SMP361a.html"
   },
@@ -94230,7 +96334,7 @@ const NEURON_DATA = [
       "left": "types/SMP361b_L.html",
       "right": "types/SMP361b_R.html"
     },
-    "synonyms": "SMP361",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/SMP361b.html"
   },
@@ -94428,7 +96532,7 @@ const NEURON_DATA = [
       "left": "types/SMP389a_L.html",
       "right": "types/SMP389a_R.html"
     },
-    "synonyms": "SMP389",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/SMP389a.html"
   },
@@ -94439,7 +96543,7 @@ const NEURON_DATA = [
       "left": "types/SMP389b_L.html",
       "right": "types/SMP389b_R.html"
     },
-    "synonyms": "SMP389",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/SMP389b.html"
   },
@@ -94450,7 +96554,7 @@ const NEURON_DATA = [
       "left": "types/SMP389c_L.html",
       "right": "types/SMP389c_R.html"
     },
-    "synonyms": "SMP389",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/SMP389c.html"
   },
@@ -94483,7 +96587,7 @@ const NEURON_DATA = [
       "left": "types/SMP393a_L.html",
       "right": "types/SMP393a_R.html"
     },
-    "synonyms": "SMP393",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/SMP393a.html"
   },
@@ -94494,7 +96598,7 @@ const NEURON_DATA = [
       "left": "types/SMP393b_L.html",
       "right": "types/SMP393b_R.html"
     },
-    "synonyms": "SMP393",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/SMP393b.html"
   },
@@ -94505,7 +96609,7 @@ const NEURON_DATA = [
       "left": "types/SMP397_L.html",
       "right": "types/SMP397_R.html"
     },
-    "synonyms": null,
+    "synonyms": "fru-F-400205",
     "flywire_types": null,
     "primary_url": "types/SMP397.html"
   },
@@ -94527,7 +96631,7 @@ const NEURON_DATA = [
       "left": "types/SMP399a_L.html",
       "right": "types/SMP399a_R.html"
     },
-    "synonyms": "SMP399",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/SMP399a.html"
   },
@@ -94538,7 +96642,7 @@ const NEURON_DATA = [
       "left": "types/SMP399b_L.html",
       "right": "types/SMP399b_R.html"
     },
-    "synonyms": "SMP399",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/SMP399b.html"
   },
@@ -94549,7 +96653,7 @@ const NEURON_DATA = [
       "left": "types/SMP404a_L.html",
       "right": "types/SMP404a_R.html"
     },
-    "synonyms": "SMP404",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/SMP404a.html"
   },
@@ -94560,7 +96664,7 @@ const NEURON_DATA = [
       "left": "types/SMP404b_L.html",
       "right": "types/SMP404b_R.html"
     },
-    "synonyms": "SMP404",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/SMP404b.html"
   },
@@ -94582,7 +96686,7 @@ const NEURON_DATA = [
       "left": "types/SMP406_L.html",
       "right": "types/SMP406_R.html"
     },
-    "synonyms": null,
+    "synonyms": "fru-F-300085",
     "flywire_types": null,
     "primary_url": "types/SMP406.html"
   },
@@ -94670,7 +96774,7 @@ const NEURON_DATA = [
       "left": "types/SMP411a_L.html",
       "right": "types/SMP411a_R.html"
     },
-    "synonyms": "SMP411",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/SMP411a.html"
   },
@@ -94681,7 +96785,7 @@ const NEURON_DATA = [
       "left": "types/SMP411b_L.html",
       "right": "types/SMP411b_R.html"
     },
-    "synonyms": "SMP411",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/SMP411b.html"
   },
@@ -94697,15 +96801,15 @@ const NEURON_DATA = [
     "primary_url": "types/SMP413.html"
   },
   {
-    "name": "SMP416",
+    "name": "SMP416,SMP417",
     "urls": {
-      "combined": "types/SMP416.html",
-      "left": "types/SMP416_L.html",
-      "right": "types/SMP416_R.html"
+      "combined": "types/SMP416,SMP417.html",
+      "left": "types/SMP416,SMP417_L.html",
+      "right": "types/SMP416,SMP417_R.html"
     },
     "synonyms": null,
     "flywire_types": null,
-    "primary_url": "types/SMP416.html"
+    "primary_url": "types/SMP416,SMP417.html"
   },
   {
     "name": "SMP418",
@@ -94714,7 +96818,7 @@ const NEURON_DATA = [
       "left": "types/SMP418_L.html",
       "right": "types/SMP418_R.html"
     },
-    "synonyms": null,
+    "synonyms": "fru-F-000024",
     "flywire_types": null,
     "primary_url": "types/SMP418.html"
   },
@@ -94794,6 +96898,17 @@ const NEURON_DATA = [
     "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/SMP425.html"
+  },
+  {
+    "name": "SMP426",
+    "urls": {
+      "combined": "types/SMP426.html",
+      "left": "types/SMP426_L.html",
+      "right": "types/SMP426_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/SMP426.html"
   },
   {
     "name": "SMP427",
@@ -94879,7 +96994,7 @@ const NEURON_DATA = [
       "left": "types/SMP446a_L.html",
       "right": "types/SMP446a_R.html"
     },
-    "synonyms": "SMP446",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/SMP446a.html"
   },
@@ -94890,7 +97005,7 @@ const NEURON_DATA = [
       "left": "types/SMP446b_L.html",
       "right": "types/SMP446b_R.html"
     },
-    "synonyms": "SMP446",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/SMP446b.html"
   },
@@ -94917,13 +97032,22 @@ const NEURON_DATA = [
     "primary_url": "types/SMP448.html"
   },
   {
+    "name": "SMP450",
+    "urls": {
+      "left": "types/SMP450_L.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/SMP450_L.html"
+  },
+  {
     "name": "SMP451a",
     "urls": {
       "combined": "types/SMP451a.html",
       "left": "types/SMP451a_L.html",
       "right": "types/SMP451a_R.html"
     },
-    "synonyms": "SMP451",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/SMP451a.html"
   },
@@ -94934,7 +97058,7 @@ const NEURON_DATA = [
       "left": "types/SMP451b_L.html",
       "right": "types/SMP451b_R.html"
     },
-    "synonyms": "SMP451",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/SMP451b.html"
   },
@@ -94948,6 +97072,15 @@ const NEURON_DATA = [
     "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/SMP452.html"
+  },
+  {
+    "name": "SMP453",
+    "urls": {
+      "right": "types/SMP453_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/SMP453_R.html"
   },
   {
     "name": "SMP455",
@@ -95033,7 +97166,7 @@ const NEURON_DATA = [
       "left": "types/SMP469a_L.html",
       "right": "types/SMP469a_R.html"
     },
-    "synonyms": "SMP469",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/SMP469a.html"
   },
@@ -95044,7 +97177,7 @@ const NEURON_DATA = [
       "left": "types/SMP469b_L.html",
       "right": "types/SMP469b_R.html"
     },
-    "synonyms": "SMP469",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/SMP469b.html"
   },
@@ -95055,7 +97188,7 @@ const NEURON_DATA = [
       "left": "types/SMP469c_L.html",
       "right": "types/SMP469c_R.html"
     },
-    "synonyms": "SMP469",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/SMP469c.html"
   },
@@ -95082,15 +97215,15 @@ const NEURON_DATA = [
     "primary_url": "types/SMP471.html"
   },
   {
-    "name": "SMP472",
+    "name": "SMP472,SMP473",
     "urls": {
-      "combined": "types/SMP472.html",
-      "left": "types/SMP472_L.html",
-      "right": "types/SMP472_R.html"
+      "combined": "types/SMP472,SMP473.html",
+      "left": "types/SMP472,SMP473_L.html",
+      "right": "types/SMP472,SMP473_R.html"
     },
-    "synonyms": "SMP473",
+    "synonyms": null,
     "flywire_types": null,
-    "primary_url": "types/SMP472.html"
+    "primary_url": "types/SMP472,SMP473.html"
   },
   {
     "name": "SMP476",
@@ -95110,7 +97243,7 @@ const NEURON_DATA = [
       "left": "types/SMP477_L.html",
       "right": "types/SMP477_R.html"
     },
-    "synonyms": null,
+    "synonyms": "Cachero 2010: pMP-a;Yu 2010: pMP5",
     "flywire_types": null,
     "primary_url": "types/SMP477.html"
   },
@@ -95124,6 +97257,17 @@ const NEURON_DATA = [
     "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/SMP482.html"
+  },
+  {
+    "name": "SMP490",
+    "urls": {
+      "combined": "types/SMP490.html",
+      "left": "types/SMP490_L.html",
+      "right": "types/SMP490_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/SMP490.html"
   },
   {
     "name": "SMP492",
@@ -95165,7 +97309,7 @@ const NEURON_DATA = [
       "left": "types/SMP495a_L.html",
       "right": "types/SMP495a_R.html"
     },
-    "synonyms": "SMP495",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/SMP495a.html"
   },
@@ -95176,7 +97320,7 @@ const NEURON_DATA = [
       "left": "types/SMP495b_L.html",
       "right": "types/SMP495b_R.html"
     },
-    "synonyms": "SMP495",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/SMP495b.html"
   },
@@ -95187,7 +97331,7 @@ const NEURON_DATA = [
       "left": "types/SMP495c_L.html",
       "right": "types/SMP495c_R.html"
     },
-    "synonyms": "SMP495",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/SMP495c.html"
   },
@@ -95203,15 +97347,15 @@ const NEURON_DATA = [
     "primary_url": "types/SMP496.html"
   },
   {
-    "name": "SMP501",
+    "name": "SMP501,SMP502",
     "urls": {
-      "combined": "types/SMP501.html",
-      "left": "types/SMP501_L.html",
-      "right": "types/SMP501_R.html"
+      "combined": "types/SMP501,SMP502.html",
+      "left": "types/SMP501,SMP502_L.html",
+      "right": "types/SMP501,SMP502_R.html"
     },
-    "synonyms": "SMP502",
+    "synonyms": null,
     "flywire_types": null,
-    "primary_url": "types/SMP501.html"
+    "primary_url": "types/SMP501,SMP502.html"
   },
   {
     "name": "SMP503",
@@ -95275,7 +97419,7 @@ const NEURON_DATA = [
       "left": "types/SMP509a_L.html",
       "right": "types/SMP509a_R.html"
     },
-    "synonyms": "SMP509",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/SMP509a.html"
   },
@@ -95286,7 +97430,7 @@ const NEURON_DATA = [
       "left": "types/SMP509b_L.html",
       "right": "types/SMP509b_R.html"
     },
-    "synonyms": "SMP509",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/SMP509b.html"
   },
@@ -95297,7 +97441,7 @@ const NEURON_DATA = [
       "left": "types/SMP510a_L.html",
       "right": "types/SMP510a_R.html"
     },
-    "synonyms": "SMP510",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/SMP510a.html"
   },
@@ -95308,7 +97452,7 @@ const NEURON_DATA = [
       "left": "types/SMP510b_L.html",
       "right": "types/SMP510b_R.html"
     },
-    "synonyms": "SMP510",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/SMP510b.html"
   },
@@ -95319,7 +97463,7 @@ const NEURON_DATA = [
       "left": "types/SMP511_L.html",
       "right": "types/SMP511_R.html"
     },
-    "synonyms": "pMP16",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/SMP511.html"
   },
@@ -95374,7 +97518,7 @@ const NEURON_DATA = [
       "left": "types/SMP516a_L.html",
       "right": "types/SMP516a_R.html"
     },
-    "synonyms": "SMP516",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/SMP516a.html"
   },
@@ -95385,7 +97529,7 @@ const NEURON_DATA = [
       "left": "types/SMP516b_L.html",
       "right": "types/SMP516b_R.html"
     },
-    "synonyms": "SMP516",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/SMP516b.html"
   },
@@ -95396,9 +97540,31 @@ const NEURON_DATA = [
       "left": "types/SMP517_L.html",
       "right": "types/SMP517_R.html"
     },
-    "synonyms": "SMP518, SMP519",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/SMP517.html"
+  },
+  {
+    "name": "SMP518",
+    "urls": {
+      "combined": "types/SMP518.html",
+      "left": "types/SMP518_L.html",
+      "right": "types/SMP518_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/SMP518.html"
+  },
+  {
+    "name": "SMP519",
+    "urls": {
+      "combined": "types/SMP519.html",
+      "left": "types/SMP519_L.html",
+      "right": "types/SMP519_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/SMP519.html"
   },
   {
     "name": "SMP520a",
@@ -95407,7 +97573,7 @@ const NEURON_DATA = [
       "left": "types/SMP520a_L.html",
       "right": "types/SMP520a_R.html"
     },
-    "synonyms": "SMP520",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/SMP520a.html"
   },
@@ -95418,7 +97584,7 @@ const NEURON_DATA = [
       "left": "types/SMP520b_L.html",
       "right": "types/SMP520b_R.html"
     },
-    "synonyms": "SMP520",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/SMP520b.html"
   },
@@ -95445,15 +97611,15 @@ const NEURON_DATA = [
     "primary_url": "types/SMP522.html"
   },
   {
-    "name": "SMP523",
+    "name": "SMP523,SMP524",
     "urls": {
-      "combined": "types/SMP523.html",
-      "left": "types/SMP523_L.html",
-      "right": "types/SMP523_R.html"
+      "combined": "types/SMP523,SMP524.html",
+      "left": "types/SMP523,SMP524_L.html",
+      "right": "types/SMP523,SMP524_R.html"
     },
-    "synonyms": "SMP524",
+    "synonyms": null,
     "flywire_types": null,
-    "primary_url": "types/SMP523.html"
+    "primary_url": "types/SMP523,SMP524.html"
   },
   {
     "name": "SMP525",
@@ -95517,7 +97683,7 @@ const NEURON_DATA = [
       "left": "types/SMP530_L.html",
       "right": "types/SMP530_R.html"
     },
-    "synonyms": null,
+    "synonyms": "fru-F-700071, fru-F-500018, fru-F-000113, fru-F-400128, fru-F-300016",
     "flywire_types": null,
     "primary_url": "types/SMP530.html"
   },
@@ -95539,7 +97705,7 @@ const NEURON_DATA = [
       "left": "types/SMP532a_L.html",
       "right": "types/SMP532a_R.html"
     },
-    "synonyms": "SMP532",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/SMP532a.html"
   },
@@ -95550,7 +97716,7 @@ const NEURON_DATA = [
       "left": "types/SMP532b_L.html",
       "right": "types/SMP532b_R.html"
     },
-    "synonyms": "SMP532",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/SMP532b.html"
   },
@@ -95564,17 +97730,6 @@ const NEURON_DATA = [
     "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/SMP533.html"
-  },
-  {
-    "name": "SMP534",
-    "urls": {
-      "combined": "types/SMP534.html",
-      "left": "types/SMP534_L.html",
-      "right": "types/SMP534_R.html"
-    },
-    "synonyms": null,
-    "flywire_types": null,
-    "primary_url": "types/SMP534.html"
   },
   {
     "name": "SMP535",
@@ -95599,15 +97754,15 @@ const NEURON_DATA = [
     "primary_url": "types/SMP537.html"
   },
   {
-    "name": "SMP538",
+    "name": "SMP538,SMP599",
     "urls": {
-      "combined": "types/SMP538.html",
-      "left": "types/SMP538_L.html",
-      "right": "types/SMP538_R.html"
+      "combined": "types/SMP538,SMP599.html",
+      "left": "types/SMP538,SMP599_L.html",
+      "right": "types/SMP538,SMP599_R.html"
     },
-    "synonyms": "SMP599",
+    "synonyms": null,
     "flywire_types": null,
-    "primary_url": "types/SMP538.html"
+    "primary_url": "types/SMP538,SMP599.html"
   },
   {
     "name": "SMP539",
@@ -95665,15 +97820,15 @@ const NEURON_DATA = [
     "primary_url": "types/SMP543.html"
   },
   {
-    "name": "SMP544",
+    "name": "SMP544,LAL134",
     "urls": {
-      "combined": "types/SMP544.html",
-      "left": "types/SMP544_L.html",
-      "right": "types/SMP544_R.html"
+      "combined": "types/SMP544,LAL134.html",
+      "left": "types/SMP544,LAL134_L.html",
+      "right": "types/SMP544,LAL134_R.html"
     },
     "synonyms": null,
     "flywire_types": null,
-    "primary_url": "types/SMP544.html"
+    "primary_url": "types/SMP544,LAL134.html"
   },
   {
     "name": "SMP545",
@@ -95687,15 +97842,15 @@ const NEURON_DATA = [
     "primary_url": "types/SMP545.html"
   },
   {
-    "name": "SMP546",
+    "name": "SMP546,SMP547",
     "urls": {
-      "combined": "types/SMP546.html",
-      "left": "types/SMP546_L.html",
-      "right": "types/SMP546_R.html"
+      "combined": "types/SMP546,SMP547.html",
+      "left": "types/SMP546,SMP547_L.html",
+      "right": "types/SMP546,SMP547_R.html"
     },
-    "synonyms": "SMP547",
+    "synonyms": null,
     "flywire_types": null,
-    "primary_url": "types/SMP546.html"
+    "primary_url": "types/SMP546,SMP547.html"
   },
   {
     "name": "SMP549",
@@ -95715,7 +97870,7 @@ const NEURON_DATA = [
       "left": "types/SMP550_L.html",
       "right": "types/SMP550_R.html"
     },
-    "synonyms": "pSP7",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/SMP550.html"
   },
@@ -95753,15 +97908,15 @@ const NEURON_DATA = [
     "primary_url": "types/SMP554.html"
   },
   {
-    "name": "SMP555",
+    "name": "SMP555,SMP556",
     "urls": {
-      "combined": "types/SMP555.html",
-      "left": "types/SMP555_L.html",
-      "right": "types/SMP555_R.html"
+      "combined": "types/SMP555,SMP556.html",
+      "left": "types/SMP555,SMP556_L.html",
+      "right": "types/SMP555,SMP556_R.html"
     },
-    "synonyms": "SMP556, aIPga",
+    "synonyms": "Cachero 2010: aIP-g;Yu 2010: pIP6",
     "flywire_types": null,
-    "primary_url": "types/SMP555.html"
+    "primary_url": "types/SMP555,SMP556.html"
   },
   {
     "name": "SMP558",
@@ -95770,7 +97925,7 @@ const NEURON_DATA = [
       "left": "types/SMP558_L.html",
       "right": "types/SMP558_R.html"
     },
-    "synonyms": "aIPgc",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/SMP558.html"
   },
@@ -95812,7 +97967,7 @@ const NEURON_DATA = [
       "left": "types/SMP566a_L.html",
       "right": "types/SMP566a_R.html"
     },
-    "synonyms": "SMP566",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/SMP566a.html"
   },
@@ -95823,7 +97978,7 @@ const NEURON_DATA = [
       "left": "types/SMP566b_L.html",
       "right": "types/SMP566b_R.html"
     },
-    "synonyms": "SMP566",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/SMP566b.html"
   },
@@ -95856,7 +98011,7 @@ const NEURON_DATA = [
       "left": "types/SMP569a_L.html",
       "right": "types/SMP569a_R.html"
     },
-    "synonyms": "SMP569",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/SMP569a.html"
   },
@@ -95867,7 +98022,7 @@ const NEURON_DATA = [
       "left": "types/SMP569b_L.html",
       "right": "types/SMP569b_R.html"
     },
-    "synonyms": "SMP569",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/SMP569b.html"
   },
@@ -95878,7 +98033,7 @@ const NEURON_DATA = [
       "left": "types/SMP570a_L.html",
       "right": "types/SMP570a_R.html"
     },
-    "synonyms": "SMP570",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/SMP570a.html"
   },
@@ -95889,7 +98044,7 @@ const NEURON_DATA = [
       "left": "types/SMP570b_L.html",
       "right": "types/SMP570b_R.html"
     },
-    "synonyms": "SMP570",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/SMP570b.html"
   },
@@ -95933,7 +98088,7 @@ const NEURON_DATA = [
       "left": "types/SMP577_L.html",
       "right": "types/SMP577_R.html"
     },
-    "synonyms": null,
+    "synonyms": "fru-F-100022",
     "flywire_types": null,
     "primary_url": "types/SMP577.html"
   },
@@ -95949,15 +98104,15 @@ const NEURON_DATA = [
     "primary_url": "types/SMP578.html"
   },
   {
-    "name": "SMP579",
+    "name": "SMP579,SMP583",
     "urls": {
-      "combined": "types/SMP579.html",
-      "left": "types/SMP579_L.html",
-      "right": "types/SMP579_R.html"
+      "combined": "types/SMP579,SMP583.html",
+      "left": "types/SMP579,SMP583_L.html",
+      "right": "types/SMP579,SMP583_R.html"
     },
-    "synonyms": "SMP583",
+    "synonyms": null,
     "flywire_types": null,
-    "primary_url": "types/SMP579.html"
+    "primary_url": "types/SMP579,SMP583.html"
   },
   {
     "name": "SMP580",
@@ -96013,6 +98168,39 @@ const NEURON_DATA = [
     "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/SMP589.html"
+  },
+  {
+    "name": "SMP590",
+    "urls": {
+      "combined": "types/SMP590.html",
+      "left": "types/SMP590_L.html",
+      "right": "types/SMP590_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/SMP590.html"
+  },
+  {
+    "name": "SMP591",
+    "urls": {
+      "combined": "types/SMP591.html",
+      "left": "types/SMP591_L.html",
+      "right": "types/SMP591_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/SMP591.html"
+  },
+  {
+    "name": "SMP592",
+    "urls": {
+      "combined": "types/SMP592.html",
+      "left": "types/SMP592_L.html",
+      "right": "types/SMP592_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/SMP592.html"
   },
   {
     "name": "SMP593",
@@ -96092,6 +98280,17 @@ const NEURON_DATA = [
     "primary_url": "types/SMP600.html"
   },
   {
+    "name": "SMP602,SMP094",
+    "urls": {
+      "combined": "types/SMP602,SMP094.html",
+      "left": "types/SMP602,SMP094_L.html",
+      "right": "types/SMP602,SMP094_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/SMP602,SMP094.html"
+  },
+  {
     "name": "SMP603",
     "urls": {
       "combined": "types/SMP603.html",
@@ -96114,13 +98313,24 @@ const NEURON_DATA = [
     "primary_url": "types/SMP604.html"
   },
   {
+    "name": "SMP746",
+    "urls": {
+      "combined": "types/SMP746.html",
+      "left": "types/SMP746_L.html",
+      "right": "types/SMP746_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/SMP746.html"
+  },
+  {
     "name": "SMPp&v1A_H01",
     "urls": {
       "combined": "types/SMPp&v1A_H01.html",
       "left": "types/SMPp&v1A_H01_L.html",
       "right": "types/SMPp&v1A_H01_R.html"
     },
-    "synonyms": "PS111",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/SMPp&v1A_H01.html"
   },
@@ -96131,7 +98341,7 @@ const NEURON_DATA = [
       "left": "types/SMPp&v1A_P03_L.html",
       "right": "types/SMPp&v1A_P03_R.html"
     },
-    "synonyms": "LHPD5f1",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/SMPp&v1A_P03.html"
   },
@@ -96142,7 +98352,7 @@ const NEURON_DATA = [
       "left": "types/SMPp&v1A_S02_L.html",
       "right": "types/SMPp&v1A_S02_R.html"
     },
-    "synonyms": "SMP443",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/SMPp&v1A_S02.html"
   },
@@ -96153,7 +98363,7 @@ const NEURON_DATA = [
       "left": "types/SMPp&v1A_S03_L.html",
       "right": "types/SMPp&v1A_S03_R.html"
     },
-    "synonyms": "SMP336",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/SMPp&v1A_S03.html"
   },
@@ -96164,7 +98374,7 @@ const NEURON_DATA = [
       "left": "types/SMPp&v1B_H01_L.html",
       "right": "types/SMPp&v1B_H01_R.html"
     },
-    "synonyms": "CL357",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/SMPp&v1B_H01.html"
   },
@@ -96175,7 +98385,7 @@ const NEURON_DATA = [
       "left": "types/SMPp&v1B_M01_L.html",
       "right": "types/SMPp&v1B_M01_R.html"
     },
-    "synonyms": "IB109",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/SMPp&v1B_M01.html"
   },
@@ -96186,9 +98396,20 @@ const NEURON_DATA = [
       "left": "types/SMPp&v1B_M02_L.html",
       "right": "types/SMPp&v1B_M02_R.html"
     },
-    "synonyms": "SMP587",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/SMPp&v1B_M02.html"
+  },
+  {
+    "name": "SPS100f",
+    "urls": {
+      "combined": "types/SPS100f.html",
+      "left": "types/SPS100f_L.html",
+      "right": "types/SPS100f_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/SPS100f.html"
   },
   {
     "name": "SPm101_78-78",
@@ -96283,7 +98504,7 @@ const NEURON_DATA = [
       "left": "types/Sm08_L.html",
       "right": "types/Sm08_R.html"
     },
-    "synonyms": "Dm21",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/Sm08.html"
   },
@@ -96294,7 +98515,7 @@ const NEURON_DATA = [
       "left": "types/Sm09_L.html",
       "right": "types/Sm09_R.html"
     },
-    "synonyms": "Dm21",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/Sm09.html"
   },
@@ -96371,7 +98592,7 @@ const NEURON_DATA = [
       "left": "types/Sm16_L.html",
       "right": "types/Sm16_R.html"
     },
-    "synonyms": "CB3825",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/Sm16.html"
   },
@@ -96404,7 +98625,7 @@ const NEURON_DATA = [
       "left": "types/Sm19_L.html",
       "right": "types/Sm19_R.html"
     },
-    "synonyms": "CB3832",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/Sm19.html"
   },
@@ -96415,7 +98636,7 @@ const NEURON_DATA = [
       "left": "types/Sm20_L.html",
       "right": "types/Sm20_R.html"
     },
-    "synonyms": "CB3832",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/Sm20.html"
   },
@@ -96426,7 +98647,7 @@ const NEURON_DATA = [
       "left": "types/Sm21_L.html",
       "right": "types/Sm21_R.html"
     },
-    "synonyms": "CB3832",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/Sm21.html"
   },
@@ -96437,7 +98658,7 @@ const NEURON_DATA = [
       "left": "types/Sm22_L.html",
       "right": "types/Sm22_R.html"
     },
-    "synonyms": "CB3853",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/Sm22.html"
   },
@@ -96448,7 +98669,7 @@ const NEURON_DATA = [
       "left": "types/Sm23_L.html",
       "right": "types/Sm23_R.html"
     },
-    "synonyms": "CB3855",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/Sm23.html"
   },
@@ -96481,7 +98702,7 @@ const NEURON_DATA = [
       "left": "types/Sm26_L.html",
       "right": "types/Sm26_R.html"
     },
-    "synonyms": "CB3832",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/Sm26.html"
   },
@@ -96525,7 +98746,7 @@ const NEURON_DATA = [
       "left": "types/Sm30_L.html",
       "right": "types/Sm30_R.html"
     },
-    "synonyms": "CB3817",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/Sm30.html"
   },
@@ -96547,7 +98768,7 @@ const NEURON_DATA = [
       "left": "types/Sm32_L.html",
       "right": "types/Sm32_R.html"
     },
-    "synonyms": "CB3854",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/Sm32.html"
   },
@@ -96580,7 +98801,7 @@ const NEURON_DATA = [
       "left": "types/Sm35_L.html",
       "right": "types/Sm35_R.html"
     },
-    "synonyms": "CB3844",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/Sm35.html"
   },
@@ -96602,7 +98823,7 @@ const NEURON_DATA = [
       "left": "types/Sm37_L.html",
       "right": "types/Sm37_R.html"
     },
-    "synonyms": "CB3838",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/Sm37.html"
   },
@@ -96613,7 +98834,7 @@ const NEURON_DATA = [
       "left": "types/Sm38_L.html",
       "right": "types/Sm38_R.html"
     },
-    "synonyms": "CB3838",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/Sm38.html"
   },
@@ -96624,7 +98845,7 @@ const NEURON_DATA = [
       "left": "types/Sm39_L.html",
       "right": "types/Sm39_R.html"
     },
-    "synonyms": "CB3843",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/Sm39.html"
   },
@@ -96635,7 +98856,7 @@ const NEURON_DATA = [
       "left": "types/Sm40_L.html",
       "right": "types/Sm40_R.html"
     },
-    "synonyms": "CB3841",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/Sm40.html"
   },
@@ -96671,6 +98892,17 @@ const NEURON_DATA = [
     "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/Sm43.html"
+  },
+  {
+    "name": "SpsP",
+    "urls": {
+      "combined": "types/SpsP.html",
+      "left": "types/SpsP_L.html",
+      "right": "types/SpsP_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/SpsP.html"
   },
   {
     "name": "T1",
@@ -96805,15 +99037,26 @@ const NEURON_DATA = [
     "primary_url": "types/T5d.html"
   },
   {
-    "name": "TPMN",
+    "name": "TPMN1",
     "urls": {
-      "combined": "types/TPMN.html",
-      "left": "types/TPMN_L.html",
-      "right": "types/TPMN_R.html"
+      "combined": "types/TPMN1.html",
+      "left": "types/TPMN1_L.html",
+      "right": "types/TPMN1_R.html"
     },
     "synonyms": null,
     "flywire_types": null,
-    "primary_url": "types/TPMN.html"
+    "primary_url": "types/TPMN1.html"
+  },
+  {
+    "name": "TPMN2",
+    "urls": {
+      "combined": "types/TPMN2.html",
+      "left": "types/TPMN2_L.html",
+      "right": "types/TPMN2_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/TPMN2.html"
   },
   {
     "name": "TRN_VP1m",
@@ -96899,7 +99142,7 @@ const NEURON_DATA = [
       "left": "types/Tlp5_L.html",
       "right": "types/Tlp5_R.html"
     },
-    "synonyms": "CB3846",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/Tlp5.html"
   },
@@ -96963,7 +99206,7 @@ const NEURON_DATA = [
       "left": "types/Tm21_L.html",
       "right": "types/Tm21_R.html"
     },
-    "synonyms": "Tm6",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/Tm21.html"
   },
@@ -96974,7 +99217,7 @@ const NEURON_DATA = [
       "left": "types/Tm25_L.html",
       "right": "types/Tm25_R.html"
     },
-    "synonyms": "Tm12",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/Tm25.html"
   },
@@ -96985,7 +99228,7 @@ const NEURON_DATA = [
       "left": "types/Tm27_L.html",
       "right": "types/Tm27_R.html"
     },
-    "synonyms": "TmY18",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/Tm27.html"
   },
@@ -97089,13 +99332,15 @@ const NEURON_DATA = [
     "primary_url": "types/Tm4.html"
   },
   {
-    "name": "Tm5Y",
+    "name": "Tm40",
     "urls": {
-      "right": "types/Tm5Y_R.html"
+      "combined": "types/Tm40.html",
+      "left": "types/Tm40_L.html",
+      "right": "types/Tm40_R.html"
     },
     "synonyms": null,
     "flywire_types": null,
-    "primary_url": "types/Tm5Y_R.html"
+    "primary_url": "types/Tm40.html"
   },
   {
     "name": "Tm5a",
@@ -97137,7 +99382,7 @@ const NEURON_DATA = [
       "left": "types/Tm5d_L.html",
       "right": "types/Tm5d_R.html"
     },
-    "synonyms": "CB3851",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/Tm5d.html"
   },
@@ -97148,7 +99393,7 @@ const NEURON_DATA = [
       "left": "types/Tm5e_L.html",
       "right": "types/Tm5e_R.html"
     },
-    "synonyms": "CB3864",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/Tm5e.html"
   },
@@ -97159,7 +99404,7 @@ const NEURON_DATA = [
       "left": "types/Tm5f_L.html",
       "right": "types/Tm5f_R.html"
     },
-    "synonyms": "Tm5Y",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/Tm5f.html"
   },
@@ -97179,18 +99424,9 @@ const NEURON_DATA = [
       "left": "types/Tm7_L.html",
       "right": "types/Tm7_R.html"
     },
-    "synonyms": "CB3851",
-    "flywire_types": null,
-    "primary_url": "types/Tm7.html"
-  },
-  {
-    "name": "Tm8",
-    "urls": {
-      "right": "types/Tm8_R.html"
-    },
     "synonyms": null,
     "flywire_types": null,
-    "primary_url": "types/Tm8_R.html"
+    "primary_url": "types/Tm7.html"
   },
   {
     "name": "Tm8a",
@@ -97199,7 +99435,7 @@ const NEURON_DATA = [
       "left": "types/Tm8a_L.html",
       "right": "types/Tm8a_R.html"
     },
-    "synonyms": "Tm8",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/Tm8a.html"
   },
@@ -97232,7 +99468,7 @@ const NEURON_DATA = [
       "left": "types/TmY10_L.html",
       "right": "types/TmY10_R.html"
     },
-    "synonyms": "CB3816",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/TmY10.html"
   },
@@ -97318,7 +99554,7 @@ const NEURON_DATA = [
       "left": "types/TmY31_L.html",
       "right": "types/TmY31_R.html"
     },
-    "synonyms": "TmYem1",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/TmY31.html"
   },
@@ -97345,13 +99581,22 @@ const NEURON_DATA = [
     "primary_url": "types/TmY5a.html"
   },
   {
+    "name": "TmY9",
+    "urls": {
+      "left": "types/TmY9_L.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/TmY9_L.html"
+  },
+  {
     "name": "TmY9q",
     "urls": {
       "combined": "types/TmY9q.html",
       "left": "types/TmY9q_L.html",
       "right": "types/TmY9q_R.html"
     },
-    "synonyms": "TmY9",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/TmY9q.html"
   },
@@ -97362,7 +99607,7 @@ const NEURON_DATA = [
       "left": "types/TmY9q__perp_L.html",
       "right": "types/TmY9q__perp_R.html"
     },
-    "synonyms": "TmY9",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/TmY9q__perp.html"
   },
@@ -97373,7 +99618,7 @@ const NEURON_DATA = [
       "left": "types/TuBu01a_L.html",
       "right": "types/TuBu01a_R.html"
     },
-    "synonyms": "TuBu01",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/TuBu01a.html"
   },
@@ -97384,7 +99629,7 @@ const NEURON_DATA = [
       "left": "types/TuBu01b_L.html",
       "right": "types/TuBu01b_R.html"
     },
-    "synonyms": "TuBu01",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/TuBu01b.html"
   },
@@ -97406,9 +99651,31 @@ const NEURON_DATA = [
       "left": "types/TuBu03_L.html",
       "right": "types/TuBu03_R.html"
     },
-    "synonyms": "TuBu04, TuBu05",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/TuBu03.html"
+  },
+  {
+    "name": "TuBu04",
+    "urls": {
+      "combined": "types/TuBu04.html",
+      "left": "types/TuBu04_L.html",
+      "right": "types/TuBu04_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/TuBu04.html"
+  },
+  {
+    "name": "TuBu05",
+    "urls": {
+      "combined": "types/TuBu05.html",
+      "left": "types/TuBu05_L.html",
+      "right": "types/TuBu05_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/TuBu05.html"
   },
   {
     "name": "TuBu06a",
@@ -97417,7 +99684,7 @@ const NEURON_DATA = [
       "left": "types/TuBu06a_L.html",
       "right": "types/TuBu06a_R.html"
     },
-    "synonyms": "TuBu06",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/TuBu06a.html"
   },
@@ -97428,7 +99695,7 @@ const NEURON_DATA = [
       "left": "types/TuBu06b_L.html",
       "right": "types/TuBu06b_R.html"
     },
-    "synonyms": "TuBu06",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/TuBu06b.html"
   },
@@ -97455,15 +99722,15 @@ const NEURON_DATA = [
     "primary_url": "types/TuBu08.html"
   },
   {
-    "name": "TuBu09",
+    "name": "TuBu09,TuBu10",
     "urls": {
-      "combined": "types/TuBu09.html",
-      "left": "types/TuBu09_L.html",
-      "right": "types/TuBu09_R.html"
+      "combined": "types/TuBu09,TuBu10.html",
+      "left": "types/TuBu09,TuBu10_L.html",
+      "right": "types/TuBu09,TuBu10_R.html"
     },
-    "synonyms": "TuBu10",
+    "synonyms": null,
     "flywire_types": null,
-    "primary_url": "types/TuBu09.html"
+    "primary_url": "types/TuBu09,TuBu10.html"
   },
   {
     "name": "TuTuAa",
@@ -97472,7 +99739,7 @@ const NEURON_DATA = [
       "left": "types/TuTuAa_L.html",
       "right": "types/TuTuAa_R.html"
     },
-    "synonyms": "TuTuA",
+    "synonyms": "fru-F-000110, fru-F-000069, fru-F-000118",
     "flywire_types": null,
     "primary_url": "types/TuTuAa.html"
   },
@@ -97483,7 +99750,7 @@ const NEURON_DATA = [
       "left": "types/TuTuAb_L.html",
       "right": "types/TuTuAb_R.html"
     },
-    "synonyms": "TuTuA",
+    "synonyms": "fru-F-000110, fru-F-000069, fru-F-000118",
     "flywire_types": null,
     "primary_url": "types/TuTuAb.html"
   },
@@ -97494,7 +99761,7 @@ const NEURON_DATA = [
       "left": "types/TuTuB_a_L.html",
       "right": "types/TuTuB_a_R.html"
     },
-    "synonyms": null,
+    "synonyms": "fru-F-200039",
     "flywire_types": null,
     "primary_url": "types/TuTuB_a.html"
   },
@@ -97505,7 +99772,7 @@ const NEURON_DATA = [
       "left": "types/TuTuB_b_L.html",
       "right": "types/TuTuB_b_R.html"
     },
-    "synonyms": null,
+    "synonyms": "fru-F-200039",
     "flywire_types": null,
     "primary_url": "types/TuTuB_b.html"
   },
@@ -97516,7 +99783,7 @@ const NEURON_DATA = [
       "left": "types/VA1d_adPN_L.html",
       "right": "types/VA1d_adPN_R.html"
     },
-    "synonyms": "aDT3",
+    "synonyms": "Cachero 2010: aDT-a;Yu 2010: aDT3",
     "flywire_types": null,
     "primary_url": "types/VA1d_adPN.html"
   },
@@ -97527,7 +99794,7 @@ const NEURON_DATA = [
       "left": "types/VA1d_vPN_L.html",
       "right": "types/VA1d_vPN_R.html"
     },
-    "synonyms": "aDT11",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/VA1d_vPN.html"
   },
@@ -97538,7 +99805,7 @@ const NEURON_DATA = [
       "left": "types/VA1v_adPN_L.html",
       "right": "types/VA1v_adPN_R.html"
     },
-    "synonyms": "aDT3",
+    "synonyms": "Cachero 2010: aDT-a;Yu 2010: aDT3",
     "flywire_types": null,
     "primary_url": "types/VA1v_adPN.html"
   },
@@ -97549,7 +99816,7 @@ const NEURON_DATA = [
       "left": "types/VA1v_vPN_L.html",
       "right": "types/VA1v_vPN_R.html"
     },
-    "synonyms": "aDT11",
+    "synonyms": "Cachero 2010: aDT-f",
     "flywire_types": null,
     "primary_url": "types/VA1v_vPN.html"
   },
@@ -97571,7 +99838,7 @@ const NEURON_DATA = [
       "left": "types/VA3_adPN_L.html",
       "right": "types/VA3_adPN_R.html"
     },
-    "synonyms": null,
+    "synonyms": "Cachero 2010: aDT-a;Yu 2010: aDT3",
     "flywire_types": null,
     "primary_url": "types/VA3_adPN.html"
   },
@@ -97659,7 +99926,7 @@ const NEURON_DATA = [
       "left": "types/VC3_adPN_L.html",
       "right": "types/VC3_adPN_R.html"
     },
-    "synonyms": "VC3l_adPN",
+    "synonyms": "Cachero 2010: aDT-a;Yu 2010: aDT3",
     "flywire_types": null,
     "primary_url": "types/VC3_adPN.html"
   },
@@ -97670,7 +99937,7 @@ const NEURON_DATA = [
       "left": "types/VC4_adPN_L.html",
       "right": "types/VC4_adPN_R.html"
     },
-    "synonyms": null,
+    "synonyms": "Cachero 2010: aDT-a;Yu 2010: aDT3",
     "flywire_types": null,
     "primary_url": "types/VC4_adPN.html"
   },
@@ -97681,7 +99948,7 @@ const NEURON_DATA = [
       "left": "types/VC5_lvPN_L.html",
       "right": "types/VC5_lvPN_R.html"
     },
-    "synonyms": "VC3m_lvPN",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/VC5_lvPN.html"
   },
@@ -97884,15 +100151,26 @@ const NEURON_DATA = [
     "primary_url": "types/VES021.html"
   },
   {
-    "name": "VES022",
+    "name": "VES022a",
     "urls": {
-      "combined": "types/VES022.html",
-      "left": "types/VES022_L.html",
-      "right": "types/VES022_R.html"
+      "combined": "types/VES022a.html",
+      "left": "types/VES022a_L.html",
+      "right": "types/VES022a_R.html"
     },
-    "synonyms": "aDT5",
+    "synonyms": "Cachero 2010: aDT-g;Yu 2010: aDT5",
     "flywire_types": null,
-    "primary_url": "types/VES022.html"
+    "primary_url": "types/VES022a.html"
+  },
+  {
+    "name": "VES022b",
+    "urls": {
+      "combined": "types/VES022b.html",
+      "left": "types/VES022b_L.html",
+      "right": "types/VES022b_R.html"
+    },
+    "synonyms": "Cachero 2010: aDT-g;Yu 2010: aDT5",
+    "flywire_types": null,
+    "primary_url": "types/VES022b.html"
   },
   {
     "name": "VES023",
@@ -97906,15 +100184,26 @@ const NEURON_DATA = [
     "primary_url": "types/VES023.html"
   },
   {
-    "name": "VES024",
+    "name": "VES024a",
     "urls": {
-      "combined": "types/VES024.html",
-      "left": "types/VES024_L.html",
-      "right": "types/VES024_R.html"
+      "combined": "types/VES024a.html",
+      "left": "types/VES024a_L.html",
+      "right": "types/VES024a_R.html"
+    },
+    "synonyms": "Cachero 2010: aDT-g; Yu 2010: aDT5",
+    "flywire_types": null,
+    "primary_url": "types/VES024a.html"
+  },
+  {
+    "name": "VES024b",
+    "urls": {
+      "combined": "types/VES024b.html",
+      "left": "types/VES024b_L.html",
+      "right": "types/VES024b_R.html"
     },
     "synonyms": null,
     "flywire_types": null,
-    "primary_url": "types/VES024.html"
+    "primary_url": "types/VES024b.html"
   },
   {
     "name": "VES025",
@@ -98060,15 +100349,15 @@ const NEURON_DATA = [
     "primary_url": "types/VES050.html"
   },
   {
-    "name": "VES051",
+    "name": "VES051,VES052",
     "urls": {
-      "combined": "types/VES051.html",
-      "left": "types/VES051_L.html",
-      "right": "types/VES051_R.html"
+      "combined": "types/VES051,VES052.html",
+      "left": "types/VES051,VES052_L.html",
+      "right": "types/VES051,VES052_R.html"
     },
-    "synonyms": "VES052",
+    "synonyms": null,
     "flywire_types": null,
-    "primary_url": "types/VES051.html"
+    "primary_url": "types/VES051,VES052.html"
   },
   {
     "name": "VES053",
@@ -98143,20 +100432,9 @@ const NEURON_DATA = [
       "left": "types/VES060_L.html",
       "right": "types/VES060_R.html"
     },
-    "synonyms": "pIP5",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/VES060.html"
-  },
-  {
-    "name": "VES061",
-    "urls": {
-      "combined": "types/VES061.html",
-      "left": "types/VES061_L.html",
-      "right": "types/VES061_R.html"
-    },
-    "synonyms": "pIP5",
-    "flywire_types": null,
-    "primary_url": "types/VES061.html"
   },
   {
     "name": "VES063a",
@@ -98165,7 +100443,7 @@ const NEURON_DATA = [
       "left": "types/VES063a_L.html",
       "right": "types/VES063a_R.html"
     },
-    "synonyms": "VES063",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/VES063a.html"
   },
@@ -98176,7 +100454,7 @@ const NEURON_DATA = [
       "left": "types/VES063b_L.html",
       "right": "types/VES063b_R.html"
     },
-    "synonyms": "VES063",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/VES063b.html"
   },
@@ -98264,7 +100542,7 @@ const NEURON_DATA = [
       "left": "types/VES073_L.html",
       "right": "types/VES073_R.html"
     },
-    "synonyms": null,
+    "synonyms": "Cachero 2010: pIP-g",
     "flywire_types": null,
     "primary_url": "types/VES073.html"
   },
@@ -98275,7 +100553,7 @@ const NEURON_DATA = [
       "left": "types/VES074_L.html",
       "right": "types/VES074_R.html"
     },
-    "synonyms": null,
+    "synonyms": "Cachero 2010: pIP-g",
     "flywire_types": null,
     "primary_url": "types/VES074.html"
   },
@@ -98341,7 +100619,7 @@ const NEURON_DATA = [
       "left": "types/VESa1_P02_L.html",
       "right": "types/VESa1_P02_R.html"
     },
-    "synonyms": "hb-1663021115",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/VESa1_P02.html"
   },
@@ -98352,7 +100630,7 @@ const NEURON_DATA = [
       "left": "types/VESa2_H02_L.html",
       "right": "types/VESa2_H02_R.html"
     },
-    "synonyms": "PLP074",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/VESa2_H02.html"
   },
@@ -98363,7 +100641,7 @@ const NEURON_DATA = [
       "left": "types/VESa2_H04_L.html",
       "right": "types/VESa2_H04_R.html"
     },
-    "synonyms": "SAD071",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/VESa2_H04.html"
   },
@@ -98374,7 +100652,7 @@ const NEURON_DATA = [
       "left": "types/VESa2_P01_L.html",
       "right": "types/VESa2_P01_R.html"
     },
-    "synonyms": "SLP243",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/VESa2_P01.html"
   },
@@ -98396,7 +100674,7 @@ const NEURON_DATA = [
       "left": "types/VL1_vPN_L.html",
       "right": "types/VL1_vPN_R.html"
     },
-    "synonyms": "aDT11",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/VL1_vPN.html"
   },
@@ -98418,7 +100696,7 @@ const NEURON_DATA = [
       "left": "types/VL2a_vPN_L.html",
       "right": "types/VL2a_vPN_R.html"
     },
-    "synonyms": "aDT11",
+    "synonyms": "Cachero 2010: aDT-f",
     "flywire_types": null,
     "primary_url": "types/VL2a_vPN.html"
   },
@@ -98440,7 +100718,7 @@ const NEURON_DATA = [
       "left": "types/VL2p_vPN_L.html",
       "right": "types/VL2p_vPN_R.html"
     },
-    "synonyms": "aDT11",
+    "synonyms": "Cachero 2010: aDT-f",
     "flywire_types": null,
     "primary_url": "types/VL2p_vPN.html"
   },
@@ -98506,7 +100784,7 @@ const NEURON_DATA = [
       "left": "types/VM5d_adPN_L.html",
       "right": "types/VM5d_adPN_R.html"
     },
-    "synonyms": null,
+    "synonyms": "Cachero 2010: aDT-a;Yu 2010: aDT3",
     "flywire_types": null,
     "primary_url": "types/VM5d_adPN.html"
   },
@@ -98528,7 +100806,7 @@ const NEURON_DATA = [
       "left": "types/VM6_adPN_L.html",
       "right": "types/VM6_adPN_R.html"
     },
-    "synonyms": "VC5_adPN",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/VM6_adPN.html"
   },
@@ -98539,7 +100817,7 @@ const NEURON_DATA = [
       "left": "types/VM7d_adPN_L.html",
       "right": "types/VM7d_adPN_R.html"
     },
-    "synonyms": null,
+    "synonyms": "Cachero 2010: aDT-a;Yu 2010: aDT3",
     "flywire_types": null,
     "primary_url": "types/VM7d_adPN.html"
   },
@@ -98550,7 +100828,7 @@ const NEURON_DATA = [
       "left": "types/VM7v_adPN_L.html",
       "right": "types/VM7v_adPN_R.html"
     },
-    "synonyms": null,
+    "synonyms": "Cachero 2010: aDT-a;Yu 2010: aDT3",
     "flywire_types": null,
     "primary_url": "types/VM7v_adPN.html"
   },
@@ -98608,6 +100886,17 @@ const NEURON_DATA = [
     "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/VP1l+_lvPN.html"
+  },
+  {
+    "name": "VP1m+VP2_lvPN1",
+    "urls": {
+      "combined": "types/VP1m+VP2_lvPN1.html",
+      "left": "types/VP1m+VP2_lvPN1_L.html",
+      "right": "types/VP1m+VP2_lvPN1_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/VP1m+VP2_lvPN1.html"
   },
   {
     "name": "VP1m+VP5_ilPN",
@@ -98755,11 +101044,13 @@ const NEURON_DATA = [
   {
     "name": "VP5+VP3_l2PN",
     "urls": {
-      "left": "types/VP5+VP3_l2PN_L.html"
+      "combined": "types/VP5+VP3_l2PN.html",
+      "left": "types/VP5+VP3_l2PN_L.html",
+      "right": "types/VP5+VP3_l2PN_R.html"
     },
     "synonyms": null,
     "flywire_types": null,
-    "primary_url": "types/VP5+VP3_l2PN_L.html"
+    "primary_url": "types/VP5+VP3_l2PN.html"
   },
   {
     "name": "VP5+Z_adPN",
@@ -98773,15 +101064,15 @@ const NEURON_DATA = [
     "primary_url": "types/VP5+Z_adPN.html"
   },
   {
-    "name": "VP5+_l2PN",
+    "name": "VP5+_l2PN,VP5+VP2_l2PN",
     "urls": {
-      "combined": "types/VP5+_l2PN.html",
-      "left": "types/VP5+_l2PN_L.html",
-      "right": "types/VP5+_l2PN_R.html"
+      "combined": "types/VP5+_l2PN,VP5+VP2_l2PN.html",
+      "left": "types/VP5+_l2PN,VP5+VP2_l2PN_L.html",
+      "right": "types/VP5+_l2PN,VP5+VP2_l2PN_R.html"
     },
-    "synonyms": "VP5+VP2_l2PN",
+    "synonyms": null,
     "flywire_types": null,
-    "primary_url": "types/VP5+_l2PN.html"
+    "primary_url": "types/VP5+_l2PN,VP5+VP2_l2PN.html"
   },
   {
     "name": "VS1",
@@ -98790,7 +101081,7 @@ const NEURON_DATA = [
       "left": "types/VS1_L.html",
       "right": "types/VS1_R.html"
     },
-    "synonyms": "VS",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/VS1.html"
   },
@@ -98801,7 +101092,7 @@ const NEURON_DATA = [
       "left": "types/VS2_L.html",
       "right": "types/VS2_R.html"
     },
-    "synonyms": "VS",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/VS2.html"
   },
@@ -98812,7 +101103,7 @@ const NEURON_DATA = [
       "left": "types/VS3_L.html",
       "right": "types/VS3_R.html"
     },
-    "synonyms": "VS",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/VS3.html"
   },
@@ -98823,7 +101114,7 @@ const NEURON_DATA = [
       "left": "types/VS4_L.html",
       "right": "types/VS4_R.html"
     },
-    "synonyms": "VS",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/VS4.html"
   },
@@ -98834,7 +101125,7 @@ const NEURON_DATA = [
       "left": "types/VS5_L.html",
       "right": "types/VS5_R.html"
     },
-    "synonyms": "VS",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/VS5.html"
   },
@@ -98845,7 +101136,7 @@ const NEURON_DATA = [
       "left": "types/VS6_L.html",
       "right": "types/VS6_R.html"
     },
-    "synonyms": "VS",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/VS6.html"
   },
@@ -98856,7 +101147,7 @@ const NEURON_DATA = [
       "left": "types/VS7_L.html",
       "right": "types/VS7_R.html"
     },
-    "synonyms": "VS",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/VS7.html"
   },
@@ -98867,7 +101158,7 @@ const NEURON_DATA = [
       "left": "types/VS8_L.html",
       "right": "types/VS8_R.html"
     },
-    "synonyms": "VS",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/VS8.html"
   },
@@ -98878,7 +101169,7 @@ const NEURON_DATA = [
       "left": "types/VST1_L.html",
       "right": "types/VST1_R.html"
     },
-    "synonyms": "VS",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/VST1.html"
   },
@@ -98889,7 +101180,7 @@ const NEURON_DATA = [
       "left": "types/VST2_L.html",
       "right": "types/VST2_R.html"
     },
-    "synonyms": "VS",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/VST2.html"
   },
@@ -98900,7 +101191,7 @@ const NEURON_DATA = [
       "left": "types/VSm_L.html",
       "right": "types/VSm_R.html"
     },
-    "synonyms": "VS",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/VSm.html"
   },
@@ -98933,7 +101224,7 @@ const NEURON_DATA = [
       "left": "types/WED002a_L.html",
       "right": "types/WED002a_R.html"
     },
-    "synonyms": "WED002",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/WED002a.html"
   },
@@ -98944,7 +101235,7 @@ const NEURON_DATA = [
       "left": "types/WED002b_L.html",
       "right": "types/WED002b_R.html"
     },
-    "synonyms": "WED002",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/WED002b.html"
   },
@@ -98955,7 +101246,7 @@ const NEURON_DATA = [
       "left": "types/WED002c_L.html",
       "right": "types/WED002c_R.html"
     },
-    "synonyms": "WED002",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/WED002c.html"
   },
@@ -98966,7 +101257,7 @@ const NEURON_DATA = [
       "left": "types/WED002d_L.html",
       "right": "types/WED002d_R.html"
     },
-    "synonyms": "WED002",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/WED002d.html"
   },
@@ -98977,7 +101268,7 @@ const NEURON_DATA = [
       "left": "types/WED002e_L.html",
       "right": "types/WED002e_R.html"
     },
-    "synonyms": "WED002",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/WED002e.html"
   },
@@ -99125,6 +101416,17 @@ const NEURON_DATA = [
     "primary_url": "types/WED018.html"
   },
   {
+    "name": "WED020_b",
+    "urls": {
+      "combined": "types/WED020_b.html",
+      "left": "types/WED020_b_L.html",
+      "right": "types/WED020_b_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/WED020_b.html"
+  },
+  {
     "name": "WED023",
     "urls": {
       "combined": "types/WED023.html",
@@ -99153,7 +101455,7 @@ const NEURON_DATA = [
       "left": "types/WED025_L.html",
       "right": "types/WED025_R.html"
     },
-    "synonyms": "IPS_pr01",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/WED025.html"
   },
@@ -99224,15 +101526,15 @@ const NEURON_DATA = [
     "primary_url": "types/WED033.html"
   },
   {
-    "name": "WED034",
+    "name": "WED034,WED035",
     "urls": {
-      "combined": "types/WED034.html",
-      "left": "types/WED034_L.html",
-      "right": "types/WED034_R.html"
+      "combined": "types/WED034,WED035.html",
+      "left": "types/WED034,WED035_L.html",
+      "right": "types/WED034,WED035_R.html"
     },
-    "synonyms": "WED035",
+    "synonyms": null,
     "flywire_types": null,
-    "primary_url": "types/WED034.html"
+    "primary_url": "types/WED034,WED035.html"
   },
   {
     "name": "WED037",
@@ -99252,7 +101554,7 @@ const NEURON_DATA = [
       "left": "types/WED038a_L.html",
       "right": "types/WED038a_R.html"
     },
-    "synonyms": "WED038",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/WED038a.html"
   },
@@ -99263,7 +101565,7 @@ const NEURON_DATA = [
       "left": "types/WED038b_L.html",
       "right": "types/WED038b_R.html"
     },
-    "synonyms": "WED038",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/WED038b.html"
   },
@@ -99296,7 +101598,7 @@ const NEURON_DATA = [
       "left": "types/WED041a_L.html",
       "right": "types/WED041a_R.html"
     },
-    "synonyms": "WED041",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/WED041a.html"
   },
@@ -99307,7 +101609,7 @@ const NEURON_DATA = [
       "left": "types/WED041b_L.html",
       "right": "types/WED041b_R.html"
     },
-    "synonyms": "WED041",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/WED041b.html"
   },
@@ -99373,7 +101675,7 @@ const NEURON_DATA = [
       "left": "types/WED057_L.html",
       "right": "types/WED057_R.html"
     },
-    "synonyms": "IPS/WED_pr01",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/WED057.html"
   },
@@ -99466,15 +101768,15 @@ const NEURON_DATA = [
     "primary_url": "types/WED076.html"
   },
   {
-    "name": "WED080",
+    "name": "WED080,WED083,WED084,WED087",
     "urls": {
-      "combined": "types/WED080.html",
-      "left": "types/WED080_L.html",
-      "right": "types/WED080_R.html"
+      "combined": "types/WED080,WED083,WED084,WED087.html",
+      "left": "types/WED080,WED083,WED084,WED087_L.html",
+      "right": "types/WED080,WED083,WED084,WED087_R.html"
     },
-    "synonyms": "WED083, WED084, WED087",
+    "synonyms": null,
     "flywire_types": null,
-    "primary_url": "types/WED080.html"
+    "primary_url": "types/WED080,WED083,WED084,WED087.html"
   },
   {
     "name": "WED081",
@@ -99516,20 +101818,20 @@ const NEURON_DATA = [
       "left": "types/WED089_L.html",
       "right": "types/WED089_R.html"
     },
-    "synonyms": "WED_pr01",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/WED089.html"
   },
   {
-    "name": "WED092a",
+    "name": "WED091",
     "urls": {
-      "combined": "types/WED092a.html",
-      "left": "types/WED092a_L.html",
-      "right": "types/WED092a_R.html"
+      "combined": "types/WED091.html",
+      "left": "types/WED091_L.html",
+      "right": "types/WED091_R.html"
     },
-    "synonyms": "WED092, WED_pr01",
+    "synonyms": null,
     "flywire_types": null,
-    "primary_url": "types/WED092a.html"
+    "primary_url": "types/WED091.html"
   },
   {
     "name": "WED092b",
@@ -99538,7 +101840,7 @@ const NEURON_DATA = [
       "left": "types/WED092b_L.html",
       "right": "types/WED092b_R.html"
     },
-    "synonyms": "WED092",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/WED092b.html"
   },
@@ -99549,7 +101851,7 @@ const NEURON_DATA = [
       "left": "types/WED092c_L.html",
       "right": "types/WED092c_R.html"
     },
-    "synonyms": "WED092",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/WED092c.html"
   },
@@ -99560,7 +101862,7 @@ const NEURON_DATA = [
       "left": "types/WED092d_L.html",
       "right": "types/WED092d_R.html"
     },
-    "synonyms": "WED092",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/WED092d.html"
   },
@@ -99571,7 +101873,7 @@ const NEURON_DATA = [
       "left": "types/WED092e_L.html",
       "right": "types/WED092e_R.html"
     },
-    "synonyms": "WED092",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/WED092e.html"
   },
@@ -99582,7 +101884,7 @@ const NEURON_DATA = [
       "left": "types/WED094a_L.html",
       "right": "types/WED094a_R.html"
     },
-    "synonyms": "WED094",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/WED094a.html"
   },
@@ -99593,7 +101895,7 @@ const NEURON_DATA = [
       "left": "types/WED094b_L.html",
       "right": "types/WED094b_R.html"
     },
-    "synonyms": "WED094",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/WED094b.html"
   },
@@ -99604,7 +101906,7 @@ const NEURON_DATA = [
       "left": "types/WED094c_L.html",
       "right": "types/WED094c_R.html"
     },
-    "synonyms": "WED094",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/WED094c.html"
   },
@@ -99626,7 +101928,7 @@ const NEURON_DATA = [
       "left": "types/WED096a_L.html",
       "right": "types/WED096a_R.html"
     },
-    "synonyms": "WED096",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/WED096a.html"
   },
@@ -99637,7 +101939,7 @@ const NEURON_DATA = [
       "left": "types/WED096b_L.html",
       "right": "types/WED096b_R.html"
     },
-    "synonyms": "WED096",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/WED096b.html"
   },
@@ -99648,7 +101950,7 @@ const NEURON_DATA = [
       "left": "types/WED096c_L.html",
       "right": "types/WED096c_R.html"
     },
-    "synonyms": "WED096",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/WED096c.html"
   },
@@ -99714,9 +102016,20 @@ const NEURON_DATA = [
       "left": "types/WED102_L.html",
       "right": "types/WED102_R.html"
     },
-    "synonyms": "WED103",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/WED102.html"
+  },
+  {
+    "name": "WED103",
+    "urls": {
+      "combined": "types/WED103.html",
+      "left": "types/WED103_L.html",
+      "right": "types/WED103_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/WED103.html"
   },
   {
     "name": "WED104",
@@ -99840,22 +102153,24 @@ const NEURON_DATA = [
   {
     "name": "WED127",
     "urls": {
-      "left": "types/WED127_L.html"
+      "combined": "types/WED127.html",
+      "left": "types/WED127_L.html",
+      "right": "types/WED127_R.html"
     },
     "synonyms": null,
     "flywire_types": null,
-    "primary_url": "types/WED127_L.html"
+    "primary_url": "types/WED127.html"
   },
   {
-    "name": "WED128",
+    "name": "WED128,WED129",
     "urls": {
-      "combined": "types/WED128.html",
-      "left": "types/WED128_L.html",
-      "right": "types/WED128_R.html"
+      "combined": "types/WED128,WED129.html",
+      "left": "types/WED128,WED129_L.html",
+      "right": "types/WED128,WED129_R.html"
     },
-    "synonyms": "WED129",
+    "synonyms": null,
     "flywire_types": null,
-    "primary_url": "types/WED128.html"
+    "primary_url": "types/WED128,WED129.html"
   },
   {
     "name": "WED130",
@@ -99897,7 +102212,7 @@ const NEURON_DATA = [
       "left": "types/WED146a_L.html",
       "right": "types/WED146a_R.html"
     },
-    "synonyms": "WED146",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/WED146a.html"
   },
@@ -99908,7 +102223,7 @@ const NEURON_DATA = [
       "left": "types/WED146b_L.html",
       "right": "types/WED146b_R.html"
     },
-    "synonyms": "WED146",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/WED146b.html"
   },
@@ -99952,7 +102267,7 @@ const NEURON_DATA = [
       "left": "types/WED155a_L.html",
       "right": "types/WED155a_R.html"
     },
-    "synonyms": "WED155",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/WED155a.html"
   },
@@ -99963,20 +102278,9 @@ const NEURON_DATA = [
       "left": "types/WED155b_L.html",
       "right": "types/WED155b_R.html"
     },
-    "synonyms": "WED155",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/WED155b.html"
-  },
-  {
-    "name": "WED160",
-    "urls": {
-      "combined": "types/WED160.html",
-      "left": "types/WED160_L.html",
-      "right": "types/WED160_R.html"
-    },
-    "synonyms": "WED183",
-    "flywire_types": null,
-    "primary_url": "types/WED160.html"
   },
   {
     "name": "WED161",
@@ -100007,7 +102311,7 @@ const NEURON_DATA = [
       "left": "types/WED163a_L.html",
       "right": "types/WED163a_R.html"
     },
-    "synonyms": "WED163",
+    "synonyms": "fru-F-500278, fru-F-700153, fru-F-500259, fru-F-400202, fru-F-400015, fru-F-300073",
     "flywire_types": null,
     "primary_url": "types/WED163a.html"
   },
@@ -100018,7 +102322,7 @@ const NEURON_DATA = [
       "left": "types/WED163b_L.html",
       "right": "types/WED163b_R.html"
     },
-    "synonyms": "WED163",
+    "synonyms": "fru-F-500278, fru-F-700153, fru-F-500259, fru-F-400202, fru-F-400015, fru-F-300073",
     "flywire_types": null,
     "primary_url": "types/WED163b.html"
   },
@@ -100029,7 +102333,7 @@ const NEURON_DATA = [
       "left": "types/WED163c_L.html",
       "right": "types/WED163c_R.html"
     },
-    "synonyms": "WED163",
+    "synonyms": "fru-F-500278, fru-F-700153, fru-F-500259, fru-F-400202, fru-F-400015, fru-F-300073",
     "flywire_types": null,
     "primary_url": "types/WED163c.html"
   },
@@ -100040,7 +102344,7 @@ const NEURON_DATA = [
       "left": "types/WED164a_L.html",
       "right": "types/WED164a_R.html"
     },
-    "synonyms": "WED164",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/WED164a.html"
   },
@@ -100051,7 +102355,7 @@ const NEURON_DATA = [
       "left": "types/WED164b_L.html",
       "right": "types/WED164b_R.html"
     },
-    "synonyms": "WED164",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/WED164b.html"
   },
@@ -100065,6 +102369,17 @@ const NEURON_DATA = [
     "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/WED165.html"
+  },
+  {
+    "name": "WED166_d",
+    "urls": {
+      "combined": "types/WED166_d.html",
+      "left": "types/WED166_d_L.html",
+      "right": "types/WED166_d_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/WED166_d.html"
   },
   {
     "name": "WED168",
@@ -100109,6 +102424,17 @@ const NEURON_DATA = [
     "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/WED182.html"
+  },
+  {
+    "name": "WED26b",
+    "urls": {
+      "combined": "types/WED26b.html",
+      "left": "types/WED26b_L.html",
+      "right": "types/WED26b_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/WED26b.html"
   },
   {
     "name": "WEDPN10A",
@@ -100172,7 +102498,7 @@ const NEURON_DATA = [
       "left": "types/WEDPN1A_L.html",
       "right": "types/WEDPN1A_R.html"
     },
-    "synonyms": "IPS_pr01",
+    "synonyms": "fru-F-700099",
     "flywire_types": null,
     "primary_url": "types/WEDPN1A.html"
   },
@@ -100232,6 +102558,17 @@ const NEURON_DATA = [
     "primary_url": "types/WEDPN4.html"
   },
   {
+    "name": "WEDPN5",
+    "urls": {
+      "combined": "types/WEDPN5.html",
+      "left": "types/WEDPN5_L.html",
+      "right": "types/WEDPN5_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/WEDPN5.html"
+  },
+  {
     "name": "WEDPN6A",
     "urls": {
       "combined": "types/WEDPN6A.html",
@@ -100243,15 +102580,15 @@ const NEURON_DATA = [
     "primary_url": "types/WEDPN6A.html"
   },
   {
-    "name": "WEDPN6B",
+    "name": "WEDPN6B, WEDPN6C",
     "urls": {
-      "combined": "types/WEDPN6B.html",
-      "left": "types/WEDPN6B_L.html",
-      "right": "types/WEDPN6B_R.html"
+      "combined": "types/WEDPN6B,_WEDPN6C.html",
+      "left": "types/WEDPN6B,_WEDPN6C_L.html",
+      "right": "types/WEDPN6B,_WEDPN6C_R.html"
     },
-    "synonyms": "WEDPN6C",
+    "synonyms": null,
     "flywire_types": null,
-    "primary_url": "types/WEDPN6B.html"
+    "primary_url": "types/WEDPN6B,_WEDPN6C.html"
   },
   {
     "name": "WEDPN7B",
@@ -100309,33 +102646,6 @@ const NEURON_DATA = [
     "primary_url": "types/WEDPN9.html"
   },
   {
-    "name": "WV-WV-1",
-    "urls": {
-      "middle": "types/WV-WV-1_M.html"
-    },
-    "synonyms": null,
-    "flywire_types": null,
-    "primary_url": "types/WV-WV-1_M.html"
-  },
-  {
-    "name": "WV-WV-2",
-    "urls": {
-      "middle": "types/WV-WV-2_M.html"
-    },
-    "synonyms": null,
-    "flywire_types": null,
-    "primary_url": "types/WV-WV-2_M.html"
-  },
-  {
-    "name": "WV-WV-3",
-    "urls": {
-      "middle": "types/WV-WV-3_M.html"
-    },
-    "synonyms": null,
-    "flywire_types": null,
-    "primary_url": "types/WV-WV-3_M.html"
-  },
-  {
     "name": "Y1",
     "urls": {
       "combined": "types/Y1.html",
@@ -100353,7 +102663,7 @@ const NEURON_DATA = [
       "left": "types/Y11_L.html",
       "right": "types/Y11_R.html"
     },
-    "synonyms": "CB3846",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/Y11.html"
   },
@@ -100400,26 +102710,6 @@ const NEURON_DATA = [
     "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/Z_vPNml1.html"
-  },
-  {
-    "name": "aDT6",
-    "urls": {
-      "right": "types/aDT6_R.html"
-    },
-    "synonyms": null,
-    "flywire_types": null,
-    "primary_url": "types/aDT6_R.html"
-  },
-  {
-    "name": "aIPgb",
-    "urls": {
-      "combined": "types/aIPgb.html",
-      "left": "types/aIPgb_L.html",
-      "right": "types/aIPgb_R.html"
-    },
-    "synonyms": null,
-    "flywire_types": null,
-    "primary_url": "types/aIPgb.html"
   },
   {
     "name": "aMe1",
@@ -100483,7 +102773,7 @@ const NEURON_DATA = [
       "left": "types/aMe17a1_L.html",
       "right": "types/aMe17a1_R.html"
     },
-    "synonyms": "aMe17a",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/aMe17a1.html"
   },
@@ -100494,7 +102784,7 @@ const NEURON_DATA = [
       "left": "types/aMe17a2_L.html",
       "right": "types/aMe17a2_R.html"
     },
-    "synonyms": "aMe17a",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/aMe17a2.html"
   },
@@ -100642,6 +102932,28 @@ const NEURON_DATA = [
     "primary_url": "types/aMe6a.html"
   },
   {
+    "name": "aMe6b",
+    "urls": {
+      "combined": "types/aMe6b.html",
+      "left": "types/aMe6b_L.html",
+      "right": "types/aMe6b_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/aMe6b.html"
+  },
+  {
+    "name": "aMe6c",
+    "urls": {
+      "combined": "types/aMe6c.html",
+      "left": "types/aMe6c_L.html",
+      "right": "types/aMe6c_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/aMe6c.html"
+  },
+  {
     "name": "aMe8",
     "urls": {
       "combined": "types/aMe8.html",
@@ -100664,26 +102976,92 @@ const NEURON_DATA = [
     "primary_url": "types/aMe9.html"
   },
   {
-    "name": "aSG7",
+    "name": "aPhM1",
     "urls": {
-      "combined": "types/aSG7.html",
-      "left": "types/aSG7_L.html",
-      "right": "types/aSG7_R.html"
+      "combined": "types/aPhM1.html",
+      "left": "types/aPhM1_L.html",
+      "right": "types/aPhM1_R.html"
     },
     "synonyms": null,
     "flywire_types": null,
-    "primary_url": "types/aSG7.html"
+    "primary_url": "types/aPhM1.html"
   },
   {
-    "name": "aSP-f1A",
+    "name": "aPhM2a",
     "urls": {
-      "combined": "types/aSP-f1A.html",
-      "left": "types/aSP-f1A_L.html",
-      "right": "types/aSP-f1A_R.html"
+      "combined": "types/aPhM2a.html",
+      "left": "types/aPhM2a_L.html",
+      "right": "types/aPhM2a_R.html"
     },
-    "synonyms": "aSP-f1B, aSP-f2, aSP5",
+    "synonyms": null,
     "flywire_types": null,
-    "primary_url": "types/aSP-f1A.html"
+    "primary_url": "types/aPhM2a.html"
+  },
+  {
+    "name": "aPhM2b",
+    "urls": {
+      "combined": "types/aPhM2b.html",
+      "left": "types/aPhM2b_L.html",
+      "right": "types/aPhM2b_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/aPhM2b.html"
+  },
+  {
+    "name": "aPhM3",
+    "urls": {
+      "combined": "types/aPhM3.html",
+      "left": "types/aPhM3_L.html",
+      "right": "types/aPhM3_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/aPhM3.html"
+  },
+  {
+    "name": "aPhM4",
+    "urls": {
+      "combined": "types/aPhM4.html",
+      "left": "types/aPhM4_L.html",
+      "right": "types/aPhM4_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/aPhM4.html"
+  },
+  {
+    "name": "aPhM5",
+    "urls": {
+      "combined": "types/aPhM5.html",
+      "left": "types/aPhM5_L.html",
+      "right": "types/aPhM5_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/aPhM5.html"
+  },
+  {
+    "name": "aPhM6",
+    "urls": {
+      "combined": "types/aPhM6.html",
+      "left": "types/aPhM6_L.html",
+      "right": "types/aPhM6_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/aPhM6.html"
+  },
+  {
+    "name": "aSP-f1A,aSP-f1B,aSP-f2",
+    "urls": {
+      "combined": "types/aSP-f1A,aSP-f1B,aSP-f2.html",
+      "left": "types/aSP-f1A,aSP-f1B,aSP-f2_L.html",
+      "right": "types/aSP-f1A,aSP-f1B,aSP-f2_R.html"
+    },
+    "synonyms": "Cachero 2010: aSP-f;Yu 2010: aSP5",
+    "flywire_types": null,
+    "primary_url": "types/aSP-f1A,aSP-f1B,aSP-f2.html"
   },
   {
     "name": "aSP-f3",
@@ -100692,7 +103070,7 @@ const NEURON_DATA = [
       "left": "types/aSP-f3_L.html",
       "right": "types/aSP-f3_R.html"
     },
-    "synonyms": null,
+    "synonyms": "Cachero 2010: aSP-f;Yu 2010: aSP5",
     "flywire_types": null,
     "primary_url": "types/aSP-f3.html"
   },
@@ -100703,7 +103081,7 @@ const NEURON_DATA = [
       "left": "types/aSP-f4_L.html",
       "right": "types/aSP-f4_R.html"
     },
-    "synonyms": null,
+    "synonyms": "Cachero 2010: aSP-f;Yu 2010: aSP5",
     "flywire_types": null,
     "primary_url": "types/aSP-f4.html"
   },
@@ -100714,7 +103092,7 @@ const NEURON_DATA = [
       "left": "types/aSP-g1_L.html",
       "right": "types/aSP-g1_R.html"
     },
-    "synonyms": "aSP27",
+    "synonyms": "Cachero 2010: aSP-g;Yu 2010: aSP6",
     "flywire_types": null,
     "primary_url": "types/aSP-g1.html"
   },
@@ -100725,7 +103103,7 @@ const NEURON_DATA = [
       "left": "types/aSP-g2_L.html",
       "right": "types/aSP-g2_R.html"
     },
-    "synonyms": "aSP27",
+    "synonyms": "Cachero 2010: aSP-g;Yu 2010: aSP6",
     "flywire_types": null,
     "primary_url": "types/aSP-g2.html"
   },
@@ -100736,7 +103114,7 @@ const NEURON_DATA = [
       "left": "types/aSP-g3A_L.html",
       "right": "types/aSP-g3A_R.html"
     },
-    "synonyms": null,
+    "synonyms": "Cachero 2010: aSP-g;Yu 2010: aSP6",
     "flywire_types": null,
     "primary_url": "types/aSP-g3A.html"
   },
@@ -100747,40 +103125,20 @@ const NEURON_DATA = [
       "left": "types/aSP-g3B_L.html",
       "right": "types/aSP-g3B_R.html"
     },
-    "synonyms": null,
+    "synonyms": "Cachero 2010: aSP-g;Yu 2010: aSP6",
     "flywire_types": null,
     "primary_url": "types/aSP-g3B.html"
   },
   {
-    "name": "aSP14",
+    "name": "aSP22",
     "urls": {
-      "combined": "types/aSP14.html",
-      "left": "types/aSP14_L.html",
-      "right": "types/aSP14_R.html"
+      "combined": "types/aSP22.html",
+      "left": "types/aSP22_L.html",
+      "right": "types/aSP22_R.html"
     },
     "synonyms": null,
     "flywire_types": null,
-    "primary_url": "types/aSP14.html"
-  },
-  {
-    "name": "aSP6",
-    "urls": {
-      "right": "types/aSP6_R.html"
-    },
-    "synonyms": null,
-    "flywire_types": null,
-    "primary_url": "types/aSP6_R.html"
-  },
-  {
-    "name": "aSP8",
-    "urls": {
-      "combined": "types/aSP8.html",
-      "left": "types/aSP8_L.html",
-      "right": "types/aSP8_R.html"
-    },
-    "synonyms": "AVLP_pr02",
-    "flywire_types": null,
-    "primary_url": "types/aSP8.html"
+    "primary_url": "types/aSP22.html"
   },
   {
     "name": "cL01",
@@ -100825,17 +103183,6 @@ const NEURON_DATA = [
     "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/cL02c.html"
-  },
-  {
-    "name": "cL02d",
-    "urls": {
-      "combined": "types/cL02d.html",
-      "left": "types/cL02d_L.html",
-      "right": "types/cL02d_R.html"
-    },
-    "synonyms": null,
-    "flywire_types": null,
-    "primary_url": "types/cL02d.html"
   },
   {
     "name": "cL03",
@@ -100932,7 +103279,7 @@ const NEURON_DATA = [
       "left": "types/cL11_L.html",
       "right": "types/cL11_R.html"
     },
-    "synonyms": "IB006",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/cL11.html"
   },
@@ -100943,7 +103290,7 @@ const NEURON_DATA = [
       "left": "types/cL12_L.html",
       "right": "types/cL12_R.html"
     },
-    "synonyms": "IB011",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/cL12.html"
   },
@@ -100954,7 +103301,7 @@ const NEURON_DATA = [
       "left": "types/cL13_L.html",
       "right": "types/cL13_R.html"
     },
-    "synonyms": "IB043",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/cL13.html"
   },
@@ -100965,7 +103312,7 @@ const NEURON_DATA = [
       "left": "types/cL14_L.html",
       "right": "types/cL14_R.html"
     },
-    "synonyms": "IB112",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/cL14.html"
   },
@@ -100976,7 +103323,7 @@ const NEURON_DATA = [
       "left": "types/cL15_L.html",
       "right": "types/cL15_R.html"
     },
-    "synonyms": "PLP014",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/cL15.html"
   },
@@ -100987,7 +103334,7 @@ const NEURON_DATA = [
       "left": "types/cL16_L.html",
       "right": "types/cL16_R.html"
     },
-    "synonyms": "PLP030",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/cL16.html"
   },
@@ -100998,7 +103345,7 @@ const NEURON_DATA = [
       "left": "types/cL17_L.html",
       "right": "types/cL17_R.html"
     },
-    "synonyms": "PLP090",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/cL17.html"
   },
@@ -101009,7 +103356,7 @@ const NEURON_DATA = [
       "left": "types/cL18_L.html",
       "right": "types/cL18_R.html"
     },
-    "synonyms": "PLP195",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/cL18.html"
   },
@@ -101020,7 +103367,7 @@ const NEURON_DATA = [
       "left": "types/cL19_L.html",
       "right": "types/cL19_R.html"
     },
-    "synonyms": "PLP210",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/cL19.html"
   },
@@ -101031,7 +103378,7 @@ const NEURON_DATA = [
       "left": "types/cL20_L.html",
       "right": "types/cL20_R.html"
     },
-    "synonyms": "PS155",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/cL20.html"
   },
@@ -101042,7 +103389,7 @@ const NEURON_DATA = [
       "left": "types/cL21_L.html",
       "right": "types/cL21_R.html"
     },
-    "synonyms": "PVLP132",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/cL21.html"
   },
@@ -101053,7 +103400,7 @@ const NEURON_DATA = [
       "left": "types/cL22a_L.html",
       "right": "types/cL22a_R.html"
     },
-    "synonyms": "IB013",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/cL22a.html"
   },
@@ -101064,7 +103411,7 @@ const NEURON_DATA = [
       "left": "types/cL22b_L.html",
       "right": "types/cL22b_R.html"
     },
-    "synonyms": "VES015",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/cL22b.html"
   },
@@ -101075,7 +103422,7 @@ const NEURON_DATA = [
       "left": "types/cL22c_L.html",
       "right": "types/cL22c_R.html"
     },
-    "synonyms": "VES026",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/cL22c.html"
   },
@@ -101086,7 +103433,7 @@ const NEURON_DATA = [
       "left": "types/cLLP02_L.html",
       "right": "types/cLLP02_R.html"
     },
-    "synonyms": "CL033",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/cLLP02.html"
   },
@@ -101108,7 +103455,7 @@ const NEURON_DATA = [
       "left": "types/cLLPM02_L.html",
       "right": "types/cLLPM02_R.html"
     },
-    "synonyms": "PLP033",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/cLLPM02.html"
   },
@@ -101119,7 +103466,7 @@ const NEURON_DATA = [
       "left": "types/cLM01_L.html",
       "right": "types/cLM01_R.html"
     },
-    "synonyms": "CL358",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/cLM01.html"
   },
@@ -101163,7 +103510,7 @@ const NEURON_DATA = [
       "left": "types/cLP04_L.html",
       "right": "types/cLP04_R.html"
     },
-    "synonyms": "PS301",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/cLP04.html"
   },
@@ -101174,7 +103521,7 @@ const NEURON_DATA = [
       "left": "types/cLP05_L.html",
       "right": "types/cLP05_R.html"
     },
-    "synonyms": "PS277",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/cLP05.html"
   },
@@ -101240,7 +103587,7 @@ const NEURON_DATA = [
       "left": "types/cM02b_L.html",
       "right": "types/cM02b_R.html"
     },
-    "synonyms": "PS132",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/cM02b.html"
   },
@@ -101273,7 +103620,7 @@ const NEURON_DATA = [
       "left": "types/cM05_L.html",
       "right": "types/cM05_R.html"
     },
-    "synonyms": "pMP7",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/cM05.html"
   },
@@ -101317,7 +103664,7 @@ const NEURON_DATA = [
       "left": "types/cM08b_L.html",
       "right": "types/cM08b_R.html"
     },
-    "synonyms": "aMe3",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/cM08b.html"
   },
@@ -101370,7 +103717,7 @@ const NEURON_DATA = [
       "left": "types/cM12_L.html",
       "right": "types/cM12_R.html"
     },
-    "synonyms": "IB029",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/cM12.html"
   },
@@ -101381,7 +103728,7 @@ const NEURON_DATA = [
       "left": "types/cM13_L.html",
       "right": "types/cM13_R.html"
     },
-    "synonyms": "IB030",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/cM13.html"
   },
@@ -101392,7 +103739,7 @@ const NEURON_DATA = [
       "left": "types/cM14_L.html",
       "right": "types/cM14_R.html"
     },
-    "synonyms": "PS123",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/cM14.html"
   },
@@ -101403,7 +103750,7 @@ const NEURON_DATA = [
       "left": "types/cM15_L.html",
       "right": "types/cM15_R.html"
     },
-    "synonyms": "PS125",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/cM15.html"
   },
@@ -101414,7 +103761,7 @@ const NEURON_DATA = [
       "left": "types/cM16_L.html",
       "right": "types/cM16_R.html"
     },
-    "synonyms": "PS129",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/cM16.html"
   },
@@ -101425,7 +103772,7 @@ const NEURON_DATA = [
       "left": "types/cM17_L.html",
       "right": "types/cM17_R.html"
     },
-    "synonyms": "PS130",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/cM17.html"
   },
@@ -101436,7 +103783,7 @@ const NEURON_DATA = [
       "left": "types/cM18_L.html",
       "right": "types/cM18_R.html"
     },
-    "synonyms": "PS134",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/cM18.html"
   },
@@ -101447,7 +103794,7 @@ const NEURON_DATA = [
       "left": "types/cM19_L.html",
       "right": "types/cM19_R.html"
     },
-    "synonyms": "PVLP046",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/cM19.html"
   },
@@ -101480,7 +103827,7 @@ const NEURON_DATA = [
       "left": "types/cMLLP01_L.html",
       "right": "types/cMLLP01_R.html"
     },
-    "synonyms": "PS064",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/cMLLP01.html"
   },
@@ -101491,9 +103838,31 @@ const NEURON_DATA = [
       "left": "types/cMLLP02_L.html",
       "right": "types/cMLLP02_R.html"
     },
-    "synonyms": "PS136, pMP7",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/cMLLP02.html"
+  },
+  {
+    "name": "claw_tpGRN",
+    "urls": {
+      "combined": "types/claw_tpGRN.html",
+      "left": "types/claw_tpGRN_L.html",
+      "right": "types/claw_tpGRN_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/claw_tpGRN.html"
+  },
+  {
+    "name": "dorsal_tpGRN",
+    "urls": {
+      "combined": "types/dorsal_tpGRN.html",
+      "left": "types/dorsal_tpGRN_L.html",
+      "right": "types/dorsal_tpGRN_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/dorsal_tpGRN.html"
   },
   {
     "name": "hDeltaA",
@@ -101755,7 +104124,7 @@ const NEURON_DATA = [
       "left": "types/lLN1_bc_L.html",
       "right": "types/lLN1_bc_R.html"
     },
-    "synonyms": "lLN1_b, lLN1_c",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/lLN1_bc.html"
   },
@@ -101876,7 +104245,7 @@ const NEURON_DATA = [
       "left": "types/lLN2X03_L.html",
       "right": "types/lLN2X03_R.html"
     },
-    "synonyms": "lLN2T_a",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/lLN2X03.html"
   },
@@ -101991,26 +104360,99 @@ const NEURON_DATA = [
     "primary_url": "types/lLN9.html"
   },
   {
+    "name": "lLN9,lLN17a",
+    "urls": {
+      "combined": "types/lLN9,lLN17a.html",
+      "left": "types/lLN9,lLN17a_L.html",
+      "right": "types/lLN9,lLN17a_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/lLN9,lLN17a.html"
+  },
+  {
+    "name": "lNSC_unknown",
+    "urls": {
+      "combined": "types/lNSC_unknown.html",
+      "left": "types/lNSC_unknown_L.html",
+      "right": "types/lNSC_unknown_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/lNSC_unknown.html"
+  },
+  {
     "name": "labial_nerve_sensory_descending",
     "urls": {
-      "combined": "types/labial_nerve_sensory_descending.html",
-      "left": "types/labial_nerve_sensory_descending_L.html",
       "right": "types/labial_nerve_sensory_descending_R.html"
     },
     "synonyms": null,
     "flywire_types": null,
-    "primary_url": "types/labial_nerve_sensory_descending.html"
+    "primary_url": "types/labial_nerve_sensory_descending_R.html"
   },
   {
-    "name": "mAL",
+    "name": "mAL4",
     "urls": {
-      "combined": "types/mAL.html",
-      "left": "types/mAL_L.html",
-      "right": "types/mAL_R.html"
+      "combined": "types/mAL4.html",
+      "left": "types/mAL4_L.html",
+      "right": "types/mAL4_R.html"
     },
-    "synonyms": "mAL1, mAL2A, mAL2B, mAL3A, mAL3B, mAL4, mAL5A, mAL5B, mAL6",
+    "synonyms": "Cachero 2010: aDT-b;Yu 2010: aDT2",
     "flywire_types": null,
-    "primary_url": "types/mAL.html"
+    "primary_url": "types/mAL4.html"
+  },
+  {
+    "name": "mAL4B",
+    "urls": {
+      "left": "types/mAL4B_L.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/mAL4B_L.html"
+  },
+  {
+    "name": "mAL4I",
+    "urls": {
+      "combined": "types/mAL4I.html",
+      "left": "types/mAL4I_L.html",
+      "right": "types/mAL4I_R.html"
+    },
+    "synonyms": "Cachero 2010: aDT-b;Yu 2010: aDT2",
+    "flywire_types": null,
+    "primary_url": "types/mAL4I.html"
+  },
+  {
+    "name": "mAL5A",
+    "urls": {
+      "combined": "types/mAL5A.html",
+      "left": "types/mAL5A_L.html",
+      "right": "types/mAL5A_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/mAL5A.html"
+  },
+  {
+    "name": "mAL5B",
+    "urls": {
+      "combined": "types/mAL5B.html",
+      "left": "types/mAL5B_L.html",
+      "right": "types/mAL5B_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/mAL5B.html"
+  },
+  {
+    "name": "mAL6",
+    "urls": {
+      "combined": "types/mAL6.html",
+      "left": "types/mAL6_L.html",
+      "right": "types/mAL6_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/mAL6.html"
   },
   {
     "name": "mALB1",
@@ -102156,16 +104598,59 @@ const NEURON_DATA = [
     "primary_url": "types/mALD4.html"
   },
   {
-    "name": "ocellar_retinula_cell",
+    "name": "mAL_f1",
     "urls": {
-      "combined": "types/ocellar_retinula_cell.html",
-      "left": "types/ocellar_retinula_cell_L.html",
-      "right": "types/ocellar_retinula_cell_R.html",
-      "middle": "types/ocellar_retinula_cell_M.html"
+      "combined": "types/mAL_f1.html",
+      "left": "types/mAL_f1_L.html",
+      "right": "types/mAL_f1_R.html"
     },
     "synonyms": null,
     "flywire_types": null,
-    "primary_url": "types/ocellar_retinula_cell.html"
+    "primary_url": "types/mAL_f1.html"
+  },
+  {
+    "name": "mAL_f2",
+    "urls": {
+      "combined": "types/mAL_f2.html",
+      "left": "types/mAL_f2_L.html",
+      "right": "types/mAL_f2_R.html"
+    },
+    "synonyms": "Cachero 2010: aDT-b;Yu 2010: aDT2",
+    "flywire_types": null,
+    "primary_url": "types/mAL_f2.html"
+  },
+  {
+    "name": "mAL_f3",
+    "urls": {
+      "combined": "types/mAL_f3.html",
+      "left": "types/mAL_f3_L.html",
+      "right": "types/mAL_f3_R.html"
+    },
+    "synonyms": "Cachero 2010: aDT-b;Yu 2010: aDT2",
+    "flywire_types": null,
+    "primary_url": "types/mAL_f3.html"
+  },
+  {
+    "name": "mAL_f4",
+    "urls": {
+      "combined": "types/mAL_f4.html",
+      "left": "types/mAL_f4_L.html",
+      "right": "types/mAL_f4_R.html"
+    },
+    "synonyms": "Cachero 2010: aDT-b;Yu 2010: aDT2",
+    "flywire_types": null,
+    "primary_url": "types/mAL_f4.html"
+  },
+  {
+    "name": "mNSC_unknown",
+    "urls": {
+      "combined": "types/mNSC_unknown.html",
+      "left": "types/mNSC_unknown_L.html",
+      "right": "types/mNSC_unknown_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/mNSC_unknown.html"
   },
   {
     "name": "oviDNa_a",
@@ -102174,7 +104659,7 @@ const NEURON_DATA = [
       "left": "types/oviDNa_a_L.html",
       "right": "types/oviDNa_a_R.html"
     },
-    "synonyms": "oviDNa",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/oviDNa_a.html"
   },
@@ -102185,7 +104670,7 @@ const NEURON_DATA = [
       "left": "types/oviDNa_b_L.html",
       "right": "types/oviDNa_b_R.html"
     },
-    "synonyms": "SLP410, oviDNb",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/oviDNa_b.html"
   },
@@ -102218,7 +104703,7 @@ const NEURON_DATA = [
       "left": "types/pC1a_L.html",
       "right": "types/pC1a_R.html"
     },
-    "synonyms": null,
+    "synonyms": "Lee 2002, Rideout 2010, Nojima 2021: pC1",
     "flywire_types": null,
     "primary_url": "types/pC1a.html"
   },
@@ -102229,7 +104714,7 @@ const NEURON_DATA = [
       "left": "types/pC1b_L.html",
       "right": "types/pC1b_R.html"
     },
-    "synonyms": null,
+    "synonyms": "Lee 2002, Rideout 2010, Nojima 2021: pC1",
     "flywire_types": null,
     "primary_url": "types/pC1b.html"
   },
@@ -102240,7 +104725,7 @@ const NEURON_DATA = [
       "left": "types/pC1c_L.html",
       "right": "types/pC1c_R.html"
     },
-    "synonyms": null,
+    "synonyms": "Lee 2002, Rideout 2010, Nojima 2021: pC1",
     "flywire_types": null,
     "primary_url": "types/pC1c.html"
   },
@@ -102251,7 +104736,7 @@ const NEURON_DATA = [
       "left": "types/pC1d_L.html",
       "right": "types/pC1d_R.html"
     },
-    "synonyms": null,
+    "synonyms": "Lee 2002, Rideout 2010, Nojima 2021: pC1",
     "flywire_types": null,
     "primary_url": "types/pC1d.html"
   },
@@ -102262,69 +104747,53 @@ const NEURON_DATA = [
       "left": "types/pC1e_L.html",
       "right": "types/pC1e_R.html"
     },
-    "synonyms": null,
+    "synonyms": "Lee 2002, Rideout 2010, Nojima 2021: pC1",
     "flywire_types": null,
     "primary_url": "types/pC1e.html"
   },
   {
-    "name": "pC2la",
+    "name": "pDm8",
     "urls": {
-      "left": "types/pC2la_L.html"
+      "combined": "types/pDm8.html",
+      "left": "types/pDm8_L.html",
+      "right": "types/pDm8_R.html"
     },
     "synonyms": null,
     "flywire_types": null,
-    "primary_url": "types/pC2la_L.html"
+    "primary_url": "types/pDm8.html"
   },
   {
-    "name": "pMP6",
+    "name": "s-LNv_a",
     "urls": {
-      "left": "types/pMP6_L.html"
+      "combined": "types/s-LNv_a.html",
+      "left": "types/s-LNv_a_L.html",
+      "right": "types/s-LNv_a_R.html"
     },
     "synonyms": null,
     "flywire_types": null,
-    "primary_url": "types/pMP6_L.html"
-  },
-  {
-    "name": "pSP9",
-    "urls": {
-      "combined": "types/pSP9.html",
-      "left": "types/pSP9_L.html",
-      "right": "types/pSP9_R.html"
-    },
-    "synonyms": null,
-    "flywire_types": null,
-    "primary_url": "types/pSP9.html"
+    "primary_url": "types/s-LNv_a.html"
   },
   {
     "name": "s-LNv_b",
     "urls": {
-      "left": "types/s-LNv_b_L.html"
+      "combined": "types/s-LNv_b.html",
+      "left": "types/s-LNv_b_L.html",
+      "right": "types/s-LNv_b_R.html"
     },
-    "synonyms": "s-LNv",
+    "synonyms": null,
     "flywire_types": null,
-    "primary_url": "types/s-LNv_b_L.html"
+    "primary_url": "types/s-LNv_b.html"
   },
   {
-    "name": "s-LNva",
+    "name": "uncertain",
     "urls": {
-      "combined": "types/s-LNva.html",
-      "left": "types/s-LNva_L.html",
-      "right": "types/s-LNva_R.html"
+      "combined": "types/uncertain.html",
+      "left": "types/uncertain_L.html",
+      "right": "types/uncertain_R.html"
     },
-    "synonyms": "s-LNv_a, s-LNv",
+    "synonyms": null,
     "flywire_types": null,
-    "primary_url": "types/s-LNva.html"
-  },
-  {
-    "name": "s-LNvb",
-    "urls": {
-      "combined": "types/s-LNvb.html",
-      "left": "types/s-LNvb_L.html",
-      "right": "types/s-LNvb_R.html"
-    },
-    "synonyms": "s-LNv_b, s-LNv",
-    "flywire_types": null,
-    "primary_url": "types/s-LNvb.html"
+    "primary_url": "types/uncertain.html"
   },
   {
     "name": "v2LN30",
@@ -102432,7 +104901,7 @@ const NEURON_DATA = [
       "left": "types/v2LN3A1_a_L.html",
       "right": "types/v2LN3A1_a_R.html"
     },
-    "synonyms": "v2LN3A",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/v2LN3A1_a.html"
   },
@@ -102443,7 +104912,7 @@ const NEURON_DATA = [
       "left": "types/v2LN3A1_b_L.html",
       "right": "types/v2LN3A1_b_R.html"
     },
-    "synonyms": "v2LN3A",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/v2LN3A1_b.html"
   },
@@ -102476,7 +104945,7 @@ const NEURON_DATA = [
       "left": "types/v2LN41a_L.html",
       "right": "types/v2LN41a_R.html"
     },
-    "synonyms": "v2LN41",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/v2LN41a.html"
   },
@@ -102487,7 +104956,7 @@ const NEURON_DATA = [
       "left": "types/v2LN41b_L.html",
       "right": "types/v2LN41b_R.html"
     },
-    "synonyms": "v2LN41",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/v2LN41b.html"
   },
@@ -102498,7 +104967,7 @@ const NEURON_DATA = [
       "left": "types/v2LN42a_L.html",
       "right": "types/v2LN42a_R.html"
     },
-    "synonyms": "v2LN42",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/v2LN42a.html"
   },
@@ -102509,7 +104978,7 @@ const NEURON_DATA = [
       "left": "types/v2LN42b_L.html",
       "right": "types/v2LN42b_R.html"
     },
-    "synonyms": "v2LN42",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/v2LN42b.html"
   },
@@ -102520,7 +104989,7 @@ const NEURON_DATA = [
       "left": "types/v2LN42c_L.html",
       "right": "types/v2LN42c_R.html"
     },
-    "synonyms": "v2LN42",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/v2LN42c.html"
   },
@@ -102531,7 +105000,7 @@ const NEURON_DATA = [
       "left": "types/v2LN46a_L.html",
       "right": "types/v2LN46a_R.html"
     },
-    "synonyms": "v2LN46",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/v2LN46a.html"
   },
@@ -102542,7 +105011,7 @@ const NEURON_DATA = [
       "left": "types/v2LN46b_L.html",
       "right": "types/v2LN46b_R.html"
     },
-    "synonyms": "v2LN46",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/v2LN46b.html"
   },
@@ -102597,29 +105066,75 @@ const NEURON_DATA = [
       "left": "types/vCal1_L.html",
       "right": "types/vCal1_R.html"
     },
-    "synonyms": "PLP127",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/vCal1.html"
   },
   {
-    "name": "vDelta",
+    "name": "vDeltaA_a",
     "urls": {
-      "right": "types/vDelta_R.html"
+      "combined": "types/vDeltaA_a.html",
+      "left": "types/vDeltaA_a_L.html",
+      "right": "types/vDeltaA_a_R.html"
     },
-    "synonyms": "vDeltaA, vDeltaB, vDeltaC, vDeltaD, vDeltaE, vDeltaJ, vDeltaK, vDeltaL, vDeltaM",
+    "synonyms": null,
     "flywire_types": null,
-    "primary_url": "types/vDelta_R.html"
+    "primary_url": "types/vDeltaA_a.html"
   },
   {
-    "name": "vDeltaA",
+    "name": "vDeltaA_b",
     "urls": {
-      "combined": "types/vDeltaA.html",
-      "left": "types/vDeltaA_L.html",
-      "right": "types/vDeltaA_R.html"
+      "combined": "types/vDeltaA_b.html",
+      "left": "types/vDeltaA_b_L.html",
+      "right": "types/vDeltaA_b_R.html"
     },
-    "synonyms": "vDeltaB, vDeltaC, vDeltaD, vDeltaE, vDeltaJ, vDeltaK, vDeltaL, vDeltaM",
+    "synonyms": null,
     "flywire_types": null,
-    "primary_url": "types/vDeltaA.html"
+    "primary_url": "types/vDeltaA_b.html"
+  },
+  {
+    "name": "vDeltaB",
+    "urls": {
+      "combined": "types/vDeltaB.html",
+      "left": "types/vDeltaB_L.html",
+      "right": "types/vDeltaB_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/vDeltaB.html"
+  },
+  {
+    "name": "vDeltaC",
+    "urls": {
+      "combined": "types/vDeltaC.html",
+      "left": "types/vDeltaC_L.html",
+      "right": "types/vDeltaC_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/vDeltaC.html"
+  },
+  {
+    "name": "vDeltaD",
+    "urls": {
+      "combined": "types/vDeltaD.html",
+      "left": "types/vDeltaD_L.html",
+      "right": "types/vDeltaD_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/vDeltaD.html"
+  },
+  {
+    "name": "vDeltaE",
+    "urls": {
+      "combined": "types/vDeltaE.html",
+      "left": "types/vDeltaE_L.html",
+      "right": "types/vDeltaE_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/vDeltaE.html"
   },
   {
     "name": "vDeltaF",
@@ -102628,9 +105143,86 @@ const NEURON_DATA = [
       "left": "types/vDeltaF_L.html",
       "right": "types/vDeltaF_R.html"
     },
-    "synonyms": "vDeltaG, vDeltaH, vDeltaI",
+    "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/vDeltaF.html"
+  },
+  {
+    "name": "vDeltaG,vDeltaH",
+    "urls": {
+      "combined": "types/vDeltaG,vDeltaH.html",
+      "left": "types/vDeltaG,vDeltaH_L.html",
+      "right": "types/vDeltaG,vDeltaH_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/vDeltaG,vDeltaH.html"
+  },
+  {
+    "name": "vDeltaI_a",
+    "urls": {
+      "combined": "types/vDeltaI_a.html",
+      "left": "types/vDeltaI_a_L.html",
+      "right": "types/vDeltaI_a_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/vDeltaI_a.html"
+  },
+  {
+    "name": "vDeltaI_b",
+    "urls": {
+      "combined": "types/vDeltaI_b.html",
+      "left": "types/vDeltaI_b_L.html",
+      "right": "types/vDeltaI_b_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/vDeltaI_b.html"
+  },
+  {
+    "name": "vDeltaJ",
+    "urls": {
+      "combined": "types/vDeltaJ.html",
+      "left": "types/vDeltaJ_L.html",
+      "right": "types/vDeltaJ_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/vDeltaJ.html"
+  },
+  {
+    "name": "vDeltaK",
+    "urls": {
+      "combined": "types/vDeltaK.html",
+      "left": "types/vDeltaK_L.html",
+      "right": "types/vDeltaK_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/vDeltaK.html"
+  },
+  {
+    "name": "vDeltaL",
+    "urls": {
+      "combined": "types/vDeltaL.html",
+      "left": "types/vDeltaL_L.html",
+      "right": "types/vDeltaL_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/vDeltaL.html"
+  },
+  {
+    "name": "vDeltaM",
+    "urls": {
+      "combined": "types/vDeltaM.html",
+      "left": "types/vDeltaM_L.html",
+      "right": "types/vDeltaM_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/vDeltaM.html"
   },
   {
     "name": "vLN24",
@@ -102677,15 +105269,15 @@ const NEURON_DATA = [
     "primary_url": "types/vLN27.html"
   },
   {
-    "name": "vLN28",
+    "name": "vLN28,vLN29",
     "urls": {
-      "combined": "types/vLN28.html",
-      "left": "types/vLN28_L.html",
-      "right": "types/vLN28_R.html"
+      "combined": "types/vLN28,vLN29.html",
+      "left": "types/vLN28,vLN29_L.html",
+      "right": "types/vLN28,vLN29_R.html"
     },
-    "synonyms": "vLN29",
+    "synonyms": null,
     "flywire_types": null,
-    "primary_url": "types/vLN28.html"
+    "primary_url": "types/vLN28,vLN29.html"
   },
   {
     "name": "vpoEN",
@@ -102697,6 +105289,17 @@ const NEURON_DATA = [
     "synonyms": null,
     "flywire_types": null,
     "primary_url": "types/vpoEN.html"
+  },
+  {
+    "name": "yDm8",
+    "urls": {
+      "combined": "types/yDm8.html",
+      "left": "types/yDm8_L.html",
+      "right": "types/yDm8_R.html"
+    },
+    "synonyms": null,
+    "flywire_types": null,
+    "primary_url": "types/yDm8.html"
   }
 ];
 
