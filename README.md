@@ -4,7 +4,7 @@
 **Server:** neuprint-cns.janelia.org
 **Dataset UUID:** v783b
 **Dataset Last Updated:** unknown
-**Generated:** 2025-10-09 16:44:23 UTC
+**Generated:** 2025-12-02 22:53:55 UTC
 **Total Neuron Types:** 8806
 
 ---
@@ -200,7 +200,7 @@ When using data from this catalog, please cite:
 1. The original neuPrint database and dataset
 2. The specific dataset version (flywire-fafb:v783b) with UUID v783b
 3. The dataset last updated on unknown
-4. The generation date of this catalog (2025-10-09)
+4. The generation date of this catalog (2025-12-02)
 
 For the most current citation information, visit the neuPrint database at neuprint-cns.janelia.org.
 
@@ -221,4 +221,4 @@ For questions about the data or analysis methods, consult the neuPrint database 
 
 ---
 
-*This catalog was automatically generated from neuPrint data on 2025-10-09 at 16:44:23 UTC using dataset flywire-fafb:v783b (UUID: v783b, last updated: unknown). For the most up-to-date information, please consult the original neuPrint database.*
+*This catalog was automatically generated from neuPrint data on 2025-12-02 at 22:53:55 UTC using dataset flywire-fafb:v783b (UUID: v783b, last updated: unknown). For the most up-to-date information, please consult the original neuPrint database.*
