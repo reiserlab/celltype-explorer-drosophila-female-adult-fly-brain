@@ -7,8 +7,8 @@
  * This file is generated at build time with embedded neuron data.
  * Do not edit manually - it will be overwritten during the build process.
  *
- * Generated on: 2025-12-02 22:53:55
- * Total neuron types: 8806
+ * Generated on: 2026-05-08 13:56:54
+ * Total neuron types: 8840
  */
 
 (function() {
@@ -16,10 +16,6 @@
 
   const neuronData = {
   "names": [
-    "(PLP191,PLP192)a",
-    "(PLP191,PLP192)b",
-    "(PS023,PS024)a",
-    "(PS023,PS024)b",
     "5-HT-IR  Tan",
     "5-HTPLP01",
     "5-HTPMPD01",
@@ -1880,11 +1876,14 @@
     "CB0955",
     "CB0956",
     "CB0957",
-    "CB0958",
+    "CB0958a",
+    "CB0958b",
+    "CB0958c",
     "CB0959",
     "CB0960",
     "CB0961",
-    "CB0962",
+    "CB0962a",
+    "CB0962b",
     "CB0963",
     "CB0964",
     "CB0965",
@@ -1899,7 +1898,8 @@
     "CB0976",
     "CB0977",
     "CB0978",
-    "CB0979",
+    "CB0979a",
+    "CB0979b",
     "CB0980",
     "CB0981",
     "CB0982",
@@ -1953,7 +1953,10 @@
     "CB1035",
     "CB1036",
     "CB1037",
-    "CB1038",
+    "CB1038a",
+    "CB1038b",
+    "CB1038c",
+    "CB1038d",
     "CB1039",
     "CB1040",
     "CB1042",
@@ -2091,7 +2094,6 @@
     "CB1194",
     "CB1195",
     "CB1196",
-    "CB1197",
     "CB1198",
     "CB1199",
     "CB1200",
@@ -2122,7 +2124,9 @@
     "CB1228",
     "CB1229",
     "CB1230",
-    "CB1231",
+    "CB1231a",
+    "CB1231b",
+    "CB1231c",
     "CB1232",
     "CB1233",
     "CB1235",
@@ -2601,9 +2605,9 @@
     "CB1783",
     "CB1784",
     "CB1785",
-    "CB1786",
     "CB1786_a",
     "CB1786_b",
+    "CB1786_c",
     "CB1787",
     "CB1789",
     "CB1790",
@@ -3914,7 +3918,8 @@
     "CB3272",
     "CB3273",
     "CB3274",
-    "CB3275",
+    "CB3275a",
+    "CB3275b",
     "CB3276",
     "CB3277",
     "CB3278",
@@ -4269,7 +4274,8 @@
     "CB3670",
     "CB3671",
     "CB3672",
-    "CB3673",
+    "CB3673a",
+    "CB3673b",
     "CB3674",
     "CB3675",
     "CB3676",
@@ -4459,6 +4465,8 @@
     "CB3951",
     "CB3952",
     "CB3953",
+    "CB3954",
+    "CB3955",
     "CB3956",
     "CB3958",
     "CB3959",
@@ -4489,6 +4497,7 @@
     "CB4159",
     "CB4161",
     "CB4171",
+    "CB4176",
     "CB4186",
     "CB4187",
     "CB4188",
@@ -4520,6 +4529,8 @@
     "CB4244",
     "CB4245",
     "CB4246",
+    "CB4247",
+    "CB4248",
     "CEM",
     "CL001",
     "CL002",
@@ -4826,6 +4837,7 @@
     "CRE056",
     "CRE059",
     "CRE060,CRE067",
+    "CRE062",
     "CRE065",
     "CRE066",
     "CRE068",
@@ -5625,7 +5637,6 @@
     "IB050",
     "IB051",
     "IB054",
-    "IB057,IB087",
     "IB058",
     "IB059a",
     "IB059b",
@@ -5654,30 +5665,40 @@
     "ISN",
     "ITP",
     "IbSpsP",
-    "JO-A",
-    "JO-B",
-    "JO-C",
-    "JO-CA",
+    "JO",
+    "JO-A1",
+    "JO-A2",
+    "JO-A3",
+    "JO-A4",
+    "JO-A5",
+    "JO-B1_a",
+    "JO-B1_b",
+    "JO-B1_c",
+    "JO-B2",
+    "JO-B3",
+    "JO-B4_a",
+    "JO-B4_b",
+    "JO-CA1",
+    "JO-CA2",
     "JO-CL",
     "JO-CM",
-    "JO-D",
     "JO-DA",
     "JO-DP",
-    "JO-E",
-    "JO-EDC",
-    "JO-EDM",
-    "JO-EDP",
-    "JO-EV",
-    "JO-EVL",
-    "JO-EVM",
-    "JO-EVP",
-    "JO-F",
-    "JO-FDA",
-    "JO-FDL",
-    "JO-FDP",
-    "JO-FVA",
-    "JO-FVL",
+    "JO-ED1",
+    "JO-ED2_a",
+    "JO-ED2_b",
+    "JO-ED2_c",
+    "JO-EV1",
+    "JO-EV2",
+    "JO-EV3",
+    "JO-EV4",
+    "JO-EV5",
+    "JO-EV6",
+    "JO-FD1",
+    "JO-FD2",
+    "JO-FV",
     "JO-mz",
+    "JO-unclear",
     "KCa'b'-ap1",
     "KCab",
     "KCab-p",
@@ -5690,6 +5711,7 @@
     "KCg-s2",
     "KCg-s3",
     "L1",
+    "L1-3",
     "L2",
     "L3",
     "L4",
@@ -5876,7 +5898,8 @@
     "LB4a",
     "LC10a",
     "LC10b",
-    "LC10c",
+    "LC10c-1",
+    "LC10c-2",
     "LC10d",
     "LC10e",
     "LC10f",
@@ -5901,6 +5924,8 @@
     "LC27",
     "LC28a",
     "LC28b",
+    "LC28c",
+    "LC28d",
     "LC29",
     "LC31a",
     "LC31b",
@@ -5916,7 +5941,8 @@
     "LC41",
     "LC43",
     "LC44",
-    "LC45",
+    "LC45a",
+    "LC45b",
     "LC46",
     "LC6",
     "LC9",
@@ -6352,7 +6378,8 @@
     "LT79",
     "LT80",
     "LT81",
-    "LT82",
+    "LT82a",
+    "LT82b",
     "LT83",
     "LT84",
     "LT85",
@@ -6401,18 +6428,14 @@
     "LTe42a",
     "LTe42b",
     "LTe42c",
-    "LTe43",
+    "LTe43a",
+    "LTe43b",
     "LTe44",
     "LTe45",
     "LTe46",
     "LTe47",
     "LTe48",
-    "LTe49a",
-    "LTe49b",
-    "LTe49c",
-    "LTe49d",
-    "LTe49e",
-    "LTe49f",
+    "LTe49",
     "LTe50",
     "LTe51",
     "LTe53",
@@ -6424,14 +6447,14 @@
     "LTe59a",
     "LTe59b",
     "LTe60",
-    "LTe61",
     "LTe62",
     "LTe63",
     "LTe64",
     "LTe65",
     "LTe66",
     "LTe67",
-    "LTe68",
+    "LTe68a",
+    "LTe68b",
     "LTe69",
     "LTe70",
     "LTe71",
@@ -6441,7 +6464,9 @@
     "LTe75",
     "LTe76",
     "Lai",
-    "Lat",
+    "Lat1",
+    "Lat2",
+    "Lat5",
     "Lawf1",
     "Lawf2",
     "Li01",
@@ -6529,6 +6554,7 @@
     "MNx03",
     "MTe01a",
     "MTe01b",
+    "MTe01c",
     "MTe02",
     "MTe03",
     "MTe04",
@@ -6544,7 +6570,8 @@
     "MTe14",
     "MTe15",
     "MTe16",
-    "MTe17",
+    "MTe17a",
+    "MTe17b",
     "MTe18",
     "MTe19",
     "MTe20",
@@ -6933,6 +6960,7 @@
     "PLP154",
     "PLP155",
     "PLP156",
+    "PLP157",
     "PLP158",
     "PLP159",
     "PLP160",
@@ -6953,10 +6981,13 @@
     "PLP180",
     "PLP181",
     "PLP182",
+    "PLP184",
     "PLP185,PLP186",
     "PLP187",
     "PLP188,PLP189",
     "PLP190",
+    "PLP191",
+    "PLP192",
     "PLP196",
     "PLP197",
     "PLP198,SLP361",
@@ -7028,6 +7059,8 @@
     "PS020",
     "PS021",
     "PS022",
+    "PS023",
+    "PS024",
     "PS025",
     "PS026",
     "PS027",
@@ -7231,7 +7264,6 @@
     "PVLP033",
     "PVLP036",
     "PVLP037",
-    "PVLP048",
     "PVLP049",
     "PVLP060",
     "PVLP061",
@@ -7348,8 +7380,6 @@
     "SAD012",
     "SAD013",
     "SAD014",
-    "SAD015,SAD018",
-    "SAD016",
     "SAD017",
     "SAD021_a",
     "SAD021_c",
@@ -7446,6 +7476,7 @@
     "SIP033",
     "SIP034",
     "SIP041",
+    "SIP045",
     "SIP046",
     "SIP047a",
     "SIP047b",
@@ -7782,7 +7813,6 @@
     "SMP049,SMP076",
     "SMP050",
     "SMP051",
-    "SMP053",
     "SMP054",
     "SMP055",
     "SMP056",
@@ -7848,6 +7878,7 @@
     "SMP152",
     "SMP153a",
     "SMP153b",
+    "SMP154",
     "SMP155",
     "SMP156",
     "SMP157",
@@ -7902,7 +7933,6 @@
     "SMP207",
     "SMP208",
     "SMP210",
-    "SMP213",
     "SMP213,SMP214",
     "SMP215a",
     "SMP215b",
@@ -7998,7 +8028,6 @@
     "SMP348a",
     "SMP348b",
     "SMP353",
-    "SMP355",
     "SMP356",
     "SMP357",
     "SMP359",
@@ -8500,7 +8529,7 @@
     "WED072",
     "WED075",
     "WED076",
-    "WED080,WED083,WED084,WED087",
+    "WED080",
     "WED081",
     "WED082",
     "WED085",
@@ -8629,6 +8658,7 @@
     "cL02a",
     "cL02b",
     "cL02c",
+    "cL02d",
     "cL03",
     "cL04",
     "cL05",
@@ -8655,9 +8685,12 @@
     "cLLPM01",
     "cLLPM02",
     "cLM01",
-    "cLP01",
+    "cLP01a",
+    "cLP01b",
     "cLP02",
-    "cLP03",
+    "cLP03a",
+    "cLP03b",
+    "cLP03c",
     "cLP04",
     "cLP05",
     "cLPL01",
@@ -8674,6 +8707,7 @@
     "cM08a",
     "cM08b",
     "cM08c",
+    "cM08d",
     "cM09",
     "cM10",
     "cM11",
@@ -8824,38 +8858,6 @@
     "yDm8"
   ],
   "neurons": [
-    {
-      "name": "(PLP191,PLP192)a",
-      "urls": {
-        "combined": "(PLP191,PLP192)a.html",
-        "left": "(PLP191,PLP192)a_L.html",
-        "right": "(PLP191,PLP192)a_R.html"
-      }
-    },
-    {
-      "name": "(PLP191,PLP192)b",
-      "urls": {
-        "combined": "(PLP191,PLP192)b.html",
-        "left": "(PLP191,PLP192)b_L.html",
-        "right": "(PLP191,PLP192)b_R.html"
-      }
-    },
-    {
-      "name": "(PS023,PS024)a",
-      "urls": {
-        "combined": "(PS023,PS024)a.html",
-        "left": "(PS023,PS024)a_L.html",
-        "right": "(PS023,PS024)a_R.html"
-      }
-    },
-    {
-      "name": "(PS023,PS024)b",
-      "urls": {
-        "combined": "(PS023,PS024)b.html",
-        "left": "(PS023,PS024)b_L.html",
-        "right": "(PS023,PS024)b_R.html"
-      }
-    },
     {
       "name": "5-HT-IR  Tan",
       "urls": {
@@ -13977,6 +13979,12 @@
         "combined": "AOTU059.html",
         "left": "AOTU059_L.html",
         "right": "AOTU059_R.html"
+      },
+      "types": {
+        "synonyms": [
+          "Cachero 2010: pIP-e",
+          "Yu 2010: pIP5"
+        ]
       }
     },
     {
@@ -15663,6 +15671,12 @@
         "combined": "AVLP235.html",
         "left": "AVLP235_L.html",
         "right": "AVLP235_R.html"
+      },
+      "types": {
+        "synonyms": [
+          "Cachero 2010: aIP-c",
+          "Yu 2010: aIP1/aIP4/aSP10"
+        ]
       }
     },
     {
@@ -16994,6 +17008,12 @@
         "combined": "AVLP496b.html",
         "left": "AVLP496b_L.html",
         "right": "AVLP496b_R.html"
+      },
+      "types": {
+        "synonyms": [
+          "Cachero 2010: aIP-g",
+          "Yu 2010: pIP6"
+        ]
       }
     },
     {
@@ -24000,11 +24020,27 @@
       }
     },
     {
-      "name": "CB0958",
+      "name": "CB0958a",
       "urls": {
-        "combined": "CB0958.html",
-        "left": "CB0958_L.html",
-        "right": "CB0958_R.html"
+        "combined": "CB0958a.html",
+        "left": "CB0958a_L.html",
+        "right": "CB0958a_R.html"
+      }
+    },
+    {
+      "name": "CB0958b",
+      "urls": {
+        "combined": "CB0958b.html",
+        "left": "CB0958b_L.html",
+        "right": "CB0958b_R.html"
+      }
+    },
+    {
+      "name": "CB0958c",
+      "urls": {
+        "combined": "CB0958c.html",
+        "left": "CB0958c_L.html",
+        "right": "CB0958c_R.html"
       }
     },
     {
@@ -24037,11 +24073,19 @@
       }
     },
     {
-      "name": "CB0962",
+      "name": "CB0962a",
       "urls": {
-        "combined": "CB0962.html",
-        "left": "CB0962_L.html",
-        "right": "CB0962_R.html"
+        "combined": "CB0962a.html",
+        "left": "CB0962a_L.html",
+        "right": "CB0962a_R.html"
+      }
+    },
+    {
+      "name": "CB0962b",
+      "urls": {
+        "combined": "CB0962b.html",
+        "left": "CB0962b_L.html",
+        "right": "CB0962b_R.html"
       }
     },
     {
@@ -24165,11 +24209,19 @@
       }
     },
     {
-      "name": "CB0979",
+      "name": "CB0979a",
       "urls": {
-        "combined": "CB0979.html",
-        "left": "CB0979_L.html",
-        "right": "CB0979_R.html"
+        "combined": "CB0979a.html",
+        "left": "CB0979a_L.html",
+        "right": "CB0979a_R.html"
+      }
+    },
+    {
+      "name": "CB0979b",
+      "urls": {
+        "combined": "CB0979b.html",
+        "left": "CB0979b_L.html",
+        "right": "CB0979b_R.html"
       }
     },
     {
@@ -24630,11 +24682,35 @@
       }
     },
     {
-      "name": "CB1038",
+      "name": "CB1038a",
       "urls": {
-        "combined": "CB1038.html",
-        "left": "CB1038_L.html",
-        "right": "CB1038_R.html"
+        "combined": "CB1038a.html",
+        "left": "CB1038a_L.html",
+        "right": "CB1038a_R.html"
+      }
+    },
+    {
+      "name": "CB1038b",
+      "urls": {
+        "combined": "CB1038b.html",
+        "left": "CB1038b_L.html",
+        "right": "CB1038b_R.html"
+      }
+    },
+    {
+      "name": "CB1038c",
+      "urls": {
+        "combined": "CB1038c.html",
+        "left": "CB1038c_L.html",
+        "right": "CB1038c_R.html"
+      }
+    },
+    {
+      "name": "CB1038d",
+      "urls": {
+        "combined": "CB1038d.html",
+        "left": "CB1038d_L.html",
+        "right": "CB1038d_R.html"
       }
     },
     {
@@ -25796,14 +25872,6 @@
       }
     },
     {
-      "name": "CB1197",
-      "urls": {
-        "combined": "CB1197.html",
-        "left": "CB1197_L.html",
-        "right": "CB1197_R.html"
-      }
-    },
-    {
       "name": "CB1198",
       "urls": {
         "combined": "CB1198.html",
@@ -26044,11 +26112,27 @@
       }
     },
     {
-      "name": "CB1231",
+      "name": "CB1231a",
       "urls": {
-        "combined": "CB1231.html",
-        "left": "CB1231_L.html",
-        "right": "CB1231_R.html"
+        "combined": "CB1231a.html",
+        "left": "CB1231a_L.html",
+        "right": "CB1231a_R.html"
+      }
+    },
+    {
+      "name": "CB1231b",
+      "urls": {
+        "combined": "CB1231b.html",
+        "left": "CB1231b_L.html",
+        "right": "CB1231b_R.html"
+      }
+    },
+    {
+      "name": "CB1231c",
+      "urls": {
+        "combined": "CB1231c.html",
+        "left": "CB1231c_L.html",
+        "right": "CB1231c_R.html"
       }
     },
     {
@@ -26861,6 +26945,12 @@
         "combined": "CB1338.html",
         "left": "CB1338_L.html",
         "right": "CB1338_R.html"
+      },
+      "types": {
+        "synonyms": [
+          "Cachero 2010: pSP-b",
+          "Yu 2010: pSP2/3"
+        ]
       }
     },
     {
@@ -28044,6 +28134,11 @@
         "combined": "CB1496.html",
         "left": "CB1496_L.html",
         "right": "CB1496_R.html"
+      },
+      "types": {
+        "synonyms": [
+          "Cachero 2010: pSG-a"
+        ]
       }
     },
     {
@@ -28329,6 +28424,12 @@
         "combined": "CB1537.html",
         "left": "CB1537_L.html",
         "right": "CB1537_R.html"
+      },
+      "types": {
+        "synonyms": [
+          "Cachero 2010: aDT-h",
+          "Yu 2010: aDT6"
+        ]
       }
     },
     {
@@ -30047,14 +30148,6 @@
       }
     },
     {
-      "name": "CB1786",
-      "urls": {
-        "combined": "CB1786.html",
-        "left": "CB1786_L.html",
-        "right": "CB1786_R.html"
-      }
-    },
-    {
       "name": "CB1786_a",
       "urls": {
         "combined": "CB1786_a.html",
@@ -30068,6 +30161,14 @@
         "combined": "CB1786_b.html",
         "left": "CB1786_b_L.html",
         "right": "CB1786_b_R.html"
+      }
+    },
+    {
+      "name": "CB1786_c",
+      "urls": {
+        "combined": "CB1786_c.html",
+        "left": "CB1786_c_L.html",
+        "right": "CB1786_c_R.html"
       }
     },
     {
@@ -30100,6 +30201,12 @@
         "combined": "CB1791.html",
         "left": "CB1791_L.html",
         "right": "CB1791_R.html"
+      },
+      "types": {
+        "synonyms": [
+          "Cachero 2010: pSP-b",
+          "Yu 2010: pSP2/3"
+        ]
       }
     },
     {
@@ -30706,6 +30813,12 @@
         "combined": "CB1877.html",
         "left": "CB1877_L.html",
         "right": "CB1877_R.html"
+      },
+      "types": {
+        "synonyms": [
+          "Cachero 2010: aIP-g",
+          "Yu 2010: pIP6"
+        ]
       }
     },
     {
@@ -31831,9 +31944,7 @@
     {
       "name": "CB2023",
       "urls": {
-        "combined": "CB2023.html",
-        "left": "CB2023_L.html",
-        "right": "CB2023_R.html"
+        "left": "CB2023_L.html"
       }
     },
     {
@@ -32144,6 +32255,11 @@
         "combined": "CB2066.html",
         "left": "CB2066_L.html",
         "right": "CB2066_R.html"
+      },
+      "types": {
+        "synonyms": [
+          "Cachero 2010: aIP-h"
+        ]
       }
     },
     {
@@ -33219,6 +33335,12 @@
         "combined": "CB2204.html",
         "left": "CB2204_L.html",
         "right": "CB2204_R.html"
+      },
+      "types": {
+        "synonyms": [
+          "Cachero 2010: aIP-g",
+          "Yu 2010: pIP6"
+        ]
       }
     },
     {
@@ -33417,6 +33539,11 @@
         "combined": "CB2235.html",
         "left": "CB2235_L.html",
         "right": "CB2235_R.html"
+      },
+      "types": {
+        "synonyms": [
+          "Cachero 2010: pSG-a"
+        ]
       }
     },
     {
@@ -39798,6 +39925,12 @@
         "combined": "CB3118.html",
         "left": "CB3118_L.html",
         "right": "CB3118_R.html"
+      },
+      "types": {
+        "synonyms": [
+          "Cachero 2010: pSP-b",
+          "Yu 2010: pSP2/3"
+        ]
       }
     },
     {
@@ -40890,6 +41023,11 @@
         "combined": "CB3269.html",
         "left": "CB3269_L.html",
         "right": "CB3269_R.html"
+      },
+      "types": {
+        "synonyms": [
+          "Cachero 2010: aIP-b"
+        ]
       }
     },
     {
@@ -40933,11 +41071,19 @@
       }
     },
     {
-      "name": "CB3275",
+      "name": "CB3275a",
       "urls": {
-        "combined": "CB3275.html",
-        "left": "CB3275_L.html",
-        "right": "CB3275_R.html"
+        "combined": "CB3275a.html",
+        "left": "CB3275a_L.html",
+        "right": "CB3275a_R.html"
+      }
+    },
+    {
+      "name": "CB3275b",
+      "urls": {
+        "combined": "CB3275b.html",
+        "left": "CB3275b_L.html",
+        "right": "CB3275b_R.html"
       }
     },
     {
@@ -42680,6 +42826,12 @@
         "combined": "CB3508.html",
         "left": "CB3508_L.html",
         "right": "CB3508_R.html"
+      },
+      "types": {
+        "synonyms": [
+          "Cachero 2010: pSP-b",
+          "Yu 2010: pSP2/3"
+        ]
       }
     },
     {
@@ -43455,6 +43607,12 @@
         "combined": "CB3612.html",
         "left": "CB3612_L.html",
         "right": "CB3612_R.html"
+      },
+      "types": {
+        "synonyms": [
+          "Cachero 2010: pSP-b",
+          "Yu 2010: pSP2/3"
+        ]
       }
     },
     {
@@ -43543,6 +43701,12 @@
         "combined": "CB3626.html",
         "left": "CB3626_L.html",
         "right": "CB3626_R.html"
+      },
+      "types": {
+        "synonyms": [
+          "Cachero 2010: pSP-b",
+          "Yu 2010: pSP2/3"
+        ]
       }
     },
     {
@@ -43684,7 +43848,9 @@
     {
       "name": "CB3646",
       "urls": {
-        "left": "CB3646_L.html"
+        "combined": "CB3646.html",
+        "left": "CB3646_L.html",
+        "right": "CB3646_R.html"
       }
     },
     {
@@ -43891,11 +44057,19 @@
       }
     },
     {
-      "name": "CB3673",
+      "name": "CB3673a",
       "urls": {
-        "combined": "CB3673.html",
-        "left": "CB3673_L.html",
-        "right": "CB3673_R.html"
+        "combined": "CB3673a.html",
+        "left": "CB3673a_L.html",
+        "right": "CB3673a_R.html"
+      }
+    },
+    {
+      "name": "CB3673b",
+      "urls": {
+        "combined": "CB3673b.html",
+        "left": "CB3673b_L.html",
+        "right": "CB3673b_R.html"
       }
     },
     {
@@ -45440,6 +45614,22 @@
       }
     },
     {
+      "name": "CB3954",
+      "urls": {
+        "combined": "CB3954.html",
+        "left": "CB3954_L.html",
+        "right": "CB3954_R.html"
+      }
+    },
+    {
+      "name": "CB3955",
+      "urls": {
+        "combined": "CB3955.html",
+        "left": "CB3955_L.html",
+        "right": "CB3955_R.html"
+      }
+    },
+    {
       "name": "CB3956",
       "urls": {
         "combined": "CB3956.html",
@@ -45523,6 +45713,13 @@
       "name": "CB4045",
       "urls": {
         "middle": "CB4045_M.html"
+      },
+      "types": {
+        "synonyms": [
+          "Cachero 2010: pSG-d",
+          "Vaughan 2014: aLN(m)",
+          "Baker 2022: WV-WV"
+        ]
       }
     },
     {
@@ -45664,6 +45861,20 @@
         "combined": "CB4171.html",
         "left": "CB4171_L.html",
         "right": "CB4171_R.html"
+      },
+      "types": {
+        "synonyms": [
+          "Cachero 2010: pIP-e",
+          "Yu 2010: pIP5"
+        ]
+      }
+    },
+    {
+      "name": "CB4176",
+      "urls": {
+        "combined": "CB4176.html",
+        "left": "CB4176_L.html",
+        "right": "CB4176_R.html"
       }
     },
     {
@@ -45900,6 +46111,25 @@
         "combined": "CB4246.html",
         "left": "CB4246_L.html",
         "right": "CB4246_R.html"
+      }
+    },
+    {
+      "name": "CB4247",
+      "urls": {
+        "left": "CB4247_L.html"
+      }
+    },
+    {
+      "name": "CB4248",
+      "urls": {
+        "combined": "CB4248.html",
+        "left": "CB4248_L.html",
+        "right": "CB4248_R.html"
+      },
+      "types": {
+        "synonyms": [
+          "Cachero 2010: aIP-a"
+        ]
       }
     },
     {
@@ -48463,6 +48693,19 @@
       }
     },
     {
+      "name": "CRE062",
+      "urls": {
+        "combined": "CRE062.html",
+        "left": "CRE062_L.html",
+        "right": "CRE062_R.html"
+      },
+      "types": {
+        "synonyms": [
+          "Cachero 2010: aDT-d"
+        ]
+      }
+    },
+    {
       "name": "CRE065",
       "urls": {
         "combined": "CRE065.html",
@@ -48982,6 +49225,11 @@
         "combined": "DL3_lPN.html",
         "left": "DL3_lPN_L.html",
         "right": "DL3_lPN_R.html"
+      },
+      "types": {
+        "synonyms": [
+          "Cachero 2010: aDT-e"
+        ]
       }
     },
     {
@@ -53539,6 +53787,12 @@
         "combined": "FB2E.html",
         "left": "FB2E_L.html",
         "right": "FB2E_R.html"
+      },
+      "types": {
+        "synonyms": [
+          "Cachero 2010: pIP-e",
+          "Yu 2010: pIP5"
+        ]
       }
     },
     {
@@ -53555,6 +53809,12 @@
         "combined": "FB2F_c.html",
         "left": "FB2F_c_L.html",
         "right": "FB2F_c_R.html"
+      },
+      "types": {
+        "synonyms": [
+          "Cachero 2010: pIP-e",
+          "Yu 2010: pIP5"
+        ]
       }
     },
     {
@@ -53563,6 +53823,12 @@
         "combined": "FB2F_d.html",
         "left": "FB2F_d_L.html",
         "right": "FB2F_d_R.html"
+      },
+      "types": {
+        "synonyms": [
+          "Cachero 2010: pIP-e",
+          "Yu 2010: pIP5"
+        ]
       }
     },
     {
@@ -53603,6 +53869,12 @@
         "combined": "FB2I_a.html",
         "left": "FB2I_a_L.html",
         "right": "FB2I_a_R.html"
+      },
+      "types": {
+        "synonyms": [
+          "Cachero 2010: pIP-e",
+          "Yu 2010: pIP5"
+        ]
       }
     },
     {
@@ -53611,6 +53883,12 @@
         "combined": "FB2J_a,FB2J_c.html",
         "left": "FB2J_a,FB2J_c_L.html",
         "right": "FB2J_a,FB2J_c_R.html"
+      },
+      "types": {
+        "synonyms": [
+          "Cachero 2010: pIP-e",
+          "Yu 2010: pIP5"
+        ]
       }
     },
     {
@@ -53799,6 +54077,12 @@
         "combined": "FB4O.html",
         "left": "FB4O_L.html",
         "right": "FB4O_R.html"
+      },
+      "types": {
+        "synonyms": [
+          "Cachero 2010: aSP-j",
+          "Yu 2010: aSP12"
+        ]
       }
     },
     {
@@ -54491,6 +54775,12 @@
         "combined": "FC1A,FC1B,FC1F.html",
         "left": "FC1A,FC1B,FC1F_L.html",
         "right": "FC1A,FC1B,FC1F_R.html"
+      },
+      "types": {
+        "synonyms": [
+          "Cachero 2010: pMP-a",
+          "Yu 2010: pMP5"
+        ]
       }
     },
     {
@@ -54545,6 +54835,12 @@
         "combined": "FC3.html",
         "left": "FC3_L.html",
         "right": "FC3_R.html"
+      },
+      "types": {
+        "synonyms": [
+          "Cachero 2010: pMP-a",
+          "Yu 2010: pMP5"
+        ]
       }
     },
     {
@@ -55032,12 +55328,6 @@
       }
     },
     {
-      "name": "IB057,IB087",
-      "urls": {
-        "right": "IB057,IB087_R.html"
-      }
-    },
-    {
       "name": "IB058",
       "urls": {
         "combined": "IB058.html",
@@ -55277,153 +55567,257 @@
       }
     },
     {
-      "name": "JO-A",
+      "name": "JO",
       "urls": {
-        "combined": "JO-A.html",
-        "left": "JO-A_L.html",
-        "right": "JO-A_R.html"
+        "right": "JO_R.html"
       }
     },
     {
-      "name": "JO-B",
+      "name": "JO-A1",
       "urls": {
-        "combined": "JO-B.html",
-        "left": "JO-B_L.html",
-        "right": "JO-B_R.html"
+        "combined": "JO-A1.html",
+        "left": "JO-A1_L.html",
+        "right": "JO-A1_R.html"
       }
     },
     {
-      "name": "JO-C",
+      "name": "JO-A2",
       "urls": {
-        "combined": "JO-C.html",
-        "left": "JO-C_L.html",
-        "right": "JO-C_R.html"
+        "combined": "JO-A2.html",
+        "left": "JO-A2_L.html",
+        "right": "JO-A2_R.html"
       }
     },
     {
-      "name": "JO-CA",
+      "name": "JO-A3",
       "urls": {
-        "left": "JO-CA_L.html"
+        "combined": "JO-A3.html",
+        "left": "JO-A3_L.html",
+        "right": "JO-A3_R.html"
+      }
+    },
+    {
+      "name": "JO-A4",
+      "urls": {
+        "combined": "JO-A4.html",
+        "left": "JO-A4_L.html",
+        "right": "JO-A4_R.html"
+      }
+    },
+    {
+      "name": "JO-A5",
+      "urls": {
+        "combined": "JO-A5.html",
+        "left": "JO-A5_L.html",
+        "right": "JO-A5_R.html"
+      }
+    },
+    {
+      "name": "JO-B1_a",
+      "urls": {
+        "combined": "JO-B1_a.html",
+        "left": "JO-B1_a_L.html",
+        "right": "JO-B1_a_R.html"
+      }
+    },
+    {
+      "name": "JO-B1_b",
+      "urls": {
+        "combined": "JO-B1_b.html",
+        "left": "JO-B1_b_L.html",
+        "right": "JO-B1_b_R.html"
+      }
+    },
+    {
+      "name": "JO-B1_c",
+      "urls": {
+        "combined": "JO-B1_c.html",
+        "left": "JO-B1_c_L.html",
+        "right": "JO-B1_c_R.html"
+      }
+    },
+    {
+      "name": "JO-B2",
+      "urls": {
+        "combined": "JO-B2.html",
+        "left": "JO-B2_L.html",
+        "right": "JO-B2_R.html"
+      }
+    },
+    {
+      "name": "JO-B3",
+      "urls": {
+        "combined": "JO-B3.html",
+        "left": "JO-B3_L.html",
+        "right": "JO-B3_R.html"
+      }
+    },
+    {
+      "name": "JO-B4_a",
+      "urls": {
+        "combined": "JO-B4_a.html",
+        "left": "JO-B4_a_L.html",
+        "right": "JO-B4_a_R.html"
+      }
+    },
+    {
+      "name": "JO-B4_b",
+      "urls": {
+        "combined": "JO-B4_b.html",
+        "left": "JO-B4_b_L.html",
+        "right": "JO-B4_b_R.html"
+      }
+    },
+    {
+      "name": "JO-CA1",
+      "urls": {
+        "combined": "JO-CA1.html",
+        "left": "JO-CA1_L.html",
+        "right": "JO-CA1_R.html"
+      }
+    },
+    {
+      "name": "JO-CA2",
+      "urls": {
+        "combined": "JO-CA2.html",
+        "left": "JO-CA2_L.html",
+        "right": "JO-CA2_R.html"
       }
     },
     {
       "name": "JO-CL",
       "urls": {
-        "left": "JO-CL_L.html"
+        "combined": "JO-CL.html",
+        "left": "JO-CL_L.html",
+        "right": "JO-CL_R.html"
       }
     },
     {
       "name": "JO-CM",
       "urls": {
-        "left": "JO-CM_L.html"
-      }
-    },
-    {
-      "name": "JO-D",
-      "urls": {
-        "combined": "JO-D.html",
-        "left": "JO-D_L.html",
-        "right": "JO-D_R.html"
+        "combined": "JO-CM.html",
+        "left": "JO-CM_L.html",
+        "right": "JO-CM_R.html"
       }
     },
     {
       "name": "JO-DA",
       "urls": {
-        "left": "JO-DA_L.html"
+        "combined": "JO-DA.html",
+        "left": "JO-DA_L.html",
+        "right": "JO-DA_R.html"
       }
     },
     {
       "name": "JO-DP",
       "urls": {
-        "left": "JO-DP_L.html"
+        "combined": "JO-DP.html",
+        "left": "JO-DP_L.html",
+        "right": "JO-DP_R.html"
       }
     },
     {
-      "name": "JO-E",
+      "name": "JO-ED1",
       "urls": {
-        "combined": "JO-E.html",
-        "left": "JO-E_L.html",
-        "right": "JO-E_R.html"
+        "combined": "JO-ED1.html",
+        "left": "JO-ED1_L.html",
+        "right": "JO-ED1_R.html"
       }
     },
     {
-      "name": "JO-EDC",
+      "name": "JO-ED2_a",
       "urls": {
-        "left": "JO-EDC_L.html"
+        "combined": "JO-ED2_a.html",
+        "left": "JO-ED2_a_L.html",
+        "right": "JO-ED2_a_R.html"
       }
     },
     {
-      "name": "JO-EDM",
+      "name": "JO-ED2_b",
       "urls": {
-        "left": "JO-EDM_L.html"
+        "combined": "JO-ED2_b.html",
+        "left": "JO-ED2_b_L.html",
+        "right": "JO-ED2_b_R.html"
       }
     },
     {
-      "name": "JO-EDP",
+      "name": "JO-ED2_c",
       "urls": {
-        "left": "JO-EDP_L.html"
+        "combined": "JO-ED2_c.html",
+        "left": "JO-ED2_c_L.html",
+        "right": "JO-ED2_c_R.html"
       }
     },
     {
-      "name": "JO-EV",
+      "name": "JO-EV1",
       "urls": {
-        "left": "JO-EV_L.html"
+        "combined": "JO-EV1.html",
+        "left": "JO-EV1_L.html",
+        "right": "JO-EV1_R.html"
       }
     },
     {
-      "name": "JO-EVL",
+      "name": "JO-EV2",
       "urls": {
-        "left": "JO-EVL_L.html"
+        "combined": "JO-EV2.html",
+        "left": "JO-EV2_L.html",
+        "right": "JO-EV2_R.html"
       }
     },
     {
-      "name": "JO-EVM",
+      "name": "JO-EV3",
       "urls": {
-        "left": "JO-EVM_L.html"
+        "combined": "JO-EV3.html",
+        "left": "JO-EV3_L.html",
+        "right": "JO-EV3_R.html"
       }
     },
     {
-      "name": "JO-EVP",
+      "name": "JO-EV4",
       "urls": {
-        "left": "JO-EVP_L.html"
+        "combined": "JO-EV4.html",
+        "left": "JO-EV4_L.html",
+        "right": "JO-EV4_R.html"
       }
     },
     {
-      "name": "JO-F",
+      "name": "JO-EV5",
       "urls": {
-        "combined": "JO-F.html",
-        "left": "JO-F_L.html",
-        "right": "JO-F_R.html"
+        "combined": "JO-EV5.html",
+        "left": "JO-EV5_L.html",
+        "right": "JO-EV5_R.html"
       }
     },
     {
-      "name": "JO-FDA",
+      "name": "JO-EV6",
       "urls": {
-        "left": "JO-FDA_L.html"
+        "combined": "JO-EV6.html",
+        "left": "JO-EV6_L.html",
+        "right": "JO-EV6_R.html"
       }
     },
     {
-      "name": "JO-FDL",
+      "name": "JO-FD1",
       "urls": {
-        "left": "JO-FDL_L.html"
+        "combined": "JO-FD1.html",
+        "left": "JO-FD1_L.html",
+        "right": "JO-FD1_R.html"
       }
     },
     {
-      "name": "JO-FDP",
+      "name": "JO-FD2",
       "urls": {
-        "left": "JO-FDP_L.html"
+        "combined": "JO-FD2.html",
+        "left": "JO-FD2_L.html",
+        "right": "JO-FD2_R.html"
       }
     },
     {
-      "name": "JO-FVA",
+      "name": "JO-FV",
       "urls": {
-        "left": "JO-FVA_L.html"
-      }
-    },
-    {
-      "name": "JO-FVL",
-      "urls": {
-        "left": "JO-FVL_L.html"
+        "combined": "JO-FV.html",
+        "left": "JO-FV_L.html",
+        "right": "JO-FV_R.html"
       }
     },
     {
@@ -55432,6 +55826,14 @@
         "combined": "JO-mz.html",
         "left": "JO-mz_L.html",
         "right": "JO-mz_R.html"
+      }
+    },
+    {
+      "name": "JO-unclear",
+      "urls": {
+        "combined": "JO-unclear.html",
+        "left": "JO-unclear_L.html",
+        "right": "JO-unclear_R.html"
       }
     },
     {
@@ -55524,6 +55926,12 @@
         "combined": "L1.html",
         "left": "L1_L.html",
         "right": "L1_R.html"
+      }
+    },
+    {
+      "name": "L1-3",
+      "urls": {
+        "left": "L1-3_L.html"
       }
     },
     {
@@ -57132,11 +57540,19 @@
       }
     },
     {
-      "name": "LC10c",
+      "name": "LC10c-1",
       "urls": {
-        "combined": "LC10c.html",
-        "left": "LC10c_L.html",
-        "right": "LC10c_R.html"
+        "combined": "LC10c-1.html",
+        "left": "LC10c-1_L.html",
+        "right": "LC10c-1_R.html"
+      }
+    },
+    {
+      "name": "LC10c-2",
+      "urls": {
+        "combined": "LC10c-2.html",
+        "left": "LC10c-2_L.html",
+        "right": "LC10c-2_R.html"
       }
     },
     {
@@ -57344,6 +57760,22 @@
       }
     },
     {
+      "name": "LC28c",
+      "urls": {
+        "combined": "LC28c.html",
+        "left": "LC28c_L.html",
+        "right": "LC28c_R.html"
+      }
+    },
+    {
+      "name": "LC28d",
+      "urls": {
+        "combined": "LC28d.html",
+        "left": "LC28d_L.html",
+        "right": "LC28d_R.html"
+      }
+    },
+    {
       "name": "LC29",
       "urls": {
         "combined": "LC29.html",
@@ -57381,6 +57813,11 @@
         "combined": "LC33.html",
         "left": "LC33_L.html",
         "right": "LC33_R.html"
+      },
+      "types": {
+        "synonyms": [
+          "Cachero 2010: aSP-m"
+        ]
       }
     },
     {
@@ -57464,11 +57901,19 @@
       }
     },
     {
-      "name": "LC45",
+      "name": "LC45a",
       "urls": {
-        "combined": "LC45.html",
-        "left": "LC45_L.html",
-        "right": "LC45_R.html"
+        "combined": "LC45a.html",
+        "left": "LC45a_L.html",
+        "right": "LC45a_R.html"
+      }
+    },
+    {
+      "name": "LC45b",
+      "urls": {
+        "combined": "LC45b.html",
+        "left": "LC45b_L.html",
+        "right": "LC45b_R.html"
       }
     },
     {
@@ -60994,14 +61439,28 @@
         "combined": "LT81.html",
         "left": "LT81_L.html",
         "right": "LT81_R.html"
+      },
+      "types": {
+        "synonyms": [
+          "Cachero 2010: pIP-b",
+          "Yu 2010: pIP8"
+        ]
       }
     },
     {
-      "name": "LT82",
+      "name": "LT82a",
       "urls": {
-        "combined": "LT82.html",
-        "left": "LT82_L.html",
-        "right": "LT82_R.html"
+        "combined": "LT82a.html",
+        "left": "LT82a_L.html",
+        "right": "LT82a_R.html"
+      }
+    },
+    {
+      "name": "LT82b",
+      "urls": {
+        "combined": "LT82b.html",
+        "left": "LT82b_L.html",
+        "right": "LT82b_R.html"
       }
     },
     {
@@ -61399,11 +61858,19 @@
       }
     },
     {
-      "name": "LTe43",
+      "name": "LTe43a",
       "urls": {
-        "combined": "LTe43.html",
-        "left": "LTe43_L.html",
-        "right": "LTe43_R.html"
+        "combined": "LTe43a.html",
+        "left": "LTe43a_L.html",
+        "right": "LTe43a_R.html"
+      }
+    },
+    {
+      "name": "LTe43b",
+      "urls": {
+        "combined": "LTe43b.html",
+        "left": "LTe43b_L.html",
+        "right": "LTe43b_R.html"
       }
     },
     {
@@ -61447,51 +61914,11 @@
       }
     },
     {
-      "name": "LTe49a",
+      "name": "LTe49",
       "urls": {
-        "combined": "LTe49a.html",
-        "left": "LTe49a_L.html",
-        "right": "LTe49a_R.html"
-      }
-    },
-    {
-      "name": "LTe49b",
-      "urls": {
-        "combined": "LTe49b.html",
-        "left": "LTe49b_L.html",
-        "right": "LTe49b_R.html"
-      }
-    },
-    {
-      "name": "LTe49c",
-      "urls": {
-        "combined": "LTe49c.html",
-        "left": "LTe49c_L.html",
-        "right": "LTe49c_R.html"
-      }
-    },
-    {
-      "name": "LTe49d",
-      "urls": {
-        "combined": "LTe49d.html",
-        "left": "LTe49d_L.html",
-        "right": "LTe49d_R.html"
-      }
-    },
-    {
-      "name": "LTe49e",
-      "urls": {
-        "combined": "LTe49e.html",
-        "left": "LTe49e_L.html",
-        "right": "LTe49e_R.html"
-      }
-    },
-    {
-      "name": "LTe49f",
-      "urls": {
-        "combined": "LTe49f.html",
-        "left": "LTe49f_L.html",
-        "right": "LTe49f_R.html"
+        "combined": "LTe49.html",
+        "left": "LTe49_L.html",
+        "right": "LTe49_R.html"
       }
     },
     {
@@ -61583,14 +62010,6 @@
       }
     },
     {
-      "name": "LTe61",
-      "urls": {
-        "combined": "LTe61.html",
-        "left": "LTe61_L.html",
-        "right": "LTe61_R.html"
-      }
-    },
-    {
       "name": "LTe62",
       "urls": {
         "combined": "LTe62.html",
@@ -61639,11 +62058,19 @@
       }
     },
     {
-      "name": "LTe68",
+      "name": "LTe68a",
       "urls": {
-        "combined": "LTe68.html",
-        "left": "LTe68_L.html",
-        "right": "LTe68_R.html"
+        "combined": "LTe68a.html",
+        "left": "LTe68a_L.html",
+        "right": "LTe68a_R.html"
+      }
+    },
+    {
+      "name": "LTe68b",
+      "urls": {
+        "combined": "LTe68b.html",
+        "left": "LTe68b_L.html",
+        "right": "LTe68b_R.html"
       }
     },
     {
@@ -61725,11 +62152,23 @@
       }
     },
     {
-      "name": "Lat",
+      "name": "Lat1",
       "urls": {
-        "combined": "Lat.html",
-        "left": "Lat_L.html",
-        "right": "Lat_R.html"
+        "combined": "Lat1.html",
+        "left": "Lat1_L.html",
+        "right": "Lat1_R.html"
+      }
+    },
+    {
+      "name": "Lat2",
+      "urls": {
+        "right": "Lat2_R.html"
+      }
+    },
+    {
+      "name": "Lat5",
+      "urls": {
+        "right": "Lat5_R.html"
       }
     },
     {
@@ -62423,6 +62862,14 @@
       }
     },
     {
+      "name": "MTe01c",
+      "urls": {
+        "combined": "MTe01c.html",
+        "left": "MTe01c_L.html",
+        "right": "MTe01c_R.html"
+      }
+    },
+    {
       "name": "MTe02",
       "urls": {
         "combined": "MTe02.html",
@@ -62549,11 +62996,19 @@
       }
     },
     {
-      "name": "MTe17",
+      "name": "MTe17a",
       "urls": {
-        "combined": "MTe17.html",
-        "left": "MTe17_L.html",
-        "right": "MTe17_R.html"
+        "combined": "MTe17a.html",
+        "left": "MTe17a_L.html",
+        "right": "MTe17a_R.html"
+      }
+    },
+    {
+      "name": "MTe17b",
+      "urls": {
+        "combined": "MTe17b.html",
+        "left": "MTe17b_L.html",
+        "right": "MTe17b_R.html"
       }
     },
     {
@@ -63407,6 +63862,11 @@
         "combined": "M_vPNml72.html",
         "left": "M_vPNml72_L.html",
         "right": "M_vPNml72_R.html"
+      },
+      "types": {
+        "synonyms": [
+          "Cachero 2010: aDT-f"
+        ]
       }
     },
     {
@@ -63495,6 +63955,12 @@
         "combined": "MeMe_e01.html",
         "left": "MeMe_e01_L.html",
         "right": "MeMe_e01_R.html"
+      },
+      "types": {
+        "synonyms": [
+          "Cachero 2010: aIP-f",
+          "Yu 2010: pMP7"
+        ]
       }
     },
     {
@@ -63583,6 +64049,12 @@
         "combined": "MeMe_e09.html",
         "left": "MeMe_e09_L.html",
         "right": "MeMe_e09_R.html"
+      },
+      "types": {
+        "synonyms": [
+          "Cachero 2010: aIP-f",
+          "Yu 2010: pMP7"
+        ]
       }
     },
     {
@@ -64532,6 +65004,12 @@
         "combined": "PAM01.html",
         "left": "PAM01_L.html",
         "right": "PAM01_R.html"
+      },
+      "types": {
+        "synonyms": [
+          "Cachero 2010: aDT-b",
+          "Yu 2010: aDT2"
+        ]
       }
     },
     {
@@ -64584,6 +65062,12 @@
         "combined": "PAM06.html",
         "left": "PAM06_L.html",
         "right": "PAM06_R.html"
+      },
+      "types": {
+        "synonyms": [
+          "Cachero 2010: aSP-d",
+          "Yu 2010: aSP13"
+        ]
       }
     },
     {
@@ -65749,6 +66233,14 @@
       }
     },
     {
+      "name": "PLP157",
+      "urls": {
+        "combined": "PLP157.html",
+        "left": "PLP157_L.html",
+        "right": "PLP157_R.html"
+      }
+    },
+    {
       "name": "PLP158",
       "urls": {
         "combined": "PLP158.html",
@@ -65909,6 +66401,14 @@
       }
     },
     {
+      "name": "PLP184",
+      "urls": {
+        "combined": "PLP184.html",
+        "left": "PLP184_L.html",
+        "right": "PLP184_R.html"
+      }
+    },
+    {
       "name": "PLP185,PLP186",
       "urls": {
         "combined": "PLP185,PLP186.html",
@@ -65938,6 +66438,22 @@
         "combined": "PLP190.html",
         "left": "PLP190_L.html",
         "right": "PLP190_R.html"
+      }
+    },
+    {
+      "name": "PLP191",
+      "urls": {
+        "combined": "PLP191.html",
+        "left": "PLP191_L.html",
+        "right": "PLP191_R.html"
+      }
+    },
+    {
+      "name": "PLP192",
+      "urls": {
+        "combined": "PLP192.html",
+        "left": "PLP192_L.html",
+        "right": "PLP192_R.html"
       }
     },
     {
@@ -66449,6 +66965,12 @@
         "combined": "PS008.html",
         "left": "PS008_L.html",
         "right": "PS008_R.html"
+      },
+      "types": {
+        "synonyms": [
+          "Cachero 2010: aSP-b",
+          "Yu 2010: aSP1"
+        ]
       }
     },
     {
@@ -66521,6 +67043,22 @@
         "combined": "PS022.html",
         "left": "PS022_L.html",
         "right": "PS022_R.html"
+      }
+    },
+    {
+      "name": "PS023",
+      "urls": {
+        "combined": "PS023.html",
+        "left": "PS023_L.html",
+        "right": "PS023_R.html"
+      }
+    },
+    {
+      "name": "PS024",
+      "urls": {
+        "combined": "PS024.html",
+        "left": "PS024_L.html",
+        "right": "PS024_R.html"
       }
     },
     {
@@ -68203,19 +68741,6 @@
       }
     },
     {
-      "name": "PVLP048",
-      "urls": {
-        "combined": "PVLP048.html",
-        "left": "PVLP048_L.html",
-        "right": "PVLP048_R.html"
-      },
-      "types": {
-        "synonyms": [
-          "Cachero 2010: aIP-a"
-        ]
-      }
-    },
-    {
       "name": "PVLP049",
       "urls": {
         "combined": "PVLP049.html",
@@ -68531,6 +69056,12 @@
         "combined": "PVLP112a.html",
         "left": "PVLP112a_L.html",
         "right": "PVLP112a_R.html"
+      },
+      "types": {
+        "synonyms": [
+          "Cachero 2010: pIP-c",
+          "Yu 2010: pIP7"
+        ]
       }
     },
     {
@@ -69163,27 +69694,6 @@
         "combined": "SAD014.html",
         "left": "SAD014_L.html",
         "right": "SAD014_R.html"
-      }
-    },
-    {
-      "name": "SAD015,SAD018",
-      "urls": {
-        "combined": "SAD015,SAD018.html",
-        "left": "SAD015,SAD018_L.html",
-        "right": "SAD015,SAD018_R.html"
-      }
-    },
-    {
-      "name": "SAD016",
-      "urls": {
-        "combined": "SAD016.html",
-        "left": "SAD016_L.html",
-        "right": "SAD016_R.html"
-      },
-      "types": {
-        "synonyms": [
-          "Cachero 2010: aIP-a"
-        ]
       }
     },
     {
@@ -69961,6 +70471,14 @@
         "combined": "SIP041.html",
         "left": "SIP041_L.html",
         "right": "SIP041_R.html"
+      }
+    },
+    {
+      "name": "SIP045",
+      "urls": {
+        "combined": "SIP045.html",
+        "left": "SIP045_L.html",
+        "right": "SIP045_R.html"
       }
     },
     {
@@ -70937,6 +71455,13 @@
         "combined": "SLP162a.html",
         "left": "SLP162a_L.html",
         "right": "SLP162a_R.html"
+      },
+      "types": {
+        "synonyms": [
+          "Cachero 2010: aSP-f",
+          "Yu 2010: aSP5",
+          "Ruta 2010: DC1"
+        ]
       }
     },
     {
@@ -71256,6 +71781,11 @@
         "combined": "SLP240_b.html",
         "left": "SLP240_b_L.html",
         "right": "SLP240_b_R.html"
+      },
+      "types": {
+        "synonyms": [
+          "Cachero 2010: aDT-d"
+        ]
       }
     },
     {
@@ -71272,6 +71802,11 @@
         "combined": "SLP242.html",
         "left": "SLP242_L.html",
         "right": "SLP242_R.html"
+      },
+      "types": {
+        "synonyms": [
+          "Cachero 2010: aDT-d"
+        ]
       }
     },
     {
@@ -72369,6 +72904,12 @@
         "combined": "SMP006.html",
         "left": "SMP006_L.html",
         "right": "SMP006_R.html"
+      },
+      "types": {
+        "synonyms": [
+          "Cachero 2010: aSP-j",
+          "Yu 2010: aSP12"
+        ]
       }
     },
     {
@@ -72736,19 +73277,6 @@
       }
     },
     {
-      "name": "SMP053",
-      "urls": {
-        "combined": "SMP053.html",
-        "left": "SMP053_L.html",
-        "right": "SMP053_R.html"
-      },
-      "types": {
-        "synonyms": [
-          "fru-F-500250"
-        ]
-      }
-    },
-    {
       "name": "SMP054",
       "urls": {
         "combined": "SMP054.html",
@@ -72992,6 +73520,12 @@
         "combined": "SMP093.html",
         "left": "SMP093_L.html",
         "right": "SMP093_R.html"
+      },
+      "types": {
+        "synonyms": [
+          "Cachero 2010: aSP-a",
+          "Yu 2010: aSP2"
+        ]
       }
     },
     {
@@ -73314,6 +73848,19 @@
         "combined": "SMP153b.html",
         "left": "SMP153b_L.html",
         "right": "SMP153b_R.html"
+      }
+    },
+    {
+      "name": "SMP154",
+      "urls": {
+        "combined": "SMP154.html",
+        "left": "SMP154_L.html",
+        "right": "SMP154_R.html"
+      },
+      "types": {
+        "synonyms": [
+          "fru-F-500250"
+        ]
       }
     },
     {
@@ -73773,14 +74320,6 @@
         "combined": "SMP210.html",
         "left": "SMP210_L.html",
         "right": "SMP210_R.html"
-      }
-    },
-    {
-      "name": "SMP213",
-      "urls": {
-        "combined": "SMP213.html",
-        "left": "SMP213_L.html",
-        "right": "SMP213_R.html"
       }
     },
     {
@@ -74581,14 +75120,6 @@
         "combined": "SMP353.html",
         "left": "SMP353_L.html",
         "right": "SMP353_R.html"
-      }
-    },
-    {
-      "name": "SMP355",
-      "urls": {
-        "combined": "SMP355.html",
-        "left": "SMP355_L.html",
-        "right": "SMP355_R.html"
       }
     },
     {
@@ -75830,7 +76361,9 @@
     {
       "name": "SMP561",
       "urls": {
-        "left": "SMP561_L.html"
+        "combined": "SMP561.html",
+        "left": "SMP561_L.html",
+        "right": "SMP561_R.html"
       }
     },
     {
@@ -78732,11 +79265,11 @@
       }
     },
     {
-      "name": "WED080,WED083,WED084,WED087",
+      "name": "WED080",
       "urls": {
-        "combined": "WED080,WED083,WED084,WED087.html",
-        "left": "WED080,WED083,WED084,WED087_L.html",
-        "right": "WED080,WED083,WED084,WED087_R.html"
+        "combined": "WED080.html",
+        "left": "WED080_L.html",
+        "right": "WED080_R.html"
       }
     },
     {
@@ -79824,6 +80357,14 @@
       }
     },
     {
+      "name": "cL02d",
+      "urls": {
+        "combined": "cL02d.html",
+        "left": "cL02d_L.html",
+        "right": "cL02d_R.html"
+      }
+    },
+    {
       "name": "cL03",
       "urls": {
         "combined": "cL03.html",
@@ -80032,11 +80573,19 @@
       }
     },
     {
-      "name": "cLP01",
+      "name": "cLP01a",
       "urls": {
-        "combined": "cLP01.html",
-        "left": "cLP01_L.html",
-        "right": "cLP01_R.html"
+        "combined": "cLP01a.html",
+        "left": "cLP01a_L.html",
+        "right": "cLP01a_R.html"
+      }
+    },
+    {
+      "name": "cLP01b",
+      "urls": {
+        "combined": "cLP01b.html",
+        "left": "cLP01b_L.html",
+        "right": "cLP01b_R.html"
       }
     },
     {
@@ -80048,11 +80597,27 @@
       }
     },
     {
-      "name": "cLP03",
+      "name": "cLP03a",
       "urls": {
-        "combined": "cLP03.html",
-        "left": "cLP03_L.html",
-        "right": "cLP03_R.html"
+        "combined": "cLP03a.html",
+        "left": "cLP03a_L.html",
+        "right": "cLP03a_R.html"
+      }
+    },
+    {
+      "name": "cLP03b",
+      "urls": {
+        "combined": "cLP03b.html",
+        "left": "cLP03b_L.html",
+        "right": "cLP03b_R.html"
+      }
+    },
+    {
+      "name": "cLP03c",
+      "urls": {
+        "combined": "cLP03c.html",
+        "left": "cLP03c_L.html",
+        "right": "cLP03c_R.html"
       }
     },
     {
@@ -80181,6 +80746,14 @@
         "combined": "cM08c.html",
         "left": "cM08c_L.html",
         "right": "cM08c_R.html"
+      }
+    },
+    {
+      "name": "cM08d",
+      "urls": {
+        "combined": "cM08d.html",
+        "left": "cM08d_L.html",
+        "right": "cM08d_R.html"
       }
     },
     {
@@ -80323,6 +80896,12 @@
         "combined": "hDeltaA.html",
         "left": "hDeltaA_L.html",
         "right": "hDeltaA_R.html"
+      },
+      "types": {
+        "synonyms": [
+          "Cachero 2010: pMP-a",
+          "Yu 2010: pMP5"
+        ]
       }
     },
     {
@@ -80371,6 +80950,12 @@
         "combined": "hDeltaG.html",
         "left": "hDeltaG_L.html",
         "right": "hDeltaG_R.html"
+      },
+      "types": {
+        "synonyms": [
+          "Cachero 2010: pMP-a",
+          "Yu 2010: pMP5"
+        ]
       }
     },
     {
@@ -80387,6 +80972,12 @@
         "combined": "hDeltaI.html",
         "left": "hDeltaI_L.html",
         "right": "hDeltaI_R.html"
+      },
+      "types": {
+        "synonyms": [
+          "Cachero 2010: pMP-a",
+          "Yu 2010: pMP5"
+        ]
       }
     },
     {
@@ -80395,6 +80986,12 @@
         "combined": "hDeltaJ.html",
         "left": "hDeltaJ_L.html",
         "right": "hDeltaJ_R.html"
+      },
+      "types": {
+        "synonyms": [
+          "Cachero 2010: pMP-a",
+          "Yu 2010: pMP5"
+        ]
       }
     },
     {
@@ -80867,6 +81464,12 @@
         "combined": "mAL_f1.html",
         "left": "mAL_f1_L.html",
         "right": "mAL_f1_R.html"
+      },
+      "types": {
+        "synonyms": [
+          "Cachero 2010: aDT-b",
+          "Yu 2010: aDT2"
+        ]
       }
     },
     {
@@ -81418,8 +82021,8 @@
     }
   ],
   "metadata": {
-    "generated": "2025-12-02 22:53:55",
-    "total_types": 8806,
+    "generated": "2026-05-08 13:56:54",
+    "total_types": 8840,
     "version": "2.0"
   }
 };
