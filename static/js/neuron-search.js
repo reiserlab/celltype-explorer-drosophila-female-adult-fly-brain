@@ -5,7 +5,7 @@
  * This file is generated at build time.
  * Do not edit manually - it will be overwritten during the build process.
  *
- * Generated on: 2026-05-08 13:56:54
+ * Generated on: 2026-05-14 11:52:01
  * Total neuron types: 8840
  */
 
