@@ -7,7 +7,7 @@
  * This file is generated at build time with embedded neuron data.
  * Do not edit manually - it will be overwritten during the build process.
  *
- * Generated on: 2026-05-15 21:56:46
+ * Generated on: 2026-05-18 23:51:41
  * Total neuron types: 8840
  */
 
@@ -82021,7 +82021,7 @@
     }
   ],
   "metadata": {
-    "generated": "2026-05-15 21:56:46",
+    "generated": "2026-05-18 23:51:41",
     "total_types": 8840,
     "version": "2.0"
   }
